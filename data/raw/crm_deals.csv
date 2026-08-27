@@ -1,0 +1,919 @@
+deal_id,client,created_date,closed_date,stage,deal_value,source_campaign
+DEAL-00001,Solmar Hotels,2025-02-07,,New,1397.2,
+DEAL-00002,Solmar Hotels,2025-02-08,,Qualified,2992.57,ES_Search_Generic_2025Q1
+DEAL-00003,Solmar Hotels,2025-02-08,,New,2028.14,ES_Social_Retargeting_2025Q1
+DEAL-00004,Solmar Hotels,2025-02-10,,Qualified,447.31,ES_Social_Retargeting_2025Q1
+DEAL-00005,Solmar Hotels,2025-02-11,,Qualified,818.63,Organic Search
+DEAL-00006,Solmar Hotels,2025-02-17,2025-04-06,Won,1890.81,ES_Sponsored_Corporate_2025Q1
+DEAL-00007,Solmar Hotels,2025-02-18,2025-03-13,Won,2022.68,ES_Social_Retargeting_2025Q1
+DEAL-00008,Solmar Hotels,2025-02-20,2025-03-26,Lost,986.45,ES_Search_Ge
+DEAL-00009,Solmar Hotels,2025-02-20,2025-03-23,Won,333.56,ES_Social_Retargeting_2025Q1
+DEAL-00010,Solmar Hotels,2025-02-24,2025-03-01,Won,2366.74,ES_Social_Retargeting_2025Q1
+DEAL-00011,Solmar Hotels,2025-02-25,2025-03-28,Won,2728.74,es sponsored corporate 2025q1??
+DEAL-00012,Solmar Hotels,2025-02-25,2025-03-24,Won,2047.82,ES_Search_Brand_2025Q1
+DEAL-00013,Solmar Hotels,2025-02-27,2025-03-27,Lost,203.86,ES_Search_Brand_2025Q1
+DEAL-00014,Solmar Hotels,2025-02-27,2025-04-06,Lost,1671.24,ES_Social_Prospecting_2025Q1
+DEAL-00015,Solmar Hotels,2025-02-27,,New,911.66,ES_Social_Prospecting_2025Q1
+DEAL-00016,Solmar Hotels,2025-03-04,2025-03-25,Won,2178.95,
+DEAL-00017,Solmar Hotels,2025-03-09,2025-04-17,Won,2724.14,ES_Search_Brand_2025Q1
+DEAL-00018,Solmar Hotels,2025-03-17,,New,968.54,ES_Sponsored_Corporate_2025Q1
+DEAL-00019,Solmar Hotels,2025-03-23,2025-04-22,Won,2537.98,Organic
+DEAL-00020,Solmar Hotels,2025-03-23,2025-05-01,Won,2509.59,Organic Search
+DEAL-00021,Solmar Hotels,2025-03-26,2025-05-11,Won,1643.7,ES_Search_Generic_2025Q1
+DEAL-00022,Solmar Hotels,2025-04-01,2025-05-23,Won,414.25,ES_Social_Retargeting_2025Q1
+DEAL-00023,Solmar Hotels,2025-04-08,2025-05-18,Won,1780.45,ES_Sponsored_Corporate_2025Q1
+DEAL-00024,Solmar Hotels,2025-04-15,,Qualified,1796.51,es social retargeting 2025q2??
+DEAL-00025,Solmar Hotels,2025-04-16,2025-05-11,Won,1127.89,ES_Social_Retargeting_2025Q2
+DEAL-00026,Solmar Hotels,2025-04-16,2025-05-13,Lost,1057.99,ES_Social_Retargeting_2025Q1
+DEAL-00027,Solmar Hotels,2025-04-19,2025-04-24,Won,156.65,-
+DEAL-00028,Solmar Hotels,2025-04-19,2025-04-24,Won,354.08,ES_Social_Retargeting_2025Q1
+DEAL-00029,Solmar Hotels,2025-04-19,2025-06-09,Lost,382.04,ES_Search_Brand_2025Q2
+DEAL-00030,Solmar Hotels,2025-04-22,,Qualified,528.96,es social prospecting 2025q1??
+DEAL-00031,Solmar Hotels,2025-04-24,,New,443.31,
+DEAL-00032,Solmar Hotels,2025-04-25,2025-05-25,Won,1066.33,google ad
+DEAL-00033,Solmar Hotels,2025-04-28,,Qualified,2800.45,ES_Sponsored_Corporate_2025Q1
+DEAL-00034,Solmar Hotels,2025-04-29,2025-05-06,Lost,2978.77,
+DEAL-00035,Solmar Hotels,2025-05-02,2025-06-14,Lost,1697.46,PT_Social_Prospecting_2025Q2
+DEAL-00036,Solmar Hotels,2025-05-02,,New,1431.8,
+DEAL-00037,Solmar Hotels,2025-05-06,2025-05-24,Lost,1435.4,ES_Search_SummerEscape_2025Q2
+DEAL-00038,Solmar Hotels,2025-05-11,,New,2000.29,n/a
+DEAL-00039,Solmar Hotels,2025-05-14,2025-05-26,Lost,724.0,TBD
+DEAL-00040,Solmar Hotels,2025-05-23,2025-07-21,Won,2377.51,ES_Search_Ge
+DEAL-00041,Solmar Hotels,2025-05-24,2025-07-09,Won,2418.99,Organic Search
+DEAL-00042,Solmar Hotels,2025-05-25,2025-06-17,Lost,2691.34,
+DEAL-00043,Solmar Hotels,2025-05-26,,Qualified,2985.38,old campaign?
+DEAL-00044,Solmar Hotels,2025-05-28,2025-06-03,Won,1406.76,
+DEAL-00045,Solmar Hotels,2025-05-30,,New,872.65,walk-in
+DEAL-00046,Solmar Hotels,2025-05-31,2025-07-22,Won,2627.23,ES_Sponsored_Corporate_2025Q2
+DEAL-00047,Solmar Hotels,2025-06-03,2025-06-18,Lost,2280.57,ES_Social_Prospecting_2025Q1
+DEAL-00048,Solmar Hotels,2025-06-04,2025-07-17,Won,2096.17,
+DEAL-00049,Solmar Hotels,2025-06-05,,Qualified,525.47,
+DEAL-00050,Solmar Hotels,2025-06-05,2025-06-27,Lost,2869.72,ES_Social_Prospecting_2025Q2
+DEAL-00051,Solmar Hotels,2025-06-07,,New,1385.08,PT_SOCIAL_PROSPECTING_2025Q2 (COPY)
+DEAL-00052,Solmar Hotels,2025-06-07,2025-06-20,Won,676.03,ES_Search_Brand_2025Q2
+DEAL-00053,Solmar Hotels,2025-06-08,,New,995.15,PT_Social_Prospecting_2025Q2
+DEAL-00054,Solmar Hotels,2025-06-09,2025-06-22,Won,1917.14,
+DEAL-00055,Solmar Hotels,2025-06-09,2025-08-01,Won,883.58,ES_SOCIAL_RETARGETING_2025Q2 (COPY)
+DEAL-00056,Solmar Hotels,2025-06-10,,Qualified,1554.17,ES_Social_Prospecting_2025Q2
+DEAL-00057,Solmar Hotels,2025-06-12,2025-07-25,Lost,2341.39,PT_SOCIAL_PROSPECTING_2025Q2 (COPY)
+DEAL-00058,Solmar Hotels,2025-06-12,,Qualified,2267.55,
+DEAL-00059,Solmar Hotels,2025-06-12,2025-08-02,Won,204.98,ES_Search_SummerEscape_2025Q2
+DEAL-00060,Solmar Hotels,2025-06-13,2025-06-24,Won,2166.2,ES_Search_Generic_2025Q1
+DEAL-00061,Solmar Hotels,2025-06-15,,Qualified,2799.08,ES_Search_Brand_2025Q1
+DEAL-00062,Solmar Hotels,2025-06-15,2025-07-22,Lost,2599.96,
+DEAL-00063,Solmar Hotels,2025-06-15,2025-08-01,Won,796.6,ES_Search_SummerEscape_2025Q2
+DEAL-00064,Solmar Hotels,2025-06-17,2025-07-29,Won,2165.83,
+DEAL-00065,Solmar Hotels,2025-06-18,2025-07-25,Won,385.81,PT_Social_Prospecting_2025Q1
+DEAL-00066,Solmar Hotels,2025-06-18,,New,2703.9,walk-in
+DEAL-00067,Solmar Hotels,2025-06-18,2025-07-27,Lost,675.0,
+DEAL-00068,Solmar Hotels,2025-06-19,2025-07-13,Lost,337.83,ES_SOCIAL_PROSPECTING_2025Q1 (COPY)
+DEAL-00069,Solmar Hotels,2025-06-19,,New,2747.21,unknown source
+DEAL-00070,Solmar Hotels,2025-06-19,,New,1809.62,Organic
+DEAL-00071,Solmar Hotels,2025-06-20,2025-07-11,Lost,1148.04,ES_Sponsored_Corporate_2025Q2
+DEAL-00072,Solmar Hotels,2025-06-22,2025-08-01,Won,1233.58,PT_Social_Prospecting_2025Q2
+DEAL-00073,Solmar Hotels,2025-06-22,,New,2728.43,Organic Search
+DEAL-00074,Solmar Hotels,2025-06-24,2025-07-07,Won,821.57,ES_Social_Retargeting_2025Q1
+DEAL-00075,Solmar Hotels,2025-06-24,2025-07-18,Won,1217.25,ES_Social_Prospecting_2025Q2
+DEAL-00076,Solmar Hotels,2025-06-27,2025-07-12,Won,626.85,ES_Search_Generic_2025Q2
+DEAL-00077,Solmar Hotels,2025-06-27,2025-07-13,Won,2316.0,
+DEAL-00078,Solmar Hotels,2025-06-27,2025-07-31,Won,510.12,
+DEAL-00079,Solmar Hotels,2025-06-28,2025-08-08,Won,2271.41,PT_Social_Prospecting_2025Q2
+DEAL-00080,Solmar Hotels,2025-06-28,2025-08-19,Lost,905.35,PT_Social_Prospecting_2025Q1
+DEAL-00081,Solmar Hotels,2025-06-29,2025-08-24,Won,1585.37,ES_SEARCH_GENERIC_2025Q2 (COPY)
+DEAL-00082,Solmar Hotels,2025-06-29,2025-07-02,Won,2026.1,facebook
+DEAL-00083,Solmar Hotels,2025-06-30,2025-08-12,Won,1142.17,ES_Social_Retargeting_2025Q1
+DEAL-00084,Solmar Hotels,2025-07-01,2025-07-08,Won,1792.55,
+DEAL-00085,Solmar Hotels,2025-07-01,2025-07-29,Won,2299.11,TBD
+DEAL-00086,Solmar Hotels,2025-07-03,2025-07-30,Won,1113.54,
+DEAL-00087,Solmar Hotels,2025-07-03,2025-08-25,Lost,2057.89,ES_Search_SummerEscape_2025Q3
+DEAL-00088,Solmar Hotels,2025-07-04,2025-08-31,Won,2538.91,PT_Social_Prospecting_2025Q3
+DEAL-00089,Solmar Hotels,2025-07-04,2025-08-21,Won,239.98,Organic Search
+DEAL-00090,Solmar Hotels,2025-07-05,2025-07-19,Won,976.55,old campaign?
+DEAL-00091,Solmar Hotels,2025-07-06,2025-07-09,Lost,1683.48,ES_Search_Brand_2025Q2
+DEAL-00092,Solmar Hotels,2025-07-07,,New,212.72,ES_Social_Prospecting_2025Q1
+DEAL-00093,Solmar Hotels,2025-07-07,2025-07-31,Won,1391.35,ES_Social_Prospecting_2025Q2
+DEAL-00094,Solmar Hotels,2025-07-08,2025-08-24,Lost,2376.27,
+DEAL-00095,Solmar Hotels,2025-07-08,2025-07-12,Won,591.97,Organic Search
+DEAL-00096,Solmar Hotels,2025-07-08,,Qualified,2162.8,ES_Social_Prospecting_2025Q3
+DEAL-00097,Solmar Hotels,2025-07-09,,New,2366.14,ES_Search_Generic_2025Q1
+DEAL-00098,Solmar Hotels,2025-07-10,,Qualified,260.78,
+DEAL-00099,Solmar Hotels,2025-07-11,2025-09-02,Lost,2438.07,
+DEAL-00100,Solmar Hotels,2025-07-13,,New,477.12,PT_Social_Prospecting_2025Q1
+DEAL-00101,Solmar Hotels,2025-07-14,2025-07-17,Lost,187.62,ES_Social_Retargeting_2025Q1
+DEAL-00102,Solmar Hotels,2025-07-15,,New,445.55,ES_Sponsored_Corporate_2025Q1
+DEAL-00103,Solmar Hotels,2025-07-15,2025-09-07,Lost,380.24,ES_Social_Prospecting_2025Q1
+DEAL-00104,Solmar Hotels,2025-07-16,2025-09-10,Won,241.15,ES_Social_Prospecting_2025Q2
+DEAL-00105,Solmar Hotels,2025-07-18,2025-07-25,Lost,1355.13,ES_Search_Generic_2025Q3
+DEAL-00106,Solmar Hotels,2025-07-19,2025-08-22,Lost,2174.98,Organic Search
+DEAL-00107,Solmar Hotels,2025-07-19,,Qualified,2459.18,ES_Sponsored_Corporate_2025Q2
+DEAL-00108,Solmar Hotels,2025-07-20,,Qualified,384.38,ES_Social_Prospecting_2025Q3
+DEAL-00109,Solmar Hotels,2025-07-20,2025-08-08,Lost,2714.67,ES_Social_Retargeting_2025Q1
+DEAL-00110,Solmar Hotels,2025-07-20,2025-09-06,Lost,207.28,ES_Social_Retargeting_2025Q2
+DEAL-00111,Solmar Hotels,2025-07-20,2025-08-23,Lost,1089.77,
+DEAL-00112,Solmar Hotels,2025-07-21,2025-08-08,Won,2305.09,-
+DEAL-00113,Solmar Hotels,2025-07-21,2025-08-11,Lost,2432.29,ES_Search_Brand_2025Q2
+DEAL-00114,Solmar Hotels,2025-07-21,2025-07-24,Lost,1927.93,ES_Social_Prospecting_2025Q3
+DEAL-00115,Solmar Hotels,2025-07-21,2025-09-07,Won,1634.44,ES_Social_Prospecting_2025Q1
+DEAL-00116,Solmar Hotels,2025-07-22,2025-08-14,Won,2244.47,
+DEAL-00117,Solmar Hotels,2025-07-23,,New,1327.75,ES_Search_Generic_2025Q1
+DEAL-00118,Solmar Hotels,2025-07-23,2025-09-19,Lost,2357.45,PT_Social_Prospecting_2025Q1
+DEAL-00119,Solmar Hotels,2025-07-24,2025-07-30,Lost,999.67,ORGANIC SEARCH (COPY)
+DEAL-00120,Solmar Hotels,2025-07-24,2025-09-14,Won,1825.85,
+DEAL-00121,Solmar Hotels,2025-07-24,2025-08-09,Won,2184.85,facebook
+DEAL-00122,Solmar Hotels,2025-07-24,,Qualified,2068.83,ES_Social_Prospecting_2025Q3
+DEAL-00123,Solmar Hotels,2025-07-25,2025-08-10,Won,1599.69,referral - ask client
+DEAL-00124,Solmar Hotels,2025-07-25,2025-08-11,Won,1358.81,pt social prospecting 2025q3??
+DEAL-00125,Solmar Hotels,2025-07-27,2025-08-14,Won,376.32,
+DEAL-00126,Solmar Hotels,2025-07-28,2025-08-26,Lost,909.37,ES_Social_Pros
+DEAL-00127,Solmar Hotels,2025-07-28,,Qualified,226.98,
+DEAL-00128,Solmar Hotels,2025-07-28,2025-08-23,Won,2857.4,ES_Sponsored_Corporate_2025Q3
+DEAL-00129,Solmar Hotels,2025-07-29,2025-09-15,Won,233.14,Organic
+DEAL-00130,Solmar Hotels,2025-07-29,2025-09-07,Won,789.12,ES_Search_Brand_2025Q1
+DEAL-00131,Solmar Hotels,2025-07-29,2025-08-29,Won,2744.25,facebook
+DEAL-00132,Solmar Hotels,2025-07-31,2025-09-06,Won,1335.02,ES_Sponsored_Corporate_2025Q2
+DEAL-00133,Solmar Hotels,2025-08-01,2025-08-14,Won,2542.29,ES_Search_Generic_2025Q1
+DEAL-00134,Solmar Hotels,2025-08-01,2025-09-03,Won,2599.72,PT_Social_Pros
+DEAL-00135,Solmar Hotels,2025-08-01,2025-09-24,Won,2893.96,ES_Sponsored_Corporate_2025Q3
+DEAL-00136,Solmar Hotels,2025-08-01,,New,1911.12,ES_SOCIAL_PROSPECTING_2025Q3 (COPY)
+DEAL-00137,Solmar Hotels,2025-08-02,2025-08-21,Won,2644.26,ES_SOCIAL_RETARGETING_2025Q2 (COPY)
+DEAL-00138,Solmar Hotels,2025-08-02,2025-09-17,Won,1482.89,ES_Search_Brand_2025Q1
+DEAL-00139,Solmar Hotels,2025-08-03,2025-08-24,Lost,2289.35,ES_Search_Generic_2025Q3
+DEAL-00140,Solmar Hotels,2025-08-04,2025-08-16,Won,2572.63,ES_Search_Generic_2025Q2
+DEAL-00141,Solmar Hotels,2025-08-05,,Qualified,1811.21,ES_Search_Ge
+DEAL-00142,Solmar Hotels,2025-08-07,2025-08-20,Lost,2932.61,ES_Sponsored_Corporate_2025Q2
+DEAL-00143,Solmar Hotels,2025-08-07,2025-09-12,Lost,1607.29,ES_SEARCH_GENERIC_2025Q1 (COPY)
+DEAL-00144,Solmar Hotels,2025-08-08,2025-08-28,Won,1742.89,ES_Social_Prospecting_2025Q3
+DEAL-00145,Solmar Hotels,2025-08-08,2025-09-04,Won,1541.06,ES_Search_SummerEscape_2025Q2
+DEAL-00146,Solmar Hotels,2025-08-09,,Qualified,2645.59,PT_Social_Prospecting_2025Q3
+DEAL-00147,Solmar Hotels,2025-08-09,2025-09-04,Won,1591.45,ES_Search_Generic_2025Q2
+DEAL-00148,Solmar Hotels,2025-08-09,2025-10-02,Won,2758.66,
+DEAL-00149,Solmar Hotels,2025-08-11,2025-09-27,Won,2740.69,
+DEAL-00150,Solmar Hotels,2025-08-12,2025-09-18,Won,1652.26,ES_Search_Generic_2025Q1
+DEAL-00151,Solmar Hotels,2025-08-14,2025-08-28,Won,2674.62,ES_Sponsored_Corporate_2025Q2
+DEAL-00152,Solmar Hotels,2025-08-14,2025-09-02,Lost,1338.6,ES_Search_Generic_2025Q1
+DEAL-00153,Solmar Hotels,2025-08-16,,New,1488.2,ES_Search_Generic_2025Q2
+DEAL-00154,Solmar Hotels,2025-08-17,2025-10-10,Won,2344.59,ES_Social_Prospecting_2025Q3
+DEAL-00155,Solmar Hotels,2025-08-17,2025-09-01,Won,1374.46,es social retargeting 2025q1??
+DEAL-00156,Solmar Hotels,2025-08-17,2025-09-28,Won,2261.0,
+DEAL-00157,Solmar Hotels,2025-08-18,2025-09-21,Lost,1448.39,ES_Search_Generic_2025Q2
+DEAL-00158,Solmar Hotels,2025-08-18,2025-08-31,Won,1770.48,ES_Sponsored_Corporate_2025Q1
+DEAL-00159,Solmar Hotels,2025-08-20,2025-09-04,Won,1071.38,ES_Social_Retargeting_2025Q3
+DEAL-00160,Solmar Hotels,2025-08-20,,Qualified,2919.79,ES_Search_SummerEscape_2025Q3
+DEAL-00161,Solmar Hotels,2025-08-22,2025-09-14,Lost,2645.42,PT_Social_Prospecting_2025Q3
+DEAL-00162,Solmar Hotels,2025-08-24,2025-09-17,Won,1525.72,
+DEAL-00163,Solmar Hotels,2025-08-24,2025-08-30,Won,2733.96,ES_Sponsored_C
+DEAL-00164,Solmar Hotels,2025-08-25,2025-10-06,Won,1397.97,ES_SOCIAL_RETARGETING_2025Q2 (COPY)
+DEAL-00165,Solmar Hotels,2025-08-25,,New,1335.03,ES_Sponsored_Corporate_2025Q2
+DEAL-00166,Solmar Hotels,2025-08-27,,New,2727.55,
+DEAL-00167,Solmar Hotels,2025-08-27,,Qualified,461.19,ES_SEARCH_SUMMERESCAPE_2025Q3 (COPY)
+DEAL-00168,Solmar Hotels,2025-08-27,2025-09-21,Won,408.37,-
+DEAL-00169,Solmar Hotels,2025-08-28,2025-10-26,Won,1440.99,-
+DEAL-00170,Solmar Hotels,2025-08-29,,New,2824.45,ES_Search_SummerEscape_2025Q3
+DEAL-00171,Solmar Hotels,2025-08-31,2025-10-25,Lost,1407.05,
+DEAL-00172,Solmar Hotels,2025-09-03,2025-09-14,Won,807.0,
+DEAL-00173,Solmar Hotels,2025-09-04,2025-09-24,Won,1712.42,
+DEAL-00174,Solmar Hotels,2025-09-05,2025-10-01,Won,2149.44,
+DEAL-00175,Solmar Hotels,2025-09-06,2025-09-28,Won,183.88,Organic Search
+DEAL-00176,Solmar Hotels,2025-09-06,,Qualified,623.32,ES_Search_Generic_2025Q2
+DEAL-00177,Solmar Hotels,2025-09-07,2025-09-21,Won,1776.53,PT_Social_Prospecting_2025Q1
+DEAL-00178,Solmar Hotels,2025-09-11,2025-11-06,Lost,1253.17,Organic Search
+DEAL-00179,Solmar Hotels,2025-09-12,,Qualified,2228.93,ES_Social_Retargeting_2025Q2
+DEAL-00180,Solmar Hotels,2025-09-12,2025-10-18,Lost,2617.61,facebook
+DEAL-00181,Solmar Hotels,2025-09-13,2025-09-27,Won,1651.3,ES_Social_Prospecting_2025Q1
+DEAL-00182,Solmar Hotels,2025-09-15,2025-10-04,Won,2751.7,ES_Social_Prospecting_2025Q1
+DEAL-00183,Solmar Hotels,2025-09-15,2025-09-28,Won,1521.05,TBD
+DEAL-00184,Solmar Hotels,2025-09-17,2025-11-05,Won,725.72,old campaign?
+DEAL-00185,Solmar Hotels,2025-09-17,2025-10-25,Won,2445.83,instagram dm
+DEAL-00186,Solmar Hotels,2025-09-18,2025-10-24,Won,1839.29,ES_Sponsored_Corporate_2025Q1
+DEAL-00187,Solmar Hotels,2025-09-18,2025-10-23,Won,622.58,ES_Social_Retargeting_2025Q3
+DEAL-00188,Solmar Hotels,2025-09-19,,New,955.04,ES_Search_Generic_2025Q3
+DEAL-00189,Solmar Hotels,2025-09-19,,New,1112.65,ES_Search_Generic_2025Q1
+DEAL-00190,Solmar Hotels,2025-09-21,2025-10-14,Lost,1913.52,ES_Sponsored_Corporate_2025Q3
+DEAL-00191,Solmar Hotels,2025-09-23,2025-10-30,Won,2888.18,TBD
+DEAL-00192,Solmar Hotels,2025-09-26,2025-11-12,Won,531.58,ES_Sponsored_Corporate_2025Q3
+DEAL-00193,Solmar Hotels,2025-09-28,2025-11-21,Won,222.78,es search generic 2025q2??
+DEAL-00194,Solmar Hotels,2025-09-29,2025-11-04,Lost,2680.86,ES_Social_Retargeting_2025Q3
+DEAL-00195,Solmar Hotels,2025-10-01,,Qualified,1577.38,ES_Search_Generic_2025Q1
+DEAL-00196,Solmar Hotels,2025-10-02,2025-10-27,Won,614.82,ES_Search_SummerEscape_2025Q3
+DEAL-00197,Solmar Hotels,2025-10-03,2025-11-20,Won,2936.95,
+DEAL-00198,Solmar Hotels,2025-10-11,,Qualified,227.63,n/a
+DEAL-00199,Solmar Hotels,2025-10-11,2025-11-15,Lost,2768.86,ES_Sponsored_Corporate_2025Q2
+DEAL-00200,Solmar Hotels,2025-10-13,,Qualified,2513.59,ES_Search_SummerEscape_2025Q3
+DEAL-00201,Solmar Hotels,2025-10-14,2025-12-12,Won,1920.23,walk-in
+DEAL-00202,Solmar Hotels,2025-10-15,,New,1870.76,ES_Search_SummerEscape_2025Q2
+DEAL-00203,Solmar Hotels,2025-10-21,2025-12-13,Won,2036.02,
+DEAL-00204,Solmar Hotels,2025-10-25,2025-11-27,Won,770.54,ES_Sponsored_Corporate_2025Q2
+DEAL-00205,Solmar Hotels,2025-10-29,2025-12-07,Won,740.6,
+DEAL-00206,Solmar Hotels,2025-10-30,2025-12-24,Won,2598.34,ES_Social_Reta
+DEAL-00207,Solmar Hotels,2025-11-03,2025-11-19,Won,1641.34,ES_Social_Retargeting_2025Q2
+DEAL-00208,Solmar Hotels,2025-11-04,,Qualified,307.76,ES_Search_B
+DEAL-00209,Solmar Hotels,2025-11-04,,Qualified,1971.82,
+DEAL-00210,Solmar Hotels,2025-11-05,2025-12-25,Lost,2260.46,ES_Search_Generic_2025Q1
+DEAL-00211,Solmar Hotels,2025-11-07,2025-12-30,Won,947.19,ES_Sponsored_Corporate_2025Q2
+DEAL-00212,Solmar Hotels,2025-11-08,,New,2328.66,ES_Search_Brand_2025Q3
+DEAL-00213,Solmar Hotels,2025-11-11,2025-12-03,Won,2427.56,
+DEAL-00214,Solmar Hotels,2025-11-12,2026-01-03,Lost,456.13,
+DEAL-00215,Solmar Hotels,2025-11-12,2025-12-11,Won,1804.13,ES_Social_Retargeting_2025Q1
+DEAL-00216,Solmar Hotels,2025-11-20,2026-01-17,Won,2118.76,PT_Social_Prospecting_2025Q2
+DEAL-00217,Solmar Hotels,2025-11-20,2025-12-03,Won,572.08,ES_Search_Generic_2025Q2
+DEAL-00218,Solmar Hotels,2025-11-22,2025-12-09,Won,940.87,ES_Search_SummerEscape_2025Q3
+DEAL-00219,Solmar Hotels,2025-11-23,2026-01-21,Lost,212.26,PT_Social_Prospecting_2025Q1
+DEAL-00220,Solmar Hotels,2025-11-25,2025-11-28,Won,886.55,
+DEAL-00221,Solmar Hotels,2025-11-26,,New,1325.97,ES_Search_Brand_2025Q3
+DEAL-00222,Solmar Hotels,2025-11-26,2026-01-02,Won,2192.04,instagram dm
+DEAL-00223,Solmar Hotels,2025-12-03,2026-01-12,Lost,489.78,ES_Search_Brand_2025Q4
+DEAL-00224,Solmar Hotels,2025-12-03,,Qualified,2489.84,ES_Social_Retargeting_2025Q4
+DEAL-00225,Solmar Hotels,2025-12-04,2026-01-18,Lost,2608.02,ES_Social_Pros
+DEAL-00226,Solmar Hotels,2025-12-08,,Qualified,1993.21,ES_Social_Prospecting_2025Q3
+DEAL-00227,Solmar Hotels,2025-12-10,2026-01-13,Won,873.39,ES_Social_Prospecting_2025Q4
+DEAL-00228,Solmar Hotels,2025-12-11,2026-01-06,Won,777.09,
+DEAL-00229,Solmar Hotels,2025-12-16,2025-12-26,Won,824.67,ES_Sponsored_C
+DEAL-00230,Solmar Hotels,2025-12-17,2026-01-28,Won,1625.74,ES_Search_Brand_2025Q1
+DEAL-00231,Solmar Hotels,2025-12-21,2026-01-22,Won,2091.24,
+DEAL-00232,Solmar Hotels,2025-12-21,2026-01-26,Won,1735.48,ES_Social_Prospecting_2025Q1
+DEAL-00233,Solmar Hotels,2025-12-22,,New,1853.63,ES_Sponsored_Corporate_2025Q2
+DEAL-00234,Solmar Hotels,2026-01-09,,Qualified,1981.63,old campaign?
+DEAL-00235,Solmar Hotels,2026-01-10,2026-02-22,Won,1985.43,ES_Social_Prospecting_2026Q1
+DEAL-00236,Solmar Hotels,2026-01-11,,New,221.51,ES_Social_Retargeting_2025Q4
+DEAL-00237,Solmar Hotels,2026-01-13,2026-02-08,Won,1770.62,
+DEAL-00238,Solmar Hotels,2026-01-15,2026-01-24,Won,189.47,ES_Search_Brand_2025Q3
+DEAL-00239,Solmar Hotels,2026-01-18,,Qualified,2104.89,ES_Search_Generic_2025Q2
+DEAL-00240,Solmar Hotels,2026-01-19,,Qualified,704.68,Organic Search
+DEAL-00241,Solmar Hotels,2026-01-21,,New,1680.14,ES_Search_SummerEscape_2025Q2
+DEAL-00242,Solmar Hotels,2026-01-23,2026-03-06,Won,2222.17,ES_Sponsored_Corporate_2025Q3
+DEAL-00243,Solmar Hotels,2026-01-29,2026-03-08,Won,1393.61,ES_Sponsored_Corporate_2025Q4
+DEAL-00244,Solmar Hotels,2026-01-30,2026-03-25,Won,2095.58,ES_Search_Brand_2025Q3
+DEAL-00245,Solmar Hotels,2026-02-01,2026-02-20,Won,1204.13,
+DEAL-00246,Solmar Hotels,2026-02-08,2026-02-20,Won,1679.28,
+DEAL-00247,Solmar Hotels,2026-02-12,,New,1379.85,PT_Social_Prospecting_2025Q3
+DEAL-00248,Solmar Hotels,2026-02-19,2026-03-09,Lost,2187.39,ES_SEARCH_GENERIC_2025Q4 (COPY)
+DEAL-00249,Solmar Hotels,2026-02-22,2026-04-17,Won,2857.31,walk-in
+DEAL-00250,Solmar Hotels,2026-02-22,2026-03-12,Won,2727.13,ES_Sponsored_Corporate_2025Q4
+DEAL-00251,Solmar Hotels,2026-02-22,,New,1839.96,instagram dm
+DEAL-00252,Solmar Hotels,2026-02-24,2026-04-12,Lost,2639.46,ES_Search_SummerEscape_2025Q2
+DEAL-00253,Solmar Hotels,2026-02-24,,New,2431.82,PT_Social_Prospecting_2025Q1
+DEAL-00254,Solmar Hotels,2026-02-26,2026-04-03,Won,2478.73,
+DEAL-00255,Solmar Hotels,2026-02-26,2026-04-02,Won,470.69,ES_Social_Prospecting_2026Q1
+DEAL-00256,Solmar Hotels,2026-03-02,2026-04-30,Lost,2793.4,ES_Search_SummerEscape_2025Q2
+DEAL-00257,Solmar Hotels,2026-03-04,2026-03-26,Lost,164.65,ES_Social_Retargeting_2025Q4
+DEAL-00258,Solmar Hotels,2026-03-06,2026-03-31,Won,2910.84,instagram dm
+DEAL-00259,Solmar Hotels,2026-03-07,2026-03-13,Won,406.69,ES_SPONSORED_CORPORATE_2025Q4 (COPY)
+DEAL-00260,Solmar Hotels,2026-03-08,2026-05-06,Won,488.4,ES_Social_Retargeting_2025Q2
+DEAL-00261,Solmar Hotels,2026-03-11,2026-05-07,Lost,230.88,ES_Search_Brand_2025Q1
+DEAL-00262,Solmar Hotels,2026-03-12,,Qualified,350.59,ES_Sponsored_Corporate_2026Q1
+DEAL-00263,Solmar Hotels,2026-03-15,2026-03-20,Won,2515.76,ES_Social_Retargeting_2025Q1
+DEAL-00264,Solmar Hotels,2026-03-17,2026-03-30,Lost,557.95,ES_Search_Brand_2025Q1
+DEAL-00265,Solmar Hotels,2026-03-20,2026-05-14,Won,1083.89,
+DEAL-00266,Solmar Hotels,2026-03-27,2026-04-21,Lost,639.8,es search brand 2025q1??
+DEAL-00267,Solmar Hotels,2026-03-27,,New,2541.93,ES_Search_Generic_2025Q4
+DEAL-00268,Solmar Hotels,2026-03-28,,Qualified,1450.42,ES_Search_Generic_2025Q4
+DEAL-00269,Solmar Hotels,2026-03-29,,Qualified,2515.29,ES_Social_Prospecting_2025Q4
+DEAL-00270,Solmar Hotels,2026-04-01,2026-04-16,Lost,525.89,ES_Search_Generic_2025Q2
+DEAL-00271,Solmar Hotels,2026-04-02,2026-04-14,Lost,2733.27,PT_Social_Prospecting_2026Q1
+DEAL-00272,Solmar Hotels,2026-04-04,2026-05-19,Won,1194.29,PT_Social_Pros
+DEAL-00273,Solmar Hotels,2026-04-11,2026-06-05,Won,2574.5,
+DEAL-00274,Solmar Hotels,2026-04-15,,New,461.92,ES_Social_Prospecting_2025Q3
+DEAL-00275,Solmar Hotels,2026-04-18,2026-05-11,Won,485.28,ES_Search_Generic_2025Q2
+DEAL-00276,Solmar Hotels,2026-04-21,2026-05-04,Won,971.88,instagram dm
+DEAL-00277,Solmar Hotels,2026-04-23,2026-06-02,Lost,1857.81,TBD
+DEAL-00278,Solmar Hotels,2026-04-23,2026-06-21,Won,2549.23,
+DEAL-00279,Solmar Hotels,2026-04-24,2026-05-05,Lost,2896.95,ES_Social_Prospecting_2025Q4
+DEAL-00280,Solmar Hotels,2026-04-26,2026-05-09,Won,2924.23,ES_Sponsored_Corporate_2025Q1
+DEAL-00281,Solmar Hotels,2026-04-29,,New,1336.05,ES_Search_Summ
+DEAL-00282,Solmar Hotels,2026-05-02,2026-06-27,Won,2240.98,PT_Social_Prospecting_2026Q2
+DEAL-00283,Solmar Hotels,2026-05-02,2026-05-20,Won,2436.96,ES_Social_Prospecting_2025Q3
+DEAL-00284,Solmar Hotels,2026-05-04,2026-06-10,Lost,510.91,ES_Social_Prospecting_2026Q1
+DEAL-00285,Solmar Hotels,2026-05-05,2026-06-09,Lost,2522.96,
+DEAL-00286,Solmar Hotels,2026-05-06,2026-07-02,Won,1700.6,ES_Social_Retargeting_2026Q1
+DEAL-00287,Solmar Hotels,2026-05-07,2026-05-23,Won,458.86,n/a
+DEAL-00288,Solmar Hotels,2026-05-07,2026-06-30,Lost,452.78,ES_Search_B
+DEAL-00289,Solmar Hotels,2026-05-08,2026-05-20,Lost,1624.72,ES_Social_Prospecting_2025Q4
+DEAL-00290,Solmar Hotels,2026-05-08,2026-05-13,Won,2480.37,ES_Search_SummerEscape_2025Q2
+DEAL-00291,Solmar Hotels,2026-05-11,,Qualified,1757.28,
+DEAL-00292,Solmar Hotels,2026-05-12,2026-07-09,Won,668.38,ES_Search_Generic_2025Q3
+DEAL-00293,Solmar Hotels,2026-05-13,2026-05-31,Lost,2009.78,ES_Social_Retargeting_2025Q4
+DEAL-00294,Solmar Hotels,2026-05-13,2026-07-03,Lost,260.74,ES_Search_Generic_2026Q2
+DEAL-00295,Solmar Hotels,2026-05-14,,Qualified,2365.64,ES_Search_Brand_2025Q4
+DEAL-00296,Solmar Hotels,2026-05-17,2026-06-20,Won,1173.66,
+DEAL-00297,Solmar Hotels,2026-05-19,2026-05-28,Won,2178.99,ES_Sponsored_Corporate_2025Q3
+DEAL-00298,Solmar Hotels,2026-05-19,,New,957.25,ES_Social_Retargeting_2025Q4
+DEAL-00299,Solmar Hotels,2026-05-21,2026-06-16,Won,503.1,ES_Social_Prospecting_2026Q2
+DEAL-00300,Solmar Hotels,2026-05-22,2026-06-21,Lost,1952.84,ES_Search_Brand_2025Q1
+DEAL-00301,Solmar Hotels,2026-05-22,2026-07-06,Won,513.24,ES_Social_Prospecting_2026Q2
+DEAL-00302,Solmar Hotels,2026-05-24,,New,1156.71,
+DEAL-00303,Solmar Hotels,2026-05-24,,New,570.46,
+DEAL-00304,Solmar Hotels,2026-05-25,,New,1912.17,ES_Social_Retargeting_2025Q2
+DEAL-00305,Solmar Hotels,2026-05-25,2026-06-15,Lost,2279.95,ES_Social_Prospecting_2025Q3
+DEAL-00306,Solmar Hotels,2026-05-25,2026-07-03,Won,2320.81,PT_Social_Prospecting_2026Q2
+DEAL-00307,Solmar Hotels,2026-05-26,,New,2076.6,
+DEAL-00308,Solmar Hotels,2026-05-29,,New,1138.09,ES_Social_Prospecting_2025Q1
+DEAL-00309,Solmar Hotels,2026-05-31,2026-07-06,Lost,2371.37,PT_Social_Prospecting_2025Q1
+DEAL-00310,Solmar Hotels,2026-05-31,2026-06-12,Lost,2550.54,ES_Search_Brand_2025Q4
+DEAL-00311,Solmar Hotels,2026-05-31,2026-06-27,Lost,2228.54,unknown source
+DEAL-00312,Solmar Hotels,2026-06-03,2026-07-10,Won,1357.3,
+DEAL-00313,Solmar Hotels,2026-06-04,2026-07-20,Lost,2122.62,ES_Search_Brand_2026Q2
+DEAL-00314,Solmar Hotels,2026-06-05,2026-07-20,Won,2194.25,ES_Social_Retargeting_2026Q2
+DEAL-00315,Solmar Hotels,2026-06-05,2026-06-23,Lost,487.87,
+DEAL-00316,Solmar Hotels,2026-06-08,2026-06-28,Lost,2985.01,
+DEAL-00317,Solmar Hotels,2026-06-09,2026-07-09,Won,2833.73,ES_Search_SummerEscape_2026Q2
+DEAL-00318,Solmar Hotels,2026-06-10,,New,2582.86,
+DEAL-00319,Solmar Hotels,2026-06-12,2026-06-28,Lost,2650.35,ES_Search_Generic_2025Q1
+DEAL-00320,Solmar Hotels,2026-06-12,2026-07-15,Lost,2793.4,ES_Search_Generic_2026Q1
+DEAL-00321,Solmar Hotels,2026-06-12,2026-07-26,Won,2786.16,ES_Sponsored_Corporate_2026Q2
+DEAL-00322,Solmar Hotels,2026-06-13,2026-06-21,Lost,926.51,referral - ask client
+DEAL-00323,Solmar Hotels,2026-06-13,2026-07-30,Lost,2263.66,ES_Social_Retargeting_2025Q3
+DEAL-00324,Solmar Hotels,2026-06-14,2026-06-25,Lost,1718.48,
+DEAL-00325,Solmar Hotels,2026-06-15,,Qualified,2375.64,ES_Social_Prospecting_2025Q1
+DEAL-00326,Solmar Hotels,2026-06-19,2026-06-22,Won,756.85,ES_Search_Brand_2025Q2
+DEAL-00327,Solmar Hotels,2026-06-19,2026-06-28,Won,2613.26,ES_Search_Brand_2025Q2
+DEAL-00328,Solmar Hotels,2026-06-20,2026-07-10,Lost,437.66,ES_Sponsored_Corporate_2025Q3
+DEAL-00329,Solmar Hotels,2026-06-21,,Qualified,1051.15,Organic
+DEAL-00330,Solmar Hotels,2026-06-21,2026-07-06,Won,777.03,ES_Search_Generic_2025Q3
+DEAL-00331,Solmar Hotels,2026-06-23,2026-07-15,Lost,1472.5,
+DEAL-00332,Solmar Hotels,2026-06-25,2026-07-17,Won,1102.55,ES_Search_Brand_2026Q1
+DEAL-00333,Solmar Hotels,2026-06-25,2026-07-07,Won,2699.19,
+DEAL-00334,Solmar Hotels,2026-06-25,,Qualified,1103.21,Organic Search
+DEAL-00335,Solmar Hotels,2026-06-27,2026-07-15,Won,1046.98,es social retargeting 2026q2??
+DEAL-00336,Solmar Hotels,2026-06-27,2026-07-05,Lost,2385.88,Organic Search
+DEAL-00337,Solmar Hotels,2026-06-28,2026-07-10,Won,2714.21,facebook
+DEAL-00338,Solmar Hotels,2026-06-30,2026-07-21,Won,1282.06,ES_Sponsored_Corporate_2026Q2
+DEAL-00339,Solmar Hotels,2026-07-02,,New,178.27,
+DEAL-00340,Solmar Hotels,2026-07-02,2026-07-21,Won,2286.68,ES_Social_Retargeting_2025Q4
+DEAL-00341,Solmar Hotels,2026-07-03,,New,973.03,ES_Search_Generic_2026Q2
+DEAL-00342,Solmar Hotels,2026-07-04,2026-07-29,Won,711.14,ES_Sponsored_Corporate_2026Q2
+DEAL-00343,Solmar Hotels,2026-07-05,2026-07-19,Won,293.64,PT_Social_Prospecting_2025Q1
+DEAL-00344,Solmar Hotels,2026-07-06,2026-07-13,Won,956.01,ES_Social_Reta
+DEAL-00345,Solmar Hotels,2026-07-06,2026-07-19,Won,440.62,instagram dm
+DEAL-00346,Solmar Hotels,2026-07-07,2026-07-19,Lost,1633.68,PT_Social_Prospecting_2026Q2
+DEAL-00347,Solmar Hotels,2026-07-07,,New,2523.96,ES_Search_SummerEscape_2025Q3
+DEAL-00348,Solmar Hotels,2026-07-07,,Qualified,2370.33,
+DEAL-00349,Solmar Hotels,2026-07-07,2026-07-22,Won,2327.31,ES_Social_Prospecting_2025Q3
+DEAL-00350,Solmar Hotels,2026-07-07,2026-07-28,Won,863.9,facebook
+DEAL-00351,Solmar Hotels,2026-07-10,2026-07-20,Won,2742.68,ES_Search_B
+DEAL-00352,Solmar Hotels,2026-07-10,2026-07-24,Won,1137.23,PT_Social_Prospecting_2026Q3
+DEAL-00353,Solmar Hotels,2026-07-11,2026-07-24,Won,2073.5,ES_Sponsored_Corporate_2026Q3
+DEAL-00354,Solmar Hotels,2026-07-11,2026-07-20,Lost,2611.74,es search summerescape 2026q3??
+DEAL-00355,Solmar Hotels,2026-07-12,2026-07-20,Won,573.3,ES_SEARCH_BRAND_2025Q3 (COPY)
+DEAL-00356,Solmar Hotels,2026-07-13,,New,1883.68,es sponsored corporate 2026q3??
+DEAL-00357,Solmar Hotels,2026-07-13,2026-07-21,Won,701.7,PT_Social_Prospecting_2026Q3
+DEAL-00358,Solmar Hotels,2026-07-14,2026-07-19,Won,651.57,
+DEAL-00359,Solmar Hotels,2026-07-15,2026-07-26,Lost,1628.4,
+DEAL-00360,Solmar Hotels,2026-07-15,2026-07-22,Won,1289.53,google ad
+DEAL-00361,Solmar Hotels,2026-07-16,2026-07-28,Won,767.15,-
+DEAL-00362,Solmar Hotels,2026-07-16,2026-07-25,Won,2545.85,ES_Search_Generic_2025Q2
+DEAL-00363,Solmar Hotels,2026-07-19,,Qualified,1099.69,ES_Social_Retargeting_2025Q3
+DEAL-00364,Solmar Hotels,2026-07-20,,New,1345.56,ES_Sponsored_C
+DEAL-00365,Solmar Hotels,2026-07-20,,New,938.52,
+DEAL-00366,Solmar Hotels,2026-07-21,,New,868.47,ES_Sponsored_Corporate_2026Q2
+DEAL-00367,Solmar Hotels,2026-07-21,,New,1426.76,
+DEAL-00368,Solmar Hotels,2026-07-21,,New,559.16,ES_Search_SummerEscape_2025Q3
+DEAL-00369,Solmar Hotels,2026-07-22,,New,2538.13,old campaign?
+DEAL-00370,Solmar Hotels,2026-07-22,,New,1811.71,ES_Search_SummerEscape_2025Q3
+DEAL-00371,Solmar Hotels,2026-07-23,,New,413.62,ES_Search_Brand_2025Q4
+DEAL-00372,Solmar Hotels,2026-07-24,,New,770.75,ES_Sponsored_Corporate_2025Q3
+DEAL-00373,Solmar Hotels,2026-07-24,,Qualified,1615.99,
+DEAL-00374,Solmar Hotels,2026-07-24,,New,1654.06,PT_Social_Prospecting_2026Q3
+DEAL-00375,Solmar Hotels,2026-07-25,,New,2415.86,
+DEAL-00376,Solmar Hotels,2026-07-25,,New,2121.47,ES_Social_Retargeting_2026Q2
+DEAL-00377,Solmar Hotels,2026-07-26,,New,1559.08,ES_Sponsored_Corporate_2025Q3
+DEAL-00378,Solmar Hotels,2026-07-27,,New,2370.81,
+DEAL-00379,Solmar Hotels,2026-07-28,,Qualified,964.56,
+DEAL-00380,Solmar Hotels,2026-07-28,,Qualified,294.86,ES_Social_Retargeting_2026Q1
+DEAL-00381,Solmar Hotels,2026-07-29,,Qualified,980.01,
+DEAL-00382,Solmar Hotels,2026-07-29,,Qualified,1862.29,ES_Search_SummerEscape_2026Q2
+DEAL-00383,Solmar Hotels,2026-07-30,,Qualified,2757.94,es social retargeting 2026q1??
+DEAL-00384,Solmar Hotels,2026-07-30,,New,301.07,ES_Search_SummerEscape_2026Q2
+DEAL-00385,Solmar Hotels,2026-07-31,,Qualified,1855.77,ES_SPONSORED_CORPORATE_2026Q3 (COPY)
+DEAL-00386,Solmar Hotels,2026-07-31,,Qualified,2360.52,ES_Social_Retargeting_2026Q1
+DEAL-00387,Nordfit Equipment,2025-02-01,,New,200.65,GYM_PROMO_OLD
+DEAL-00388,Nordfit Equipment,2025-02-01,2025-03-06,Lost,4958.79,Organic Search
+DEAL-00389,Nordfit Equipment,2025-02-03,2025-03-30,Won,1329.13,es-social-prospecting-q1
+DEAL-00390,Nordfit Equipment,2025-02-04,2025-03-13,Won,4754.94,GYM_PROMO_OLD
+DEAL-00391,Nordfit Equipment,2025-02-06,2025-02-12,Won,1665.37,gym promo old??
+DEAL-00392,Nordfit Equipment,2025-02-08,2025-03-28,Won,1278.73,
+DEAL-00393,Nordfit Equipment,2025-02-08,2025-02-21,Won,305.23,es-sponsored-wholesale-q1
+DEAL-00394,Nordfit Equipment,2025-02-10,2025-02-14,Won,4517.01,es-shopping-generic-q1
+DEAL-00395,Nordfit Equipment,2025-02-14,2025-02-21,Lost,2255.42,GYM_PROMO_OLD
+DEAL-00396,Nordfit Equipment,2025-02-15,2025-02-20,Won,2702.27,GYM_PROMO_OLD
+DEAL-00397,Nordfit Equipment,2025-02-16,2025-03-05,Lost,3967.83,n/a
+DEAL-00398,Nordfit Equipment,2025-02-18,2025-03-25,Lost,1876.4,es-sponsored-wholesale-q1
+DEAL-00399,Nordfit Equipment,2025-02-19,2025-04-10,Lost,4713.81,es-search-brand-q1
+DEAL-00400,Nordfit Equipment,2025-02-20,2025-03-14,Lost,366.86,facebook
+DEAL-00401,Nordfit Equipment,2025-02-25,2025-04-02,Won,2973.04,es-shopping-generic-q1
+DEAL-00402,Nordfit Equipment,2025-02-25,2025-04-21,Won,2843.77,es-social-prospecting-q1
+DEAL-00403,Nordfit Equipment,2025-02-26,,New,1776.57,es-shopping-generic-q1
+DEAL-00404,Nordfit Equipment,2025-02-28,,Qualified,366.6,-
+DEAL-00405,Nordfit Equipment,2025-02-28,2025-04-02,Lost,2002.06,ES-SPONSORED-WHOLESALE-Q1 (COPY)
+DEAL-00406,Nordfit Equipment,2025-03-09,2025-04-21,Lost,222.0,n/a
+DEAL-00407,Nordfit Equipment,2025-03-10,2025-03-16,Won,734.31,es-social-prospecting-q1
+DEAL-00408,Nordfit Equipment,2025-03-10,2025-03-13,Lost,1828.7,es-social-prospecting-q1
+DEAL-00409,Nordfit Equipment,2025-03-11,2025-04-05,Won,2244.21,GYM_PROMO_OLD
+DEAL-00410,Nordfit Equipment,2025-03-12,2025-05-09,Won,799.72,es-shopping-generic-q1
+DEAL-00411,Nordfit Equipment,2025-03-13,2025-04-11,Won,4519.75,GYM_PROMO_OLD
+DEAL-00412,Nordfit Equipment,2025-03-14,2025-03-30,Lost,3318.16,es-sponsored-wholesale-q1
+DEAL-00413,Nordfit Equipment,2025-03-14,2025-03-31,Won,776.76,es-search-brand-q1
+DEAL-00414,Nordfit Equipment,2025-03-16,2025-05-11,Lost,2920.51,
+DEAL-00415,Nordfit Equipment,2025-03-18,,Qualified,3864.95,es shopping generic q1??
+DEAL-00416,Nordfit Equipment,2025-03-21,2025-04-28,Lost,3269.49,es-social-retargeting-q1
+DEAL-00417,Nordfit Equipment,2025-03-23,2025-04-09,Won,4558.19,ES-SPONSORED-WHOLESALE-Q1 (COPY)
+DEAL-00418,Nordfit Equipment,2025-03-23,2025-04-04,Won,1055.12,es-search-brand-q1
+DEAL-00419,Nordfit Equipment,2025-03-24,2025-04-19,Won,1644.71,es sponsored wholesale q1??
+DEAL-00420,Nordfit Equipment,2025-03-26,2025-04-03,Lost,3198.97,
+DEAL-00421,Nordfit Equipment,2025-03-30,2025-05-16,Lost,2034.86,TBD
+DEAL-00422,Nordfit Equipment,2025-04-07,2025-04-17,Lost,4257.2,es-search-brand-q2
+DEAL-00423,Nordfit Equipment,2025-04-08,,Qualified,1256.89,
+DEAL-00424,Nordfit Equipment,2025-04-10,2025-04-28,Won,2081.15,es-social-retargeting-q2
+DEAL-00425,Nordfit Equipment,2025-04-13,2025-05-10,Won,1123.5,es-social-retargeting-q1
+DEAL-00426,Nordfit Equipment,2025-04-15,,New,1937.99,es-search-brand-q1
+DEAL-00427,Nordfit Equipment,2025-04-16,2025-04-19,Lost,1994.19,GYM_PROMO_OLD
+DEAL-00428,Nordfit Equipment,2025-04-16,2025-05-05,Won,2508.64,es-sponsored-wholesale-q1
+DEAL-00429,Nordfit Equipment,2025-04-19,2025-05-25,Won,3949.04,es-sponsored-wholesale-q1
+DEAL-00430,Nordfit Equipment,2025-04-20,2025-05-30,Won,1903.68,old campaign?
+DEAL-00431,Nordfit Equipment,2025-04-20,2025-05-09,Won,3216.25,es-sponsored-wholesale-q1
+DEAL-00432,Nordfit Equipment,2025-04-20,2025-06-16,Lost,4621.66,es-sponsored-wholesale-q2
+DEAL-00433,Nordfit Equipment,2025-04-20,2025-06-09,Won,427.28,
+DEAL-00434,Nordfit Equipment,2025-04-21,,New,3833.68,es-social-prospecting-q1
+DEAL-00435,Nordfit Equipment,2025-04-22,2025-06-08,Lost,2998.86,ES-SHOPPING-GENERIC-Q1 (COPY)
+DEAL-00436,Nordfit Equipment,2025-04-22,2025-06-14,Won,4335.8,
+DEAL-00437,Nordfit Equipment,2025-04-23,,Qualified,4488.85,es-shopping
+DEAL-00438,Nordfit Equipment,2025-04-25,2025-06-07,Won,3196.82,es-sponsored-wholesale-q1
+DEAL-00439,Nordfit Equipment,2025-04-27,2025-06-11,Won,2132.46,GYM_PROMO_OLD
+DEAL-00440,Nordfit Equipment,2025-04-28,2025-05-12,Lost,4578.56,es-shopping-generic-q2
+DEAL-00441,Nordfit Equipment,2025-05-02,2025-05-29,Won,3644.8,GYM_PROMO_OLD
+DEAL-00442,Nordfit Equipment,2025-05-02,2025-06-14,Won,1428.93,es-social-retargeting-q1
+DEAL-00443,Nordfit Equipment,2025-05-02,,Qualified,3041.16,es-sponsored-wholesale-q1
+DEAL-00444,Nordfit Equipment,2025-05-02,,New,3768.48,
+DEAL-00445,Nordfit Equipment,2025-05-03,2025-05-07,Won,3333.35,es-sponsored-wholesale-q1
+DEAL-00446,Nordfit Equipment,2025-05-06,2025-06-05,Lost,1530.26,es-search-brand-q2
+DEAL-00447,Nordfit Equipment,2025-05-07,,Qualified,274.98,
+DEAL-00448,Nordfit Equipment,2025-05-08,2025-06-13,Won,4929.81,
+DEAL-00449,Nordfit Equipment,2025-05-08,2025-07-05,Won,3716.99,es-sponsored-wholesale-q2
+DEAL-00450,Nordfit Equipment,2025-05-08,,New,1617.82,es-shopping-generic-q1
+DEAL-00451,Nordfit Equipment,2025-05-08,2025-07-04,Won,3039.82,es-sponsored-wholesale-q1
+DEAL-00452,Nordfit Equipment,2025-05-10,,New,2152.02,es-search-brand-q2
+DEAL-00453,Nordfit Equipment,2025-05-16,,Qualified,846.07,instagram dm
+DEAL-00454,Nordfit Equipment,2025-05-16,2025-06-24,Won,1579.17,es-search-brand-q1
+DEAL-00455,Nordfit Equipment,2025-05-18,,New,1642.04,
+DEAL-00456,Nordfit Equipment,2025-05-22,2025-07-11,Lost,819.18,es-sponsored-wholesale-q2
+DEAL-00457,Nordfit Equipment,2025-05-22,2025-06-28,Lost,1213.21,es search brand q1??
+DEAL-00458,Nordfit Equipment,2025-05-24,2025-06-19,Lost,229.61,es-social-prospecting-q1
+DEAL-00459,Nordfit Equipment,2025-05-24,2025-07-08,Lost,339.94,ES-SPONSORED-WHOLESALE-Q1 (COPY)
+DEAL-00460,Nordfit Equipment,2025-05-25,,New,4261.33,old campaign?
+DEAL-00461,Nordfit Equipment,2025-05-28,2025-07-23,Lost,677.61,es-shopping-generic-q1
+DEAL-00462,Nordfit Equipment,2025-05-28,2025-07-05,Won,1943.13,TBD
+DEAL-00463,Nordfit Equipment,2025-05-28,2025-06-15,Lost,3074.6,Organic Search
+DEAL-00464,Nordfit Equipment,2025-05-28,2025-06-05,Won,948.2,es-shopping-generic-q1
+DEAL-00465,Nordfit Equipment,2025-05-29,2025-06-08,Lost,431.0,es-shopping-generic-q2
+DEAL-00466,Nordfit Equipment,2025-05-31,,New,3150.78,es-social-retargeting-q2
+DEAL-00467,Nordfit Equipment,2025-05-31,,Qualified,968.95,GYM_PROMO_OLD
+DEAL-00468,Nordfit Equipment,2025-06-04,2025-07-17,Won,2113.35,Organic Search
+DEAL-00469,Nordfit Equipment,2025-06-07,2025-06-29,Won,4249.34,ES-SOCIAL-RETARGETING-Q2 (COPY)
+DEAL-00470,Nordfit Equipment,2025-06-08,2025-06-20,Lost,1132.8,instagram dm
+DEAL-00471,Nordfit Equipment,2025-06-09,2025-07-27,Lost,1542.65,old campaign?
+DEAL-00472,Nordfit Equipment,2025-06-13,,New,1791.58,es-search-brand-q2
+DEAL-00473,Nordfit Equipment,2025-06-13,2025-08-04,Won,440.77,es shopping generic q1??
+DEAL-00474,Nordfit Equipment,2025-06-14,2025-08-07,Won,4347.35,es-search-brand-q2
+DEAL-00475,Nordfit Equipment,2025-06-15,2025-07-14,Won,280.35,es-shopping-generic-q1
+DEAL-00476,Nordfit Equipment,2025-06-16,,Qualified,3095.16,n/a
+DEAL-00477,Nordfit Equipment,2025-06-16,2025-07-24,Won,3700.49,es-search-brand-q1
+DEAL-00478,Nordfit Equipment,2025-06-17,,Qualified,3814.55,
+DEAL-00479,Nordfit Equipment,2025-06-17,2025-07-08,Lost,4247.03,
+DEAL-00480,Nordfit Equipment,2025-06-17,,New,1104.09,es-search-brand-q1
+DEAL-00481,Nordfit Equipment,2025-06-21,2025-06-29,Won,4420.29,es-social-prospecting-q1
+DEAL-00482,Nordfit Equipment,2025-06-24,2025-07-14,Lost,563.15,ES-SOCIAL-PROSPECTING-Q2 (COPY)
+DEAL-00483,Nordfit Equipment,2025-06-24,2025-07-11,Lost,4446.67,gym promo old??
+DEAL-00484,Nordfit Equipment,2025-06-25,2025-08-13,Won,2931.31,GYM_PROMO_OLD
+DEAL-00485,Nordfit Equipment,2025-06-27,2025-07-15,Lost,435.64,es-social-retargeting-q2
+DEAL-00486,Nordfit Equipment,2025-07-02,2025-08-12,Won,767.59,es-social-prospecting-q1
+DEAL-00487,Nordfit Equipment,2025-07-03,,New,1920.73,
+DEAL-00488,Nordfit Equipment,2025-07-08,,New,4508.38,es-shopping-generic-q1
+DEAL-00489,Nordfit Equipment,2025-07-09,,Qualified,1559.47,es-shopping-generic-q1
+DEAL-00490,Nordfit Equipment,2025-07-10,2025-07-23,Lost,2425.8,instagram dm
+DEAL-00491,Nordfit Equipment,2025-07-11,2025-07-19,Won,3183.24,es-search-brand-q3
+DEAL-00492,Nordfit Equipment,2025-07-12,2025-08-17,Won,3483.88,
+DEAL-00493,Nordfit Equipment,2025-07-13,2025-07-25,Won,850.18,es-shopping-generic-q2
+DEAL-00494,Nordfit Equipment,2025-07-16,2025-08-01,Lost,2873.86,
+DEAL-00495,Nordfit Equipment,2025-07-18,2025-08-04,Lost,2572.76,es-search-brand-q3
+DEAL-00496,Nordfit Equipment,2025-07-20,2025-08-17,Lost,4252.94,es-shopping-generic-q3
+DEAL-00497,Nordfit Equipment,2025-07-20,2025-08-04,Won,2927.46,
+DEAL-00498,Nordfit Equipment,2025-07-22,2025-08-28,Won,2998.9,es-social-pr
+DEAL-00499,Nordfit Equipment,2025-07-22,2025-07-31,Lost,2675.64,GYM_PROMO_OLD (COPY)
+DEAL-00500,Nordfit Equipment,2025-07-25,,New,3105.62,es-search-brand-q1
+DEAL-00501,Nordfit Equipment,2025-07-26,2025-09-22,Lost,4603.16,es-search-brand-q1
+DEAL-00502,Nordfit Equipment,2025-07-26,2025-08-31,Lost,4108.26,es-sponsored-wholesale-q1
+DEAL-00503,Nordfit Equipment,2025-07-29,2025-08-04,Lost,2800.55,es-social-retargeting-q2
+DEAL-00504,Nordfit Equipment,2025-07-30,2025-09-16,Lost,2894.37,es-search-brand-q1
+DEAL-00505,Nordfit Equipment,2025-08-03,,New,691.1,
+DEAL-00506,Nordfit Equipment,2025-08-06,2025-09-08,Lost,3279.89,
+DEAL-00507,Nordfit Equipment,2025-08-07,2025-08-26,Won,4709.43,es-sponsored-wholesale-q2
+DEAL-00508,Nordfit Equipment,2025-08-07,2025-10-02,Won,425.36,Organic Search
+DEAL-00509,Nordfit Equipment,2025-08-08,,New,4637.63,unknown source
+DEAL-00510,Nordfit Equipment,2025-08-12,2025-10-06,Won,4630.44,
+DEAL-00511,Nordfit Equipment,2025-08-14,2025-10-10,Won,2292.24,
+DEAL-00512,Nordfit Equipment,2025-08-14,2025-08-27,Lost,261.17,es-search-brand-q1
+DEAL-00513,Nordfit Equipment,2025-08-15,2025-09-30,Won,476.14,es-social-retargeting-q2
+DEAL-00514,Nordfit Equipment,2025-08-22,2025-08-26,Won,1887.98,old campaign?
+DEAL-00515,Nordfit Equipment,2025-08-22,2025-08-26,Won,3552.27,instagram dm
+DEAL-00516,Nordfit Equipment,2025-08-24,2025-09-16,Won,2864.91,es-sponsored-wholesale-q1
+DEAL-00517,Nordfit Equipment,2025-08-28,,Qualified,3005.25,
+DEAL-00518,Nordfit Equipment,2025-09-01,2025-10-30,Lost,4873.23,ES-SOCIAL-RETARGETING-Q3 (COPY)
+DEAL-00519,Nordfit Equipment,2025-09-01,2025-10-18,Won,549.59,es-search-brand-q1
+DEAL-00520,Nordfit Equipment,2025-09-01,2025-10-06,Won,3914.21,
+DEAL-00521,Nordfit Equipment,2025-09-02,2025-10-30,Won,896.93,es-search-brand-q2
+DEAL-00522,Nordfit Equipment,2025-09-02,2025-10-30,Won,544.18,
+DEAL-00523,Nordfit Equipment,2025-09-03,,New,4302.23,es-social-prospecting-q1
+DEAL-00524,Nordfit Equipment,2025-09-03,,New,2379.55,google ad
+DEAL-00525,Nordfit Equipment,2025-09-03,2025-10-28,Lost,1953.86,gym promo old??
+DEAL-00526,Nordfit Equipment,2025-09-05,2025-09-09,Won,593.0,es-social-retargeting-q2
+DEAL-00527,Nordfit Equipment,2025-09-07,2025-09-24,Lost,3789.2,
+DEAL-00528,Nordfit Equipment,2025-09-07,2025-10-11,Won,430.34,es-search-brand-q1
+DEAL-00529,Nordfit Equipment,2025-09-07,2025-09-14,Won,2950.91,
+DEAL-00530,Nordfit Equipment,2025-09-10,2025-10-09,Lost,1062.53,es-social-prospecting-q1
+DEAL-00531,Nordfit Equipment,2025-09-10,,Qualified,3755.4,
+DEAL-00532,Nordfit Equipment,2025-09-12,2025-09-25,Won,1020.33,es-social-retargeting-q3
+DEAL-00533,Nordfit Equipment,2025-09-12,2025-10-05,Lost,4662.87,es-sponsored-wholesale-q2
+DEAL-00534,Nordfit Equipment,2025-09-15,2025-11-04,Won,2774.75,es-social-retargeting-q2
+DEAL-00535,Nordfit Equipment,2025-09-16,,New,419.4,es-sponsored-wholesale-q2
+DEAL-00536,Nordfit Equipment,2025-09-16,,Qualified,400.39,es-social-prospecting-q1
+DEAL-00537,Nordfit Equipment,2025-09-16,2025-09-20,Won,1649.69,GYM_PROMO_OLD
+DEAL-00538,Nordfit Equipment,2025-09-25,,Qualified,2400.45,es-social-retargeting-q2
+DEAL-00539,Nordfit Equipment,2025-09-26,2025-10-14,Won,2557.68,
+DEAL-00540,Nordfit Equipment,2025-09-29,2025-10-17,Won,4439.55,es-sponsored-wholesale-q1
+DEAL-00541,Nordfit Equipment,2025-09-29,2025-10-30,Won,2937.88,
+DEAL-00542,Nordfit Equipment,2025-09-30,2025-11-08,Won,4506.73,
+DEAL-00543,Nordfit Equipment,2025-10-02,,New,2389.28,
+DEAL-00544,Nordfit Equipment,2025-10-04,2025-11-26,Lost,4868.43,es-social-retargeting-q2
+DEAL-00545,Nordfit Equipment,2025-10-06,2025-10-23,Won,2921.87,google ad
+DEAL-00546,Nordfit Equipment,2025-10-06,,New,3922.51,facebook
+DEAL-00547,Nordfit Equipment,2025-10-07,2025-11-24,Won,4269.73,es-sponsored-wholesale-q2
+DEAL-00548,Nordfit Equipment,2025-10-08,,Qualified,4897.08,es-social-prospecting-q2
+DEAL-00549,Nordfit Equipment,2025-10-10,2025-12-02,Won,4728.69,
+DEAL-00550,Nordfit Equipment,2025-10-12,2025-10-17,Won,3231.19,es-social-retargeting-q1
+DEAL-00551,Nordfit Equipment,2025-10-13,2025-10-25,Won,2163.1,
+DEAL-00552,Nordfit Equipment,2025-10-13,2025-10-30,Lost,1735.47,es-social-retargeting-q2
+DEAL-00553,Nordfit Equipment,2025-10-13,,Qualified,3179.11,es-sponsored-wholesale-q2
+DEAL-00554,Nordfit Equipment,2025-10-14,,Qualified,3614.21,es-shopping-generic-q1
+DEAL-00555,Nordfit Equipment,2025-10-21,2025-11-03,Won,3315.8,es-search-brand-q3
+DEAL-00556,Nordfit Equipment,2025-10-21,2025-11-22,Lost,803.42,es-social-prospecting-q4
+DEAL-00557,Nordfit Equipment,2025-10-21,2025-11-13,Won,3886.54,es-shopping-generic-q3
+DEAL-00558,Nordfit Equipment,2025-10-22,2025-11-20,Won,3282.0,es-shopping-generic-q4
+DEAL-00559,Nordfit Equipment,2025-10-22,2025-11-22,Lost,1599.46,es-shopping-generic-q3
+DEAL-00560,Nordfit Equipment,2025-10-23,2025-10-29,Won,3625.44,walk-in
+DEAL-00561,Nordfit Equipment,2025-10-23,2025-11-17,Lost,364.63,es social prospecting q2??
+DEAL-00562,Nordfit Equipment,2025-10-24,,New,2827.83,es-social-prospecting-q1
+DEAL-00563,Nordfit Equipment,2025-10-24,2025-11-16,Won,2036.61,
+DEAL-00564,Nordfit Equipment,2025-10-26,2025-12-01,Won,2494.43,
+DEAL-00565,Nordfit Equipment,2025-10-27,2025-11-05,Won,4798.63,es-social-retargeting-q2
+DEAL-00566,Nordfit Equipment,2025-10-28,2025-12-21,Won,3360.74,es-search-brand-q3
+DEAL-00567,Nordfit Equipment,2025-10-29,2025-11-03,Won,4454.52,
+DEAL-00568,Nordfit Equipment,2025-11-01,,New,2656.45,es-sponsored-wholesale-q1
+DEAL-00569,Nordfit Equipment,2025-11-02,,New,4263.74,ES-SEARCH-BRAND-Q3 (COPY)
+DEAL-00570,Nordfit Equipment,2025-11-04,2025-11-16,Lost,475.79,
+DEAL-00571,Nordfit Equipment,2025-11-04,,Qualified,3978.29,es-shopping-generic-q2
+DEAL-00572,Nordfit Equipment,2025-11-07,,Qualified,788.55,es-search-brand-q3
+DEAL-00573,Nordfit Equipment,2025-11-11,2025-12-17,Lost,960.06,
+DEAL-00574,Nordfit Equipment,2025-11-11,2025-12-09,Lost,4531.5,
+DEAL-00575,Nordfit Equipment,2025-11-12,,Qualified,3305.08,es-search-brand-q4
+DEAL-00576,Nordfit Equipment,2025-11-15,2025-12-09,Won,2940.07,es-social-retargeting-q2
+DEAL-00577,Nordfit Equipment,2025-11-17,2026-01-15,Lost,3146.67,-
+DEAL-00578,Nordfit Equipment,2025-11-17,2026-01-09,Won,1487.06,
+DEAL-00579,Nordfit Equipment,2025-11-18,2026-01-11,Won,3106.85,es-social-retargeting-q4
+DEAL-00580,Nordfit Equipment,2025-11-19,2026-01-07,Won,331.97,es-search-brand-q2
+DEAL-00581,Nordfit Equipment,2025-11-21,2025-12-18,Won,1896.08,TBD
+DEAL-00582,Nordfit Equipment,2025-11-21,2025-11-27,Won,1737.16,es-shopping-generic-q4
+DEAL-00583,Nordfit Equipment,2025-11-22,2025-12-13,Lost,3224.35,es-shopping-generic-q4
+DEAL-00584,Nordfit Equipment,2025-11-23,2025-12-12,Won,4828.74,
+DEAL-00585,Nordfit Equipment,2025-11-25,2025-12-20,Won,847.12,es-shopping-generic-q3
+DEAL-00586,Nordfit Equipment,2025-11-26,2026-01-24,Won,3418.81,es-social-prospecting-q3
+DEAL-00587,Nordfit Equipment,2025-11-28,,New,521.99,es shopping generic q1??
+DEAL-00588,Nordfit Equipment,2025-11-28,2026-01-18,Won,4042.48,es-shopping-generic-q4
+DEAL-00589,Nordfit Equipment,2025-11-29,2025-12-14,Lost,788.2,
+DEAL-00590,Nordfit Equipment,2025-11-29,2026-01-20,Won,1789.16,es-social-retargeting-q4
+DEAL-00591,Nordfit Equipment,2025-11-30,2026-01-13,Lost,4346.37,es-social-retargeting-q2
+DEAL-00592,Nordfit Equipment,2025-11-30,,New,1929.48,
+DEAL-00593,Nordfit Equipment,2025-11-30,2025-12-15,Won,2241.71,
+DEAL-00594,Nordfit Equipment,2025-11-30,2026-01-21,Won,4890.11,es-shopping-generic-q3
+DEAL-00595,Nordfit Equipment,2025-11-30,2026-01-27,Won,344.53,es-search-brand-q1
+DEAL-00596,Nordfit Equipment,2025-12-01,2025-12-10,Won,1349.59,es-search-brand-q2
+DEAL-00597,Nordfit Equipment,2025-12-01,2026-01-27,Won,4573.43,es-search
+DEAL-00598,Nordfit Equipment,2025-12-02,,Qualified,767.18,es shopping generic q4??
+DEAL-00599,Nordfit Equipment,2025-12-02,2026-01-09,Won,2961.7,
+DEAL-00600,Nordfit Equipment,2025-12-02,2026-01-13,Won,3145.81,es-social-prospecting-q4
+DEAL-00601,Nordfit Equipment,2025-12-03,,New,4094.62,es-shopping-blackfriday-q4
+DEAL-00602,Nordfit Equipment,2025-12-04,2025-12-24,Won,2086.66,es-shopping-generic-q2
+DEAL-00603,Nordfit Equipment,2025-12-05,2026-02-01,Won,1262.74,es-shopping-blackfriday-q4
+DEAL-00604,Nordfit Equipment,2025-12-05,2026-01-23,Won,4886.54,es-social-retargeting-q1
+DEAL-00605,Nordfit Equipment,2025-12-07,,New,2979.69,old campaign?
+DEAL-00606,Nordfit Equipment,2025-12-08,2025-12-22,Won,1961.05,es-shopping-generic-q3
+DEAL-00607,Nordfit Equipment,2025-12-10,2026-01-01,Lost,4640.4,es-social-blackfriday-q4
+DEAL-00608,Nordfit Equipment,2025-12-11,,Qualified,2146.62,es-search-brand-q4
+DEAL-00609,Nordfit Equipment,2025-12-14,2026-02-01,Lost,3961.9,google ad
+DEAL-00610,Nordfit Equipment,2025-12-16,2025-12-30,Won,725.58,es-sponsored-wholesale-q2
+DEAL-00611,Nordfit Equipment,2025-12-19,2025-12-31,Won,1199.98,
+DEAL-00612,Nordfit Equipment,2025-12-20,2026-02-12,Won,4234.13,es-shopping-generic-q3
+DEAL-00613,Nordfit Equipment,2025-12-21,,Qualified,4777.88,es-social-prospecting-q2
+DEAL-00614,Nordfit Equipment,2025-12-21,2026-02-18,Won,905.15,es-shopping-generic-q3
+DEAL-00615,Nordfit Equipment,2025-12-22,2026-01-07,Won,1194.75,es-social-retargeting-q1
+DEAL-00616,Nordfit Equipment,2025-12-28,2026-01-08,Won,1458.49,
+DEAL-00617,Nordfit Equipment,2025-12-31,2026-01-05,Lost,377.3,unknown source
+DEAL-00618,Nordfit Equipment,2026-01-01,2026-01-25,Won,3229.86,es-shopping-generic-q3
+DEAL-00619,Nordfit Equipment,2026-01-02,2026-01-14,Won,3234.92,
+DEAL-00620,Nordfit Equipment,2026-01-02,2026-02-19,Won,4713.85,es-social-prospecting-q3
+DEAL-00621,Nordfit Equipment,2026-01-02,2026-02-07,Won,1985.38,es-social-prospecting-q1
+DEAL-00622,Nordfit Equipment,2026-01-03,2026-01-13,Lost,3654.97,es-sponsored-wholesale-q3
+DEAL-00623,Nordfit Equipment,2026-01-04,,New,1742.39,es-social-prospecting-q1
+DEAL-00624,Nordfit Equipment,2026-01-05,2026-02-05,Lost,2370.51,es-social-retargeting-q2
+DEAL-00625,Nordfit Equipment,2026-01-06,,Qualified,3578.05,es-social-prospecting-q1
+DEAL-00626,Nordfit Equipment,2026-01-06,,New,3184.6,es-social-prospecting-q4
+DEAL-00627,Nordfit Equipment,2026-01-07,2026-03-04,Lost,4624.22,es-social-retargeting-q2
+DEAL-00628,Nordfit Equipment,2026-01-08,,Qualified,2352.55,es-search-brand-q3
+DEAL-00629,Nordfit Equipment,2026-01-09,2026-02-23,Lost,509.08,es-social-blackfriday-q4
+DEAL-00630,Nordfit Equipment,2026-01-10,,New,4673.85,
+DEAL-00631,Nordfit Equipment,2026-01-11,,Qualified,3153.82,es-sponsored-wholesale-q2
+DEAL-00632,Nordfit Equipment,2026-01-12,2026-02-06,Lost,1198.31,es-social-prospecting-q3
+DEAL-00633,Nordfit Equipment,2026-01-12,2026-02-09,Lost,1778.47,referral - ask client
+DEAL-00634,Nordfit Equipment,2026-01-13,2026-01-19,Won,506.64,
+DEAL-00635,Nordfit Equipment,2026-01-15,2026-03-15,Won,2868.75,es-social-prospecting-q2
+DEAL-00636,Nordfit Equipment,2026-01-17,2026-03-12,Won,792.23,es-social-prospecting-q4
+DEAL-00637,Nordfit Equipment,2026-01-17,,Qualified,811.8,es-social-prospecting-q3
+DEAL-00638,Nordfit Equipment,2026-01-18,2026-02-15,Won,2575.57,
+DEAL-00639,Nordfit Equipment,2026-01-20,,Qualified,2211.88,es-social-prospecting-q1
+DEAL-00640,Nordfit Equipment,2026-01-22,2026-02-21,Won,1385.16,google ad
+DEAL-00641,Nordfit Equipment,2026-01-24,,Qualified,3394.02,ORGANIC SEARCH (COPY)
+DEAL-00642,Nordfit Equipment,2026-01-25,2026-02-23,Won,2118.55,
+DEAL-00643,Nordfit Equipment,2026-01-27,,New,1667.43,
+DEAL-00644,Nordfit Equipment,2026-01-29,,New,708.57,es-search-brand-q4
+DEAL-00645,Nordfit Equipment,2026-01-31,2026-02-15,Won,2840.1,es-social-prospecting-q4
+DEAL-00646,Nordfit Equipment,2026-02-01,2026-02-06,Won,2129.71,es-shopping-januarysale-q1
+DEAL-00647,Nordfit Equipment,2026-02-01,2026-02-26,Won,4982.84,es-social-prospecting-q4
+DEAL-00648,Nordfit Equipment,2026-02-03,2026-02-24,Won,2929.66,facebook
+DEAL-00649,Nordfit Equipment,2026-02-04,2026-02-26,Won,3568.93,es shopping generic q4??
+DEAL-00650,Nordfit Equipment,2026-02-06,2026-03-10,Lost,1500.01,facebook
+DEAL-00651,Nordfit Equipment,2026-02-07,2026-03-12,Lost,3294.18,
+DEAL-00652,Nordfit Equipment,2026-02-08,2026-04-02,Won,3617.51,es-shopping-b
+DEAL-00653,Nordfit Equipment,2026-02-08,,New,2782.64,es-social-prospecting-q3
+DEAL-00654,Nordfit Equipment,2026-02-10,2026-03-17,Won,3262.15,es-shopping-b
+DEAL-00655,Nordfit Equipment,2026-02-11,2026-03-02,Won,2350.39,es-social-prospecting-q2
+DEAL-00656,Nordfit Equipment,2026-02-14,,New,1244.48,
+DEAL-00657,Nordfit Equipment,2026-02-17,2026-03-04,Won,2718.83,
+DEAL-00658,Nordfit Equipment,2026-02-18,2026-03-08,Won,1154.25,es-social-retargeting-q2
+DEAL-00659,Nordfit Equipment,2026-02-18,2026-03-05,Lost,1049.37,es-sponsored-wholesale-q4
+DEAL-00660,Nordfit Equipment,2026-02-19,2026-03-02,Lost,304.15,es-shopping-generic-q4
+DEAL-00661,Nordfit Equipment,2026-02-19,2026-04-14,Won,770.8,instagram dm
+DEAL-00662,Nordfit Equipment,2026-02-20,,Qualified,4743.14,es-sponsored-wholesale-q1
+DEAL-00663,Nordfit Equipment,2026-02-20,,Qualified,1773.22,ES-SPONSORED-WHOLESALE-Q2 (COPY)
+DEAL-00664,Nordfit Equipment,2026-02-20,2026-03-15,Won,2959.63,es-social-blackfriday-q4
+DEAL-00665,Nordfit Equipment,2026-02-23,2026-04-04,Lost,4137.89,
+DEAL-00666,Nordfit Equipment,2026-02-23,2026-03-18,Won,1674.8,es-social-retargeting-q2
+DEAL-00667,Nordfit Equipment,2026-02-24,2026-03-21,Won,3868.23,es-sponsored-wholesale-q4
+DEAL-00668,Nordfit Equipment,2026-02-25,2026-02-28,Won,508.97,es-search-brand-q2
+DEAL-00669,Nordfit Equipment,2026-02-27,2026-04-25,Won,4701.13,
+DEAL-00670,Nordfit Equipment,2026-02-28,2026-04-02,Won,3774.79,
+DEAL-00671,Nordfit Equipment,2026-02-28,2026-03-15,Won,1909.95,instagram dm
+DEAL-00672,Nordfit Equipment,2026-03-03,2026-03-25,Won,3536.49,unknown source
+DEAL-00673,Nordfit Equipment,2026-03-04,,Qualified,1769.29,es-search-brand-q4
+DEAL-00674,Nordfit Equipment,2026-03-06,2026-04-17,Won,4368.97,es-shopping-blackfriday-q4
+DEAL-00675,Nordfit Equipment,2026-03-07,,New,4262.02,es-shopping-generic-q4
+DEAL-00676,Nordfit Equipment,2026-03-07,,New,4169.55,facebook
+DEAL-00677,Nordfit Equipment,2026-03-10,2026-04-20,Lost,3672.52,es-sponsored-wholesale-q1
+DEAL-00678,Nordfit Equipment,2026-03-10,2026-04-07,Won,263.11,es-shopping-generic-q3
+DEAL-00679,Nordfit Equipment,2026-03-10,,New,1390.75,
+DEAL-00680,Nordfit Equipment,2026-03-13,2026-03-22,Won,2814.77,ES-SHOPPING-GENERIC-Q4 (COPY)
+DEAL-00681,Nordfit Equipment,2026-03-13,2026-03-21,Lost,3746.98,ES-SHOPPING-BLACKFRIDAY-Q4 (COPY)
+DEAL-00682,Nordfit Equipment,2026-03-14,2026-03-19,Won,4104.04,es-search-brand-q3
+DEAL-00683,Nordfit Equipment,2026-03-15,2026-05-12,Won,4807.97,referral - ask client
+DEAL-00684,Nordfit Equipment,2026-03-17,,New,4254.9,-
+DEAL-00685,Nordfit Equipment,2026-03-17,,Qualified,4640.57,ES-SHOPPING-GENERIC-Q3 (COPY)
+DEAL-00686,Nordfit Equipment,2026-03-19,2026-04-16,Won,2388.06,es-sponsored-wholesale-q4
+DEAL-00687,Nordfit Equipment,2026-03-19,2026-04-18,Lost,1681.44,es-shopping-generic-q4
+DEAL-00688,Nordfit Equipment,2026-03-20,2026-04-07,Lost,2474.63,google ad
+DEAL-00689,Nordfit Equipment,2026-03-22,,Qualified,1215.65,google ad
+DEAL-00690,Nordfit Equipment,2026-03-27,2026-04-25,Won,1003.37,instagram dm
+DEAL-00691,Nordfit Equipment,2026-03-27,,Qualified,357.58,
+DEAL-00692,Nordfit Equipment,2026-03-31,,New,2396.3,instagram dm
+DEAL-00693,Nordfit Equipment,2026-04-04,2026-05-02,Lost,253.91,facebook
+DEAL-00694,Nordfit Equipment,2026-04-05,2026-05-25,Lost,3024.69,
+DEAL-00695,Nordfit Equipment,2026-04-13,,New,673.07,n/a
+DEAL-00696,Nordfit Equipment,2026-04-17,,Qualified,367.14,es-sponsored-wholesale-q1
+DEAL-00697,Nordfit Equipment,2026-04-17,2026-06-13,Won,1167.98,es-social-prospecting-q1
+DEAL-00698,Nordfit Equipment,2026-04-18,2026-06-13,Won,1424.15,es-social-prospecting-q4
+DEAL-00699,Nordfit Equipment,2026-04-19,2026-04-25,Lost,3275.5,es-shopping-generic-q4
+DEAL-00700,Nordfit Equipment,2026-04-22,,Qualified,998.61,es-social-prospecting-q2
+DEAL-00701,Nordfit Equipment,2026-04-23,2026-06-09,Won,1020.0,es-social-prospecting-q1
+DEAL-00702,Nordfit Equipment,2026-04-25,2026-05-08,Won,644.97,es-social-januarysale-q1
+DEAL-00703,Nordfit Equipment,2026-04-27,2026-05-22,Won,3657.55,es-social-retargeting-q2
+DEAL-00704,Nordfit Equipment,2026-05-03,2026-05-13,Won,2614.69,es-social-retargeting-q2
+DEAL-00705,Nordfit Equipment,2026-05-05,2026-06-26,Won,4474.61,es-search-brand-q4
+DEAL-00706,Nordfit Equipment,2026-05-09,2026-06-18,Lost,4587.85,-
+DEAL-00707,Nordfit Equipment,2026-05-11,2026-07-06,Won,2528.77,es-social-prospecting-q4
+DEAL-00708,Nordfit Equipment,2026-05-12,2026-06-04,Lost,3287.9,Organic Search
+DEAL-00709,Nordfit Equipment,2026-05-14,2026-07-08,Won,3207.89,es-sponsored-wholesale-q1
+DEAL-00710,Nordfit Equipment,2026-05-16,2026-05-21,Lost,680.43,es search brand q2??
+DEAL-00711,Nordfit Equipment,2026-05-16,2026-06-03,Lost,3087.01,es-social-retargeting-q1
+DEAL-00712,Nordfit Equipment,2026-05-19,,Qualified,2578.61,
+DEAL-00713,Nordfit Equipment,2026-05-23,2026-07-10,Won,3260.22,ES-SPONSORED-WHOLESALE-Q3 (COPY)
+DEAL-00714,Nordfit Equipment,2026-05-24,2026-07-22,Won,1121.26,es-social-retargeting-q2
+DEAL-00715,Nordfit Equipment,2026-05-28,2026-06-19,Lost,4523.6,walk-in
+DEAL-00716,Nordfit Equipment,2026-05-29,2026-07-02,Won,3982.62,-
+DEAL-00717,Nordfit Equipment,2026-05-29,2026-07-12,Won,4290.81,es-social-retargeting-q4
+DEAL-00718,Nordfit Equipment,2026-05-29,2026-07-14,Won,2942.79,es-social-retargeting-q1
+DEAL-00719,Nordfit Equipment,2026-05-29,,New,3830.32,es-search-brand-q3
+DEAL-00720,Nordfit Equipment,2026-05-30,2026-07-03,Won,4730.77,TBD
+DEAL-00721,Nordfit Equipment,2026-06-02,2026-06-08,Won,628.76,es social prospecting q4??
+DEAL-00722,Nordfit Equipment,2026-06-02,2026-07-08,Lost,1705.01,
+DEAL-00723,Nordfit Equipment,2026-06-04,2026-06-23,Lost,1944.51,es-social-retargeting-q4
+DEAL-00724,Nordfit Equipment,2026-06-06,,Qualified,4872.79,es-shopping-j
+DEAL-00725,Nordfit Equipment,2026-06-08,2026-07-13,Won,3248.05,
+DEAL-00726,Nordfit Equipment,2026-06-10,2026-06-25,Won,2764.03,es-social-retargeting-q2
+DEAL-00727,Nordfit Equipment,2026-06-20,,New,362.9,
+DEAL-00728,Nordfit Equipment,2026-06-21,2026-06-26,Lost,3363.19,
+DEAL-00729,Nordfit Equipment,2026-06-25,,Qualified,4794.61,es-social-retargeting-q2
+DEAL-00730,Nordfit Equipment,2026-06-26,2026-07-29,Lost,4532.09,GYM_PROMO_OLD
+DEAL-00731,Nordfit Equipment,2026-06-27,,New,2462.72,
+DEAL-00732,Nordfit Equipment,2026-06-28,2026-07-09,Lost,3369.09,referral - ask client
+DEAL-00733,Nordfit Equipment,2026-07-01,2026-07-15,Lost,4793.54,es-social-blackfriday-q4
+DEAL-00734,Nordfit Equipment,2026-07-03,,Qualified,3670.06,es-social-retargeting-q2
+DEAL-00735,Nordfit Equipment,2026-07-03,,New,2160.73,es-shopping-generic-q2
+DEAL-00736,Nordfit Equipment,2026-07-04,2026-07-20,Won,2879.45,es-sponsored-wholesale-q4
+DEAL-00737,Nordfit Equipment,2026-07-05,2026-07-23,Lost,1642.6,
+DEAL-00738,Nordfit Equipment,2026-07-05,2026-07-27,Won,465.76,es-social-prospecting-q1
+DEAL-00739,Nordfit Equipment,2026-07-07,2026-07-19,Won,3769.2,es-shopping-generic-q4
+DEAL-00740,Nordfit Equipment,2026-07-07,2026-07-19,Won,4997.73,es-search-brand-q4
+DEAL-00741,Nordfit Equipment,2026-07-08,2026-07-30,Won,1771.38,es-shopping-blackfriday-q4
+DEAL-00742,Nordfit Equipment,2026-07-09,2026-07-13,Won,820.28,es-social-januarysale-q1
+DEAL-00743,Nordfit Equipment,2026-07-10,2026-07-20,Won,3651.82,es-social-prospecting-q2
+DEAL-00744,Nordfit Equipment,2026-07-11,,Qualified,492.72,es-social-prospecting-q3
+DEAL-00745,Nordfit Equipment,2026-07-12,2026-07-26,Lost,2375.35,es-search-brand-q4
+DEAL-00746,Nordfit Equipment,2026-07-18,,New,737.33,es-social-blackfriday-q4
+DEAL-00747,Nordfit Equipment,2026-07-21,,Qualified,815.93,
+DEAL-00748,Nordfit Equipment,2026-07-25,,Qualified,3830.91,
+DEAL-00749,Nordfit Equipment,2026-07-31,,Qualified,4549.55,es-social-prospecting-q2
+DEAL-00750,Clinica Vantia,2025-02-02,,Qualified,2380.82,Prospecting Social ES Q1
+DEAL-00751,Clinica Vantia,2025-02-05,,New,534.65,LeadGen Search ES Q1
+DEAL-00752,Clinica Vantia,2025-02-07,2025-03-28,Won,3807.54,
+DEAL-00753,Clinica Vantia,2025-02-10,2025-04-03,Won,3171.13,Partnerships Sponsored ES Q1
+DEAL-00754,Clinica Vantia,2025-02-14,,New,1033.13,Prospecting Social ES Q1
+DEAL-00755,Clinica Vantia,2025-02-14,2025-03-28,Lost,2539.7,LeadGen Search ES Q1
+DEAL-00756,Clinica Vantia,2025-02-14,2025-03-07,Won,2794.75,
+DEAL-00757,Clinica Vantia,2025-02-23,,New,3033.41,Organic Search
+DEAL-00758,Clinica Vantia,2025-02-24,2025-03-08,Won,1143.07,Organic Search
+DEAL-00759,Clinica Vantia,2025-02-28,2025-03-26,Won,2543.76,-
+DEAL-00760,Clinica Vantia,2025-03-05,2025-04-27,Won,1880.66,
+DEAL-00761,Clinica Vantia,2025-03-06,2025-04-19,Won,2707.8,Partnerships Sponsored ES Q1
+DEAL-00762,Clinica Vantia,2025-03-08,2025-03-19,Lost,704.84,Prospecting Social ES Q1
+DEAL-00763,Clinica Vantia,2025-03-08,2025-04-15,Won,2091.83,
+DEAL-00764,Clinica Vantia,2025-03-21,2025-05-02,Won,1365.6,
+DEAL-00765,Clinica Vantia,2025-03-25,2025-04-14,Won,988.12,LeadGen Se
+DEAL-00766,Clinica Vantia,2025-03-26,2025-04-25,Won,1100.71,Organic Search
+DEAL-00767,Clinica Vantia,2025-04-02,,Qualified,1892.26,Partnerships Sponsored ES Q1
+DEAL-00768,Clinica Vantia,2025-04-02,2025-04-14,Lost,731.7,Partnerships S
+DEAL-00769,Clinica Vantia,2025-04-03,,New,2563.4,Prospecting Social ES Q1
+DEAL-00770,Clinica Vantia,2025-04-05,2025-04-12,Lost,3781.53,PROSPECTING SOCIAL ES Q1 (COPY)
+DEAL-00771,Clinica Vantia,2025-04-14,2025-05-23,Won,1812.12,Organic Search
+DEAL-00772,Clinica Vantia,2025-04-15,2025-05-17,Lost,453.56,Brand Search ES Q2
+DEAL-00773,Clinica Vantia,2025-04-18,2025-06-11,Won,2361.9,n/a
+DEAL-00774,Clinica Vantia,2025-04-20,2025-05-16,Lost,2917.97,leadgen search es q2??
+DEAL-00775,Clinica Vantia,2025-04-22,2025-04-30,Lost,3115.31,Brand Search ES Q1
+DEAL-00776,Clinica Vantia,2025-04-27,2025-05-21,Won,820.1,
+DEAL-00777,Clinica Vantia,2025-05-01,2025-06-06,Won,2743.74,Brand Search ES Q1
+DEAL-00778,Clinica Vantia,2025-05-02,2025-06-18,Lost,2258.9,RETARGETING SOCIAL ES Q1 (COPY)
+DEAL-00779,Clinica Vantia,2025-05-05,2025-05-21,Won,2400.51,Brand Search ES Q1
+DEAL-00780,Clinica Vantia,2025-05-10,2025-06-02,Won,623.4,Brand Search ES Q1
+DEAL-00781,Clinica Vantia,2025-05-11,,Qualified,563.48,n/a
+DEAL-00782,Clinica Vantia,2025-05-13,,New,1109.83,Brand Search ES Q2
+DEAL-00783,Clinica Vantia,2025-05-15,2025-06-26,Won,1535.46,Prospecting Social ES Q1
+DEAL-00784,Clinica Vantia,2025-05-25,2025-07-17,Lost,2221.41,LEADGEN SEARCH ES Q1 (COPY)
+DEAL-00785,Clinica Vantia,2025-05-26,2025-06-22,Lost,3143.02,Organic Search
+DEAL-00786,Clinica Vantia,2025-05-27,2025-07-20,Won,1255.83,Organic Search
+DEAL-00787,Clinica Vantia,2025-05-28,,Qualified,1533.8,
+DEAL-00788,Clinica Vantia,2025-05-28,2025-06-29,Lost,831.78,Brand Search ES Q2
+DEAL-00789,Clinica Vantia,2025-06-02,,New,3977.34,Partnerships Sponsored ES Q1
+DEAL-00790,Clinica Vantia,2025-06-06,2025-06-13,Lost,3744.92,Prospecting Social ES Q1
+DEAL-00791,Clinica Vantia,2025-06-11,2025-08-09,Lost,1163.08,Brand Search ES Q2
+DEAL-00792,Clinica Vantia,2025-06-12,2025-07-07,Lost,1631.92,Partnerships Sponsored ES Q2
+DEAL-00793,Clinica Vantia,2025-06-13,2025-08-06,Won,1552.1,Prospecting Social ES Q1
+DEAL-00794,Clinica Vantia,2025-06-14,2025-08-03,Won,1565.97,LeadGen Search ES Q2
+DEAL-00795,Clinica Vantia,2025-06-15,2025-06-18,Won,2513.52,RETARGETING SOCIAL ES Q1 (COPY)
+DEAL-00796,Clinica Vantia,2025-06-23,2025-07-25,Won,2391.05,Brand Search ES Q1
+DEAL-00797,Clinica Vantia,2025-06-25,2025-07-19,Lost,3110.85,Partnerships Sponsored ES Q1
+DEAL-00798,Clinica Vantia,2025-06-25,2025-08-06,Won,3023.03,BRAND SEARCH ES Q1 (COPY)
+DEAL-00799,Clinica Vantia,2025-06-30,2025-07-28,Lost,2408.41,Retargeting Social ES Q2
+DEAL-00800,Clinica Vantia,2025-07-09,,Qualified,2988.46,Prospecting Social ES Q3
+DEAL-00801,Clinica Vantia,2025-07-17,2025-08-10,Lost,1277.47,Prospecting Social ES Q3
+DEAL-00802,Clinica Vantia,2025-07-23,,New,2003.18,Partnerships Sponsored ES Q3
+DEAL-00803,Clinica Vantia,2025-07-24,2025-09-06,Lost,2646.2,LEADGEN SEARCH ES Q2 (COPY)
+DEAL-00804,Clinica Vantia,2025-07-25,2025-09-06,Won,822.03,
+DEAL-00805,Clinica Vantia,2025-07-27,,New,599.71,-
+DEAL-00806,Clinica Vantia,2025-07-28,2025-08-31,Won,3037.66,Partnerships Sponsored ES Q1
+DEAL-00807,Clinica Vantia,2025-08-04,2025-09-03,Lost,3003.94,
+DEAL-00808,Clinica Vantia,2025-08-05,2025-09-04,Won,1318.27,Brand Search ES Q3
+DEAL-00809,Clinica Vantia,2025-08-07,2025-09-01,Won,2204.61,LeadGen Search ES Q1
+DEAL-00810,Clinica Vantia,2025-08-09,2025-10-07,Won,3155.9,Organic Search
+DEAL-00811,Clinica Vantia,2025-08-14,,Qualified,3233.83,Partnerships Sponsored ES Q1
+DEAL-00812,Clinica Vantia,2025-08-15,,New,3190.54,Partnerships Sponsored ES Q2
+DEAL-00813,Clinica Vantia,2025-08-17,2025-09-27,Won,1549.56,
+DEAL-00814,Clinica Vantia,2025-08-18,2025-10-15,Won,3935.76,Prospecting Social ES Q3
+DEAL-00815,Clinica Vantia,2025-08-22,2025-09-03,Won,3898.54,Prospecting Social ES Q1
+DEAL-00816,Clinica Vantia,2025-08-23,2025-09-27,Won,2554.4,
+DEAL-00817,Clinica Vantia,2025-08-25,,Qualified,992.42,google ad
+DEAL-00818,Clinica Vantia,2025-08-29,2025-09-24,Lost,3785.88,LeadGen Search ES Q1
+DEAL-00819,Clinica Vantia,2025-08-29,2025-09-15,Lost,3128.91,Prospecting Social ES Q1
+DEAL-00820,Clinica Vantia,2025-09-10,2025-10-18,Won,528.2,LeadGen Search ES Q3
+DEAL-00821,Clinica Vantia,2025-09-14,2025-10-01,Lost,1032.88,Retargeting Social ES Q1
+DEAL-00822,Clinica Vantia,2025-09-15,2025-10-14,Won,3514.5,Brand Search ES Q2
+DEAL-00823,Clinica Vantia,2025-09-17,2025-10-06,Lost,2255.25,LeadGen Search ES Q3
+DEAL-00824,Clinica Vantia,2025-09-19,2025-11-04,Won,422.84,referral - ask client
+DEAL-00825,Clinica Vantia,2025-09-19,2025-10-15,Won,2786.32,
+DEAL-00826,Clinica Vantia,2025-09-21,2025-10-16,Won,1896.28,
+DEAL-00827,Clinica Vantia,2025-09-21,2025-10-13,Won,3161.44,walk-in
+DEAL-00828,Clinica Vantia,2025-09-24,,Qualified,3869.22,google ad
+DEAL-00829,Clinica Vantia,2025-09-27,2025-11-20,Won,741.69,Retargeting Social ES Q3
+DEAL-00830,Clinica Vantia,2025-09-30,2025-10-21,Won,1289.55,
+DEAL-00831,Clinica Vantia,2025-09-30,2025-10-13,Won,1710.38,Organic Search
+DEAL-00832,Clinica Vantia,2025-10-03,2025-11-25,Won,708.5,Partnerships S
+DEAL-00833,Clinica Vantia,2025-10-07,2025-11-24,Lost,3052.99,Partnerships Sponsored ES Q1
+DEAL-00834,Clinica Vantia,2025-10-09,2025-11-03,Won,3302.54,PROSPECTING SOCIAL ES Q2 (COPY)
+DEAL-00835,Clinica Vantia,2025-10-14,,New,946.03,
+DEAL-00836,Clinica Vantia,2025-10-15,2025-10-25,Won,763.22,Partnerships Sponsored ES Q4
+DEAL-00837,Clinica Vantia,2025-10-16,2025-11-21,Lost,1243.07,Partnerships Sponsored ES Q3
+DEAL-00838,Clinica Vantia,2025-10-17,2025-11-06,Lost,2853.85,
+DEAL-00839,Clinica Vantia,2025-10-17,2025-11-16,Won,2443.5,LeadGen Search ES Q1
+DEAL-00840,Clinica Vantia,2025-10-22,2025-11-06,Won,2834.17,
+DEAL-00841,Clinica Vantia,2025-10-30,2025-12-24,Won,2089.25,n/a
+DEAL-00842,Clinica Vantia,2025-10-31,2025-11-16,Won,3560.92,
+DEAL-00843,Clinica Vantia,2025-10-31,2025-11-29,Won,1380.69,Retargeting Social ES Q2
+DEAL-00844,Clinica Vantia,2025-11-09,2025-12-27,Won,2056.75,Retargeting Social ES Q4
+DEAL-00845,Clinica Vantia,2025-11-12,2025-11-27,Won,2683.89,LeadGen Search ES Q3
+DEAL-00846,Clinica Vantia,2025-11-18,,New,2513.89,Prospecting Social ES Q2
+DEAL-00847,Clinica Vantia,2025-11-21,,New,1509.8,Partnerships Sponsored ES Q2
+DEAL-00848,Clinica Vantia,2025-11-23,,Qualified,3247.66,LeadGen Search ES Q1
+DEAL-00849,Clinica Vantia,2025-11-25,2026-01-16,Lost,3598.91,LeadGen Search ES Q1
+DEAL-00850,Clinica Vantia,2025-11-25,,Qualified,3997.09,
+DEAL-00851,Clinica Vantia,2025-11-27,2026-01-05,Lost,1297.22,Partnerships Sponsored ES Q2
+DEAL-00852,Clinica Vantia,2025-11-28,,Qualified,2571.85,Retargeting Social ES Q3
+DEAL-00853,Clinica Vantia,2025-12-03,2025-12-11,Lost,3217.97,
+DEAL-00854,Clinica Vantia,2025-12-10,,Qualified,3763.48,LeadGen Search ES Q4
+DEAL-00855,Clinica Vantia,2025-12-13,,New,882.29,Retargeting Social ES Q2
+DEAL-00856,Clinica Vantia,2025-12-15,,New,444.37,
+DEAL-00857,Clinica Vantia,2025-12-23,2026-02-12,Won,549.29,RETARGETING SOCIAL ES Q4 (COPY)
+DEAL-00858,Clinica Vantia,2025-12-28,2026-02-07,Won,2675.55,
+DEAL-00859,Clinica Vantia,2026-01-01,2026-01-13,Won,1206.22,LeadGen Search ES Q2
+DEAL-00860,Clinica Vantia,2026-01-04,2026-01-24,Won,458.97,facebook
+DEAL-00861,Clinica Vantia,2026-01-05,2026-02-16,Lost,3527.78,
+DEAL-00862,Clinica Vantia,2026-01-13,,New,3451.02,Prospecting Social ES Q2
+DEAL-00863,Clinica Vantia,2026-01-20,2026-03-11,Lost,2650.23,
+DEAL-00864,Clinica Vantia,2026-01-21,2026-02-13,Won,2814.69,TBD
+DEAL-00865,Clinica Vantia,2026-01-22,2026-03-10,Lost,1533.34,referral - ask client
+DEAL-00866,Clinica Vantia,2026-01-27,2026-02-13,Won,2304.46,Retargeting Social ES Q2
+DEAL-00867,Clinica Vantia,2026-02-02,,New,1734.78,facebook
+DEAL-00868,Clinica Vantia,2026-02-03,2026-03-16,Lost,1245.07,Partnerships Sponsored ES Q1
+DEAL-00869,Clinica Vantia,2026-02-08,,New,3391.92,Partnerships Sponsored ES Q4
+DEAL-00870,Clinica Vantia,2026-02-09,2026-02-15,Lost,2710.22,Organic Search
+DEAL-00871,Clinica Vantia,2026-02-18,2026-04-18,Lost,3518.83,
+DEAL-00872,Clinica Vantia,2026-02-22,2026-04-07,Won,3731.4,Partnerships S
+DEAL-00873,Clinica Vantia,2026-02-26,2026-03-14,Lost,978.83,-
+DEAL-00874,Clinica Vantia,2026-03-04,,New,3643.24,instagram dm
+DEAL-00875,Clinica Vantia,2026-03-05,,Qualified,3310.45,
+DEAL-00876,Clinica Vantia,2026-03-07,,New,3799.51,
+DEAL-00877,Clinica Vantia,2026-03-08,2026-03-29,Won,3107.92,Retargeting Social ES Q4
+DEAL-00878,Clinica Vantia,2026-03-13,2026-05-08,Lost,3183.37,walk-in
+DEAL-00879,Clinica Vantia,2026-03-21,2026-03-28,Won,2250.73,unknown source
+DEAL-00880,Clinica Vantia,2026-03-26,2026-05-01,Won,1832.06,Prospecting Social ES Q4
+DEAL-00881,Clinica Vantia,2026-03-27,,New,2620.21,Retargeting Social ES Q1
+DEAL-00882,Clinica Vantia,2026-04-12,,New,1910.38,leadgen search es q4??
+DEAL-00883,Clinica Vantia,2026-04-14,,New,2410.16,LeadGen Search ES Q4
+DEAL-00884,Clinica Vantia,2026-04-15,2026-05-20,Lost,3672.56,Brand Search ES Q4
+DEAL-00885,Clinica Vantia,2026-04-20,2026-04-23,Won,1662.54,Partnerships Sponsored ES Q3
+DEAL-00886,Clinica Vantia,2026-04-21,,Qualified,2077.23,Partnerships Sponsored ES Q1
+DEAL-00887,Clinica Vantia,2026-04-28,,New,3714.11,
+DEAL-00888,Clinica Vantia,2026-04-29,,Qualified,3361.64,PARTNERSHIPS SPONSORED ES Q2 (COPY)
+DEAL-00889,Clinica Vantia,2026-04-29,2026-05-30,Won,2403.17,
+DEAL-00890,Clinica Vantia,2026-05-04,2026-05-17,Won,3177.42,Retargeting Social ES Q1
+DEAL-00891,Clinica Vantia,2026-05-05,2026-06-26,Won,1211.82,Retargeting Social ES Q3
+DEAL-00892,Clinica Vantia,2026-05-07,,Qualified,3635.69,Retargeting Social ES Q3
+DEAL-00893,Clinica Vantia,2026-05-11,,New,2221.37,Prospecting Social ES Q1
+DEAL-00894,Clinica Vantia,2026-05-13,,Qualified,3757.27,Brand Search ES Q1
+DEAL-00895,Clinica Vantia,2026-05-13,,Qualified,437.31,Prospecting Social ES Q2
+DEAL-00896,Clinica Vantia,2026-05-13,,Qualified,2834.5,
+DEAL-00897,Clinica Vantia,2026-05-16,2026-06-13,Won,3410.53,Partnerships Sponsored ES Q2
+DEAL-00898,Clinica Vantia,2026-05-23,2026-07-05,Won,3162.99,LeadGen Search ES Q2
+DEAL-00899,Clinica Vantia,2026-05-23,2026-07-13,Won,3239.45,
+DEAL-00900,Clinica Vantia,2026-05-26,2026-06-14,Lost,1951.67,LeadGen Search ES Q2
+DEAL-00901,Clinica Vantia,2026-05-26,2026-06-02,Lost,2212.94,Prospecting Social ES Q2
+DEAL-00902,Clinica Vantia,2026-05-27,2026-06-28,Won,1815.1,Brand Search ES Q4
+DEAL-00903,Clinica Vantia,2026-05-30,,New,3675.0,partnerships sponsored es q3??
+DEAL-00904,Clinica Vantia,2026-06-04,2026-07-30,Lost,3707.85,
+DEAL-00905,Clinica Vantia,2026-06-15,2026-07-30,Won,639.96,
+DEAL-00906,Clinica Vantia,2026-06-24,2026-07-15,Won,1815.46,Prospecting Social ES Q3
+DEAL-00907,Clinica Vantia,2026-06-29,2026-07-24,Lost,2594.54,LeadGen Search ES Q2
+DEAL-00908,Clinica Vantia,2026-06-30,,Qualified,3498.87,LeadGen Search ES Q4
+DEAL-00909,Clinica Vantia,2026-07-02,2026-07-19,Won,451.12,
+DEAL-00910,Clinica Vantia,2026-07-14,2026-07-26,Won,1199.92,
+DEAL-00911,Clinica Vantia,2026-07-15,2026-07-23,Won,3105.67,LeadGen Search ES Q2
+DEAL-00912,Clinica Vantia,2026-07-15,2026-07-18,Lost,1769.83,Retargeting Social ES Q2
+DEAL-00913,Clinica Vantia,2026-07-16,,New,1667.99,Prospecting Social ES Q1
+DEAL-00914,Clinica Vantia,2026-07-16,2026-07-25,Won,1417.11,Brand Search ES Q3
+DEAL-00915,Clinica Vantia,2026-07-18,,New,2686.7,Prospecting Social ES Q3
+DEAL-00916,Clinica Vantia,2026-07-19,,Qualified,2127.76,old campaign?
+DEAL-00917,Clinica Vantia,2026-07-29,,Qualified,627.42,Brand Search ES Q1
+DEAL-00918,Clinica Vantia,2026-07-30,,Qualified,2055.01,LeadGen Search ES Q1
