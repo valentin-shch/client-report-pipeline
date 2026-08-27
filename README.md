@@ -1,54 +1,67 @@
 # Client Report Pipeline
 
-An automated client-reporting pipeline for a digital marketing agency. It turns
-weekly ad and CRM data into a branded, email-ready HTML report per client —
-headline KPIs against the previous period, a few charts, plain-language
-commentary, and a short "what changed" summary — plus a simple anomaly-alert
-layer that flags the things worth a phone call before the report goes out.
+Most agencies rebuild the same client report every week by hand — pull the
+numbers, drop them into a branded template, write a few lines of commentary,
+send it. This does that automatically: one command produces a self-contained
+HTML report per client, styled for the agency, ready to drop into an email.
 
-The product is the pipeline, not a dashboard. It runs from one CLI command
-(`python -m reports.run --client all --period last-week`), so it drops straight
-into a cron job or a scheduled GitHub Action. A thin Streamlit app is included
-so the output is clickable from a cold email, but that app is the demo, not the
-deliverable.
+It's meant to be sold as a monthly retainer, so the emphasis is on the recurring
+pipeline rather than a dashboard someone has to log into. Each report has the
+headline KPIs against the previous period, a "what changed" summary, a short
+plain-language read, and three charts. The HTML is built to survive an email
+client on a phone: inline styles, single column, images embedded as base64,
+nothing loaded from outside.
 
-The data is synthetic. `data/generate.py` builds about 18 months of deliberately
-messy ad exports (Google Ads, Meta Ads, LinkedIn Ads, Organic Search) and CRM
-deals for three fictional clients — the same generator used in the marketing
-dashboard project, copied across unchanged.
+## What's in it
+
+- **Report generator** — `python -m reports.run --client all --period last-week`.
+  One HTML file per client, schedulable from cron or a GitHub Action.
+- **Theming** — agency name, accent colour and logo live in a TOML file under
+  `reports/themes/`, so the same pipeline serves several agencies. Two examples
+  ship: Northlight Media and Harbour Point Digital.
+- **Cleaning pipeline** — `pipeline/clean.py` turns the messy raw exports into
+  analysis-ready parquet and writes a summary of what it had to fix.
+- **Metrics** — `pipeline/metrics.py`, pure functions for the KPIs, period
+  comparisons, time series and anomaly maths, covered by `tests/`.
+
+## The data
+
+Nothing here is real. `data/generate.py` builds about 18 months of synthetic ad
+exports (Google Ads, Meta Ads, LinkedIn Ads, Organic Search) and CRM deals for
+three fictional clients — a hotel group, a fitness-equipment brand and a clinic.
+It's the same generator as the marketing-dashboard project, copied over
+unchanged, and it's deliberately messy: duplicate rows, three date formats,
+LinkedIn spend in the wrong currency, a one-day timezone slip, campaign names in
+three different conventions, and CRM deals that don't all match back to a
+campaign. `pipeline/clean.py` sorts all of it out and shows its working in
+`data/clean/data_quality_summary.json`.
+
+## Stack
+
+Python, pandas, matplotlib for the report charts, Jinja for the HTML. No
+database — data is generated to CSV, cleaned to parquet, read from disk. No
+external services, no API keys.
 
 ## Structure
 
-    data/generate.py     synthetic data generator, seeded, reproducible
-    data/raw/            generator output (messy on purpose, committed)
+    data/generate.py     synthetic data generator, seeded
+    data/raw/            generator output, messy on purpose, committed
+    data/clean/          cleaned parquet + data-quality summary, committed
     pipeline/clean.py    raw exports -> clean, joined parquet
-    pipeline/metrics.py  business metric calculations, pure functions
-    reports/            report generator, theming, anomaly detection, CLI
-    app/                Streamlit demo app
-    tests/             pytest for the metric and anomaly functions
+    pipeline/metrics.py  KPIs, period comparisons, anomaly maths — pure functions
+    reports/             report generator, theming, CLI
+    reports/themes/      one TOML per agency
+    samples/             example reports, committed so you can read one without running anything
+    tests/               pytest for the metric functions
 
 ## Running it locally
 
     python data/generate.py
     python pipeline/clean.py
     pytest
+    python -m reports.run --client all --period last-week
 
-`generate.py` regenerates `data/raw/` with an 18-month window ending last month,
-so the demo data doesn't go stale. The seed keeps the shape of the data stable
-across runs — only the calendar dates shift with the run date.
-
-`clean.py` reads `data/raw/`, fixes the deliberate messiness (duplicate rows,
-three date formats, LinkedIn billed in USD, a one-day timezone offset,
-inconsistent campaign names, missing conversion values) and writes
-`data/clean/*.parquet` plus `data_quality_summary.json`. The report generator
-and the app read the parquet, never the raw CSVs. Both `data/raw/` and
-`data/clean/` are committed so Streamlit Community Cloud can run the repo with
-no build step.
-
-`pipeline/metrics.py` is pure functions — period KPIs and period-over-period
-deltas, channel breakdowns and time series, and the robust-z anomaly primitives
-the alert layer builds on. No file I/O, so `pytest` checks the numbers without
-touching Streamlit or the data on disk.
-
-More stages (report generator, theming, alerts, app) are added as the pipeline
-is built out; this README grows with them.
+`generate.py` uses an 18-month window ending last month so the demo doesn't go
+stale; the seed keeps the shape of the data fixed and only the dates move.
+`reports.run` writes HTML into `samples/` — pass `--anchor YYYY-MM-DD` to pin
+the period for reproducible output, `--theme` to switch agency.

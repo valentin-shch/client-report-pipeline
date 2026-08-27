@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light only">
+<title>{{ client }} — {{ period_label }}</title>
+<style>
+  /* Layout is single-column already; this only tightens padding and type on
+     small screens. Clients that ignore it still get a usable report. */
+  @media (max-width: 600px) {
+    .container { width: 100% !important; border-radius: 0 !important; }
+    .pad { padding-left: 18px !important; padding-right: 18px !important; }
+    .kpi-value { font-size: 24px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background:#f2f3f5; -webkit-text-size-adjust:100%; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; color:#1f2328;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f2f3f5;">
+  <tr>
+    <td align="center" style="padding:24px 12px;">
+      <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px; background:#ffffff; border-radius:10px; overflow:hidden;">
+
+        <tr>
+          <td style="background:{{ accent }}; padding:22px 28px;">
+            {% if logo %}
+            <img src="{{ logo }}" alt="{{ agency }}" height="34" style="display:block; border:0; height:34px; width:auto;">
+            {% else %}
+            <div style="font-size:20px; font-weight:700; color:{{ accent_ink }};">{{ agency }}</div>
+            {% endif %}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pad" style="padding:26px 28px 8px;">
+            <div style="font-size:22px; font-weight:700; line-height:1.25;">{{ client }}</div>
+            <div style="font-size:15px; color:#5b6470; margin-top:4px;">{{ period_label }}</div>
+            <div style="font-size:14px; color:#8a929c; margin-top:2px;">{{ subtitle }}</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pad" style="padding:12px 28px 4px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              {% for k in kpis %}
+              <tr>
+                <td style="padding:11px 0; border-bottom:1px solid #eceef1;">
+                  <div style="font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:#8a929c;">{{ k.label }}</div>
+                  <span class="kpi-value" style="font-size:22px; font-weight:700; vertical-align:middle;">{{ k.value }}</span>
+                  {% if k.delta %}
+                  <span style="font-size:14px; font-weight:600; color:{{ k.delta_color }}; margin-left:6px; vertical-align:middle;">{{ k.delta }}</span>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pad" style="padding:22px 28px 4px;">
+            <div style="font-size:16px; font-weight:700; margin-bottom:10px;">What changed</div>
+            {% for line in what_changed %}
+            <div style="font-size:15px; line-height:1.5; margin-bottom:7px;">
+              <span style="color:{{ accent }}; font-weight:700;">•</span>&nbsp; {{ line }}
+            </div>
+            {% endfor %}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pad" style="padding:18px 28px 4px;">
+            <div style="font-size:16px; font-weight:700; margin-bottom:10px;">The read</div>
+            <p style="font-size:15px; line-height:1.6; margin:0;">{{ commentary }}</p>
+            <p style="font-size:12px; color:#8a929c; line-height:1.5; margin:10px 0 0;">{{ threshold_note }}</p>
+          </td>
+        </tr>
+
+        {% for c in charts %}
+        <tr>
+          <td class="pad" style="padding:18px 28px 0;">
+            <img src="{{ c.uri }}" alt="{{ c.alt }}" width="544" style="display:block; width:100%; max-width:544px; height:auto; border:0;">
+          </td>
+        </tr>
+        {% endfor %}
+
+        <tr>
+          <td class="pad" style="padding:26px 28px 30px;">
+            <div style="font-size:12px; color:#8a929c; line-height:1.6; border-top:1px solid #eceef1; padding-top:14px;">
+              {% if footer %}{{ footer }}<br>{% endif %}
+              Figures are synthetic demo data. Report date {{ generated_for }}.
+            </div>
+          </td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
