@@ -30,10 +30,19 @@ dashboard project, copied across unchanged.
 ## Running it locally
 
     python data/generate.py
+    python pipeline/clean.py
 
-Regenerates `data/raw/` with an 18-month window ending last month, so the demo
-data doesn't go stale. The seed keeps the shape of the data stable across runs —
-only the calendar dates shift with the run date.
+`generate.py` regenerates `data/raw/` with an 18-month window ending last month,
+so the demo data doesn't go stale. The seed keeps the shape of the data stable
+across runs — only the calendar dates shift with the run date.
 
-More stages (cleaning, metrics, reports, app) are added as the pipeline is built
-out; this README grows with them.
+`clean.py` reads `data/raw/`, fixes the deliberate messiness (duplicate rows,
+three date formats, LinkedIn billed in USD, a one-day timezone offset,
+inconsistent campaign names, missing conversion values) and writes
+`data/clean/*.parquet` plus `data_quality_summary.json`. The report generator
+and the app read the parquet, never the raw CSVs. Both `data/raw/` and
+`data/clean/` are committed so Streamlit Community Cloud can run the repo with
+no build step.
+
+More stages (metrics, reports, app) are added as the pipeline is built out; this
+README grows with them.
