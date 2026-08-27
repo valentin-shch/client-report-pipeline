@@ -1,0 +1,43 @@
+name: Weekly reports
+
+# Runs the pipeline end to end and uploads the generated reports as a build
+# artifact. Scheduled for Monday mornings; also runnable by hand from the
+# Actions tab, where you can pick the period and theme.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      period:
+        description: Reporting period
+        type: choice
+        default: last-week
+        options: [last-week, last-month]
+      theme:
+        description: Agency theme
+        default: northlight
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python data/generate.py
+      - run: python pipeline/clean.py
+      - run: pytest -q
+      - run: >
+          python -m reports.run
+          --client all
+          --period "${{ inputs.period || 'last-week' }}"
+          --theme "${{ inputs.theme || 'northlight' }}"
+          --out build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: client-reports
+          path: build/*.html

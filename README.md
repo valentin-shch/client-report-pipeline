@@ -68,7 +68,20 @@ external services, no API keys.
 
 `generate.py` uses an 18-month window ending last month so the data doesn't go
 stale; the seed keeps the shape of the data fixed and only the dates move.
-`reports.run` writes HTML into `samples/` — pass `--anchor YYYY-MM-DD` to pin
-the period for reproducible output, `--theme` to switch agency, and
-`--min-confidence medium` to hide the noisier alerts. The committed samples
-cover both themes and a few weeks chosen to show each alert type.
+
+`reports.run` defaults to the most recent full week of data and writes HTML into
+`samples/`. Pass `--anchor YYYY-MM-DD` to pick a different week (and to pin the
+output), `--theme` to switch agency, `--min-confidence medium` to hide the
+noisier alerts, or `--list` to see the known clients and themes. It builds the
+whole batch before writing anything, so a failure can't leave some clients
+updated and others not. The committed samples cover both themes and a few weeks
+chosen to show each alert type.
+
+## Scheduling
+
+The point of the CLI is that it's a single unattended command. `.github/workflows/reports.yml`
+runs the whole pipeline every Monday — regenerate, clean, test, build every
+client's report — and uploads the HTML as a build artifact. The same thing in
+cron:
+
+    0 6 * * 1  cd /path/to/repo && python -m reports.run --client all --period last-week --out /var/reports

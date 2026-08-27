@@ -50,6 +50,10 @@ class Report:
     generated_for: str
 
 
+class NoDataForPeriod(Exception):
+    """The client has no rows in the reporting window — data, not a bug."""
+
+
 def slug(client: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", client.lower()).strip("-")
 
@@ -102,6 +106,8 @@ def build_report(ads: pd.DataFrame, client: str, anchor, period: str, accent: st
 
     current = metrics.slice_dates(client_ads, cur_start, cur_end)
     prior = metrics.slice_dates(client_ads, pri_start, pri_end)
+    if current.empty:
+        raise NoDataForPeriod(f"{client}: no rows between {cur_start.date()} and {cur_end.date()}")
     comparable = prior["spend"].sum() > 0
 
     deltas = metrics.kpi_deltas(current, prior)
