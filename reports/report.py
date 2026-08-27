@@ -31,7 +31,11 @@ _KPI_SPEC = [
     ("cpa", "Cost / conversion", lambda v: "n/a" if pd.isna(v) else f"€{v:,.2f}"),
 ]
 
-_GOOD, _BAD, _NEUTRAL = "#1a7f4b", "#c0392b", "#5b6470"
+# Green/red only for metrics with an unambiguous good direction. Spend and raw
+# volume get the same quiet grey as the supporting text and no bold — a change
+# there is information, not a verdict (less spend isn't automatically bad any
+# more than more spend was automatically good).
+_GOOD, _BAD, _NEUTRAL = "#1a7f4b", "#c0392b", "#8a929c"
 
 
 @dataclass
@@ -91,13 +95,13 @@ def _kpi_rows(deltas: dict) -> list[dict]:
 def _delta_display(d: dict) -> dict:
     cp = d["change_pct"]
     if pd.isna(cp):
-        return {"delta": "", "delta_color": ""}
+        return {"delta": "", "delta_color": "", "delta_weight": "400"}
     pct = cp * 100
     text = "0% vs prev" if round(pct) == 0 else f"{pct:+.0f}% vs prev"
     if d["direction"] == "neutral" or round(pct) == 0:
-        return {"delta": text, "delta_color": _NEUTRAL}
+        return {"delta": text, "delta_color": _NEUTRAL, "delta_weight": "400"}
     improved = (cp > 0) == (d["direction"] == "higher_better")
-    return {"delta": text, "delta_color": _GOOD if improved else _BAD}
+    return {"delta": text, "delta_color": _GOOD if improved else _BAD, "delta_weight": "600"}
 
 
 def build_report(ads: pd.DataFrame, client: str, anchor, period: str, accent: str) -> Report:

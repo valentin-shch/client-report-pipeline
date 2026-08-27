@@ -48,7 +48,7 @@
                   <div style="font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:#8a929c;">{{ k.label }}</div>
                   <span class="kpi-value" style="font-size:22px; font-weight:700; vertical-align:middle;">{{ k.value }}</span>
                   {% if k.delta %}
-                  <span style="font-size:14px; font-weight:600; color:{{ k.delta_color }}; margin-left:6px; vertical-align:middle;">{{ k.delta }}</span>
+                  <span style="font-size:14px; font-weight:{{ k.delta_weight }}; color:{{ k.delta_color }}; margin-left:6px; vertical-align:middle;">{{ k.delta }}</span>
                   {% endif %}
                 </td>
               </tr>

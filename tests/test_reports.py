@@ -56,19 +56,26 @@ def test_period_label_month():
 # --- delta display -----------------------------------------------------------
 
 def test_delta_display_directions():
-    # spend is neutral: a change gets a grey delta, never red/green
-    neutral = report._delta_display({"change_pct": 0.4, "direction": "neutral"})
-    assert neutral["delta_color"] == report._NEUTRAL
-
-    # roas up is good; roas down is bad
+    # roas up is good; roas down is bad — bold and coloured either way
     good = report._delta_display({"change_pct": 0.2, "direction": "higher_better"})
     bad = report._delta_display({"change_pct": -0.2, "direction": "higher_better"})
     assert good["delta_color"] == report._GOOD
     assert bad["delta_color"] == report._BAD
+    assert good["delta_weight"] == "600"
 
     # cpa down is good (lower is better)
     cpa_good = report._delta_display({"change_pct": -0.15, "direction": "lower_better"})
     assert cpa_good["delta_color"] == report._GOOD
+
+
+def test_spend_delta_is_never_a_red_green_verdict():
+    # the A1 lesson: spend/volume has no inherent good direction. A big drop
+    # gets the quiet grey and normal weight, not red.
+    for cp in (-0.24, 0.5, -0.6):
+        out = report._delta_display({"change_pct": cp, "direction": "neutral"})
+        assert out["delta_color"] == report._NEUTRAL
+        assert out["delta_color"] not in (report._GOOD, report._BAD)
+        assert out["delta_weight"] == "400"
 
 
 def test_delta_display_nan_is_blank():
