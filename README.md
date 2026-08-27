@@ -28,6 +28,10 @@ images embedded as base64, nothing loaded from outside.
   analysis-ready parquet and writes a summary of what it had to fix.
 - **Metrics** — `pipeline/metrics.py`, pure functions for the KPIs, period
   comparisons, time series and anomaly maths, covered by `tests/`.
+- **Preview app** — a small Streamlit viewer (`app/`) to click through the
+  generated reports: pick a client and a week, switch agency theme, download
+  the HTML. It's a way to see the output without opening an inbox, not the
+  product.
 
 ## The data
 
@@ -43,9 +47,9 @@ campaign. `pipeline/clean.py` sorts all of it out and shows its working in
 
 ## Stack
 
-Python, pandas, matplotlib for the report charts, Jinja for the HTML. No
-database — data is generated to CSV, cleaned to parquet, read from disk. No
-external services, no API keys.
+Python, pandas, matplotlib for the report charts, Jinja for the HTML, Streamlit
+for the preview app. No database — data is generated to CSV, cleaned to parquet,
+read from disk. No external services, no API keys.
 
 ## Structure
 
@@ -56,6 +60,7 @@ external services, no API keys.
     pipeline/metrics.py  KPIs, period comparisons, anomaly maths — pure functions
     reports/             report generator, alerts, theming, CLI
     reports/themes/      one TOML per agency
+    app/                 Streamlit preview app
     samples/             example reports, committed so you can read one without running anything
     tests/               pytest for the metrics and the alert logic
 
@@ -65,6 +70,7 @@ external services, no API keys.
     python pipeline/clean.py
     pytest
     python -m reports.run --client all --period last-week
+    streamlit run app/Report_Preview.py
 
 `generate.py` uses an 18-month window ending last month so the data doesn't go
 stale; the seed keeps the shape of the data fixed and only the dates move.
