@@ -10,7 +10,7 @@ import jinja2
 import pandas as pd
 
 from pipeline import metrics
-from reports import charts, commentary
+from reports import anomalies, charts, commentary
 from reports.theme import Theme
 
 _TEMPLATES = Path(__file__).resolve().parent / "templates"
@@ -43,6 +43,7 @@ class Report:
     window: tuple[pd.Timestamp, pd.Timestamp]
     prior_window: tuple[pd.Timestamp, pd.Timestamp]
     kpi_rows: list[dict]
+    alerts: list[anomalies.Alert]
     what_changed: list[str]
     commentary: str
     charts: list[dict]
@@ -124,6 +125,7 @@ def build_report(ads: pd.DataFrame, client: str, anchor, period: str, accent: st
         window=(cur_start, cur_end),
         prior_window=(pri_start, pri_end),
         kpi_rows=_kpi_rows(deltas),
+        alerts=anomalies.detect_alerts(ads, client, cur_end),
         what_changed=commentary.what_changed(
             movers, comparable, deltas["conversion_value"]["current"]
         ),
@@ -145,6 +147,7 @@ def render_html(report: Report, theme: Theme) -> str:
         period_label=report.period_label,
         subtitle=report.subtitle,
         kpis=report.kpi_rows,
+        alerts=report.alerts,
         what_changed=report.what_changed,
         commentary=report.commentary,
         threshold_note=commentary.THRESHOLD_NOTE,

@@ -5,17 +5,22 @@ numbers, drop them into a branded template, write a few lines of commentary,
 send it. This does that automatically: one command produces a self-contained
 HTML report per client, styled for the agency, ready to drop into an email.
 
-It's meant to be sold as a monthly retainer, so the emphasis is on the recurring
-pipeline rather than a dashboard someone has to log into. Each report has the
-headline KPIs against the previous period, a "what changed" summary, a short
-plain-language read, and three charts. The HTML is built to survive an email
-client on a phone: inline styles, single column, images embedded as base64,
-nothing loaded from outside.
+The focus is the recurring pipeline rather than a dashboard someone has to log
+into. Each report has the headline KPIs against the previous period, a "what
+changed" summary, a short plain-language read, and three charts. The HTML is
+built to survive an email client on a phone: inline styles, single column,
+images embedded as base64, nothing loaded from outside.
 
 ## What's in it
 
 - **Report generator** — `python -m reports.run --client all --period last-week`.
   One HTML file per client, schedulable from cron or a GitHub Action.
+- **Alerts** — a "worth a look" section on each report: spend up with no
+  conversion lift, conversions down while spend held, CPC outside its normal
+  range, a campaign that stopped delivering. Week-over-week percentages and a
+  median/MAD z-score, nothing you can't explain in the sentence next to the
+  flag. It errs toward over-flagging — every alert states a magnitude and a
+  confidence so you can triage.
 - **Theming** — agency name, accent colour and logo live in a TOML file under
   `reports/themes/`, so the same pipeline serves several agencies. Two examples
   ship: Northlight Media and Harbour Point Digital.
@@ -49,10 +54,10 @@ external services, no API keys.
     data/clean/          cleaned parquet + data-quality summary, committed
     pipeline/clean.py    raw exports -> clean, joined parquet
     pipeline/metrics.py  KPIs, period comparisons, anomaly maths — pure functions
-    reports/             report generator, theming, CLI
+    reports/             report generator, alerts, theming, CLI
     reports/themes/      one TOML per agency
     samples/             example reports, committed so you can read one without running anything
-    tests/               pytest for the metric functions
+    tests/               pytest for the metrics and the alert logic
 
 ## Running it locally
 
@@ -61,7 +66,9 @@ external services, no API keys.
     pytest
     python -m reports.run --client all --period last-week
 
-`generate.py` uses an 18-month window ending last month so the demo doesn't go
+`generate.py` uses an 18-month window ending last month so the data doesn't go
 stale; the seed keeps the shape of the data fixed and only the dates move.
 `reports.run` writes HTML into `samples/` — pass `--anchor YYYY-MM-DD` to pin
-the period for reproducible output, `--theme` to switch agency.
+the period for reproducible output, `--theme` to switch agency, and
+`--min-confidence medium` to hide the noisier alerts. The committed samples
+cover both themes and a few weeks chosen to show each alert type.

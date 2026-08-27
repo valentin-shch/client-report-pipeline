@@ -59,6 +59,26 @@
 
         <tr>
           <td class="pad" style="padding:22px 28px 4px;">
+            <div style="font-size:16px; font-weight:700; margin-bottom:10px;">Worth a look</div>
+            {% if alerts %}
+            {% for a in alerts %}
+            <div style="margin-bottom:13px; padding-left:12px; border-left:3px solid {{ accent }};">
+              <div style="font-size:15px; font-weight:700;">
+                {{ a.headline }}
+                <span style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.04em; color:#8a929c;">· {{ a.confidence }} confidence</span>
+              </div>
+              <div style="font-size:14px; line-height:1.5; margin-top:3px;">{{ a.detail }}</div>
+              <div style="font-size:12px; color:#8a929c; margin-top:3px;">{{ a.scope }} — {{ a.magnitude }}</div>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div style="font-size:14px; color:#5b6470; line-height:1.5;">Nothing unusual flagged this week. Checks: a spend jump with no extra conversions, conversions dropping while spend held, CPC outside its normal range, or a campaign that stopped delivering.</div>
+            {% endif %}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="pad" style="padding:22px 28px 4px;">
             <div style="font-size:16px; font-weight:700; margin-bottom:10px;">What changed</div>
             {% for line in what_changed %}
             <div style="font-size:15px; line-height:1.5; margin-bottom:7px;">

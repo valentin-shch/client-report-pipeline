@@ -15,6 +15,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from reports.anomalies import CONFIDENCE_LEVELS, filter_confidence
 from reports.report import build_report, render_html, slug
 from reports.theme import available_themes, load_theme
 
@@ -34,6 +35,8 @@ def parse_args(argv=None) -> argparse.Namespace:
                         "Pin it for reproducible output.")
     p.add_argument("--theme", default="northlight",
                    help=f"agency theme; one of: {', '.join(available_themes())}")
+    p.add_argument("--min-confidence", default="low", choices=CONFIDENCE_LEVELS,
+                   help="drop alerts below this confidence (default: low, i.e. show all)")
     p.add_argument("--out", default=str(BASE_DIR / "samples"), metavar="DIR",
                    help="output directory (default: samples/)")
     return p.parse_args(argv)
@@ -62,15 +65,14 @@ def main(argv=None) -> int:
 
     for client in clients:
         report = build_report(ads, client, anchor, args.period, theme.accent)
+        report.alerts = filter_confidence(report.alerts, args.min_confidence)
         html = render_html(report, theme)
         start = report.window[0].date()
         path = out_dir / f"{slug(client)}_{args.period}_{start}_{args.theme}.html"
         path.write_text(html, encoding="utf-8")
-        print(f"{client}: {report.period_label} -> {path.relative_to(BASE_DIR)}")
+        flagged = f"{len(report.alerts)} alert(s)" if report.alerts else "no alerts"
+        print(f"{client}: {report.period_label}, {flagged} -> {path.relative_to(BASE_DIR)}")
 
-    # TODO: the anomaly/alert layer (reports/anomalies.py) isn't wired in yet —
-    # once it is, each report gets an alerts section and run.py grows a
-    # --min-confidence flag.
     return 0
 
 
