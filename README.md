@@ -31,6 +31,7 @@ dashboard project, copied across unchanged.
 
     python data/generate.py
     python pipeline/clean.py
+    pytest
 
 `generate.py` regenerates `data/raw/` with an 18-month window ending last month,
 so the demo data doesn't go stale. The seed keeps the shape of the data stable
@@ -44,5 +45,10 @@ and the app read the parquet, never the raw CSVs. Both `data/raw/` and
 `data/clean/` are committed so Streamlit Community Cloud can run the repo with
 no build step.
 
-More stages (metrics, reports, app) are added as the pipeline is built out; this
-README grows with them.
+`pipeline/metrics.py` is pure functions — period KPIs and period-over-period
+deltas, channel breakdowns and time series, and the robust-z anomaly primitives
+the alert layer builds on. No file I/O, so `pytest` checks the numbers without
+touching Streamlit or the data on disk.
+
+More stages (report generator, theming, alerts, app) are added as the pipeline
+is built out; this README grows with them.
