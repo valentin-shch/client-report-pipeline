@@ -12,8 +12,12 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from reports import anomalies
 from reports.report import build_report, render_html
 from reports.theme import available_themes, load_theme
+
+CONFIDENCE_LEVELS = anomalies.CONFIDENCE_LEVELS
+filter_confidence = anomalies.filter_confidence
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 ADS_PARQUET = BASE_DIR / "data" / "clean" / "ads.parquet"
@@ -79,6 +83,12 @@ def build_preview(client: str, week_end: str, theme_stem: str):
     anchor = pd.Timestamp(week_end) + pd.Timedelta(days=1)
     report = build_report(ads, client, anchor, "last-week", theme.accent)
     return render_html(report, theme), report.alerts, report.period_label, _iframe_height(report)
+
+
+@st.cache_data(show_spinner=False)
+def client_alerts(client: str, week_end: str):
+    """All alerts for `client` for the week ending `week_end` (ISO date)."""
+    return anomalies.detect_alerts(load_ads(), client, pd.Timestamp(week_end))
 
 
 def _iframe_height(report) -> int:

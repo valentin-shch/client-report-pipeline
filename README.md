@@ -28,10 +28,10 @@ images embedded as base64, nothing loaded from outside.
   analysis-ready parquet and writes a summary of what it had to fix.
 - **Metrics** — `pipeline/metrics.py`, pure functions for the KPIs, period
   comparisons, time series and anomaly maths, covered by `tests/`.
-- **Preview app** — a small Streamlit viewer (`app/`) to click through the
-  generated reports: pick a client and a week, switch agency theme, download
-  the HTML. It's a way to see the output without opening an inbox, not the
-  product.
+- **Preview app** — a small Streamlit viewer (`app/`): a report page (pick a
+  client and week, switch agency theme, download the HTML) and an alert list
+  across all clients for any week. A way to see the output without opening an
+  inbox, not the product.
 
 ## The data
 
@@ -76,18 +76,24 @@ read from disk. No external services, no API keys.
 stale; the seed keeps the shape of the data fixed and only the dates move.
 
 `reports.run` defaults to the most recent full week of data and writes HTML into
-`samples/`. Pass `--anchor YYYY-MM-DD` to pick a different week (and to pin the
-output), `--theme` to switch agency, `--min-confidence medium` to hide the
-noisier alerts, or `--list` to see the known clients and themes. It builds the
-whole batch before writing anything, so a failure can't leave some clients
-updated and others not. The committed samples cover both themes and a few weeks
-chosen to show each alert type.
+`samples/`. `--anchor YYYY-MM-DD` picks (and pins) a different week, `--theme`
+switches agency, `--min-confidence medium` hides the noisier alerts, `--list`
+prints the known clients and themes. It builds the whole batch before writing
+anything, so a failure can't leave some clients updated and others not. The
+committed samples cover both themes and a few weeks chosen to show each alert
+type.
 
 ## Scheduling
 
-The point of the CLI is that it's a single unattended command. `.github/workflows/reports.yml`
-runs the whole pipeline every Monday — regenerate, clean, test, build every
-client's report — and uploads the HTML as a build artifact. The same thing in
-cron:
+The CLI is a single unattended command. `.github/workflows/reports.yml` runs the
+whole pipeline every Monday — regenerate, clean, test, build every client's
+report — and uploads the HTML as a build artifact. The same thing in cron:
 
     0 6 * * 1  cd /path/to/repo && python -m reports.run --client all --period last-week --out /var/reports
+
+## Deploying
+
+Streamlit Community Cloud runs the repo as committed — `data/raw/` and
+`data/clean/` are in the repo and there's no build step. Point it at
+`app/Report_Preview.py`. Nothing calls an external service, so there's nothing
+to configure.

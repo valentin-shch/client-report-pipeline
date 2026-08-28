@@ -60,6 +60,7 @@ html, alerts, period_label, height = build_preview(
 
 status = f"⚠️ {len(alerts)} alert(s) flagged" if alerts else "✓ nothing flagged"
 st.markdown(f"**{client} — week of {week_label(*week)}**  ·  {status}")
+st.page_link("pages/1_Alerts.py", label="See every client's alerts for a week", icon="⚠️")
 
 st.download_button(
     "Download this report (HTML)",
