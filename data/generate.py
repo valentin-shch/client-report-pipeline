@@ -8,6 +8,8 @@ analysis-ready; nothing here is pre-cleaned.
 
 from __future__ import annotations
 
+import os
+
 import numpy as np
 import pandas as pd
 from pathlib import Path
@@ -18,10 +20,16 @@ rng = np.random.default_rng(SEED)
 BASE_DIR = Path(__file__).resolve().parent.parent
 RAW_DIR = BASE_DIR / "data" / "raw"
 
-# 18-month window ending last month, so the demo doesn't visibly go stale.
-_end_of_last_month = pd.Timestamp.today().normalize().replace(day=1) - pd.Timedelta(days=1)
-START_DATE = _end_of_last_month.replace(day=1) - pd.DateOffset(months=17)
-END_DATE = _end_of_last_month
+# 18-month window ending last month, so the demo doesn't visibly go stale. Set
+# CRP_DATA_END=YYYY-MM-DD to pin that end date instead — the run is then fully
+# reproducible, which is what tests and CI want.
+_pinned = os.environ.get("CRP_DATA_END")
+_window_end = (
+    pd.Timestamp(_pinned) if _pinned
+    else pd.Timestamp.today().normalize().replace(day=1) - pd.Timedelta(days=1)
+)
+START_DATE = _window_end.replace(day=1) - pd.DateOffset(months=17)
+END_DATE = _window_end
 
 PAID_CHANNELS = ["Google Ads", "Meta Ads", "LinkedIn Ads"]
 

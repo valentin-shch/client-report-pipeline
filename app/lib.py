@@ -11,6 +11,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 from reports import anomalies
 from reports.report import build_report, render_html
@@ -21,6 +22,16 @@ filter_confidence = anomalies.filter_confidence
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 ADS_PARQUET = BASE_DIR / "data" / "clean" / "ads.parquet"
+
+# A tiny component that renders the report and reports its own height, so the
+# embed has no fixed pixel guess. See app/components/report_frame/index.html.
+_report_frame = components.declare_component(
+    "report_frame", path=str(BASE_DIR / "app" / "components" / "report_frame")
+)
+
+
+def report_frame(html: str) -> None:
+    _report_frame(html=html)
 
 SYNTHETIC_NOTE = (
     "Everything here is synthetic — three fictional clients, generated data, no real "
@@ -75,27 +86,17 @@ def week_label(start: pd.Timestamp, end: pd.Timestamp) -> str:
 
 @st.cache_data(show_spinner="Building the report…")
 def build_preview(client: str, week_end: str, theme_stem: str):
-    """Returns (html, alerts, period_label, iframe_height) for the week ending `week_end`."""
+    """Returns (html, alerts, period_label) for the week ending `week_end`."""
     ads = load_ads()
     theme = load_theme(theme_stem)
     # build_report measures "last-week" back from its anchor, so anchor the day
     # after the week we actually want to see.
     anchor = pd.Timestamp(week_end) + pd.Timedelta(days=1)
     report = build_report(ads, client, anchor, "last-week", theme.accent)
-    return render_html(report, theme), report.alerts, report.period_label, _iframe_height(report)
+    return render_html(report, theme), report.alerts, report.period_label
 
 
 @st.cache_data(show_spinner=False)
 def client_alerts(client: str, week_end: str):
     """All alerts for `client` for the week ending `week_end` (ISO date)."""
     return anomalies.detect_alerts(load_ads(), client, pd.Timestamp(week_end))
-
-
-def _iframe_height(report) -> int:
-    # components.html needs a fixed pixel height and the report can't report its
-    # own. Estimate from the parts that vary (measured against the rendered
-    # report, ~30–70px of slack); scrolling=True on the embed covers the rest.
-    height = 760 + 3 * 335  # shell + KPIs + the three charts
-    height += 95 if not report.alerts else 140 * len(report.alerts)
-    height += 24 * len(report.what_changed)
-    return height

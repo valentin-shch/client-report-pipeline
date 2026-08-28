@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; }
+  #report { display: block; border: 0; width: 100%; }
+</style>
+</head>
+<body>
+<iframe id="report" scrolling="no" title="report"></iframe>
+<script>
+  // Minimal Streamlit component: takes the report HTML as an arg, renders it in
+  // a same-origin srcdoc iframe, and tells Streamlit the iframe's real content
+  // height so there's no fixed guess and no leftover whitespace.
+  var frame = document.getElementById("report");
+  var last = 0;
+
+  function setHeight(h) {
+    window.parent.postMessage(
+      { isStreamlitMessage: true, type: "streamlit:setFrameHeight", height: h }, "*"
+    );
+  }
+
+  function measure() {
+    try {
+      var doc = frame.contentDocument;
+      if (!doc || !doc.body) return;
+      var h = Math.ceil(doc.body.scrollHeight) + 4;
+      if (h !== last) {
+        last = h;
+        frame.style.height = h + "px";
+        setHeight(h);
+      }
+    } catch (e) { /* not ready */ }
+  }
+
+  window.addEventListener("message", function (ev) {
+    if (!ev.data || ev.data.type !== "streamlit:render") return;
+    var html = (ev.data.args && ev.data.args.html) || "";
+    frame.srcdoc = html;
+  });
+
+  frame.addEventListener("load", function () {
+    measure();
+    // base64 images can still be decoding — re-measure briefly, then watch.
+    var n = 0;
+    var poll = setInterval(function () {
+      measure();
+      if (++n > 12) clearInterval(poll);
+    }, 120);
+    try {
+      new ResizeObserver(measure).observe(frame.contentDocument.body);
+    } catch (e) { /* older browsers */ }
+  });
+
+  window.parent.postMessage(
+    { isStreamlitMessage: true, type: "streamlit:componentReady", apiVersion: 1 }, "*"
+  );
+  setHeight(400);
+</script>
+</body>
+</html>

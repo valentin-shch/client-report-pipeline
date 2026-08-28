@@ -86,19 +86,26 @@ def impute_missing_conversion_value(df: pd.DataFrame) -> tuple[pd.DataFrame, dic
     df = df.copy()
     missing = df["conversion_value"].isna()
 
-    # Fill with the average revenue-per-conversion for the same client+channel,
-    # taken from rows that do have a value. Coarse, but it keeps period totals
-    # honest without inventing a per-campaign model. Flagged in a column so
-    # downstream code can exclude imputed rows if a metric needs it.
-    rate_by_group = (
-        df.loc[~missing & (df["conversions"] > 0)]
-        .assign(rate=lambda d: d["conversion_value"] / d["conversions"])
-        .groupby(["client", "channel"])["rate"].mean()
+    # Fill from the average revenue-per-conversion on rows that do have a value.
+    # Prefer the same client+channel in the same month, so a seasonal swing in
+    # order value is respected; fall back to the client+channel average when a
+    # month has nothing observed. Still coarse — no per-campaign model — but it
+    # keeps period totals honest, and imputed rows are flagged so a metric can
+    # drop them if it needs to.
+    observed = df.loc[~missing & (df["conversions"] > 0)].assign(
+        rate=lambda d: d["conversion_value"] / d["conversions"],
+        month=lambda d: d["date"].dt.to_period("M"),
     )
-    filled = df.loc[missing].apply(
-        lambda r: round(r["conversions"] * rate_by_group.get((r["client"], r["channel"]), 0.0), 2),
-        axis=1,
-    )
+    rate_by_month = observed.groupby(["client", "channel", "month"])["rate"].mean()
+    rate_by_channel = observed.groupby(["client", "channel"])["rate"].mean()
+
+    def rate_for(row) -> float:
+        key = (row["client"], row["channel"], row["date"].to_period("M"))
+        if key in rate_by_month.index:
+            return rate_by_month.loc[key]
+        return rate_by_channel.get((row["client"], row["channel"]), 0.0)
+
+    filled = df.loc[missing].apply(lambda r: round(r["conversions"] * rate_for(r), 2), axis=1)
     df.loc[missing, "conversion_value"] = filled
     df["conversion_value_imputed"] = missing
 
@@ -118,6 +125,17 @@ CAMPAIGN_PATTERNS = [
     ("C", re.compile(r"^(?P<theme>[A-Za-z]+) (?P<type>[A-Za-z]+) (?P<country>[A-Z]{2}) (?P<period>Q[1-4])$")),
 ]
 
+# Compound theme names come through as one token ("BlackFriday", and lower-cased
+# to "blackfriday" under convention B). .title() would give "Blackfriday" — this
+# restores the two-word display form. Keyed on the lower-cased token so it works
+# for all three conventions.
+THEME_LABELS = {
+    "blackfriday": "Black Friday",
+    "januarysale": "January Sale",
+    "summerescape": "Summer Escape",
+    "leadgen": "Lead Gen",
+}
+
 
 def parse_campaign_name(channel: str, name: str) -> dict:
     if channel == "Organic Search":
@@ -127,8 +145,9 @@ def parse_campaign_name(channel: str, name: str) -> dict:
         if m:
             g = m.groupdict()
             return dict(
-                convention=label, country=g["country"].upper(),
-                type=g["type"].title(), theme=g["theme"].title(), period=g["period"].upper(),
+                convention=label, country=g["country"].upper(), type=g["type"].title(),
+                theme=THEME_LABELS.get(g["theme"].lower(), g["theme"].title()),
+                period=g["period"].upper(),
             )
     return dict(convention="unknown", country=None, type=None, theme=None, period=None)
 

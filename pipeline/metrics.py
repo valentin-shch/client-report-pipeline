@@ -13,6 +13,7 @@ Three groups of things live here:
 
 from __future__ import annotations
 
+import numpy as np
 import pandas as pd
 
 # Whether a delta on this metric has an unambiguous good/bad direction. Spend
@@ -219,6 +220,10 @@ def robust_z(series) -> pd.Series:
     return (s - s.median()) / scale
 
 
+def _mad_np(window: np.ndarray) -> float:
+    return float(np.median(np.abs(window - np.median(window))))
+
+
 def rolling_anomaly_score(series, window=8) -> pd.Series:
     """Robust z-score of each point against the `window` points before it,
     itself excluded. NaN for the leading points without a full baseline —
@@ -226,12 +231,9 @@ def rolling_anomaly_score(series, window=8) -> pd.Series:
     median.
     """
     s = pd.Series(series, dtype="float64").reset_index(drop=True)
-    scores = pd.Series([float("nan")] * len(s))
-    for i in range(window, len(s)):
-        baseline = s.iloc[i - window:i]
-        scale = 1.4826 * mad(baseline)
-        if scale and not pd.isna(scale):
-            scores.iloc[i] = (s.iloc[i] - baseline.median()) / scale
-    # TODO: O(n*window) Python loop. Fine for 18 months of weekly points;
-    # revisit if this ever runs on daily data across all clients at once.
-    return scores
+    # .shift(1) so each point is scored against the window that ends just before
+    # it, not one that includes it.
+    baseline_median = s.rolling(window).median().shift(1)
+    baseline_scale = 1.4826 * s.rolling(window).apply(_mad_np, raw=True).shift(1)
+    scale = baseline_scale.where(baseline_scale > 0)  # 0 or NaN -> no score
+    return (s - baseline_median) / scale

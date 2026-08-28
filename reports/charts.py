@@ -68,8 +68,10 @@ def spend_revenue_by_day(daily: pd.DataFrame, accent: str) -> dict:
 
     ax.set_title("Spend and revenue by day", loc="left")
     lines = ax.get_legend_handles_labels()[0] + ax2.get_legend_handles_labels()[0]
-    labels = ["Spend", "Revenue"]
-    ax.legend(lines, labels, loc="upper left", frameon=False, fontsize=12)
+    # Below the axes, not over the bars — on a heavy week an in-plot legend
+    # sat on top of the data.
+    ax.legend(lines, ["Spend", "Revenue"], loc="upper center", bbox_to_anchor=(0.5, -0.22),
+              ncol=2, frameon=False, fontsize=11)
     return _finish(fig, "Bar chart of daily spend with a line for daily revenue over the period.")
 
 

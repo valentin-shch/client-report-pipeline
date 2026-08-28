@@ -9,7 +9,6 @@ while not (_repo_root / "pipeline").is_dir():
 sys.path[:0] = [str(_repo_root), str(_repo_root / "app")]
 
 import streamlit as st
-import streamlit.components.v1 as components
 
 from lib import (
     MOBILE_CSS,
@@ -18,6 +17,7 @@ from lib import (
     build_preview,
     clients,
     load_ads,
+    report_frame,
     theme_names,
     week_label,
 )
@@ -54,7 +54,7 @@ theme_display = st.segmented_control(
     "Agency theme", list(names), default=default_theme, selection_mode="single"
 ) or default_theme
 
-html, alerts, period_label, height = build_preview(
+html, alerts, period_label = build_preview(
     client, week[1].strftime("%Y-%m-%d"), names[theme_display]
 )
 
@@ -69,7 +69,7 @@ st.download_button(
     mime="text/html",
 )
 
-# An iframe (not st.html) so the report renders exactly as it will in an inbox,
-# base64 charts and all. Height is estimated in build_preview; scrolling covers
-# the cases where the estimate runs short.
-components.html(html, height=height, scrolling=True)
+# Rendered in an iframe so it looks exactly as it will in an inbox, base64
+# charts and all; the report_frame component measures its own height so there's
+# no fixed guess and no leftover whitespace.
+report_frame(html)
