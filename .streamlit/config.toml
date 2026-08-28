@@ -1,2 +1,6 @@
 [browser]
 gatherUsageStats = false
+
+[client]
+# This is opened from a cold email — keep the Streamlit chrome out of the way.
+toolbarMode = "minimal"

@@ -11,12 +11,13 @@ The bias is on purpose: this over-flags. A false positive costs someone two
 minutes checking a chart; a missed drop costs a client. Every alert carries a
 magnitude and a confidence so the reader can triage:
 
-    high    — a large move, or well outside the normal range
-    medium  — just past the threshold
-    low     — barely enough history to judge
+    high    — a large move, or well clear of the normal range
+    medium  — past the threshold
+    low     — a milder move that's still unusual for this particular account
 
-Thresholds are the constants below; each one has a note on why it's set where
-it is.
+"Unusual for this account" is a robust z-score against the account's own recent
+weeks, so the same 18% dip flags on a steady account and stays quiet on a
+volatile one. Thresholds are the constants below, each with a note on why.
 """
 
 from __future__ import annotations
@@ -36,6 +37,13 @@ CONVERSION_FLAT = 0.05
 CONVERSION_SLUMP = -0.25
 # ...as long as spend didn't also move — under 15% either way is "held steady".
 SPEND_STEADY = 0.15
+# A milder drop (15–25%) still gets a low-confidence flag if spend was genuinely
+# flat AND the drop is well outside this account's own weekly swing. Small,
+# volatile accounts wobble ±30% week to week and shouldn't trip on that; a big
+# steady account moving 18% is unusual for it and worth a glance.
+CONVERSION_DIP = -0.15
+SPEND_FLAT = 0.10
+DIP_Z = -3.0
 # Robust z on weekly CPC. ~3.5 MADs is well clear of ordinary auction wobble.
 CPC_Z = 3.5
 CPC_MIN_HISTORY = 5      # weeks of CPC before its "normal band" means anything
@@ -75,7 +83,7 @@ def detect_alerts(ads: pd.DataFrame, client: str, anchor) -> list[Alert]:
     current, prior = weekly.iloc[-1], weekly.iloc[-2]
     alerts: list[Alert] = []
     alerts += _spend_without_conversions(current, prior)
-    alerts += _conversions_without_spend_change(current, prior)
+    alerts += _conversions_without_spend_change(current, prior, weekly)
     alerts += _cpc_out_of_band(client_ads, ref_end)
     alerts += _stopped_delivering(client_ads, ref_start, ref_end)
 
@@ -109,6 +117,12 @@ def _weekly_totals(client_ads: pd.DataFrame, ref_end: pd.Timestamp) -> pd.DataFr
 
 def _pct(old, new) -> float:
     return metrics.pct_change(old, new)
+
+
+def _weekly_z(series: pd.Series) -> float:
+    """Robust z of the latest week against the prior 8 — how far this week sits
+    outside the account's own recent range. NaN if there isn't the history."""
+    return metrics.rolling_anomaly_score(series.to_numpy(), window=8).iloc[-1]
 
 
 def _signed_pct(x: float) -> str:
@@ -152,20 +166,35 @@ def _spend_without_conversions(current, prior) -> list[Alert]:
     )]
 
 
-def _conversions_without_spend_change(current, prior) -> list[Alert]:
+def _conversions_without_spend_change(current, prior, weekly: pd.DataFrame) -> list[Alert]:
     conv_wow = _pct(prior["conversions"], current["conversions"])
     spend_wow = _pct(prior["spend"], current["spend"])
-    if pd.isna(conv_wow) or conv_wow >= CONVERSION_SLUMP:
-        return []
-    if pd.isna(spend_wow) or abs(spend_wow) >= SPEND_STEADY:
+    if pd.isna(conv_wow) or pd.isna(spend_wow):
         return []
 
-    confidence = "high" if conv_wow <= -0.4 else "medium"
+    clear = conv_wow <= CONVERSION_SLUMP and abs(spend_wow) < SPEND_STEADY
+    z = _weekly_z(weekly["conversions"])
+    dip = (
+        CONVERSION_SLUMP < conv_wow <= CONVERSION_DIP
+        and abs(spend_wow) < SPEND_FLAT
+        and pd.notna(z) and z <= DIP_Z
+    )
+    if not (clear or dip):
+        return []
+
+    if clear:
+        confidence = "high" if conv_wow <= -0.4 else "medium"
+        tail = ("The budget went out but brought back less — check for a tracking gap, "
+                "a landing-page problem, or a drop in lead quality.")
+    else:
+        confidence = "low"
+        tail = ("That's a bigger drop than this account's normal week-to-week swing, "
+                "with spend flat — worth a look before it settles into a trend.")
+
     spend_note = "" if round(spend_wow * 100) == 0 else f" ({_signed_pct(spend_wow)})"
     detail = (
         f"Conversions fell {_mag(conv_wow)} week-over-week to {current['conversions']:,.0f} "
-        f"while spend held roughly steady{spend_note}. The budget went out but brought back "
-        f"less — check for a tracking gap, a landing-page problem, or a drop in lead quality."
+        f"while spend held roughly steady{spend_note}. {tail}"
     )
     return [Alert(
         scope="Account",

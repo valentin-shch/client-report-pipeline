@@ -69,6 +69,27 @@ def test_tracking_break_shape_spend_up_conversions_gone():
     assert "tracking has broken" in alert.detail
 
 
+def test_milder_dip_is_low_confidence_when_outside_the_accounts_band():
+    steady = [{"spend": 1000, "clicks": 500, "conversions": c}
+              for c in (49, 51, 49, 51, 49, 51, 49, 50)]
+    dip = [{"spend": 1000, "clicks": 500, "conversions": 41}]  # -18% on flat spend
+    ads = _weeks(steady + dip)
+    alert = next(a for a in anomalies.detect_alerts(ads, "X", _anchor(ads))
+                 if a.headline == "Conversions dropped, spend held")
+    assert alert.confidence == "low"
+    assert "normal week-to-week swing" in alert.detail
+
+
+def test_milder_dip_stays_silent_on_a_volatile_account():
+    # same -18% move, but this account swings ±20% every week — not unusual for it
+    noisy = [{"spend": 1000, "clicks": 500, "conversions": c}
+             for c in (60, 40, 58, 42, 61, 39, 55, 50)]
+    dip = [{"spend": 1000, "clicks": 500, "conversions": 41}]
+    ads = _weeks(noisy + dip)
+    assert not any(a.headline == "Conversions dropped, spend held"
+                   for a in anomalies.detect_alerts(ads, "X", _anchor(ads)))
+
+
 def test_conversions_drop_while_spend_holds():
     flat = [{"spend": 1000, "clicks": 500, "conversions": 50}] * 6
     slump = [{"spend": 1010, "clicks": 480, "conversions": 30}]
