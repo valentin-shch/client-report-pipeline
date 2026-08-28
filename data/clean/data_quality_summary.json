@@ -4,7 +4,7 @@
     "meta_ads.csv": 3741,
     "linkedin_ads.csv": 1668,
     "organic_search.csv": 1668,
-    "crm_deals.csv": 918
+    "crm_deals.csv": 910
   },
   "duplicates_removed": 200,
   "fx_conversion": {
@@ -12,8 +12,8 @@
     "gap_days_filled": 156
   },
   "conversion_value_imputed": {
-    "rows_imputed": 299,
-    "value_imputed_eur": 102899.36
+    "rows_imputed": 298,
+    "value_imputed_eur": 102503.01
   },
   "campaign_parsing": {
     "A": 3372,
@@ -23,12 +23,12 @@
     "unknown": 46
   },
   "crm_attribution": {
-    "matched": 538,
-    "no_source_recorded": 190,
-    "unmatched_source": 190
+    "matched": 525,
+    "unmatched_source": 193,
+    "no_source_recorded": 192
   },
   "rows_out": {
     "ads_clean": 10572,
-    "crm_deals_clean": 918
+    "crm_deals_clean": 910
   }
 }

@@ -27,7 +27,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-02-13,Clinica Vantia,Google Ads,LeadGen Search ES Q1,30.95,3035,110,0,0.0
 2025-02-14,Clinica Vantia,Google Ads,Brand Search ES Q1,29.38,3078,176,13,713.89
 2025-02-14,Clinica Vantia,Google Ads,LeadGen Search ES Q1,44.07,4715,291,14,905.56
-2025-02-15,Clinica Vantia,Google Ads,Brand Search ES Q1,22.27,2035,73,6,
+2025-02-15,Clinica Vantia,Google Ads,Brand Search ES Q1,22.27,2035,73,6,202.39
 2025-02-15,Clinica Vantia,Google Ads,LeadGen Search ES Q1,33.4,3052,108,3,124.28
 2025-02-16,Clinica Vantia,Google Ads,Brand Search ES Q1,22.68,1852,75,1,26.51
 2025-02-16,Clinica Vantia,Google Ads,LeadGen Search ES Q1,34.02,2738,88,1,41.86
@@ -35,14 +35,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-02-17,Clinica Vantia,Google Ads,LeadGen Search ES Q1,44.45,4099,158,2,71.34
 2025-02-18,Clinica Vantia,Google Ads,Brand Search ES Q1,26.12,3299,121,2,65.26
 2025-02-18,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.18,4976,209,8,372.49
-2025-02-19,Clinica Vantia,Google Ads,Brand Search ES Q1,25.66,3246,128,4,121.83
+2025-02-19,Clinica Vantia,Google Ads,Brand Search ES Q1,25.66,3246,128,4,
 2025-02-19,Clinica Vantia,Google Ads,LeadGen Search ES Q1,38.49,4957,187,4,130.67
 2025-02-20,Clinica Vantia,Google Ads,Brand Search ES Q1,21.32,2387,89,3,153.53
 2025-02-20,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.98,3590,136,4,204.11
 2025-02-21,Clinica Vantia,Google Ads,Brand Search ES Q1,21.42,2270,82,5,176.23
 2025-02-21,Clinica Vantia,Google Ads,LeadGen Search ES Q1,32.12,3565,127,7,253.05
 2025-02-22,Clinica Vantia,Google Ads,Brand Search ES Q1,23.01,1782,90,4,256.15
-2025-02-22,Clinica Vantia,Google Ads,LeadGen Search ES Q1,34.51,2563,139,7,
+2025-02-22,Clinica Vantia,Google Ads,LeadGen Search ES Q1,34.51,2563,139,7,206.77
 2025-02-23,Clinica Vantia,Google Ads,Brand Search ES Q1,21.24,2573,125,5,197.56
 2025-02-23,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.85,3935,216,7,266.12
 2025-02-24,Clinica Vantia,Google Ads,Brand Search ES Q1,23.31,2560,99,8,253.44
@@ -51,7 +51,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-02-25,Clinica Vantia,Google Ads,LeadGen Search ES Q1,33.61,4197,159,4,141.96
 2025-02-26,Clinica Vantia,Google Ads,Brand Search ES Q1,31.45,2680,94,1,40.42
 2025-02-26,Clinica Vantia,Google Ads,LeadGen Search ES Q1,47.17,3922,135,3,102.07
-2025-02-27,Clinica Vantia,Google Ads,Brand Search ES Q1,26.13,2643,136,7,270.64
+2025-02-27,Clinica Vantia,Google Ads,Brand Search ES Q1,26.13,2643,136,7,
 2025-02-27,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.19,3973,199,7,323.86
 2025-02-28,Clinica Vantia,Google Ads,Brand Search ES Q1,25.06,3570,159,3,150.09
 2025-02-28,Clinica Vantia,Google Ads,LeadGen Search ES Q1,37.59,5216,235,5,240.65
@@ -67,7 +67,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-03-05,Clinica Vantia,Google Ads,LeadGen Search ES Q1,33.67,3354,108,3,198.43
 2025-03-06,Clinica Vantia,Google Ads,Brand Search ES Q1,23.99,3162,180,7,256.98
 2025-03-06,Clinica Vantia,Google Ads,LeadGen Search ES Q1,35.99,4845,253,11,514.57
-2025-03-07,Clinica Vantia,Google Ads,Brand Search ES Q1,21.71,1678,60,4,
+2025-03-07,Clinica Vantia,Google Ads,Brand Search ES Q1,21.71,1678,60,4,256.52
 2025-03-07,Clinica Vantia,Google Ads,LeadGen Search ES Q1,32.57,2442,88,1,42.79
 2025-03-08,Clinica Vantia,Google Ads,Brand Search ES Q1,21.58,2938,99,3,143.29
 2025-03-08,Clinica Vantia,Google Ads,LeadGen Search ES Q1,32.37,4648,161,9,271.27
@@ -83,23 +83,23 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-03-13,Clinica Vantia,Google Ads,LeadGen Search ES Q1,27.73,3623,174,7,218.2
 2025-03-14,Clinica Vantia,Google Ads,Brand Search ES Q1,29.12,3117,144,3,142.47
 2025-03-14,Clinica Vantia,Google Ads,LeadGen Search ES Q1,43.69,4757,210,8,352.46
-2025-03-15,Clinica Vantia,Google Ads,Brand Search ES Q1,19.74,2747,143,2,
+2025-03-15,Clinica Vantia,Google Ads,Brand Search ES Q1,19.74,2747,143,2,87.78
 2025-03-15,Clinica Vantia,Google Ads,LeadGen Search ES Q1,29.61,3934,200,7,289.72
-2025-03-16,Clinica Vantia,Google Ads,Brand Search ES Q1,19.85,2303,64,1,36.52
+2025-03-16,Clinica Vantia,Google Ads,Brand Search ES Q1,19.85,2303,64,1,
 2025-03-16,Clinica Vantia,Google Ads,LeadGen Search ES Q1,29.78,3429,110,2,105.46
 2025-03-17,Clinica Vantia,Google Ads,Brand Search ES Q1,18.63,1708,59,5,162.7
-2025-03-17,Clinica Vantia,Google Ads,LeadGen Search ES Q1,27.94,2529,90,1,
+2025-03-17,Clinica Vantia,Google Ads,LeadGen Search ES Q1,27.94,2529,90,1,36.1
 2025-03-18,Clinica Vantia,Google Ads,Brand Search ES Q1,23.22,2400,86,4,161.61
 2025-03-18,Clinica Vantia,Google Ads,LeadGen Search ES Q1,34.83,3547,131,4,145.27
 2025-03-19,Clinica Vantia,Google Ads,Brand Search ES Q1,20.81,2292,68,0,0.0
-2025-03-19,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.22,3368,119,4,235.53
+2025-03-19,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.22,3368,119,4,
 2025-03-20,Clinica Vantia,Google Ads,Brand Search ES Q1,30.18,2362,104,1,27.22
 2025-03-20,Clinica Vantia,Google Ads,LeadGen Search ES Q1,45.27,3596,166,7,368.54
 2025-03-21,Clinica Vantia,Google Ads,Brand Search ES Q1,24.72,3211,185,6,189.7
 2025-03-21,Clinica Vantia,Google Ads,LeadGen Search ES Q1,37.08,4822,284,8,459.26
 2025-03-22,Clinica Vantia,Google Ads,Brand Search ES Q1,20.94,1753,72,0,0.0
 2025-03-22,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.42,2666,126,3,145.27
-2025-03-23,Clinica Vantia,Google Ads,Brand Search ES Q1,27.94,2750,86,4,146.68
+2025-03-23,Clinica Vantia,Google Ads,Brand Search ES Q1,27.94,2750,86,4,
 2025-03-23,Clinica Vantia,Google Ads,LeadGen Search ES Q1,41.91,4176,139,3,122.09
 2025-03-24,Clinica Vantia,Google Ads,Brand Search ES Q1,26.64,2560,127,5,276.9
 2025-03-24,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.96,3619,186,8,304.69
@@ -109,16 +109,16 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-03-26,Clinica Vantia,Google Ads,LeadGen Search ES Q1,33.43,4385,136,3,111.49
 2025-03-27,Clinica Vantia,Google Ads,Brand Search ES Q1,23.74,2146,97,5,164.84
 2025-03-27,Clinica Vantia,Google Ads,LeadGen Search ES Q1,35.6,3170,172,3,127.83
-2025-03-28,Clinica Vantia,Google Ads,Brand Search ES Q1,21.18,2583,110,4,
+2025-03-28,Clinica Vantia,Google Ads,Brand Search ES Q1,21.18,2583,110,4,223.14
 2025-03-28,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.77,3735,155,9,224.07
-2025-03-29,Clinica Vantia,Google Ads,Brand Search ES Q1,26.29,2049,96,4,
+2025-03-29,Clinica Vantia,Google Ads,Brand Search ES Q1,26.29,2049,96,4,69.86
 2025-03-29,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.43,3185,129,3,103.58
 2025-03-30,Clinica Vantia,Google Ads,Brand Search ES Q1,25.5,2898,143,9,312.35
 2025-03-30,Clinica Vantia,Google Ads,LeadGen Search ES Q1,38.26,4423,247,13,568.55
 2025-03-31,Clinica Vantia,Google Ads,Brand Search ES Q1,20.82,1691,53,3,82.89
 2025-03-31,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.24,2495,125,5,262.33
-2025-04-01,Clinica Vantia,Google Ads,Brand Search ES Q2,23.52,2404,106,2,92.45
-2025-04-01,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.28,3531,147,6,224.47
+2025-04-01,Clinica Vantia,Google Ads,Brand Search ES Q2,23.52,2404,106,2,
+2025-04-01,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.28,3531,147,6,
 2025-04-02,Clinica Vantia,Google Ads,Brand Search ES Q2,25.22,2473,89,1,48.15
 2025-04-02,Clinica Vantia,Google Ads,LeadGen Search ES Q2,37.82,3551,134,5,216.58
 2025-04-03,Clinica Vantia,Google Ads,Brand Search ES Q2,23.19,1876,79,3,150.72
@@ -154,7 +154,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-04-18,Clinica Vantia,Google Ads,Brand Search ES Q2,16.64,1231,60,2,71.18
 2025-04-18,Clinica Vantia,Google Ads,LeadGen Search ES Q2,24.95,1738,78,3,142.7
 2025-04-19,Clinica Vantia,Google Ads,Brand Search ES Q2,22.57,1548,87,0,0.0
-2025-04-19,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.85,2505,131,6,
+2025-04-19,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.85,2505,131,6,132.49
 2025-04-20,Clinica Vantia,Google Ads,Brand Search ES Q2,25.49,2694,129,5,231.68
 2025-04-20,Clinica Vantia,Google Ads,LeadGen Search ES Q2,38.23,4029,187,8,248.33
 2025-04-21,Clinica Vantia,Google Ads,Brand Search ES Q2,30.61,3912,168,5,246.22
@@ -162,7 +162,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-04-22,Clinica Vantia,Google Ads,Brand Search ES Q2,20.65,1887,91,5,224.35
 2025-04-22,Clinica Vantia,Google Ads,LeadGen Search ES Q2,30.97,2821,154,6,227.03
 2025-04-23,Clinica Vantia,Google Ads,Brand Search ES Q2,31.79,3049,166,7,259.04
-2025-04-23,Clinica Vantia,Google Ads,LeadGen Search ES Q2,47.69,4354,250,9,233.34
+2025-04-23,Clinica Vantia,Google Ads,LeadGen Search ES Q2,47.69,4354,250,9,
 2025-04-24,Clinica Vantia,Google Ads,Brand Search ES Q2,28.78,2904,111,4,143.14
 2025-04-24,Clinica Vantia,Google Ads,LeadGen Search ES Q2,43.17,4355,185,9,458.77
 2025-04-25,Clinica Vantia,Google Ads,Brand Search ES Q2,25.08,2128,84,1,56.61
@@ -171,8 +171,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-04-26,Clinica Vantia,Google Ads,LeadGen Search ES Q2,48.13,3703,143,2,58.1
 2025-04-27,Clinica Vantia,Google Ads,Brand Search ES Q2,28.7,3916,169,7,270.59
 2025-04-27,Clinica Vantia,Google Ads,LeadGen Search ES Q2,43.06,5826,271,10,387.85
-2025-04-28,Clinica Vantia,Google Ads,Brand Search ES Q2,26.9,2909,107,3,
-2025-04-28,Clinica Vantia,Google Ads,LeadGen Search ES Q2,40.35,4376,168,3,
+2025-04-28,Clinica Vantia,Google Ads,Brand Search ES Q2,26.9,2909,107,3,184.57
+2025-04-28,Clinica Vantia,Google Ads,LeadGen Search ES Q2,40.35,4376,168,3,146.11
 2025-04-29,Clinica Vantia,Google Ads,Brand Search ES Q2,26.15,2626,139,1,38.18
 2025-04-29,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.22,4022,193,0,0.0
 2025-04-30,Clinica Vantia,Google Ads,Brand Search ES Q2,20.81,1872,83,2,59.29
@@ -180,8 +180,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-01,Clinica Vantia,Google Ads,Brand Search ES Q2,30.65,2255,73,3,57.78
 2025-05-01,Clinica Vantia,Google Ads,LeadGen Search ES Q2,45.98,3374,99,4,177.88
 2025-05-02,Clinica Vantia,Google Ads,Brand Search ES Q2,29.28,3109,108,6,283.09
-2025-05-02,Clinica Vantia,Google Ads,LeadGen Search ES Q2,43.92,4576,163,4,274.04
-2025-05-03,Clinica Vantia,Google Ads,Brand Search ES Q2,22.05,2014,115,2,57.52
+2025-05-02,Clinica Vantia,Google Ads,LeadGen Search ES Q2,43.92,4576,163,4,
+2025-05-03,Clinica Vantia,Google Ads,Brand Search ES Q2,22.05,2014,115,2,
 2025-05-03,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.07,3117,200,5,195.75
 2025-05-04,Clinica Vantia,Google Ads,Brand Search ES Q2,23.87,2911,138,4,99.28
 2025-05-04,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.81,4492,191,6,351.09
@@ -196,17 +196,17 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-09,Clinica Vantia,Google Ads,Brand Search ES Q2,26.54,3055,159,6,208.47
 2025-05-09,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.81,4456,243,11,433.72
 2025-05-10,Clinica Vantia,Google Ads,Brand Search ES Q2,23.71,2159,109,2,65.55
-2025-05-10,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.56,3173,177,6,
+2025-05-10,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.56,3173,177,6,306.18
 2025-05-11,Clinica Vantia,Google Ads,Brand Search ES Q2,23.34,2330,95,3,140.14
 2025-05-11,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.01,3425,179,2,71.52
-2025-05-12,Clinica Vantia,Google Ads,Brand Search ES Q2,30.62,3637,156,6,
+2025-05-12,Clinica Vantia,Google Ads,Brand Search ES Q2,30.62,3637,156,6,220.25
 2025-05-12,Clinica Vantia,Google Ads,LeadGen Search ES Q2,45.93,5176,259,13,533.27
 2025-05-13,Clinica Vantia,Google Ads,Brand Search ES Q2,24.29,2345,77,3,94.02
 2025-05-13,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.44,3646,133,5,185.66
-2025-05-14,Clinica Vantia,Google Ads,Brand Search ES Q2,21.44,1736,84,3,125.84
+2025-05-14,Clinica Vantia,Google Ads,Brand Search ES Q2,21.44,1736,84,3,
 2025-05-14,Clinica Vantia,Google Ads,LeadGen Search ES Q2,32.16,2569,119,1,39.96
 2025-05-15,Clinica Vantia,Google Ads,Brand Search ES Q2,30.22,3384,125,4,139.59
-2025-05-15,Clinica Vantia,Google Ads,LeadGen Search ES Q2,45.33,5082,203,8,281.83
+2025-05-15,Clinica Vantia,Google Ads,LeadGen Search ES Q2,45.33,5082,203,8,
 2025-05-16,Clinica Vantia,Google Ads,Brand Search ES Q2,27.13,2158,101,3,182.53
 2025-05-16,Clinica Vantia,Google Ads,LeadGen Search ES Q2,40.7,3160,136,5,301.22
 2025-05-17,Clinica Vantia,Google Ads,Brand Search ES Q2,22.01,1733,74,3,141.65
@@ -216,7 +216,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-19,Clinica Vantia,Google Ads,Brand Search ES Q2,24.39,2684,89,3,82.53
 2025-05-19,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.59,3813,156,4,133.79
 2025-05-20,Clinica Vantia,Google Ads,Brand Search ES Q2,34.83,3161,118,2,68.04
-2025-05-20,Clinica Vantia,Google Ads,LeadGen Search ES Q2,52.25,4608,137,3,
+2025-05-20,Clinica Vantia,Google Ads,LeadGen Search ES Q2,52.25,4608,137,3,160.59
 2025-05-21,Clinica Vantia,Google Ads,Brand Search ES Q2,26.52,2221,97,6,222.07
 2025-05-21,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.79,3176,127,5,215.08
 2025-05-22,Clinica Vantia,Google Ads,Brand Search ES Q2,26.4,1877,55,0,0.0
@@ -225,7 +225,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-23,Clinica Vantia,Google Ads,LeadGen Search ES Q2,29.67,2160,99,5,227.69
 2025-05-24,Clinica Vantia,Google Ads,Brand Search ES Q2,26.19,2866,161,9,408.45
 2025-05-24,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.28,4339,232,11,389.5
-2025-05-25,Clinica Vantia,Google Ads,Brand Search ES Q2,31.07,3701,125,8,323.31
+2025-05-25,Clinica Vantia,Google Ads,Brand Search ES Q2,31.07,3701,125,8,
 2025-05-25,Clinica Vantia,Google Ads,LeadGen Search ES Q2,46.61,5423,210,10,342.28
 2025-05-26,Clinica Vantia,Google Ads,Brand Search ES Q2,19.8,1554,72,0,0.0
 2025-05-26,Clinica Vantia,Google Ads,LeadGen Search ES Q2,29.7,2280,90,3,160.23
@@ -245,56 +245,36 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-06-02,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.68,3302,181,4,138.77
 2025-06-03,Clinica Vantia,Google Ads,Brand Search ES Q2,20.55,1559,67,3,142.39
 2025-06-03,Clinica Vantia,Google Ads,LeadGen Search ES Q2,30.83,2335,102,4,200.61
-2025-06-04,Clinica Vantia,Google Ads,Brand Search ES Q2,26.86,2656,131,2,
-2025-06-04,Clinica Vantia,Google Ads,LeadGen Search ES Q2,40.29,4052,172,7,
+2025-06-04,Clinica Vantia,Google Ads,Brand Search ES Q2,26.86,2656,131,2,93.79
+2025-06-04,Clinica Vantia,Google Ads,LeadGen Search ES Q2,40.29,4052,172,7,271.97
 2025-06-05,Clinica Vantia,Google Ads,Brand Search ES Q2,24.9,2406,74,2,130.86
 2025-06-05,Clinica Vantia,Google Ads,LeadGen Search ES Q2,37.34,3645,102,6,257.8
 2025-06-06,Clinica Vantia,Google Ads,Brand Search ES Q2,28.9,2310,92,7,260.76
 2025-06-06,Clinica Vantia,Google Ads,LeadGen Search ES Q2,43.35,3569,179,7,301.25
 2025-06-07,Clinica Vantia,Google Ads,Brand Search ES Q2,27.84,2286,90,6,225.99
-2025-06-07,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.77,3487,149,7,410.95
+2025-06-07,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.77,3487,149,7,
 2025-06-08,Clinica Vantia,Google Ads,Brand Search ES Q2,30.84,4206,152,10,441.63
-2025-06-08,Clinica Vantia,Google Ads,LeadGen Search ES Q2,46.25,6269,269,13,376.15
+2025-06-08,Clinica Vantia,Google Ads,LeadGen Search ES Q2,46.25,6269,269,13,
 2025-06-09,Clinica Vantia,Google Ads,Brand Search ES Q2,28.01,2055,114,2,100.3
 2025-06-09,Clinica Vantia,Google Ads,LeadGen Search ES Q2,42.01,3110,162,5,311.38
 2025-06-10,Clinica Vantia,Google Ads,Brand Search ES Q2,23.69,1836,67,4,149.54
 2025-06-10,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.53,2714,112,8,335.97
-2025-06-10,Clinica Vantia,Google Ads,Brand Search ES Q2,23.69,1836,67,4,149.54
-2025-06-10,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.53,2714,112,8,335.97
-2025-06-11,Clinica Vantia,Google Ads,Brand Search ES Q2,28.48,2047,94,7,296.13
-2025-06-11,Clinica Vantia,Google Ads,LeadGen Search ES Q2,42.72,3121,155,8,364.25
 2025-06-11,Clinica Vantia,Google Ads,Brand Search ES Q2,28.48,2047,94,7,296.13
 2025-06-11,Clinica Vantia,Google Ads,LeadGen Search ES Q2,42.72,3121,155,8,364.25
 2025-06-12,Clinica Vantia,Google Ads,Brand Search ES Q2,24.28,1961,102,2,98.55
 2025-06-12,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.41,2985,175,6,258.39
-2025-06-12,Clinica Vantia,Google Ads,Brand Search ES Q2,24.28,1961,102,2,98.55
-2025-06-12,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.41,2985,175,6,258.39
-2025-06-13,Clinica Vantia,Google Ads,Brand Search ES Q2,26.28,3167,119,3,108.81
-2025-06-13,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.43,4923,163,6,257.37
 2025-06-13,Clinica Vantia,Google Ads,Brand Search ES Q2,26.28,3167,119,3,108.81
 2025-06-13,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.43,4923,163,6,257.37
 2025-06-14,Clinica Vantia,Google Ads,Brand Search ES Q2,33.24,3483,106,3,100.31
 2025-06-14,Clinica Vantia,Google Ads,LeadGen Search ES Q2,49.86,5042,189,11,377.62
-2025-06-14,Clinica Vantia,Google Ads,Brand Search ES Q2,33.24,3483,106,3,100.31
-2025-06-14,Clinica Vantia,Google Ads,LeadGen Search ES Q2,49.86,5042,189,11,377.62
-2025-06-15,Clinica Vantia,Google Ads,Brand Search ES Q2,23.53,2279,69,0,0.0
-2025-06-15,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.29,3210,104,8,438.9
 2025-06-15,Clinica Vantia,Google Ads,Brand Search ES Q2,23.53,2279,69,0,0.0
 2025-06-15,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.29,3210,104,8,438.9
 2025-06-16,Clinica Vantia,Google Ads,Brand Search ES Q2,24.31,2435,129,6,235.43
 2025-06-16,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.47,3749,243,9,514.04
-2025-06-16,Clinica Vantia,Google Ads,Brand Search ES Q2,24.31,2435,129,6,235.43
-2025-06-16,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.47,3749,243,9,514.04
-2025-06-17,Clinica Vantia,Google Ads,Brand Search ES Q2,22.15,1868,125,4,185.1
-2025-06-17,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.22,2802,159,8,347.53
 2025-06-17,Clinica Vantia,Google Ads,Brand Search ES Q2,22.15,1868,125,4,185.1
 2025-06-17,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.22,2802,159,8,347.53
 2025-06-18,Clinica Vantia,Google Ads,Brand Search ES Q2,27.51,3013,183,5,132.1
 2025-06-18,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.27,4582,266,11,351.36
-2025-06-18,Clinica Vantia,Google Ads,Brand Search ES Q2,27.51,3013,183,5,132.1
-2025-06-18,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.27,4582,266,11,351.36
-2025-06-19,Clinica Vantia,Google Ads,Brand Search ES Q2,25.22,2183,135,3,112.17
-2025-06-19,Clinica Vantia,Google Ads,LeadGen Search ES Q2,37.83,3195,168,3,167.56
 2025-06-19,Clinica Vantia,Google Ads,Brand Search ES Q2,25.22,2183,135,3,112.17
 2025-06-19,Clinica Vantia,Google Ads,LeadGen Search ES Q2,37.83,3195,168,3,167.56
 2025-06-20,Clinica Vantia,Google Ads,Brand Search ES Q2,23.94,2898,113,5,241.6
@@ -349,7 +329,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-07-14,Clinica Vantia,Google Ads,LeadGen Search ES Q3,29.71,2165,84,2,96.1
 2025-07-15,Clinica Vantia,Google Ads,Brand Search ES Q3,24.13,2474,96,0,0.0
 2025-07-15,Clinica Vantia,Google Ads,LeadGen Search ES Q3,36.19,3595,134,4,164.68
-2025-07-16,Clinica Vantia,Google Ads,Brand Search ES Q3,27.15,2916,130,7,
+2025-07-16,Clinica Vantia,Google Ads,Brand Search ES Q3,27.15,2916,130,7,245.5
 2025-07-16,Clinica Vantia,Google Ads,LeadGen Search ES Q3,40.72,4315,212,10,392.2
 2025-07-17,Clinica Vantia,Google Ads,Brand Search ES Q3,21.35,1904,75,3,80.83
 2025-07-17,Clinica Vantia,Google Ads,LeadGen Search ES Q3,32.02,2748,125,1,37.54
@@ -357,7 +337,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-07-18,Clinica Vantia,Google Ads,LeadGen Search ES Q3,35.71,3748,230,4,198.28
 2025-07-19,Clinica Vantia,Google Ads,Brand Search ES Q3,23.6,1678,54,0,0.0
 2025-07-19,Clinica Vantia,Google Ads,LeadGen Search ES Q3,35.41,2544,96,1,33.75
-2025-07-20,Clinica Vantia,Google Ads,Brand Search ES Q3,28.54,2475,87,1,35.04
+2025-07-20,Clinica Vantia,Google Ads,Brand Search ES Q3,28.54,2475,87,1,
 2025-07-20,Clinica Vantia,Google Ads,LeadGen Search ES Q3,42.8,3548,126,2,120.2
 2025-07-21,Clinica Vantia,Google Ads,Brand Search ES Q3,29.21,2219,89,5,247.46
 2025-07-21,Clinica Vantia,Google Ads,LeadGen Search ES Q3,43.81,3347,132,5,300.8
@@ -397,7 +377,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-08-07,Clinica Vantia,Google Ads,LeadGen Search ES Q3,31.54,2422,101,6,163.94
 2025-08-08,Clinica Vantia,Google Ads,Brand Search ES Q3,30.73,3210,176,7,264.62
 2025-08-08,Clinica Vantia,Google Ads,LeadGen Search ES Q3,46.1,4777,286,10,245.19
-2025-08-09,Clinica Vantia,Google Ads,Brand Search ES Q3,26.67,2657,145,3,
+2025-08-09,Clinica Vantia,Google Ads,Brand Search ES Q3,26.67,2657,145,3,109.01
 2025-08-09,Clinica Vantia,Google Ads,LeadGen Search ES Q3,40.0,3973,229,1,44.23
 2025-08-10,Clinica Vantia,Google Ads,Brand Search ES Q3,21.64,1719,110,2,69.39
 2025-08-10,Clinica Vantia,Google Ads,LeadGen Search ES Q3,32.47,2582,150,5,307.95
@@ -420,7 +400,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-08-19,Clinica Vantia,Google Ads,Brand Search ES Q3,23.02,2307,81,6,193.06
 2025-08-19,Clinica Vantia,Google Ads,LeadGen Search ES Q3,34.53,3423,112,7,244.11
 2025-08-20,Clinica Vantia,Google Ads,Brand Search ES Q3,24.18,2983,172,0,0.0
-2025-08-20,Clinica Vantia,Google Ads,LeadGen Search ES Q3,36.27,4491,244,8,235.7
+2025-08-20,Clinica Vantia,Google Ads,LeadGen Search ES Q3,36.27,4491,244,8,
 2025-08-21,Clinica Vantia,Google Ads,Brand Search ES Q3,33.16,3660,174,5,259.06
 2025-08-21,Clinica Vantia,Google Ads,LeadGen Search ES Q3,49.74,5624,271,11,507.4
 2025-08-22,Clinica Vantia,Google Ads,Brand Search ES Q3,22.37,1681,81,2,85.34
@@ -431,27 +411,27 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-08-24,Clinica Vantia,Google Ads,LeadGen Search ES Q3,39.42,3612,188,5,215.88
 2025-08-25,Clinica Vantia,Google Ads,Brand Search ES Q3,21.68,1861,103,9,231.86
 2025-08-25,Clinica Vantia,Google Ads,LeadGen Search ES Q3,32.52,2663,169,4,163.87
-2025-08-26,Clinica Vantia,Google Ads,Brand Search ES Q3,27.29,2458,94,1,
+2025-08-26,Clinica Vantia,Google Ads,Brand Search ES Q3,27.29,2458,94,1,41.7
 2025-08-26,Clinica Vantia,Google Ads,LeadGen Search ES Q3,40.93,3764,151,3,108.02
 2025-08-27,Clinica Vantia,Google Ads,Brand Search ES Q3,27.42,2833,81,1,23.4
 2025-08-27,Clinica Vantia,Google Ads,LeadGen Search ES Q3,41.12,4174,130,3,140.68
 2025-08-28,Clinica Vantia,Google Ads,Brand Search ES Q3,26.4,3129,138,3,126.97
 2025-08-28,Clinica Vantia,Google Ads,LeadGen Search ES Q3,39.6,4585,194,10,268.59
 2025-08-29,Clinica Vantia,Google Ads,Brand Search ES Q3,33.17,2575,86,4,173.31
-2025-08-29,Clinica Vantia,Google Ads,LeadGen Search ES Q3,49.75,3809,137,6,289.85
+2025-08-29,Clinica Vantia,Google Ads,LeadGen Search ES Q3,49.75,3809,137,6,
 2025-08-30,Clinica Vantia,Google Ads,Brand Search ES Q3,27.14,3372,206,14,628.31
 2025-08-30,Clinica Vantia,Google Ads,LeadGen Search ES Q3,40.71,5110,297,12,381.01
 2025-08-31,Clinica Vantia,Google Ads,Brand Search ES Q3,25.59,2888,175,8,344.39
 2025-08-31,Clinica Vantia,Google Ads,LeadGen Search ES Q3,38.39,4549,273,6,284.74
 2025-09-01,Clinica Vantia,Google Ads,Brand Search ES Q3,33.7,3542,89,6,246.08
-2025-09-01,Clinica Vantia,Google Ads,LeadGen Search ES Q3,50.55,5332,163,7,
+2025-09-01,Clinica Vantia,Google Ads,LeadGen Search ES Q3,50.55,5332,163,7,388.9
 2025-09-02,Clinica Vantia,Google Ads,Brand Search ES Q3,30.85,3101,178,12,362.45
 2025-09-02,Clinica Vantia,Google Ads,LeadGen Search ES Q3,46.28,4652,246,12,315.22
 2025-09-03,Clinica Vantia,Google Ads,Brand Search ES Q3,26.88,2176,126,2,97.61
 2025-09-03,Clinica Vantia,Google Ads,LeadGen Search ES Q3,40.32,3410,214,8,414.97
 2025-09-04,Clinica Vantia,Google Ads,Brand Search ES Q3,27.65,2333,143,3,67.11
 2025-09-04,Clinica Vantia,Google Ads,LeadGen Search ES Q3,41.48,3382,221,11,629.0
-2025-09-05,Clinica Vantia,Google Ads,Brand Search ES Q3,27.46,2625,78,5,179.41
+2025-09-05,Clinica Vantia,Google Ads,Brand Search ES Q3,27.46,2625,78,5,
 2025-09-05,Clinica Vantia,Google Ads,LeadGen Search ES Q3,41.19,3987,119,5,220.16
 2025-09-06,Clinica Vantia,Google Ads,Brand Search ES Q3,33.33,2404,132,2,82.96
 2025-09-06,Clinica Vantia,Google Ads,LeadGen Search ES Q3,50.0,3620,204,2,88.8
@@ -495,13 +475,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-09-25,Clinica Vantia,Google Ads,LeadGen Search ES Q3,58.82,5692,273,17,759.62
 2025-09-26,Clinica Vantia,Google Ads,Brand Search ES Q3,23.18,1969,59,2,88.89
 2025-09-26,Clinica Vantia,Google Ads,LeadGen Search ES Q3,34.76,2816,100,5,191.85
-2025-09-27,Clinica Vantia,Google Ads,Brand Search ES Q3,34.37,2753,107,4,
+2025-09-27,Clinica Vantia,Google Ads,Brand Search ES Q3,34.37,2753,107,4,291.6
 2025-09-27,Clinica Vantia,Google Ads,LeadGen Search ES Q3,51.56,4221,150,1,37.16
 2025-09-28,Clinica Vantia,Google Ads,Brand Search ES Q3,31.86,2287,101,5,174.25
 2025-09-28,Clinica Vantia,Google Ads,LeadGen Search ES Q3,47.8,3457,147,2,77.45
 2025-09-29,Clinica Vantia,Google Ads,Brand Search ES Q3,28.17,2040,96,8,342.19
 2025-09-29,Clinica Vantia,Google Ads,LeadGen Search ES Q3,42.25,3098,169,11,382.68
-2025-09-30,Clinica Vantia,Google Ads,Brand Search ES Q3,34.2,3394,97,1,37.34
+2025-09-30,Clinica Vantia,Google Ads,Brand Search ES Q3,34.2,3394,97,1,
 2025-09-30,Clinica Vantia,Google Ads,LeadGen Search ES Q3,51.3,5070,149,7,342.28
 2025-10-01,Clinica Vantia,Google Ads,Brand Search ES Q4,26.94,2687,166,6,218.31
 2025-10-01,Clinica Vantia,Google Ads,LeadGen Search ES Q4,40.4,3954,237,9,540.62
@@ -559,22 +539,22 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-27,Clinica Vantia,Google Ads,LeadGen Search ES Q4,29.86,4043,106,7,322.04
 2025-10-28,Clinica Vantia,Google Ads,Brand Search ES Q4,22.31,2133,93,3,119.41
 2025-10-28,Clinica Vantia,Google Ads,LeadGen Search ES Q4,33.46,3149,186,9,380.8
-2025-10-29,Clinica Vantia,Google Ads,Brand Search ES Q4,21.5,1816,91,3,
+2025-10-29,Clinica Vantia,Google Ads,Brand Search ES Q4,21.5,1816,91,3,104.25
 2025-10-29,Clinica Vantia,Google Ads,LeadGen Search ES Q4,32.26,2608,150,3,122.13
 2025-10-30,Clinica Vantia,Google Ads,Brand Search ES Q4,19.82,1751,52,3,132.87
-2025-10-30,Clinica Vantia,Google Ads,LeadGen Search ES Q4,29.74,2613,84,6,
+2025-10-30,Clinica Vantia,Google Ads,LeadGen Search ES Q4,29.74,2613,84,6,190.95
 2025-10-31,Clinica Vantia,Google Ads,Brand Search ES Q4,26.28,2591,84,8,236.7
 2025-10-31,Clinica Vantia,Google Ads,LeadGen Search ES Q4,39.42,3855,145,7,220.49
 2025-11-01,Clinica Vantia,Google Ads,Brand Search ES Q4,24.8,2294,68,2,73.51
-2025-11-01,Clinica Vantia,Google Ads,LeadGen Search ES Q4,37.2,3409,125,4,154.95
-2025-11-02,Clinica Vantia,Google Ads,Brand Search ES Q4,19.05,1795,65,4,
+2025-11-01,Clinica Vantia,Google Ads,LeadGen Search ES Q4,37.2,3409,125,4,
+2025-11-02,Clinica Vantia,Google Ads,Brand Search ES Q4,19.05,1795,65,4,145.26
 2025-11-02,Clinica Vantia,Google Ads,LeadGen Search ES Q4,28.58,2584,95,3,142.4
-2025-11-03,Clinica Vantia,Google Ads,Brand Search ES Q4,23.23,1795,79,1,25.01
+2025-11-03,Clinica Vantia,Google Ads,Brand Search ES Q4,23.23,1795,79,1,
 2025-11-03,Clinica Vantia,Google Ads,LeadGen Search ES Q4,34.84,2802,124,1,33.36
 2025-11-04,Clinica Vantia,Google Ads,Brand Search ES Q4,22.52,2015,104,2,111.6
 2025-11-04,Clinica Vantia,Google Ads,LeadGen Search ES Q4,33.78,3083,112,4,319.95
 2025-11-05,Clinica Vantia,Google Ads,Brand Search ES Q4,21.03,2443,107,5,97.08
-2025-11-05,Clinica Vantia,Google Ads,LeadGen Search ES Q4,31.54,3630,148,7,317.15
+2025-11-05,Clinica Vantia,Google Ads,LeadGen Search ES Q4,31.54,3630,148,7,
 2025-11-06,Clinica Vantia,Google Ads,Brand Search ES Q4,24.89,2091,105,1,39.3
 2025-11-06,Clinica Vantia,Google Ads,LeadGen Search ES Q4,37.34,3394,195,3,111.98
 2025-11-07,Clinica Vantia,Google Ads,Brand Search ES Q4,26.86,2096,104,6,262.25
@@ -608,25 +588,25 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-11-21,Clinica Vantia,Google Ads,Brand Search ES Q4,24.67,3456,111,7,280.67
 2025-11-21,Clinica Vantia,Google Ads,LeadGen Search ES Q4,37.0,5132,200,9,452.64
 2025-11-22,Clinica Vantia,Google Ads,Brand Search ES Q4,20.03,2746,162,5,221.18
-2025-11-22,Clinica Vantia,Google Ads,LeadGen Search ES Q4,30.05,4052,210,12,
+2025-11-22,Clinica Vantia,Google Ads,LeadGen Search ES Q4,30.05,4052,210,12,470.05
 2025-11-23,Clinica Vantia,Google Ads,Brand Search ES Q4,26.41,2458,76,1,36.23
 2025-11-23,Clinica Vantia,Google Ads,LeadGen Search ES Q4,39.62,3723,110,5,282.0
 2025-11-24,Clinica Vantia,Google Ads,Brand Search ES Q4,27.45,2230,92,2,100.4
 2025-11-24,Clinica Vantia,Google Ads,LeadGen Search ES Q4,41.18,3312,140,2,69.0
-2025-11-25,Clinica Vantia,Google Ads,Brand Search ES Q4,22.36,1943,85,2,69.38
+2025-11-25,Clinica Vantia,Google Ads,Brand Search ES Q4,22.36,1943,85,2,
 2025-11-25,Clinica Vantia,Google Ads,LeadGen Search ES Q4,33.53,3067,141,4,154.71
 2025-11-26,Clinica Vantia,Google Ads,Brand Search ES Q4,25.4,2055,95,1,55.3
 2025-11-26,Clinica Vantia,Google Ads,LeadGen Search ES Q4,38.1,3003,165,1,54.59
 2025-11-27,Clinica Vantia,Google Ads,Brand Search ES Q4,19.64,2188,114,0,0.0
-2025-11-27,Clinica Vantia,Google Ads,LeadGen Search ES Q4,29.46,3439,140,9,
+2025-11-27,Clinica Vantia,Google Ads,LeadGen Search ES Q4,29.46,3439,140,9,523.12
 2025-11-28,Clinica Vantia,Google Ads,Brand Search ES Q4,27.53,2466,133,4,135.79
 2025-11-28,Clinica Vantia,Google Ads,LeadGen Search ES Q4,41.29,3614,199,12,686.73
 2025-11-29,Clinica Vantia,Google Ads,Brand Search ES Q4,19.62,1424,64,2,62.82
 2025-11-29,Clinica Vantia,Google Ads,LeadGen Search ES Q4,29.43,2056,86,3,149.1
 2025-11-30,Clinica Vantia,Google Ads,Brand Search ES Q4,21.69,1730,124,5,198.17
-2025-11-30,Clinica Vantia,Google Ads,LeadGen Search ES Q4,32.53,2730,146,2,76.29
+2025-11-30,Clinica Vantia,Google Ads,LeadGen Search ES Q4,32.53,2730,146,2,
 2025-12-01,Clinica Vantia,Google Ads,Brand Search ES Q4,26.8,3607,122,8,350.33
-2025-12-01,Clinica Vantia,Google Ads,LeadGen Search ES Q4,40.2,5526,167,6,
+2025-12-01,Clinica Vantia,Google Ads,LeadGen Search ES Q4,40.2,5526,167,6,230.02
 2025-12-02,Clinica Vantia,Google Ads,Brand Search ES Q4,21.01,1466,44,0,0.0
 2025-12-02,Clinica Vantia,Google Ads,LeadGen Search ES Q4,31.52,2242,63,1,46.25
 2025-12-03,Clinica Vantia,Google Ads,Brand Search ES Q4,23.19,3328,120,1,36.86
@@ -634,7 +614,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-12-04,Clinica Vantia,Google Ads,Brand Search ES Q4,28.42,3556,146,9,400.26
 2025-12-04,Clinica Vantia,Google Ads,LeadGen Search ES Q4,42.63,5374,214,11,456.09
 2025-12-05,Clinica Vantia,Google Ads,Brand Search ES Q4,22.25,2558,88,3,117.68
-2025-12-05,Clinica Vantia,Google Ads,LeadGen Search ES Q4,33.38,3859,137,5,358.56
+2025-12-05,Clinica Vantia,Google Ads,LeadGen Search ES Q4,33.38,3859,137,5,
 2025-12-06,Clinica Vantia,Google Ads,Brand Search ES Q4,28.64,3969,199,2,73.95
 2025-12-06,Clinica Vantia,Google Ads,LeadGen Search ES Q4,42.96,5793,284,2,84.31
 2025-12-07,Clinica Vantia,Google Ads,Brand Search ES Q4,23.83,3149,109,4,127.8
@@ -677,7 +657,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-12-25,Clinica Vantia,Google Ads,LeadGen Search ES Q4,41.3,3970,139,5,223.74
 2025-12-26,Clinica Vantia,Google Ads,Brand Search ES Q4,21.64,1757,58,1,50.92
 2025-12-26,Clinica Vantia,Google Ads,LeadGen Search ES Q4,32.46,2587,97,5,142.73
-2025-12-27,Clinica Vantia,Google Ads,Brand Search ES Q4,18.01,2010,50,3,
+2025-12-27,Clinica Vantia,Google Ads,Brand Search ES Q4,18.01,2010,50,3,132.06
 2025-12-27,Clinica Vantia,Google Ads,LeadGen Search ES Q4,27.02,2979,85,1,29.69
 2025-12-28,Clinica Vantia,Google Ads,Brand Search ES Q4,23.52,2108,96,6,297.17
 2025-12-28,Clinica Vantia,Google Ads,LeadGen Search ES Q4,35.29,3351,176,5,167.15
@@ -687,13 +667,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-12-30,Clinica Vantia,Google Ads,LeadGen Search ES Q4,36.24,2675,78,2,
 2025-12-31,Clinica Vantia,Google Ads,Brand Search ES Q4,29.66,3601,154,5,232.77
 2025-12-31,Clinica Vantia,Google Ads,LeadGen Search ES Q4,44.49,5580,233,9,291.05
-2026-01-01,Clinica Vantia,Google Ads,Brand Search ES Q1,28.46,2360,119,7,
+2026-01-01,Clinica Vantia,Google Ads,Brand Search ES Q1,28.46,2360,119,7,604.73
 2026-01-01,Clinica Vantia,Google Ads,LeadGen Search ES Q1,42.69,3525,182,11,607.05
-2026-01-02,Clinica Vantia,Google Ads,Brand Search ES Q1,26.32,2630,145,7,273.02
+2026-01-02,Clinica Vantia,Google Ads,Brand Search ES Q1,26.32,2630,145,7,
 2026-01-02,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.48,3778,228,8,338.15
 2026-01-03,Clinica Vantia,Google Ads,Brand Search ES Q1,21.6,1958,95,3,109.78
 2026-01-03,Clinica Vantia,Google Ads,LeadGen Search ES Q1,32.4,2915,131,4,180.17
-2026-01-04,Clinica Vantia,Google Ads,Brand Search ES Q1,31.41,2626,114,4,177.69
+2026-01-04,Clinica Vantia,Google Ads,Brand Search ES Q1,31.41,2626,114,4,
 2026-01-04,Clinica Vantia,Google Ads,LeadGen Search ES Q1,47.11,3926,142,8,231.91
 2026-01-05,Clinica Vantia,Google Ads,Brand Search ES Q1,29.45,2341,102,4,174.82
 2026-01-05,Clinica Vantia,Google Ads,LeadGen Search ES Q1,44.17,3539,147,8,247.66
@@ -753,12 +733,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-01,Clinica Vantia,Google Ads,LeadGen Search ES Q1,42.67,4594,164,5,186.64
 2026-02-02,Clinica Vantia,Google Ads,Brand Search ES Q1,19.01,2036,66,2,92.64
 2026-02-02,Clinica Vantia,Google Ads,LeadGen Search ES Q1,28.51,3022,94,1,38.83
-2026-02-03,Clinica Vantia,Google Ads,Brand Search ES Q1,29.96,3473,180,10,
+2026-02-03,Clinica Vantia,Google Ads,Brand Search ES Q1,29.96,3473,180,10,310.3
 2026-02-03,Clinica Vantia,Google Ads,LeadGen Search ES Q1,44.93,5236,248,9,313.87
 2026-02-04,Clinica Vantia,Google Ads,Brand Search ES Q1,23.25,1706,67,1,44.36
 2026-02-04,Clinica Vantia,Google Ads,LeadGen Search ES Q1,34.88,2574,106,3,85.95
 2026-02-05,Clinica Vantia,Google Ads,Brand Search ES Q1,26.6,3518,117,2,94.5
-2026-02-05,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.9,5220,175,2,67.58
+2026-02-05,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.9,5220,175,2,
 2026-02-06,Clinica Vantia,Google Ads,Brand Search ES Q1,23.75,2458,132,6,259.9
 2026-02-06,Clinica Vantia,Google Ads,LeadGen Search ES Q1,35.62,3955,236,7,231.89
 2026-02-07,Clinica Vantia,Google Ads,Brand Search ES Q1,23.54,2336,80,3,92.82
@@ -772,13 +752,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-11,Clinica Vantia,Google Ads,Brand Search ES Q1,30.9,3035,90,1,47.36
 2026-02-11,Clinica Vantia,Google Ads,LeadGen Search ES Q1,46.34,4634,161,3,121.57
 2026-02-12,Clinica Vantia,Google Ads,Brand Search ES Q1,24.4,1962,63,1,38.43
-2026-02-12,Clinica Vantia,Google Ads,LeadGen Search ES Q1,36.59,2985,82,5,
+2026-02-12,Clinica Vantia,Google Ads,LeadGen Search ES Q1,36.59,2985,82,5,229.89
 2026-02-13,Clinica Vantia,Google Ads,Brand Search ES Q1,26.33,1802,66,3,151.77
 2026-02-13,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.49,2823,106,3,123.5
 2026-02-14,Clinica Vantia,Google Ads,Brand Search ES Q1,25.91,2627,113,5,239.57
 2026-02-14,Clinica Vantia,Google Ads,LeadGen Search ES Q1,38.86,3893,153,8,330.58
 2026-02-15,Clinica Vantia,Google Ads,Brand Search ES Q1,17.13,1356,45,2,76.35
-2026-02-15,Clinica Vantia,Google Ads,LeadGen Search ES Q1,25.7,2123,78,1,36.19
+2026-02-15,Clinica Vantia,Google Ads,LeadGen Search ES Q1,25.7,2123,78,1,
 2026-02-16,Clinica Vantia,Google Ads,Brand Search ES Q1,25.4,2285,116,6,173.78
 2026-02-16,Clinica Vantia,Google Ads,LeadGen Search ES Q1,38.1,3472,184,8,367.45
 2026-02-17,Clinica Vantia,Google Ads,Brand Search ES Q1,24.25,1953,80,3,80.8
@@ -795,13 +775,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-22,Clinica Vantia,Google Ads,LeadGen Search ES Q1,47.62,4531,262,6,232.08
 2026-02-23,Clinica Vantia,Google Ads,Brand Search ES Q1,32.85,3161,130,4,186.1
 2026-02-23,Clinica Vantia,Google Ads,LeadGen Search ES Q1,49.27,4728,181,8,209.57
-2026-02-24,Clinica Vantia,Google Ads,Brand Search ES Q1,32.62,3633,127,5,
+2026-02-24,Clinica Vantia,Google Ads,Brand Search ES Q1,32.62,3633,127,5,225.27
 2026-02-24,Clinica Vantia,Google Ads,LeadGen Search ES Q1,48.93,5444,184,9,515.22
 2026-02-25,Clinica Vantia,Google Ads,Brand Search ES Q1,29.04,3913,147,5,142.84
 2026-02-25,Clinica Vantia,Google Ads,LeadGen Search ES Q1,43.56,5825,191,7,218.86
 2026-02-26,Clinica Vantia,Google Ads,Brand Search ES Q1,22.1,2142,100,5,281.74
 2026-02-26,Clinica Vantia,Google Ads,LeadGen Search ES Q1,33.15,3071,139,4,132.75
-2026-02-27,Clinica Vantia,Google Ads,Brand Search ES Q1,24.55,2518,123,6,223.33
+2026-02-27,Clinica Vantia,Google Ads,Brand Search ES Q1,24.55,2518,123,6,
 2026-02-27,Clinica Vantia,Google Ads,LeadGen Search ES Q1,36.83,3797,213,7,399.01
 2026-02-28,Clinica Vantia,Google Ads,Brand Search ES Q1,26.51,2022,134,3,106.62
 2026-02-28,Clinica Vantia,Google Ads,LeadGen Search ES Q1,39.77,3048,197,6,224.14
@@ -813,25 +793,25 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-03-03,Clinica Vantia,Google Ads,LeadGen Search ES Q1,29.6,2798,126,7,449.08
 2026-03-04,Clinica Vantia,Google Ads,Brand Search ES Q1,23.86,1972,88,3,103.43
 2026-03-04,Clinica Vantia,Google Ads,LeadGen Search ES Q1,35.78,2950,159,6,253.62
-2026-03-05,Clinica Vantia,Google Ads,Brand Search ES Q1,24.66,2639,97,1,
+2026-03-05,Clinica Vantia,Google Ads,Brand Search ES Q1,24.66,2639,97,1,47.12
 2026-03-05,Clinica Vantia,Google Ads,LeadGen Search ES Q1,36.99,4007,177,5,248.05
 2026-03-06,Clinica Vantia,Google Ads,Brand Search ES Q1,26.69,3324,141,13,915.92
 2026-03-06,Clinica Vantia,Google Ads,LeadGen Search ES Q1,40.03,4989,242,8,329.13
 2026-03-07,Clinica Vantia,Google Ads,Brand Search ES Q1,21.0,2192,68,1,81.81
 2026-03-07,Clinica Vantia,Google Ads,LeadGen Search ES Q1,31.51,3251,97,1,39.46
-2026-03-08,Clinica Vantia,Google Ads,Brand Search ES Q1,17.47,1808,56,3,146.11
+2026-03-08,Clinica Vantia,Google Ads,Brand Search ES Q1,17.47,1808,56,3,
 2026-03-08,Clinica Vantia,Google Ads,LeadGen Search ES Q1,26.2,2658,72,3,141.17
 2026-03-09,Clinica Vantia,Google Ads,Brand Search ES Q1,24.8,1809,73,5,141.0
 2026-03-09,Clinica Vantia,Google Ads,LeadGen Search ES Q1,37.2,2687,121,5,272.34
-2026-03-10,Clinica Vantia,Google Ads,Brand Search ES Q1,23.59,2253,99,4,
+2026-03-10,Clinica Vantia,Google Ads,Brand Search ES Q1,23.59,2253,99,4,157.83
 2026-03-10,Clinica Vantia,Google Ads,LeadGen Search ES Q1,35.38,3498,164,9,483.14
 2026-03-11,Clinica Vantia,Google Ads,Brand Search ES Q1,24.1,2242,69,1,40.64
-2026-03-11,Clinica Vantia,Google Ads,LeadGen Search ES Q1,36.15,3360,124,6,
+2026-03-11,Clinica Vantia,Google Ads,LeadGen Search ES Q1,36.15,3360,124,6,246.8
 2026-03-12,Clinica Vantia,Google Ads,Brand Search ES Q1,19.98,1901,61,2,86.44
-2026-03-12,Clinica Vantia,Google Ads,LeadGen Search ES Q1,29.96,2922,109,1,44.39
+2026-03-12,Clinica Vantia,Google Ads,LeadGen Search ES Q1,29.96,2922,109,1,
 2026-03-13,Clinica Vantia,Google Ads,Brand Search ES Q1,21.35,1629,81,2,120.27
 2026-03-13,Clinica Vantia,Google Ads,LeadGen Search ES Q1,32.03,2366,115,7,301.46
-2026-03-14,Clinica Vantia,Google Ads,Brand Search ES Q1,20.37,1999,70,2,86.38
+2026-03-14,Clinica Vantia,Google Ads,Brand Search ES Q1,20.37,1999,70,2,
 2026-03-14,Clinica Vantia,Google Ads,LeadGen Search ES Q1,30.56,2940,77,3,116.03
 2026-03-15,Clinica Vantia,Google Ads,Brand Search ES Q1,23.43,1798,52,1,33.85
 2026-03-15,Clinica Vantia,Google Ads,LeadGen Search ES Q1,35.14,2736,100,2,106.29
@@ -853,12 +833,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-03-23,Clinica Vantia,Google Ads,LeadGen Search ES Q1,40.47,5572,253,6,237.01
 2026-03-24,Clinica Vantia,Google Ads,Brand Search ES Q1,27.35,2863,156,3,90.65
 2026-03-24,Clinica Vantia,Google Ads,LeadGen Search ES Q1,41.03,4096,234,5,166.31
-2026-03-25,Clinica Vantia,Google Ads,Brand Search ES Q1,25.75,3221,107,5,
+2026-03-25,Clinica Vantia,Google Ads,Brand Search ES Q1,25.75,3221,107,5,125.25
 2026-03-25,Clinica Vantia,Google Ads,LeadGen Search ES Q1,38.62,4812,156,3,92.39
 2026-03-26,Clinica Vantia,Google Ads,Brand Search ES Q1,27.3,2219,87,5,373.47
 2026-03-26,Clinica Vantia,Google Ads,LeadGen Search ES Q1,40.95,3359,103,1,60.78
 2026-03-27,Clinica Vantia,Google Ads,Brand Search ES Q1,18.82,1607,73,9,395.5
-2026-03-27,Clinica Vantia,Google Ads,LeadGen Search ES Q1,28.23,2425,124,8,448.53
+2026-03-27,Clinica Vantia,Google Ads,LeadGen Search ES Q1,28.23,2425,124,8,
 2026-03-28,Clinica Vantia,Google Ads,Brand Search ES Q1,21.6,1879,58,3,149.52
 2026-03-28,Clinica Vantia,Google Ads,LeadGen Search ES Q1,32.4,2984,101,3,94.95
 2026-03-29,Clinica Vantia,Google Ads,Brand Search ES Q1,24.9,2093,90,6,215.01
@@ -868,14 +848,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-03-31,Clinica Vantia,Google Ads,Brand Search ES Q1,23.18,1675,62,2,48.11
 2026-03-31,Clinica Vantia,Google Ads,LeadGen Search ES Q1,34.77,2413,102,2,73.44
 2026-04-01,Clinica Vantia,Google Ads,Brand Search ES Q2,24.38,2200,63,2,145.56
-2026-04-01,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.57,3252,91,1,
+2026-04-01,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.57,3252,91,1,61.37
 2026-04-02,Clinica Vantia,Google Ads,Brand Search ES Q2,24.2,3153,135,6,239.46
 2026-04-02,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.31,4798,190,8,278.55
 2026-04-03,Clinica Vantia,Google Ads,Brand Search ES Q2,23.08,1750,80,3,89.49
 2026-04-03,Clinica Vantia,Google Ads,LeadGen Search ES Q2,34.62,2500,107,2,78.73
-2026-04-04,Clinica Vantia,Google Ads,Brand Search ES Q2,21.67,2023,109,5,244.35
+2026-04-04,Clinica Vantia,Google Ads,Brand Search ES Q2,21.67,2023,109,5,
 2026-04-04,Clinica Vantia,Google Ads,LeadGen Search ES Q2,32.5,3112,175,12,452.89
-2026-04-05,Clinica Vantia,Google Ads,Brand Search ES Q2,23.42,3022,162,1,
+2026-04-05,Clinica Vantia,Google Ads,Brand Search ES Q2,23.42,3022,162,1,26.06
 2026-04-05,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.12,4567,269,8,288.86
 2026-04-06,Clinica Vantia,Google Ads,Brand Search ES Q2,22.38,2208,111,5,194.91
 2026-04-06,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.58,3286,179,3,184.27
@@ -942,30 +922,50 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-05-07,Clinica Vantia,Google Ads,Brand Search ES Q2,27.33,3204,130,6,235.64
 2026-05-07,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.0,5067,183,8,373.21
 2026-05-08,Clinica Vantia,Google Ads,Brand Search ES Q2,23.92,2628,146,6,172.35
-2026-05-08,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.88,3917,210,15,
+2026-05-08,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.88,3917,210,15,666.3
+2026-05-09,Clinica Vantia,Google Ads,Brand Search ES Q2,23.16,3189,96,2,86.94
+2026-05-09,Clinica Vantia,Google Ads,LeadGen Search ES Q2,34.75,4877,155,1,39.27
 2026-05-09,Clinica Vantia,Google Ads,Brand Search ES Q2,23.16,3189,96,2,86.94
 2026-05-09,Clinica Vantia,Google Ads,LeadGen Search ES Q2,34.75,4877,155,1,39.27
 2026-05-10,Clinica Vantia,Google Ads,Brand Search ES Q2,23.35,2624,85,0,0.0
 2026-05-10,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.03,3997,155,3,101.91
-2026-05-11,Clinica Vantia,Google Ads,Brand Search ES Q2,19.92,1513,73,2,60.92
+2026-05-10,Clinica Vantia,Google Ads,Brand Search ES Q2,23.35,2624,85,0,0.0
+2026-05-10,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.03,3997,155,3,101.91
+2026-05-11,Clinica Vantia,Google Ads,Brand Search ES Q2,19.92,1513,73,2,
 2026-05-11,Clinica Vantia,Google Ads,LeadGen Search ES Q2,29.87,2148,114,3,103.0
+2026-05-11,Clinica Vantia,Google Ads,Brand Search ES Q2,19.92,1513,73,2,
+2026-05-11,Clinica Vantia,Google Ads,LeadGen Search ES Q2,29.87,2148,114,3,103.0
+2026-05-12,Clinica Vantia,Google Ads,Brand Search ES Q2,25.77,2206,64,6,370.94
+2026-05-12,Clinica Vantia,Google Ads,LeadGen Search ES Q2,38.65,3461,116,0,0.0
 2026-05-12,Clinica Vantia,Google Ads,Brand Search ES Q2,25.77,2206,64,6,370.94
 2026-05-12,Clinica Vantia,Google Ads,LeadGen Search ES Q2,38.65,3461,116,0,0.0
 2026-05-13,Clinica Vantia,Google Ads,Brand Search ES Q2,23.57,1685,72,0,0.0
 2026-05-13,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.35,2644,112,2,57.91
+2026-05-13,Clinica Vantia,Google Ads,Brand Search ES Q2,23.57,1685,72,0,0.0
+2026-05-13,Clinica Vantia,Google Ads,LeadGen Search ES Q2,35.35,2644,112,2,57.91
+2026-05-14,Clinica Vantia,Google Ads,Brand Search ES Q2,25.74,2689,118,1,36.27
+2026-05-14,Clinica Vantia,Google Ads,LeadGen Search ES Q2,38.62,4111,195,4,148.07
 2026-05-14,Clinica Vantia,Google Ads,Brand Search ES Q2,25.74,2689,118,1,36.27
 2026-05-14,Clinica Vantia,Google Ads,LeadGen Search ES Q2,38.62,4111,195,4,148.07
 2026-05-15,Clinica Vantia,Google Ads,Brand Search ES Q2,26.09,2798,118,4,162.97
 2026-05-15,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.13,4296,174,6,190.9
+2026-05-15,Clinica Vantia,Google Ads,Brand Search ES Q2,26.09,2798,118,4,162.97
+2026-05-15,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.13,4296,174,6,190.9
+2026-05-16,Clinica Vantia,Google Ads,Brand Search ES Q2,33.83,2809,110,3,95.59
+2026-05-16,Clinica Vantia,Google Ads,LeadGen Search ES Q2,50.74,4115,196,8,249.22
 2026-05-16,Clinica Vantia,Google Ads,Brand Search ES Q2,33.83,2809,110,3,95.59
 2026-05-16,Clinica Vantia,Google Ads,LeadGen Search ES Q2,50.74,4115,196,8,249.22
 2026-05-17,Clinica Vantia,Google Ads,Brand Search ES Q2,27.52,2255,128,3,101.51
-2026-05-17,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.28,3274,172,8,
-2026-05-18,Clinica Vantia,Google Ads,Brand Search ES Q2,27.65,3060,174,5,
+2026-05-17,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.28,3274,172,8,236.9
+2026-05-17,Clinica Vantia,Google Ads,Brand Search ES Q2,27.52,2255,128,3,101.51
+2026-05-17,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.28,3274,172,8,236.9
+2026-05-18,Clinica Vantia,Google Ads,Brand Search ES Q2,27.65,3060,174,5,155.6
+2026-05-18,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.48,4725,227,14,545.27
+2026-05-18,Clinica Vantia,Google Ads,Brand Search ES Q2,27.65,3060,174,5,155.6
 2026-05-18,Clinica Vantia,Google Ads,LeadGen Search ES Q2,41.48,4725,227,14,545.27
 2026-05-19,Clinica Vantia,Google Ads,Brand Search ES Q2,25.49,2105,67,5,137.61
-2026-05-19,Clinica Vantia,Google Ads,LeadGen Search ES Q2,38.23,3085,95,4,161.68
-2026-05-20,Clinica Vantia,Google Ads,Brand Search ES Q2,24.0,1881,82,3,121.34
+2026-05-19,Clinica Vantia,Google Ads,LeadGen Search ES Q2,38.23,3085,95,4,
+2026-05-20,Clinica Vantia,Google Ads,Brand Search ES Q2,24.0,1881,82,3,
 2026-05-20,Clinica Vantia,Google Ads,LeadGen Search ES Q2,36.0,2854,108,4,141.63
 2026-05-21,Clinica Vantia,Google Ads,Brand Search ES Q2,22.48,2938,170,7,371.74
 2026-05-21,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.72,4483,261,14,547.57
@@ -992,11 +992,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-01,Clinica Vantia,Google Ads,Brand Search ES Q2,23.24,1928,69,0,0.0
 2026-06-01,Clinica Vantia,Google Ads,LeadGen Search ES Q2,34.86,2890,96,3,168.4
 2026-06-02,Clinica Vantia,Google Ads,Brand Search ES Q2,19.17,2074,88,1,40.7
-2026-06-02,Clinica Vantia,Google Ads,LeadGen Search ES Q2,28.75,3052,156,7,
+2026-06-02,Clinica Vantia,Google Ads,LeadGen Search ES Q2,28.75,3052,156,7,282.82
 2026-06-03,Clinica Vantia,Google Ads,Brand Search ES Q2,20.07,2125,86,2,74.28
 2026-06-03,Clinica Vantia,Google Ads,LeadGen Search ES Q2,30.11,3211,138,5,286.23
 2026-06-04,Clinica Vantia,Google Ads,Brand Search ES Q2,22.92,2377,84,3,99.98
-2026-06-04,Clinica Vantia,Google Ads,LeadGen Search ES Q2,34.38,3536,120,3,111.83
+2026-06-04,Clinica Vantia,Google Ads,LeadGen Search ES Q2,34.38,3536,120,3,
 2026-06-05,Clinica Vantia,Google Ads,Brand Search ES Q2,22.22,1766,73,2,111.89
 2026-06-05,Clinica Vantia,Google Ads,LeadGen Search ES Q2,33.33,2741,126,4,153.67
 2026-06-06,Clinica Vantia,Google Ads,Brand Search ES Q2,34.46,3665,166,7,162.76
@@ -1036,13 +1036,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-23,Clinica Vantia,Google Ads,Brand Search ES Q2,17.01,1403,60,1,43.91
 2026-06-23,Clinica Vantia,Google Ads,LeadGen Search ES Q2,25.51,2202,88,2,103.81
 2026-06-24,Clinica Vantia,Google Ads,Brand Search ES Q2,21.52,1546,48,1,64.98
-2026-06-24,Clinica Vantia,Google Ads,LeadGen Search ES Q2,32.27,2418,68,6,
+2026-06-24,Clinica Vantia,Google Ads,LeadGen Search ES Q2,32.27,2418,68,6,236.22
 2026-06-25,Clinica Vantia,Google Ads,Brand Search ES Q2,21.2,2324,82,3,113.69
 2026-06-25,Clinica Vantia,Google Ads,LeadGen Search ES Q2,31.8,3475,103,8,440.29
 2026-06-26,Clinica Vantia,Google Ads,Brand Search ES Q2,21.95,1629,77,0,0.0
 2026-06-26,Clinica Vantia,Google Ads,LeadGen Search ES Q2,32.92,2435,127,2,77.26
 2026-06-27,Clinica Vantia,Google Ads,Brand Search ES Q2,26.2,2061,123,6,243.64
-2026-06-27,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.3,3040,160,7,330.14
+2026-06-27,Clinica Vantia,Google Ads,LeadGen Search ES Q2,39.3,3040,160,7,
 2026-06-28,Clinica Vantia,Google Ads,Brand Search ES Q2,27.22,1899,109,0,0.0
 2026-06-28,Clinica Vantia,Google Ads,LeadGen Search ES Q2,40.83,2991,169,6,220.14
 2026-06-29,Clinica Vantia,Google Ads,Brand Search ES Q2,24.12,2980,166,5,323.49
@@ -1063,14 +1063,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-07-06,Clinica Vantia,Google Ads,LeadGen Search ES Q3,45.12,5519,276,10,541.79
 2026-07-07,Clinica Vantia,Google Ads,Brand Search ES Q3,26.05,3346,184,4,115.22
 2026-07-07,Clinica Vantia,Google Ads,LeadGen Search ES Q3,39.07,4923,287,5,173.4
-2026-07-08,Clinica Vantia,Google Ads,Brand Search ES Q3,24.35,2907,116,1,
+2026-07-08,Clinica Vantia,Google Ads,Brand Search ES Q3,24.35,2907,116,1,33.09
 2026-07-08,Clinica Vantia,Google Ads,LeadGen Search ES Q3,36.52,4393,159,6,157.78
 2026-07-09,Clinica Vantia,Google Ads,Brand Search ES Q3,23.09,3130,192,9,629.99
 2026-07-09,Clinica Vantia,Google Ads,LeadGen Search ES Q3,34.64,4559,258,17,
 2026-07-10,Clinica Vantia,Google Ads,Brand Search ES Q3,22.27,2554,94,3,113.93
 2026-07-10,Clinica Vantia,Google Ads,LeadGen Search ES Q3,33.41,3858,142,5,234.06
 2026-07-11,Clinica Vantia,Google Ads,Brand Search ES Q3,26.66,3688,179,4,163.53
-2026-07-11,Clinica Vantia,Google Ads,LeadGen Search ES Q3,39.99,5716,251,3,111.71
+2026-07-11,Clinica Vantia,Google Ads,LeadGen Search ES Q3,39.99,5716,251,3,
 2026-07-12,Clinica Vantia,Google Ads,Brand Search ES Q3,25.64,2607,157,3,140.37
 2026-07-12,Clinica Vantia,Google Ads,LeadGen Search ES Q3,38.46,3767,232,7,313.72
 2026-07-13,Clinica Vantia,Google Ads,Brand Search ES Q3,20.6,2604,120,5,159.65
@@ -1153,7 +1153,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-02-14,Nordfit Equipment,Google Ads,es-search-brand-q1,75.05,5990,187,9,264.11
 2025-02-14,Nordfit Equipment,Google Ads,es-shopping-generic-q1,100.07,7718,238,9,228.3
 2025-02-14,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,37.53,2855,88,1,40.22
-2025-02-15,Nordfit Equipment,Google Ads,es-search-brand-q1,70.72,10085,575,23,
+2025-02-15,Nordfit Equipment,Google Ads,es-search-brand-q1,70.72,10085,575,23,747.68
 2025-02-15,Nordfit Equipment,Google Ads,es-shopping-generic-q1,94.29,13250,773,36,1286.23
 2025-02-15,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,35.36,4987,307,18,691.3
 2025-02-16,Nordfit Equipment,Google Ads,es-search-brand-q1,60.06,5156,184,7,210.56
@@ -1175,7 +1175,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-02-21,Nordfit Equipment,Google Ads,es-shopping-generic-q1,112.61,8310,291,11,309.61
 2025-02-21,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,42.23,3062,100,7,234.23
 2025-02-22,Nordfit Equipment,Google Ads,es-search-brand-q1,61.38,4998,185,5,158.29
-2025-02-22,Nordfit Equipment,Google Ads,es-shopping-generic-q1,81.83,6656,263,3,83.54
+2025-02-22,Nordfit Equipment,Google Ads,es-shopping-generic-q1,81.83,6656,263,3,
 2025-02-22,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,30.69,2512,100,2,67.41
 2025-02-23,Nordfit Equipment,Google Ads,es-search-brand-q1,74.52,6343,233,8,414.12
 2025-02-23,Nordfit Equipment,Google Ads,es-shopping-generic-q1,99.36,8372,241,13,619.72
@@ -1217,7 +1217,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-03-07,Nordfit Equipment,Google Ads,es-shopping-generic-q1,85.25,7187,412,14,466.71
 2025-03-07,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,31.97,2763,157,2,74.01
 2025-03-08,Nordfit Equipment,Google Ads,es-search-brand-q1,71.48,7449,363,19,722.71
-2025-03-08,Nordfit Equipment,Google Ads,es-shopping-generic-q1,95.31,9769,447,25,
+2025-03-08,Nordfit Equipment,Google Ads,es-shopping-generic-q1,95.31,9769,447,25,888.22
 2025-03-08,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,35.74,3780,170,8,309.77
 2025-03-09,Nordfit Equipment,Google Ads,es-search-brand-q1,73.43,6027,194,6,112.02
 2025-03-09,Nordfit Equipment,Google Ads,es-shopping-generic-q1,97.9,7809,273,6,155.98
@@ -1236,9 +1236,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-03-13,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,29.23,3604,162,6,160.26
 2025-03-14,Nordfit Equipment,Google Ads,es-search-brand-q1,80.5,7186,287,10,208.36
 2025-03-14,Nordfit Equipment,Google Ads,es-shopping-generic-q1,107.33,9455,333,14,226.02
-2025-03-14,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,40.25,3576,133,3,
+2025-03-14,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,40.25,3576,133,3,142.63
 2025-03-15,Nordfit Equipment,Google Ads,es-search-brand-q1,66.11,5558,308,14,692.74
-2025-03-15,Nordfit Equipment,Google Ads,es-shopping-generic-q1,88.15,7596,396,21,925.43
+2025-03-15,Nordfit Equipment,Google Ads,es-shopping-generic-q1,88.15,7596,396,21,
 2025-03-15,Nordfit Equipment,Google Ads,GYM_PROMO_OLD,33.06,2743,133,5,108.26
 2025-03-16,Nordfit Equipment,Google Ads,es-search-brand-q1,103.42,14689,671,25,647.0
 2025-03-16,Nordfit Equipment,Google Ads,es-shopping-generic-q1,137.89,19728,754,28,830.19
@@ -1258,7 +1258,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-03-22,Nordfit Equipment,Google Ads,es-search-brand-q1,85.28,7029,273,14,346.28
 2025-03-22,Nordfit Equipment,Google Ads,es-shopping-generic-q1,113.7,9402,390,18,955.04
 2025-03-23,Nordfit Equipment,Google Ads,es-search-brand-q1,119.63,11333,378,13,303.71
-2025-03-23,Nordfit Equipment,Google Ads,es-shopping-generic-q1,159.51,14806,493,18,443.62
+2025-03-23,Nordfit Equipment,Google Ads,es-shopping-generic-q1,159.51,14806,493,18,
 2025-03-24,Nordfit Equipment,Google Ads,es-search-brand-q1,101.89,10985,515,17,644.52
 2025-03-24,Nordfit Equipment,Google Ads,es-shopping-generic-q1,135.86,14793,622,30,576.16
 2025-03-25,Nordfit Equipment,Google Ads,es-search-brand-q1,70.64,7314,415,18,558.38
@@ -1332,10 +1332,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-04-28,Nordfit Equipment,Google Ads,es-search-brand-q2,88.82,6928,316,9,242.64
 2025-04-28,Nordfit Equipment,Google Ads,es-shopping-generic-q2,118.42,9276,434,25,733.26
 2025-04-29,Nordfit Equipment,Google Ads,es-search-brand-q2,105.61,11912,442,17,456.08
-2025-04-29,Nordfit Equipment,Google Ads,es-shopping-generic-q2,140.82,15904,618,29,
+2025-04-29,Nordfit Equipment,Google Ads,es-shopping-generic-q2,140.82,15904,618,29,802.21
 2025-04-30,Nordfit Equipment,Google Ads,es-search-brand-q2,88.66,9493,451,24,1045.22
 2025-04-30,Nordfit Equipment,Google Ads,es-shopping-generic-q2,118.21,12863,626,20,412.9
-2025-05-01,Nordfit Equipment,Google Ads,es-search-brand-q2,77.86,8854,518,10,
+2025-05-01,Nordfit Equipment,Google Ads,es-search-brand-q2,77.86,8854,518,10,346.12
 2025-05-01,Nordfit Equipment,Google Ads,es-shopping-generic-q2,103.82,11854,696,13,340.69
 2025-05-02,Nordfit Equipment,Google Ads,es-search-brand-q2,81.72,10767,476,13,256.62
 2025-05-02,Nordfit Equipment,Google Ads,es-shopping-generic-q2,108.96,14413,603,14,376.59
@@ -1352,11 +1352,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-08,Nordfit Equipment,Google Ads,es-search-brand-q2,108.32,11587,467,21,508.24
 2025-05-08,Nordfit Equipment,Google Ads,es-shopping-generic-q2,144.43,15556,623,30,873.59
 2025-05-09,Nordfit Equipment,Google Ads,es-search-brand-q2,100.16,7532,337,12,400.42
-2025-05-09,Nordfit Equipment,Google Ads,es-shopping-generic-q2,133.54,9974,441,14,368.3
+2025-05-09,Nordfit Equipment,Google Ads,es-shopping-generic-q2,133.54,9974,441,14,
 2025-05-10,Nordfit Equipment,Google Ads,es-search-brand-q2,101.5,10998,437,9,344.74
 2025-05-10,Nordfit Equipment,Google Ads,es-shopping-generic-q2,135.34,14723,585,14,406.5
 2025-05-11,Nordfit Equipment,Google Ads,es-search-brand-q2,129.95,12933,660,39,1149.62
-2025-05-11,Nordfit Equipment,Google Ads,es-shopping-generic-q2,173.27,17127,943,42,1084.64
+2025-05-11,Nordfit Equipment,Google Ads,es-shopping-generic-q2,173.27,17127,943,42,
 2025-05-12,Nordfit Equipment,Google Ads,es-search-brand-q2,109.19,8011,388,11,251.57
 2025-05-12,Nordfit Equipment,Google Ads,es-shopping-generic-q2,145.58,10834,573,9,264.93
 2025-05-13,Nordfit Equipment,Google Ads,es-search-brand-q2,95.79,10582,452,20,582.45
@@ -1386,7 +1386,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-25,Nordfit Equipment,Google Ads,es-search-brand-q2,78.37,8125,381,9,295.61
 2025-05-25,Nordfit Equipment,Google Ads,es-shopping-generic-q2,104.49,11049,537,17,447.52
 2025-05-26,Nordfit Equipment,Google Ads,es-search-brand-q2,96.1,9112,385,20,314.7
-2025-05-26,Nordfit Equipment,Google Ads,es-shopping-generic-q2,128.14,11967,507,14,
+2025-05-26,Nordfit Equipment,Google Ads,es-shopping-generic-q2,128.14,11967,507,14,444.06
 2025-05-27,Nordfit Equipment,Google Ads,es-search-brand-q2,93.4,10337,426,12,399.28
 2025-05-27,Nordfit Equipment,Google Ads,es-shopping-generic-q2,124.53,13781,607,18,771.26
 2025-05-28,Nordfit Equipment,Google Ads,es-search-brand-q2,76.59,7881,398,19,477.36
@@ -1407,13 +1407,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-06-04,Nordfit Equipment,Google Ads,es-shopping-generic-q2,131.59,11915,440,9,244.46
 2025-06-05,Nordfit Equipment,Google Ads,es-search-brand-q2,86.9,7282,269,5,163.44
 2025-06-05,Nordfit Equipment,Google Ads,es-shopping-generic-q2,115.87,9599,343,15,617.7
-2025-06-06,Nordfit Equipment,Google Ads,es-search-brand-q2,88.28,11996,660,27,781.05
+2025-06-06,Nordfit Equipment,Google Ads,es-search-brand-q2,88.28,11996,660,27,
 2025-06-06,Nordfit Equipment,Google Ads,es-shopping-generic-q2,117.7,15757,844,23,850.97
 2025-06-07,Nordfit Equipment,Google Ads,es-search-brand-q2,99.96,9699,366,9,303.55
 2025-06-07,Nordfit Equipment,Google Ads,es-shopping-generic-q2,133.28,12594,512,10,298.1
 2025-06-08,Nordfit Equipment,Google Ads,es-search-brand-q2,102.21,11259,626,16,482.67
 2025-06-08,Nordfit Equipment,Google Ads,es-shopping-generic-q2,136.28,14907,847,14,523.19
-2025-06-09,Nordfit Equipment,Google Ads,es-search-brand-q2,94.63,12539,464,16,
+2025-06-09,Nordfit Equipment,Google Ads,es-search-brand-q2,94.63,12539,464,16,490.12
 2025-06-09,Nordfit Equipment,Google Ads,es-shopping-generic-q2,126.18,16432,565,15,536.6
 2025-06-10,Nordfit Equipment,Google Ads,es-search-brand-q2,85.97,6308,248,16,507.07
 2025-06-10,Nordfit Equipment,Google Ads,es-shopping-generic-q2,114.63,8597,383,21,475.05
@@ -1434,7 +1434,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-06-18,Nordfit Equipment,Google Ads,es-search-brand-q2,101.18,9680,437,8,162.8
 2025-06-18,Nordfit Equipment,Google Ads,es-shopping-generic-q2,134.9,12725,522,14,430.82
 2025-06-19,Nordfit Equipment,Google Ads,es-search-brand-q2,102.87,7704,407,17,528.17
-2025-06-19,Nordfit Equipment,Google Ads,es-shopping-generic-q2,137.15,10303,538,16,588.31
+2025-06-19,Nordfit Equipment,Google Ads,es-shopping-generic-q2,137.15,10303,538,16,
 2025-06-20,Nordfit Equipment,Google Ads,es-search-brand-q2,99.89,8888,288,6,220.58
 2025-06-20,Nordfit Equipment,Google Ads,es-shopping-generic-q2,133.18,11759,433,10,215.57
 2025-06-21,Nordfit Equipment,Google Ads,es-search-brand-q2,91.92,12458,499,15,424.62
@@ -1480,7 +1480,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-07-11,Nordfit Equipment,Google Ads,es-search-brand-q3,99.24,10586,535,32,992.27
 2025-07-11,Nordfit Equipment,Google Ads,es-shopping-generic-q3,132.32,13919,756,29,734.68
 2025-07-12,Nordfit Equipment,Google Ads,es-search-brand-q3,75.1,9763,570,18,412.07
-2025-07-12,Nordfit Equipment,Google Ads,es-shopping-generic-q3,100.14,12992,781,25,
+2025-07-12,Nordfit Equipment,Google Ads,es-shopping-generic-q3,100.14,12992,781,25,715.71
 2025-07-13,Nordfit Equipment,Google Ads,es-search-brand-q3,86.58,9020,363,14,488.56
 2025-07-13,Nordfit Equipment,Google Ads,es-shopping-generic-q3,115.44,12094,524,34,591.91
 2025-07-14,Nordfit Equipment,Google Ads,es-search-brand-q3,90.71,10891,411,19,352.26
@@ -1497,41 +1497,41 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-07-19,Nordfit Equipment,Google Ads,es-shopping-generic-q3,144.34,14055,842,21,554.36
 2025-07-20,Nordfit Equipment,Google Ads,es-search-brand-q3,88.04,9872,446,19,390.1
 2025-07-20,Nordfit Equipment,Google Ads,es-shopping-generic-q3,117.39,13465,629,16,430.44
-2025-07-21,Nordfit Equipment,Google Ads,es-search-brand-q3,90.81,8578,338,13,
+2025-07-21,Nordfit Equipment,Google Ads,es-search-brand-q3,90.81,8578,338,13,371.9
 2025-07-21,Nordfit Equipment,Google Ads,es-shopping-generic-q3,121.09,11165,442,17,958.27
 2025-07-22,Nordfit Equipment,Google Ads,es-search-brand-q3,77.34,10001,421,8,235.23
-2025-07-22,Nordfit Equipment,Google Ads,es-shopping-generic-q3,103.12,13399,521,12,294.06
-2025-07-23,Nordfit Equipment,Google Ads,es-search-brand-q3,84.93,9300,515,11,
+2025-07-22,Nordfit Equipment,Google Ads,es-shopping-generic-q3,103.12,13399,521,12,
+2025-07-23,Nordfit Equipment,Google Ads,es-search-brand-q3,84.93,9300,515,11,726.09
 2025-07-23,Nordfit Equipment,Google Ads,es-shopping-generic-q3,113.24,12387,749,17,715.77
 2025-07-24,Nordfit Equipment,Google Ads,es-search-brand-q3,115.43,11589,704,28,941.25
-2025-07-24,Nordfit Equipment,Google Ads,es-shopping-generic-q3,153.91,15409,888,42,
+2025-07-24,Nordfit Equipment,Google Ads,es-shopping-generic-q3,153.91,15409,888,42,1444.53
 2025-07-25,Nordfit Equipment,Google Ads,es-search-brand-q3,116.47,10663,560,20,534.83
 2025-07-25,Nordfit Equipment,Google Ads,es-shopping-generic-q3,155.29,14338,732,34,1066.64
 2025-07-26,Nordfit Equipment,Google Ads,es-search-brand-q3,95.05,9777,461,16,478.65
 2025-07-26,Nordfit Equipment,Google Ads,es-shopping-generic-q3,126.74,13244,596,23,394.63
 2025-07-27,Nordfit Equipment,Google Ads,es-search-brand-q3,105.66,8045,338,16,375.74
-2025-07-27,Nordfit Equipment,Google Ads,es-shopping-generic-q3,140.88,10815,431,16,
+2025-07-27,Nordfit Equipment,Google Ads,es-shopping-generic-q3,140.88,10815,431,16,405.05
 2025-07-28,Nordfit Equipment,Google Ads,es-search-brand-q3,104.07,10081,558,25,721.1
 2025-07-28,Nordfit Equipment,Google Ads,es-shopping-generic-q3,138.76,13244,726,20,481.04
 2025-07-29,Nordfit Equipment,Google Ads,es-search-brand-q3,85.56,7828,310,8,205.58
 2025-07-29,Nordfit Equipment,Google Ads,es-shopping-generic-q3,114.08,10640,373,20,558.41
 2025-07-30,Nordfit Equipment,Google Ads,es-search-brand-q3,122.11,17008,640,26,939.08
 2025-07-30,Nordfit Equipment,Google Ads,es-shopping-generic-q3,162.82,22387,886,36,1035.86
-2025-07-31,Nordfit Equipment,Google Ads,es-search-brand-q3,121.25,9104,393,20,426.34
+2025-07-31,Nordfit Equipment,Google Ads,es-search-brand-q3,121.25,9104,393,20,
 2025-07-31,Nordfit Equipment,Google Ads,es-shopping-generic-q3,161.66,12086,489,17,508.84
 2025-08-01,Nordfit Equipment,Google Ads,es-search-brand-q3,135.05,17204,846,27,716.53
-2025-08-01,Nordfit Equipment,Google Ads,es-shopping-generic-q3,180.06,22798,1058,46,1134.87
+2025-08-01,Nordfit Equipment,Google Ads,es-shopping-generic-q3,180.06,22798,1058,46,
 2025-08-02,Nordfit Equipment,Google Ads,es-search-brand-q3,73.29,8931,373,10,485.14
 2025-08-02,Nordfit Equipment,Google Ads,es-shopping-generic-q3,97.72,12002,433,21,735.41
 2025-08-03,Nordfit Equipment,Google Ads,es-search-brand-q3,129.97,13435,431,8,412.45
-2025-08-03,Nordfit Equipment,Google Ads,es-shopping-generic-q3,173.3,17874,633,12,239.81
+2025-08-03,Nordfit Equipment,Google Ads,es-shopping-generic-q3,173.3,17874,633,12,
 2025-08-04,Nordfit Equipment,Google Ads,es-search-brand-q3,101.03,10684,367,19,722.19
 2025-08-04,Nordfit Equipment,Google Ads,es-shopping-generic-q3,134.71,14120,554,22,388.77
 2025-08-05,Nordfit Equipment,Google Ads,es-search-brand-q3,98.84,13430,559,11,255.86
 2025-08-05,Nordfit Equipment,Google Ads,es-shopping-generic-q3,131.79,17886,721,19,657.08
 2025-08-06,Nordfit Equipment,Google Ads,es-search-brand-q3,95.5,8360,268,7,176.9
-2025-08-06,Nordfit Equipment,Google Ads,es-shopping-generic-q3,127.33,11176,345,11,389.2
-2025-08-07,Nordfit Equipment,Google Ads,es-search-brand-q3,117.32,14174,547,26,
+2025-08-06,Nordfit Equipment,Google Ads,es-shopping-generic-q3,127.33,11176,345,11,
+2025-08-07,Nordfit Equipment,Google Ads,es-search-brand-q3,117.32,14174,547,26,776.74
 2025-08-07,Nordfit Equipment,Google Ads,es-shopping-generic-q3,156.42,19230,782,32,667.71
 2025-08-08,Nordfit Equipment,Google Ads,es-search-brand-q3,131.13,14942,783,22,584.92
 2025-08-08,Nordfit Equipment,Google Ads,es-shopping-generic-q3,174.84,20005,1034,37,1328.42
@@ -1551,15 +1551,15 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-08-15,Nordfit Equipment,Google Ads,es-shopping-generic-q3,118.27,8793,478,17,456.81
 2025-08-16,Nordfit Equipment,Google Ads,es-search-brand-q3,81.13,10909,380,12,265.58
 2025-08-16,Nordfit Equipment,Google Ads,es-shopping-generic-q3,108.18,14299,462,10,488.15
-2025-08-17,Nordfit Equipment,Google Ads,es-search-brand-q3,75.26,6637,299,6,164.49
+2025-08-17,Nordfit Equipment,Google Ads,es-search-brand-q3,75.26,6637,299,6,
 2025-08-17,Nordfit Equipment,Google Ads,es-shopping-generic-q3,100.35,8604,367,4,146.59
-2025-08-18,Nordfit Equipment,Google Ads,es-search-brand-q3,104.76,8110,359,10,
+2025-08-18,Nordfit Equipment,Google Ads,es-search-brand-q3,104.76,8110,359,10,385.82
 2025-08-18,Nordfit Equipment,Google Ads,es-shopping-generic-q3,139.68,10902,438,19,443.3
 2025-08-19,Nordfit Equipment,Google Ads,es-search-brand-q3,104.65,14351,701,30,1015.72
 2025-08-19,Nordfit Equipment,Google Ads,es-shopping-generic-q3,139.54,19035,867,25,1131.75
 2025-08-20,Nordfit Equipment,Google Ads,es-search-brand-q3,95.49,8467,339,12,395.02
 2025-08-20,Nordfit Equipment,Google Ads,es-shopping-generic-q3,127.32,11261,508,14,513.67
-2025-08-21,Nordfit Equipment,Google Ads,es-search-brand-q3,88.02,8805,380,15,
+2025-08-21,Nordfit Equipment,Google Ads,es-search-brand-q3,88.02,8805,380,15,451.61
 2025-08-21,Nordfit Equipment,Google Ads,es-shopping-generic-q3,117.37,11586,502,17,528.47
 2025-08-22,Nordfit Equipment,Google Ads,es-search-brand-q3,86.66,9933,490,19,1069.29
 2025-08-22,Nordfit Equipment,Google Ads,es-shopping-generic-q3,115.55,13538,618,18,323.2
@@ -1573,13 +1573,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-08-26,Nordfit Equipment,Google Ads,es-shopping-generic-q3,108.65,10634,542,18,582.87
 2025-08-27,Nordfit Equipment,Google Ads,es-search-brand-q3,94.55,10652,582,18,537.28
 2025-08-27,Nordfit Equipment,Google Ads,es-shopping-generic-q3,126.07,14195,780,34,1045.4
-2025-08-28,Nordfit Equipment,Google Ads,es-search-brand-q3,96.06,7400,255,7,181.12
+2025-08-28,Nordfit Equipment,Google Ads,es-search-brand-q3,96.06,7400,255,7,
 2025-08-28,Nordfit Equipment,Google Ads,es-shopping-generic-q3,128.08,9651,301,10,304.54
 2025-08-29,Nordfit Equipment,Google Ads,es-search-brand-q3,88.81,10423,383,23,438.07
 2025-08-29,Nordfit Equipment,Google Ads,es-shopping-generic-q3,118.41,13569,445,16,337.12
 2025-08-30,Nordfit Equipment,Google Ads,es-search-brand-q3,104.98,8688,509,26,722.3
 2025-08-30,Nordfit Equipment,Google Ads,es-shopping-generic-q3,139.97,11806,662,29,1275.43
-2025-08-31,Nordfit Equipment,Google Ads,es-search-brand-q3,80.21,11321,599,25,615.43
+2025-08-31,Nordfit Equipment,Google Ads,es-search-brand-q3,80.21,11321,599,25,
 2025-08-31,Nordfit Equipment,Google Ads,es-shopping-generic-q3,106.94,15136,805,29,792.21
 2025-09-01,Nordfit Equipment,Google Ads,es-search-brand-q3,81.58,8061,358,13,388.52
 2025-09-01,Nordfit Equipment,Google Ads,es-shopping-generic-q3,108.78,11024,483,15,496.0
@@ -1594,7 +1594,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-09-06,Nordfit Equipment,Google Ads,es-search-brand-q3,102.85,14789,626,16,707.36
 2025-09-06,Nordfit Equipment,Google Ads,es-shopping-generic-q3,137.14,19106,801,10,297.88
 2025-09-07,Nordfit Equipment,Google Ads,es-search-brand-q3,128.78,11973,552,14,367.38
-2025-09-07,Nordfit Equipment,Google Ads,es-shopping-generic-q3,171.71,16031,776,17,
+2025-09-07,Nordfit Equipment,Google Ads,es-shopping-generic-q3,171.71,16031,776,17,657.1
 2025-09-08,Nordfit Equipment,Google Ads,es-search-brand-q3,93.3,6843,215,4,125.66
 2025-09-08,Nordfit Equipment,Google Ads,es-shopping-generic-q3,124.4,9040,291,9,212.44
 2025-09-09,Nordfit Equipment,Google Ads,es-search-brand-q3,117.27,14225,851,20,358.03
@@ -1613,8 +1613,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-09-15,Nordfit Equipment,Google Ads,es-shopping-generic-q3,180.59,13522,390,13,374.35
 2025-09-16,Nordfit Equipment,Google Ads,es-search-brand-q3,90.07,9944,322,8,305.65
 2025-09-16,Nordfit Equipment,Google Ads,es-shopping-generic-q3,120.09,13257,469,15,562.31
-2025-09-17,Nordfit Equipment,Google Ads,es-search-brand-q3,98.87,11120,491,9,272.3
-2025-09-17,Nordfit Equipment,Google Ads,es-shopping-generic-q3,131.82,14920,714,19,500.88
+2025-09-17,Nordfit Equipment,Google Ads,es-search-brand-q3,98.87,11120,491,9,
+2025-09-17,Nordfit Equipment,Google Ads,es-shopping-generic-q3,131.82,14920,714,19,
 2025-09-18,Nordfit Equipment,Google Ads,es-search-brand-q3,94.11,6887,309,15,482.96
 2025-09-18,Nordfit Equipment,Google Ads,es-shopping-generic-q3,125.49,9198,380,15,773.71
 2025-09-19,Nordfit Equipment,Google Ads,es-search-brand-q3,93.21,6815,389,16,397.91
@@ -1632,18 +1632,18 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-09-25,Nordfit Equipment,Google Ads,es-search-brand-q3,100.32,11913,659,24,671.44
 2025-09-25,Nordfit Equipment,Google Ads,es-shopping-generic-q3,133.76,15638,899,38,930.74
 2025-09-26,Nordfit Equipment,Google Ads,es-search-brand-q3,73.27,6192,308,17,856.53
-2025-09-26,Nordfit Equipment,Google Ads,es-shopping-generic-q3,97.7,8143,429,19,
+2025-09-26,Nordfit Equipment,Google Ads,es-shopping-generic-q3,97.7,8143,429,19,830.41
 2025-09-27,Nordfit Equipment,Google Ads,es-search-brand-q3,99.77,7557,308,10,270.06
 2025-09-27,Nordfit Equipment,Google Ads,es-shopping-generic-q3,133.02,10187,539,18,566.47
-2025-09-28,Nordfit Equipment,Google Ads,es-search-brand-q3,90.43,6840,266,10,
+2025-09-28,Nordfit Equipment,Google Ads,es-search-brand-q3,90.43,6840,266,10,274.07
 2025-09-28,Nordfit Equipment,Google Ads,es-shopping-generic-q3,120.57,9046,309,10,303.43
 2025-09-29,Nordfit Equipment,Google Ads,es-search-brand-q3,109.03,9399,395,9,207.58
 2025-09-29,Nordfit Equipment,Google Ads,es-shopping-generic-q3,145.37,12337,513,11,326.92
 2025-09-30,Nordfit Equipment,Google Ads,es-search-brand-q3,99.59,12486,577,12,262.28
 2025-09-30,Nordfit Equipment,Google Ads,es-shopping-generic-q3,132.79,16703,759,22,1049.76
 2025-10-01,Nordfit Equipment,Google Ads,es-search-brand-q4,95.5,7474,460,27,999.33
-2025-10-01,Nordfit Equipment,Google Ads,es-shopping-generic-q4,127.33,10175,549,25,
-2025-10-02,Nordfit Equipment,Google Ads,es-search-brand-q4,77.68,6987,327,11,
+2025-10-01,Nordfit Equipment,Google Ads,es-shopping-generic-q4,127.33,10175,549,25,1006.34
+2025-10-02,Nordfit Equipment,Google Ads,es-search-brand-q4,77.68,6987,327,11,368.47
 2025-10-02,Nordfit Equipment,Google Ads,es-shopping-generic-q4,103.57,9373,468,23,788.89
 2025-10-03,Nordfit Equipment,Google Ads,es-search-brand-q4,91.21,8661,471,16,300.13
 2025-10-03,Nordfit Equipment,Google Ads,es-shopping-generic-q4,121.62,11644,587,20,617.02
@@ -1651,19 +1651,19 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-04,Nordfit Equipment,Google Ads,es-shopping-generic-q4,115.92,12600,446,9,233.97
 2025-10-05,Nordfit Equipment,Google Ads,es-search-brand-q4,85.72,6866,333,10,208.6
 2025-10-05,Nordfit Equipment,Google Ads,es-shopping-generic-q4,114.29,9124,420,7,222.16
-2025-10-06,Nordfit Equipment,Google Ads,es-search-brand-q4,64.33,7840,426,16,393.13
+2025-10-06,Nordfit Equipment,Google Ads,es-search-brand-q4,64.33,7840,426,16,
 2025-10-06,Nordfit Equipment,Google Ads,es-shopping-generic-q4,85.77,10293,563,29,751.34
-2025-10-07,Nordfit Equipment,Google Ads,es-search-brand-q4,101.63,7912,336,9,
-2025-10-07,Nordfit Equipment,Google Ads,es-shopping-generic-q4,135.51,10612,413,16,273.47
-2025-10-08,Nordfit Equipment,Google Ads,es-search-brand-q4,112.83,9939,554,9,284.22
+2025-10-07,Nordfit Equipment,Google Ads,es-search-brand-q4,101.63,7912,336,9,258.24
+2025-10-07,Nordfit Equipment,Google Ads,es-shopping-generic-q4,135.51,10612,413,16,
+2025-10-08,Nordfit Equipment,Google Ads,es-search-brand-q4,112.83,9939,554,9,
 2025-10-08,Nordfit Equipment,Google Ads,es-shopping-generic-q4,150.44,13200,688,18,476.54
 2025-10-09,Nordfit Equipment,Google Ads,es-search-brand-q4,78.11,6557,269,9,212.54
 2025-10-09,Nordfit Equipment,Google Ads,es-shopping-generic-q4,104.15,8640,337,16,432.8
 2025-10-10,Nordfit Equipment,Google Ads,es-search-brand-q4,97.41,11145,416,9,354.08
 2025-10-10,Nordfit Equipment,Google Ads,es-shopping-generic-q4,129.88,14909,561,15,514.69
-2025-10-11,Nordfit Equipment,Google Ads,es-search-brand-q4,125.32,11312,678,32,1123.25
+2025-10-11,Nordfit Equipment,Google Ads,es-search-brand-q4,125.32,11312,678,32,
 2025-10-11,Nordfit Equipment,Google Ads,es-shopping-generic-q4,167.09,15319,932,44,1192.01
-2025-10-12,Nordfit Equipment,Google Ads,es-search-brand-q4,92.26,11091,340,10,294.92
+2025-10-12,Nordfit Equipment,Google Ads,es-search-brand-q4,92.26,11091,340,10,
 2025-10-12,Nordfit Equipment,Google Ads,es-shopping-generic-q4,123.01,14809,401,14,290.07
 2025-10-13,Nordfit Equipment,Google Ads,es-search-brand-q4,80.6,10594,470,16,416.02
 2025-10-13,Nordfit Equipment,Google Ads,es-shopping-generic-q4,107.46,14016,610,20,616.15
@@ -1672,7 +1672,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-15,Nordfit Equipment,Google Ads,es-search-brand-q4,96.0,12319,632,24,586.22
 2025-10-15,Nordfit Equipment,Google Ads,es-shopping-generic-q4,128.0,16393,875,33,728.32
 2025-10-16,Nordfit Equipment,Google Ads,es-search-brand-q4,97.19,13669,528,23,1093.22
-2025-10-16,Nordfit Equipment,Google Ads,es-shopping-generic-q4,129.59,18154,736,22,483.26
+2025-10-16,Nordfit Equipment,Google Ads,es-shopping-generic-q4,129.59,18154,736,22,
 2025-10-17,Nordfit Equipment,Google Ads,es-search-brand-q4,123.53,11035,469,16,506.14
 2025-10-17,Nordfit Equipment,Google Ads,es-shopping-generic-q4,164.71,14899,638,22,609.23
 2025-10-18,Nordfit Equipment,Google Ads,es-search-brand-q4,74.72,9324,403,9,255.65
@@ -1681,12 +1681,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-19,Nordfit Equipment,Google Ads,es-shopping-generic-q4,146.59,12870,452,9,302.06
 2025-10-20,Nordfit Equipment,Google Ads,es-search-brand-q4,88.95,9716,485,8,200.11
 2025-10-20,Nordfit Equipment,Google Ads,es-shopping-generic-q4,118.6,12869,627,19,962.22
-2025-10-21,Nordfit Equipment,Google Ads,es-search-brand-q4,96.31,12818,575,20,
+2025-10-21,Nordfit Equipment,Google Ads,es-search-brand-q4,96.31,12818,575,20,443.15
 2025-10-21,Nordfit Equipment,Google Ads,es-shopping-generic-q4,128.41,17110,705,19,854.13
 2025-10-22,Nordfit Equipment,Google Ads,es-search-brand-q4,118.97,10467,587,24,657.03
 2025-10-22,Nordfit Equipment,Google Ads,es-shopping-generic-q4,158.63,13901,739,26,777.8
 2025-10-23,Nordfit Equipment,Google Ads,es-search-brand-q4,95.7,10193,566,15,327.57
-2025-10-23,Nordfit Equipment,Google Ads,es-shopping-generic-q4,127.6,13722,735,10,
+2025-10-23,Nordfit Equipment,Google Ads,es-shopping-generic-q4,127.6,13722,735,10,350.98
 2025-10-24,Nordfit Equipment,Google Ads,es-search-brand-q4,108.3,9396,475,23,606.95
 2025-10-24,Nordfit Equipment,Google Ads,es-shopping-generic-q4,144.4,12818,622,20,386.11
 2025-10-25,Nordfit Equipment,Google Ads,es-search-brand-q4,117.87,10431,304,11,316.23
@@ -1696,16 +1696,16 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-27,Nordfit Equipment,Google Ads,es-search-brand-q4,91.73,7212,417,17,440.55
 2025-10-27,Nordfit Equipment,Google Ads,es-shopping-generic-q4,122.3,9527,618,31,734.52
 2025-10-28,Nordfit Equipment,Google Ads,es-search-brand-q4,90.28,7623,275,11,271.03
-2025-10-28,Nordfit Equipment,Google Ads,es-shopping-generic-q4,120.38,10363,361,14,
+2025-10-28,Nordfit Equipment,Google Ads,es-shopping-generic-q4,120.38,10363,361,14,469.83
 2025-10-29,Nordfit Equipment,Google Ads,es-search-brand-q4,97.96,8280,238,20,774.98
 2025-10-29,Nordfit Equipment,Google Ads,es-shopping-generic-q4,130.61,10661,291,10,309.17
 2025-10-30,Nordfit Equipment,Google Ads,es-search-brand-q4,69.42,6076,281,8,264.65
-2025-10-30,Nordfit Equipment,Google Ads,es-shopping-generic-q4,92.56,8062,380,19,389.06
+2025-10-30,Nordfit Equipment,Google Ads,es-shopping-generic-q4,92.56,8062,380,19,
 2025-10-31,Nordfit Equipment,Google Ads,es-search-brand-q4,87.98,7801,304,5,108.29
 2025-10-31,Nordfit Equipment,Google Ads,es-shopping-generic-q4,117.3,10390,437,12,367.21
 2025-11-01,Nordfit Equipment,Google Ads,es-search-brand-q4,95.99,9083,369,13,366.49
 2025-11-01,Nordfit Equipment,Google Ads,es-shopping-generic-q4,127.99,12237,511,29,676.57
-2025-11-02,Nordfit Equipment,Google Ads,es-search-brand-q4,94.91,10898,574,17,446.24
+2025-11-02,Nordfit Equipment,Google Ads,es-search-brand-q4,94.91,10898,574,17,
 2025-11-02,Nordfit Equipment,Google Ads,es-shopping-generic-q4,126.55,14563,748,16,439.77
 2025-11-03,Nordfit Equipment,Google Ads,es-search-brand-q4,91.34,6939,404,7,243.71
 2025-11-03,Nordfit Equipment,Google Ads,es-shopping-generic-q4,121.79,9142,520,9,371.73
@@ -1715,7 +1715,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-11-05,Nordfit Equipment,Google Ads,es-shopping-generic-q4,103.23,8589,297,12,264.22
 2025-11-06,Nordfit Equipment,Google Ads,es-search-brand-q4,87.42,8886,377,11,487.7
 2025-11-06,Nordfit Equipment,Google Ads,es-shopping-generic-q4,116.55,11668,517,9,284.5
-2025-11-07,Nordfit Equipment,Google Ads,es-search-brand-q4,103.73,10991,444,7,244.66
+2025-11-07,Nordfit Equipment,Google Ads,es-search-brand-q4,103.73,10991,444,7,
 2025-11-07,Nordfit Equipment,Google Ads,es-shopping-generic-q4,138.31,14902,621,12,452.7
 2025-11-08,Nordfit Equipment,Google Ads,es-search-brand-q4,103.56,13926,532,12,520.54
 2025-11-08,Nordfit Equipment,Google Ads,es-shopping-generic-q4,138.08,18278,741,15,533.24
@@ -1732,7 +1732,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-11-14,Nordfit Equipment,Google Ads,es-search-brand-q4,94.66,7500,424,18,438.41
 2025-11-14,Nordfit Equipment,Google Ads,es-shopping-generic-q4,126.21,10075,592,32,1213.37
 2025-11-15,Nordfit Equipment,Google Ads,es-search-brand-q4,89.22,10946,673,20,489.15
-2025-11-15,Nordfit Equipment,Google Ads,es-shopping-generic-q4,118.96,14398,798,27,
+2025-11-15,Nordfit Equipment,Google Ads,es-shopping-generic-q4,118.96,14398,798,27,567.57
 2025-11-16,Nordfit Equipment,Google Ads,es-search-brand-q4,115.18,10885,527,14,394.96
 2025-11-16,Nordfit Equipment,Google Ads,es-shopping-generic-q4,153.57,14423,752,20,584.31
 2025-11-17,Nordfit Equipment,Google Ads,es-search-brand-q4,119.18,12228,575,25,711.21
@@ -1751,7 +1751,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-11-22,Nordfit Equipment,Google Ads,es-shopping-generic-q4,245.63,30044,1020,31,697.26
 2025-11-22,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,368.45,45436,1571,52,1444.3
 2025-11-23,Nordfit Equipment,Google Ads,es-search-brand-q4,170.59,13698,504,22,770.82
-2025-11-23,Nordfit Equipment,Google Ads,es-shopping-generic-q4,227.45,17997,651,21,710.07
+2025-11-23,Nordfit Equipment,Google Ads,es-shopping-generic-q4,227.45,17997,651,21,
 2025-11-23,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,341.18,27580,1083,55,2036.92
 2025-11-24,Nordfit Equipment,Google Ads,es-search-brand-q4,160.65,16809,654,13,455.25
 2025-11-24,Nordfit Equipment,Google Ads,es-shopping-generic-q4,214.2,22256,911,34,962.72
@@ -1770,7 +1770,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-11-28,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,275.34,34214,1648,59,1002.56
 2025-11-29,Nordfit Equipment,Google Ads,es-search-brand-q4,134.29,16544,775,21,550.15
 2025-11-29,Nordfit Equipment,Google Ads,es-shopping-generic-q4,179.06,21924,1025,29,1033.67
-2025-11-29,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,268.58,32738,1505,47,
+2025-11-29,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,268.58,32738,1505,47,1457.62
 2025-11-30,Nordfit Equipment,Google Ads,es-search-brand-q4,192.88,19361,748,26,648.43
 2025-11-30,Nordfit Equipment,Google Ads,es-shopping-generic-q4,257.17,26374,1005,31,1147.31
 2025-11-30,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,385.76,38821,1586,54,1996.13
@@ -1779,16 +1779,16 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-12-01,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,299.16,42327,2003,81,2666.79
 2025-12-02,Nordfit Equipment,Google Ads,es-search-brand-q4,119.76,14227,478,8,216.81
 2025-12-02,Nordfit Equipment,Google Ads,es-shopping-generic-q4,159.69,18951,580,12,289.9
-2025-12-02,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,239.53,28448,936,25,
+2025-12-02,Nordfit Equipment,Google Ads,es-shopping-blackfriday-q4,239.53,28448,936,25,1203.11
 2025-12-03,Nordfit Equipment,Google Ads,es-search-brand-q4,112.18,8426,297,19,492.48
 2025-12-03,Nordfit Equipment,Google Ads,es-shopping-generic-q4,149.58,11373,421,16,524.81
 2025-12-04,Nordfit Equipment,Google Ads,es-search-brand-q4,112.37,9449,467,21,997.07
 2025-12-04,Nordfit Equipment,Google Ads,es-shopping-generic-q4,149.83,12494,677,42,2030.48
 2025-12-05,Nordfit Equipment,Google Ads,es-search-brand-q4,114.79,10033,494,25,635.6
-2025-12-05,Nordfit Equipment,Google Ads,es-shopping-generic-q4,153.06,13147,697,31,
+2025-12-05,Nordfit Equipment,Google Ads,es-shopping-generic-q4,153.06,13147,697,31,1058.59
 2025-12-06,Nordfit Equipment,Google Ads,es-search-brand-q4,110.42,12185,686,31,952.95
 2025-12-06,Nordfit Equipment,Google Ads,es-shopping-generic-q4,147.23,16440,940,49,2184.57
-2025-12-07,Nordfit Equipment,Google Ads,es-search-brand-q4,115.93,9539,590,12,435.52
+2025-12-07,Nordfit Equipment,Google Ads,es-search-brand-q4,115.93,9539,590,12,
 2025-12-07,Nordfit Equipment,Google Ads,es-shopping-generic-q4,154.57,12812,685,11,380.09
 2025-12-08,Nordfit Equipment,Google Ads,es-search-brand-q4,112.64,15745,720,24,797.19
 2025-12-08,Nordfit Equipment,Google Ads,es-shopping-generic-q4,150.19,21300,968,41,1535.61
@@ -1798,12 +1798,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-12-10,Nordfit Equipment,Google Ads,es-shopping-generic-q4,187.82,17138,544,12,316.83
 2025-12-11,Nordfit Equipment,Google Ads,es-search-brand-q4,117.18,13242,687,26,717.39
 2025-12-11,Nordfit Equipment,Google Ads,es-shopping-generic-q4,156.25,17998,967,27,605.59
-2025-12-12,Nordfit Equipment,Google Ads,es-search-brand-q4,130.1,10238,543,17,392.0
+2025-12-12,Nordfit Equipment,Google Ads,es-search-brand-q4,130.1,10238,543,17,
 2025-12-12,Nordfit Equipment,Google Ads,es-shopping-generic-q4,173.46,13586,808,32,958.01
 2025-12-13,Nordfit Equipment,Google Ads,es-search-brand-q4,92.18,7577,305,3,111.6
 2025-12-13,Nordfit Equipment,Google Ads,es-shopping-generic-q4,122.91,10120,396,5,137.75
 2025-12-14,Nordfit Equipment,Google Ads,es-search-brand-q4,142.11,13727,722,39,1001.62
-2025-12-14,Nordfit Equipment,Google Ads,es-shopping-generic-q4,189.49,17876,913,32,909.19
+2025-12-14,Nordfit Equipment,Google Ads,es-shopping-generic-q4,189.49,17876,913,32,
 2025-12-15,Nordfit Equipment,Google Ads,es-search-brand-q4,122.32,12857,433,15,379.12
 2025-12-15,Nordfit Equipment,Google Ads,es-shopping-generic-q4,163.09,17693,648,22,685.16
 2025-12-16,Nordfit Equipment,Google Ads,es-search-brand-q4,129.55,9499,292,17,503.45
@@ -1843,9 +1843,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-01-01,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,232.96,31133,1469,70,2317.85
 2026-01-02,Nordfit Equipment,Google Ads,es-search-brand-q1,139.07,12939,560,14,535.73
 2026-01-02,Nordfit Equipment,Google Ads,es-shopping-generic-q1,185.43,16888,795,19,403.73
-2026-01-02,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,231.78,21442,973,16,
+2026-01-02,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,231.78,21442,973,16,700.55
 2026-01-03,Nordfit Equipment,Google Ads,es-search-brand-q1,123.62,13470,408,19,640.56
-2026-01-03,Nordfit Equipment,Google Ads,es-shopping-generic-q1,164.82,17561,551,23,
+2026-01-03,Nordfit Equipment,Google Ads,es-shopping-generic-q1,164.82,17561,551,23,839.94
 2026-01-03,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,206.03,22445,693,47,1324.19
 2026-01-04,Nordfit Equipment,Google Ads,es-search-brand-q1,137.3,12212,639,24,906.64
 2026-01-04,Nordfit Equipment,Google Ads,es-shopping-generic-q1,183.06,16074,877,32,1089.15
@@ -1855,15 +1855,15 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-01-05,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,233.82,31839,958,53,1248.23
 2026-01-06,Nordfit Equipment,Google Ads,es-search-brand-q1,145.02,12736,365,10,270.43
 2026-01-06,Nordfit Equipment,Google Ads,es-shopping-generic-q1,193.35,16553,483,18,422.73
-2026-01-06,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,241.69,20816,638,19,
+2026-01-06,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,241.69,20816,638,19,628.16
 2026-01-07,Nordfit Equipment,Google Ads,es-search-brand-q1,110.57,8046,428,17,643.28
 2026-01-07,Nordfit Equipment,Google Ads,es-shopping-generic-q1,147.43,10632,562,11,612.58
 2026-01-07,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,184.28,13370,683,19,789.8
 2026-01-08,Nordfit Equipment,Google Ads,es-search-brand-q1,174.72,16524,925,39,1668.64
 2026-01-08,Nordfit Equipment,Google Ads,es-shopping-generic-q1,232.96,22209,1224,54,1563.45
 2026-01-08,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,291.2,27858,1498,67,2262.81
-2026-01-09,Nordfit Equipment,Google Ads,es-search-brand-q1,162.95,14243,655,11,272.84
-2026-01-09,Nordfit Equipment,Google Ads,es-shopping-generic-q1,217.26,18779,784,20,746.53
+2026-01-09,Nordfit Equipment,Google Ads,es-search-brand-q1,162.95,14243,655,11,
+2026-01-09,Nordfit Equipment,Google Ads,es-shopping-generic-q1,217.26,18779,784,20,
 2026-01-09,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,271.58,23772,1047,19,507.0
 2026-01-10,Nordfit Equipment,Google Ads,es-search-brand-q1,135.22,12983,629,15,450.54
 2026-01-10,Nordfit Equipment,Google Ads,es-shopping-generic-q1,180.29,17275,753,13,487.18
@@ -1873,7 +1873,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-01-11,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,217.46,17954,689,17,464.87
 2026-01-12,Nordfit Equipment,Google Ads,es-search-brand-q1,102.52,9512,367,13,364.35
 2026-01-12,Nordfit Equipment,Google Ads,es-shopping-generic-q1,136.69,12804,415,21,587.41
-2026-01-12,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,170.86,16094,540,15,430.37
+2026-01-12,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,170.86,16094,540,15,
 2026-01-13,Nordfit Equipment,Google Ads,es-search-brand-q1,155.86,12380,549,20,635.91
 2026-01-13,Nordfit Equipment,Google Ads,es-shopping-generic-q1,207.81,16554,732,25,701.28
 2026-01-13,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,259.76,20673,953,25,491.39
@@ -1883,7 +1883,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-01-15,Nordfit Equipment,Google Ads,es-search-brand-q1,148.01,12736,753,36,1192.84
 2026-01-15,Nordfit Equipment,Google Ads,es-shopping-generic-q1,197.34,16598,930,37,1027.68
 2026-01-15,Nordfit Equipment,Google Ads,es-shopping-januarysale-q1,246.68,20907,1214,54,1134.65
-2026-01-16,Nordfit Equipment,Google Ads,es-search-brand-q1,100.15,9081,439,6,
+2026-01-16,Nordfit Equipment,Google Ads,es-search-brand-q1,100.15,9081,439,6,175.9
 2026-01-16,Nordfit Equipment,Google Ads,es-shopping-generic-q1,133.53,12025,545,16,478.96
 2026-01-17,Nordfit Equipment,Google Ads,es-search-brand-q1,88.65,7735,345,14,346.33
 2026-01-17,Nordfit Equipment,Google Ads,es-shopping-generic-q1,118.21,10530,495,19,692.16
@@ -1902,7 +1902,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-01-24,Nordfit Equipment,Google Ads,es-search-brand-q1,108.97,9434,328,12,399.84
 2026-01-24,Nordfit Equipment,Google Ads,es-shopping-generic-q1,145.29,12387,451,27,886.56
 2026-01-25,Nordfit Equipment,Google Ads,es-search-brand-q1,88.42,9377,502,16,372.2
-2026-01-25,Nordfit Equipment,Google Ads,es-shopping-generic-q1,117.89,12586,622,38,1173.44
+2026-01-25,Nordfit Equipment,Google Ads,es-shopping-generic-q1,117.89,12586,622,38,
 2026-01-26,Nordfit Equipment,Google Ads,es-search-brand-q1,89.45,9817,474,33,1471.28
 2026-01-26,Nordfit Equipment,Google Ads,es-shopping-generic-q1,119.27,13095,563,24,682.66
 2026-01-27,Nordfit Equipment,Google Ads,es-search-brand-q1,73.45,10104,416,19,487.88
@@ -1910,7 +1910,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-01-28,Nordfit Equipment,Google Ads,es-search-brand-q1,80.01,7978,432,25,538.95
 2026-01-28,Nordfit Equipment,Google Ads,es-shopping-generic-q1,106.68,10766,516,20,736.24
 2026-01-29,Nordfit Equipment,Google Ads,es-search-brand-q1,93.43,7243,265,9,430.89
-2026-01-29,Nordfit Equipment,Google Ads,es-shopping-generic-q1,124.57,9410,371,24,
+2026-01-29,Nordfit Equipment,Google Ads,es-shopping-generic-q1,124.57,9410,371,24,415.85
 2026-01-30,Nordfit Equipment,Google Ads,es-search-brand-q1,90.24,6895,266,10,223.34
 2026-01-30,Nordfit Equipment,Google Ads,es-shopping-generic-q1,120.32,9008,361,15,578.63
 2026-01-31,Nordfit Equipment,Google Ads,es-search-brand-q1,94.07,12399,748,32,918.88
@@ -1924,15 +1924,15 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-04,Nordfit Equipment,Google Ads,es-search-brand-q1,68.55,6020,248,2,59.2
 2026-02-04,Nordfit Equipment,Google Ads,es-shopping-generic-q1,91.4,8342,374,11,333.57
 2026-02-05,Nordfit Equipment,Google Ads,es-search-brand-q1,92.96,6820,335,13,375.01
-2026-02-05,Nordfit Equipment,Google Ads,es-shopping-generic-q1,123.95,9077,388,9,
+2026-02-05,Nordfit Equipment,Google Ads,es-shopping-generic-q1,123.95,9077,388,9,391.45
 2026-02-06,Nordfit Equipment,Google Ads,es-search-brand-q1,98.52,12842,440,14,666.78
 2026-02-06,Nordfit Equipment,Google Ads,es-shopping-generic-q1,131.36,16963,616,24,510.01
-2026-02-07,Nordfit Equipment,Google Ads,es-search-brand-q1,84.5,6305,295,11,
+2026-02-07,Nordfit Equipment,Google Ads,es-search-brand-q1,84.5,6305,295,11,547.48
 2026-02-07,Nordfit Equipment,Google Ads,es-shopping-generic-q1,112.66,8489,357,11,348.09
-2026-02-08,Nordfit Equipment,Google Ads,es-search-brand-q1,71.23,5302,306,6,139.11
+2026-02-08,Nordfit Equipment,Google Ads,es-search-brand-q1,71.23,5302,306,6,
 2026-02-08,Nordfit Equipment,Google Ads,es-shopping-generic-q1,94.97,7125,428,19,604.16
 2026-02-09,Nordfit Equipment,Google Ads,es-search-brand-q1,86.9,8011,281,8,206.22
-2026-02-09,Nordfit Equipment,Google Ads,es-shopping-generic-q1,115.87,10416,366,11,
+2026-02-09,Nordfit Equipment,Google Ads,es-shopping-generic-q1,115.87,10416,366,11,400.0
 2026-02-10,Nordfit Equipment,Google Ads,es-search-brand-q1,116.47,8504,470,19,517.4
 2026-02-10,Nordfit Equipment,Google Ads,es-shopping-generic-q1,155.3,11399,588,28,846.83
 2026-02-11,Nordfit Equipment,Google Ads,es-search-brand-q1,97.85,7533,355,19,510.54
@@ -1950,7 +1950,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-17,Nordfit Equipment,Google Ads,es-search-brand-q1,77.69,9783,580,22,821.49
 2026-02-17,Nordfit Equipment,Google Ads,es-shopping-generic-q1,103.58,12971,741,38,1033.72
 2026-02-18,Nordfit Equipment,Google Ads,es-search-brand-q1,107.02,13532,777,25,769.57
-2026-02-18,Nordfit Equipment,Google Ads,es-shopping-generic-q1,142.7,18032,1020,39,1119.34
+2026-02-18,Nordfit Equipment,Google Ads,es-shopping-generic-q1,142.7,18032,1020,39,
 2026-02-19,Nordfit Equipment,Google Ads,es-search-brand-q1,92.72,7969,257,4,196.51
 2026-02-19,Nordfit Equipment,Google Ads,es-shopping-generic-q1,123.63,10527,337,11,281.45
 2026-02-20,Nordfit Equipment,Google Ads,es-search-brand-q1,114.2,10798,578,9,247.2
@@ -1960,9 +1960,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-22,Nordfit Equipment,Google Ads,es-search-brand-q1,98.03,10965,388,16,527.07
 2026-02-22,Nordfit Equipment,Google Ads,es-shopping-generic-q1,130.71,14390,512,30,629.7
 2026-02-23,Nordfit Equipment,Google Ads,es-search-brand-q1,99.97,13512,496,11,186.95
-2026-02-23,Nordfit Equipment,Google Ads,es-shopping-generic-q1,133.3,18231,648,20,754.68
+2026-02-23,Nordfit Equipment,Google Ads,es-shopping-generic-q1,133.3,18231,648,20,
 2026-02-24,Nordfit Equipment,Google Ads,es-search-brand-q1,97.81,9271,408,17,493.19
-2026-02-24,Nordfit Equipment,Google Ads,es-shopping-generic-q1,130.41,12343,533,14,417.91
+2026-02-24,Nordfit Equipment,Google Ads,es-shopping-generic-q1,130.41,12343,533,14,
 2026-02-25,Nordfit Equipment,Google Ads,es-search-brand-q1,84.96,11856,615,25,790.17
 2026-02-25,Nordfit Equipment,Google Ads,es-shopping-generic-q1,113.29,15967,796,41,1104.09
 2026-02-26,Nordfit Equipment,Google Ads,es-search-brand-q1,79.14,6445,228,5,109.14
@@ -1985,7 +1985,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-03-06,Nordfit Equipment,Google Ads,es-shopping-generic-q1,101.75,8023,393,11,458.98
 2026-03-07,Nordfit Equipment,Google Ads,es-search-brand-q1,95.36,8184,435,10,402.14
 2026-03-07,Nordfit Equipment,Google Ads,es-shopping-generic-q1,127.15,10866,589,24,824.62
-2026-03-08,Nordfit Equipment,Google Ads,es-search-brand-q1,88.14,11456,638,19,
+2026-03-08,Nordfit Equipment,Google Ads,es-search-brand-q1,88.14,11456,638,19,812.64
 2026-03-08,Nordfit Equipment,Google Ads,es-shopping-generic-q1,117.51,15717,810,23,761.76
 2026-03-09,Nordfit Equipment,Google Ads,es-search-brand-q1,72.95,8224,355,6,171.51
 2026-03-09,Nordfit Equipment,Google Ads,es-shopping-generic-q1,97.26,10805,473,15,611.18
@@ -2019,8 +2019,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-03-23,Nordfit Equipment,Google Ads,es-shopping-generic-q1,84.81,6574,363,12,657.4
 2026-03-24,Nordfit Equipment,Google Ads,es-search-brand-q1,71.67,7269,383,21,707.37
 2026-03-24,Nordfit Equipment,Google Ads,es-shopping-generic-q1,95.56,9626,458,28,575.67
-2026-03-25,Nordfit Equipment,Google Ads,es-search-brand-q1,87.05,11228,570,15,438.91
-2026-03-25,Nordfit Equipment,Google Ads,es-shopping-generic-q1,116.07,14739,696,17,
+2026-03-25,Nordfit Equipment,Google Ads,es-search-brand-q1,87.05,11228,570,15,
+2026-03-25,Nordfit Equipment,Google Ads,es-shopping-generic-q1,116.07,14739,696,17,396.75
 2026-03-26,Nordfit Equipment,Google Ads,es-search-brand-q1,103.2,10060,411,22,789.53
 2026-03-26,Nordfit Equipment,Google Ads,es-shopping-generic-q1,137.6,13261,532,33,799.96
 2026-03-27,Nordfit Equipment,Google Ads,es-search-brand-q1,91.23,9038,410,18,487.35
@@ -2037,11 +2037,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-04-01,Nordfit Equipment,Google Ads,es-shopping-generic-q2,107.93,9108,358,5,132.95
 2026-04-02,Nordfit Equipment,Google Ads,es-search-brand-q2,125.62,10546,590,22,852.42
 2026-04-02,Nordfit Equipment,Google Ads,es-shopping-generic-q2,167.5,14095,699,35,1655.57
-2026-04-03,Nordfit Equipment,Google Ads,es-search-brand-q2,119.1,10286,550,11,375.84
+2026-04-03,Nordfit Equipment,Google Ads,es-search-brand-q2,119.1,10286,550,11,
 2026-04-03,Nordfit Equipment,Google Ads,es-shopping-generic-q2,158.8,13810,685,13,412.65
 2026-04-04,Nordfit Equipment,Google Ads,es-search-brand-q2,80.76,11298,424,13,392.57
 2026-04-04,Nordfit Equipment,Google Ads,es-shopping-generic-q2,107.68,14988,508,21,618.13
-2026-04-05,Nordfit Equipment,Google Ads,es-search-brand-q2,82.54,9177,401,15,
+2026-04-05,Nordfit Equipment,Google Ads,es-search-brand-q2,82.54,9177,401,15,429.93
 2026-04-05,Nordfit Equipment,Google Ads,es-shopping-generic-q2,110.05,12480,561,13,408.65
 2026-04-06,Nordfit Equipment,Google Ads,es-search-brand-q2,104.38,11253,402,15,628.46
 2026-04-06,Nordfit Equipment,Google Ads,es-shopping-generic-q2,139.18,15152,563,30,752.71
@@ -2058,7 +2058,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-04-12,Nordfit Equipment,Google Ads,es-search-brand-q2,132.23,15870,876,26,1295.83
 2026-04-12,Nordfit Equipment,Google Ads,es-shopping-generic-q2,176.3,21063,1141,37,1573.12
 2026-04-13,Nordfit Equipment,Google Ads,es-search-brand-q2,107.06,13641,590,30,1041.68
-2026-04-13,Nordfit Equipment,Google Ads,es-shopping-generic-q2,142.74,18025,814,26,1017.15
+2026-04-13,Nordfit Equipment,Google Ads,es-shopping-generic-q2,142.74,18025,814,26,
 2026-04-14,Nordfit Equipment,Google Ads,es-search-brand-q2,73.74,5878,308,9,357.64
 2026-04-14,Nordfit Equipment,Google Ads,es-shopping-generic-q2,98.33,7695,426,15,521.85
 2026-04-15,Nordfit Equipment,Google Ads,es-search-brand-q2,83.81,9424,331,16,390.91
@@ -2111,42 +2111,22 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-05-08,Nordfit Equipment,Google Ads,es-shopping-generic-q2,111.61,9035,474,17,566.5
 2026-05-09,Nordfit Equipment,Google Ads,es-search-brand-q2,86.34,11354,662,17,445.3
 2026-05-09,Nordfit Equipment,Google Ads,es-shopping-generic-q2,115.11,14948,827,22,607.94
-2026-05-09,Nordfit Equipment,Google Ads,es-search-brand-q2,86.34,11354,662,17,445.3
-2026-05-09,Nordfit Equipment,Google Ads,es-shopping-generic-q2,115.11,14948,827,22,607.94
-2026-05-10,Nordfit Equipment,Google Ads,es-search-brand-q2,127.78,9605,509,18,614.85
-2026-05-10,Nordfit Equipment,Google Ads,es-shopping-generic-q2,170.37,12609,692,24,639.35
 2026-05-10,Nordfit Equipment,Google Ads,es-search-brand-q2,127.78,9605,509,18,614.85
 2026-05-10,Nordfit Equipment,Google Ads,es-shopping-generic-q2,170.37,12609,692,24,639.35
 2026-05-11,Nordfit Equipment,Google Ads,es-search-brand-q2,118.61,13290,403,16,396.72
 2026-05-11,Nordfit Equipment,Google Ads,es-shopping-generic-q2,158.14,17940,562,31,1049.11
-2026-05-11,Nordfit Equipment,Google Ads,es-search-brand-q2,118.61,13290,403,16,396.72
-2026-05-11,Nordfit Equipment,Google Ads,es-shopping-generic-q2,158.14,17940,562,31,1049.11
-2026-05-12,Nordfit Equipment,Google Ads,es-search-brand-q2,108.41,7859,242,8,290.06
-2026-05-12,Nordfit Equipment,Google Ads,es-shopping-generic-q2,144.54,10773,351,7,218.18
 2026-05-12,Nordfit Equipment,Google Ads,es-search-brand-q2,108.41,7859,242,8,290.06
 2026-05-12,Nordfit Equipment,Google Ads,es-shopping-generic-q2,144.54,10773,351,7,218.18
 2026-05-13,Nordfit Equipment,Google Ads,es-search-brand-q2,110.37,9783,477,20,725.61
 2026-05-13,Nordfit Equipment,Google Ads,es-shopping-generic-q2,147.16,12749,643,23,375.13
-2026-05-13,Nordfit Equipment,Google Ads,es-search-brand-q2,110.37,9783,477,20,725.61
-2026-05-13,Nordfit Equipment,Google Ads,es-shopping-generic-q2,147.16,12749,643,23,375.13
-2026-05-14,Nordfit Equipment,Google Ads,es-search-brand-q2,89.9,6803,264,14,366.35
-2026-05-14,Nordfit Equipment,Google Ads,es-shopping-generic-q2,119.87,9121,455,24,653.1
 2026-05-14,Nordfit Equipment,Google Ads,es-search-brand-q2,89.9,6803,264,14,366.35
 2026-05-14,Nordfit Equipment,Google Ads,es-shopping-generic-q2,119.87,9121,455,24,653.1
 2026-05-15,Nordfit Equipment,Google Ads,es-search-brand-q2,94.58,12983,767,25,991.54
 2026-05-15,Nordfit Equipment,Google Ads,es-shopping-generic-q2,126.11,17235,1053,44,1560.0
-2026-05-15,Nordfit Equipment,Google Ads,es-search-brand-q2,94.58,12983,767,25,991.54
-2026-05-15,Nordfit Equipment,Google Ads,es-shopping-generic-q2,126.11,17235,1053,44,1560.0
-2026-05-16,Nordfit Equipment,Google Ads,es-search-brand-q2,132.46,10821,404,18,665.27
-2026-05-16,Nordfit Equipment,Google Ads,es-shopping-generic-q2,176.61,14152,563,19,548.67
 2026-05-16,Nordfit Equipment,Google Ads,es-search-brand-q2,132.46,10821,404,18,665.27
 2026-05-16,Nordfit Equipment,Google Ads,es-shopping-generic-q2,176.61,14152,563,19,548.67
 2026-05-17,Nordfit Equipment,Google Ads,es-search-brand-q2,92.83,7398,398,9,252.74
 2026-05-17,Nordfit Equipment,Google Ads,es-shopping-generic-q2,123.77,9670,527,13,390.58
-2026-05-17,Nordfit Equipment,Google Ads,es-search-brand-q2,92.83,7398,398,9,252.74
-2026-05-17,Nordfit Equipment,Google Ads,es-shopping-generic-q2,123.77,9670,527,13,390.58
-2026-05-18,Nordfit Equipment,Google Ads,es-search-brand-q2,102.25,10932,318,10,249.52
-2026-05-18,Nordfit Equipment,Google Ads,es-shopping-generic-q2,136.33,14792,455,8,305.78
 2026-05-18,Nordfit Equipment,Google Ads,es-search-brand-q2,102.25,10932,318,10,249.52
 2026-05-18,Nordfit Equipment,Google Ads,es-shopping-generic-q2,136.33,14792,455,8,305.78
 2026-05-19,Nordfit Equipment,Google Ads,es-search-brand-q2,101.53,10015,427,14,604.3
@@ -2167,22 +2147,42 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-05-26,Nordfit Equipment,Google Ads,es-shopping-generic-q2,141.79,14646,539,20,827.01
 2026-05-27,Nordfit Equipment,Google Ads,es-search-brand-q2,102.14,8905,268,12,415.67
 2026-05-27,Nordfit Equipment,Google Ads,es-shopping-generic-q2,136.18,12003,397,12,330.52
+2026-05-27,Nordfit Equipment,Google Ads,es-search-brand-q2,102.14,8905,268,12,415.67
+2026-05-27,Nordfit Equipment,Google Ads,es-shopping-generic-q2,136.18,12003,397,12,330.52
+2026-05-28,Nordfit Equipment,Google Ads,es-search-brand-q2,87.48,7992,470,12,419.84
+2026-05-28,Nordfit Equipment,Google Ads,es-shopping-generic-q2,116.64,10729,604,18,559.03
 2026-05-28,Nordfit Equipment,Google Ads,es-search-brand-q2,87.48,7992,470,12,419.84
 2026-05-28,Nordfit Equipment,Google Ads,es-shopping-generic-q2,116.64,10729,604,18,559.03
 2026-05-29,Nordfit Equipment,Google Ads,es-search-brand-q2,100.87,13436,777,20,673.67
 2026-05-29,Nordfit Equipment,Google Ads,es-shopping-generic-q2,134.5,17870,1026,20,671.52
+2026-05-29,Nordfit Equipment,Google Ads,es-search-brand-q2,100.87,13436,777,20,673.67
+2026-05-29,Nordfit Equipment,Google Ads,es-shopping-generic-q2,134.5,17870,1026,20,671.52
+2026-05-30,Nordfit Equipment,Google Ads,es-search-brand-q2,93.35,10254,360,21,986.27
+2026-05-30,Nordfit Equipment,Google Ads,es-shopping-generic-q2,124.46,13344,490,30,1480.72
 2026-05-30,Nordfit Equipment,Google Ads,es-search-brand-q2,93.35,10254,360,21,986.27
 2026-05-30,Nordfit Equipment,Google Ads,es-shopping-generic-q2,124.46,13344,490,30,1480.72
 2026-05-31,Nordfit Equipment,Google Ads,es-search-brand-q2,99.9,8638,423,4,152.75
 2026-05-31,Nordfit Equipment,Google Ads,es-shopping-generic-q2,133.2,11536,512,16,524.27
+2026-05-31,Nordfit Equipment,Google Ads,es-search-brand-q2,99.9,8638,423,4,152.75
+2026-05-31,Nordfit Equipment,Google Ads,es-shopping-generic-q2,133.2,11536,512,16,524.27
+2026-06-01,Nordfit Equipment,Google Ads,es-search-brand-q2,93.89,8498,477,15,755.83
+2026-06-01,Nordfit Equipment,Google Ads,es-shopping-generic-q2,125.19,11498,613,16,563.52
 2026-06-01,Nordfit Equipment,Google Ads,es-search-brand-q2,93.89,8498,477,15,755.83
 2026-06-01,Nordfit Equipment,Google Ads,es-shopping-generic-q2,125.19,11498,613,16,563.52
 2026-06-02,Nordfit Equipment,Google Ads,es-search-brand-q2,104.17,8262,249,2,75.66
 2026-06-02,Nordfit Equipment,Google Ads,es-shopping-generic-q2,138.89,11035,349,12,348.2
+2026-06-02,Nordfit Equipment,Google Ads,es-search-brand-q2,104.17,8262,249,2,75.66
+2026-06-02,Nordfit Equipment,Google Ads,es-shopping-generic-q2,138.89,11035,349,12,348.2
+2026-06-03,Nordfit Equipment,Google Ads,es-search-brand-q2,78.64,8255,407,5,176.07
+2026-06-03,Nordfit Equipment,Google Ads,es-shopping-generic-q2,104.86,11115,602,14,616.11
 2026-06-03,Nordfit Equipment,Google Ads,es-search-brand-q2,78.64,8255,407,5,176.07
 2026-06-03,Nordfit Equipment,Google Ads,es-shopping-generic-q2,104.86,11115,602,14,616.11
 2026-06-04,Nordfit Equipment,Google Ads,es-search-brand-q2,79.36,5855,278,7,180.37
 2026-06-04,Nordfit Equipment,Google Ads,es-shopping-generic-q2,105.82,7666,374,17,317.2
+2026-06-04,Nordfit Equipment,Google Ads,es-search-brand-q2,79.36,5855,278,7,180.37
+2026-06-04,Nordfit Equipment,Google Ads,es-shopping-generic-q2,105.82,7666,374,17,317.2
+2026-06-05,Nordfit Equipment,Google Ads,es-search-brand-q2,97.05,9262,301,11,229.72
+2026-06-05,Nordfit Equipment,Google Ads,es-shopping-generic-q2,129.4,12264,445,21,1274.3
 2026-06-05,Nordfit Equipment,Google Ads,es-search-brand-q2,97.05,9262,301,11,229.72
 2026-06-05,Nordfit Equipment,Google Ads,es-shopping-generic-q2,129.4,12264,445,21,1274.3
 2026-06-06,Nordfit Equipment,Google Ads,es-search-brand-q2,87.3,6320,245,12,318.12
@@ -2190,8 +2190,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-07,Nordfit Equipment,Google Ads,es-search-brand-q2,101.13,7769,433,10,286.2
 2026-06-07,Nordfit Equipment,Google Ads,es-shopping-generic-q2,134.84,10377,607,13,435.07
 2026-06-08,Nordfit Equipment,Google Ads,es-search-brand-q2,104.35,12292,729,22,573.42
-2026-06-08,Nordfit Equipment,Google Ads,es-shopping-generic-q2,139.13,16442,1031,22,
-2026-06-09,Nordfit Equipment,Google Ads,es-search-brand-q2,79.85,6655,296,15,
+2026-06-08,Nordfit Equipment,Google Ads,es-shopping-generic-q2,139.13,16442,1031,22,891.41
+2026-06-09,Nordfit Equipment,Google Ads,es-search-brand-q2,79.85,6655,296,15,273.27
 2026-06-09,Nordfit Equipment,Google Ads,es-shopping-generic-q2,106.46,8929,428,16,366.24
 2026-06-10,Nordfit Equipment,Google Ads,es-search-brand-q2,79.55,6772,219,17,592.88
 2026-06-10,Nordfit Equipment,Google Ads,es-shopping-generic-q2,106.06,8883,272,13,378.16
@@ -2199,7 +2199,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-11,Nordfit Equipment,Google Ads,es-shopping-generic-q2,133.75,13212,725,18,517.96
 2026-06-12,Nordfit Equipment,Google Ads,es-search-brand-q2,94.57,12654,673,26,400.82
 2026-06-12,Nordfit Equipment,Google Ads,es-shopping-generic-q2,126.09,16916,917,39,1047.95
-2026-06-13,Nordfit Equipment,Google Ads,es-search-brand-q2,115.73,11476,399,7,
+2026-06-13,Nordfit Equipment,Google Ads,es-search-brand-q2,115.73,11476,399,7,140.7
 2026-06-13,Nordfit Equipment,Google Ads,es-shopping-generic-q2,154.31,15286,531,10,246.7
 2026-06-14,Nordfit Equipment,Google Ads,es-search-brand-q2,104.34,12630,539,19,660.79
 2026-06-14,Nordfit Equipment,Google Ads,es-shopping-generic-q2,139.11,17102,747,23,583.7
@@ -2207,16 +2207,16 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-15,Nordfit Equipment,Google Ads,es-shopping-generic-q2,156.43,11369,355,8,198.16
 2026-06-16,Nordfit Equipment,Google Ads,es-search-brand-q2,91.4,7442,386,15,618.18
 2026-06-16,Nordfit Equipment,Google Ads,es-shopping-generic-q2,121.87,9853,525,17,382.18
-2026-06-17,Nordfit Equipment,Google Ads,es-search-brand-q2,107.75,10620,372,14,512.56
+2026-06-17,Nordfit Equipment,Google Ads,es-search-brand-q2,107.75,10620,372,14,
 2026-06-17,Nordfit Equipment,Google Ads,es-shopping-generic-q2,143.67,14076,462,13,344.99
-2026-06-18,Nordfit Equipment,Google Ads,es-search-brand-q2,79.71,6357,252,9,265.9
+2026-06-18,Nordfit Equipment,Google Ads,es-search-brand-q2,79.71,6357,252,9,
 2026-06-18,Nordfit Equipment,Google Ads,es-shopping-generic-q2,106.27,8369,290,13,378.6
 2026-06-19,Nordfit Equipment,Google Ads,es-search-brand-q2,73.55,5429,187,5,143.98
 2026-06-19,Nordfit Equipment,Google Ads,es-shopping-generic-q2,98.07,7417,271,12,518.64
 2026-06-20,Nordfit Equipment,Google Ads,es-search-brand-q2,94.63,10671,651,26,922.37
 2026-06-20,Nordfit Equipment,Google Ads,es-shopping-generic-q2,126.18,14456,885,34,717.35
 2026-06-21,Nordfit Equipment,Google Ads,es-search-brand-q2,95.87,7519,260,8,266.63
-2026-06-21,Nordfit Equipment,Google Ads,es-shopping-generic-q2,127.82,9986,339,7,275.98
+2026-06-21,Nordfit Equipment,Google Ads,es-shopping-generic-q2,127.82,9986,339,7,
 2026-06-22,Nordfit Equipment,Google Ads,es-search-brand-q2,87.08,9392,354,9,232.73
 2026-06-22,Nordfit Equipment,Google Ads,es-shopping-generic-q2,116.11,12566,505,20,705.07
 2026-06-23,Nordfit Equipment,Google Ads,es-search-brand-q2,93.58,12274,399,22,704.71
@@ -2227,7 +2227,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-25,Nordfit Equipment,Google Ads,es-shopping-generic-q2,128.14,10168,576,13,367.75
 2026-06-26,Nordfit Equipment,Google Ads,es-search-brand-q2,93.52,6956,343,22,772.2
 2026-06-26,Nordfit Equipment,Google Ads,es-shopping-generic-q2,124.69,9403,413,13,393.67
-2026-06-27,Nordfit Equipment,Google Ads,es-search-brand-q2,99.56,8709,324,14,
+2026-06-27,Nordfit Equipment,Google Ads,es-search-brand-q2,99.56,8709,324,14,299.41
 2026-06-27,Nordfit Equipment,Google Ads,es-shopping-generic-q2,132.75,11403,417,22,547.88
 2026-06-28,Nordfit Equipment,Google Ads,es-search-brand-q2,103.2,13766,430,18,405.67
 2026-06-28,Nordfit Equipment,Google Ads,es-shopping-generic-q2,137.6,18165,572,19,437.39
@@ -2244,10 +2244,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-07-04,Nordfit Equipment,Google Ads,es-search-brand-q3,90.28,10450,573,21,603.27
 2026-07-04,Nordfit Equipment,Google Ads,es-shopping-generic-q3,120.38,13660,718,16,369.93
 2026-07-05,Nordfit Equipment,Google Ads,es-search-brand-q3,95.47,8519,407,13,582.67
-2026-07-05,Nordfit Equipment,Google Ads,es-shopping-generic-q3,127.29,11300,519,16,394.87
+2026-07-05,Nordfit Equipment,Google Ads,es-shopping-generic-q3,127.29,11300,519,16,
 2026-07-06,Nordfit Equipment,Google Ads,es-search-brand-q3,96.23,13596,450,4,140.98
 2026-07-06,Nordfit Equipment,Google Ads,es-shopping-generic-q3,128.31,18120,556,8,190.66
-2026-07-07,Nordfit Equipment,Google Ads,es-search-brand-q3,104.68,8221,495,17,
+2026-07-07,Nordfit Equipment,Google Ads,es-search-brand-q3,104.68,8221,495,17,546.25
 2026-07-07,Nordfit Equipment,Google Ads,es-shopping-generic-q3,139.58,11038,537,20,623.08
 2026-07-08,Nordfit Equipment,Google Ads,es-search-brand-q3,83.78,9276,484,7,262.8
 2026-07-08,Nordfit Equipment,Google Ads,es-shopping-generic-q3,111.71,12336,642,15,518.16
@@ -2263,7 +2263,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-07-13,Nordfit Equipment,Google Ads,es-shopping-generic-q3,123.05,12598,411,16,556.46
 2026-07-14,Nordfit Equipment,Google Ads,es-search-brand-q3,94.46,12852,501,8,235.53
 2026-07-14,Nordfit Equipment,Google Ads,es-shopping-generic-q3,125.95,16969,682,12,486.56
-2026-07-15,Nordfit Equipment,Google Ads,es-search-brand-q3,68.29,4960,165,2,68.47
+2026-07-15,Nordfit Equipment,Google Ads,es-search-brand-q3,68.29,4960,165,2,
 2026-07-15,Nordfit Equipment,Google Ads,es-shopping-generic-q3,91.06,6668,214,7,177.39
 2026-07-16,Nordfit Equipment,Google Ads,es-search-brand-q3,102.27,9544,373,11,348.09
 2026-07-16,Nordfit Equipment,Google Ads,es-shopping-generic-q3,136.37,12561,512,10,210.45
@@ -2291,7 +2291,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-07-27,Nordfit Equipment,Google Ads,es-shopping-generic-q3,135.99,11640,542,13,501.54
 2026-07-28,Nordfit Equipment,Google Ads,es-search-brand-q3,109.05,9664,500,11,273.85
 2026-07-28,Nordfit Equipment,Google Ads,es-shopping-generic-q3,145.4,12857,656,31,775.11
-2026-07-29,Nordfit Equipment,Google Ads,es-search-brand-q3,84.66,8745,324,10,
+2026-07-29,Nordfit Equipment,Google Ads,es-search-brand-q3,84.66,8745,324,10,163.81
 2026-07-29,Nordfit Equipment,Google Ads,es-shopping-generic-q3,112.88,12095,436,11,293.05
 2026-07-30,Nordfit Equipment,Google Ads,es-search-brand-q3,83.26,7798,489,20,588.31
 2026-07-30,Nordfit Equipment,Google Ads,es-shopping-generic-q3,111.01,10680,609,24,819.16
@@ -2491,8 +2491,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-04-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,96.47,11705,395,12,446.54
 2025-04-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,75.03,8822,309,15,895.81
 2025-04-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,43.93,5070,155,10,427.65
-2025-04-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,56.48,6632,204,6,185.93
-2025-04-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,43.93,5112,174,10,
+2025-04-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,56.48,6632,204,6,
+2025-04-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,43.93,5112,174,10,396.47
 2025-04-27,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,76.05,6178,307,11,666.74
 2025-04-27,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,97.78,7903,417,18,792.11
 2025-04-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,76.05,6210,309,12,450.37
@@ -2516,8 +2516,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-03,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,68.92,8162,294,7,400.52
 2025-05-04,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,49.62,5737,226,9,490.88
 2025-05-04,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,63.79,7365,293,7,465.11
-2025-05-04,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,49.62,5863,225,6,276.0
-2025-05-05,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,69.42,7001,346,10,
+2025-05-04,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,49.62,5863,225,6,
+2025-05-05,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,69.42,7001,346,10,270.38
 2025-05-05,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,89.26,9130,467,11,524.46
 2025-05-05,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,69.42,6986,348,5,292.08
 2025-05-06,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,72.01,6257,294,7,373.23
@@ -2532,15 +2532,15 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-09,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,69.95,5529,209,9,322.66
 2025-05-09,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,89.93,6785,245,8,305.7
 2025-05-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,69.95,5400,194,8,310.94
-2025-05-10,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,72.98,7046,250,6,329.49
-2025-05-10,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,93.83,9006,289,6,
+2025-05-10,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,72.98,7046,250,6,
+2025-05-10,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,93.83,9006,289,6,327.3
 2025-05-10,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,72.98,6879,233,5,195.58
 2025-05-11,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,72.49,6769,341,9,464.15
 2025-05-11,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,93.2,8775,411,13,1017.55
 2025-05-11,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,72.49,6559,336,6,357.48
 2025-05-12,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,72.12,7089,412,7,468.78
-2025-05-12,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,92.73,9053,487,20,903.31
-2025-05-12,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,72.12,7095,406,16,
+2025-05-12,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,92.73,9053,487,20,
+2025-05-12,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,72.12,7095,406,16,757.94
 2025-05-13,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,69.07,4925,166,3,170.02
 2025-05-13,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,88.81,6384,237,10,530.79
 2025-05-13,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,69.07,4929,188,5,300.62
@@ -2559,30 +2559,60 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-05-18,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,92.47,12427,560,16,852.88
 2025-05-18,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,118.89,15890,674,18,1121.39
 2025-05-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,92.47,12369,562,22,823.13
+2025-05-18,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,92.47,12427,560,16,852.88
+2025-05-18,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,118.89,15890,674,18,1121.39
+2025-05-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,92.47,12369,562,22,823.13
+2025-05-19,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,74.54,7770,326,6,313.93
+2025-05-19,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,95.84,10148,477,22,640.71
+2025-05-19,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,74.54,7977,351,12,647.48
 2025-05-19,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,74.54,7770,326,6,313.93
 2025-05-19,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,95.84,10148,477,22,640.71
 2025-05-19,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,74.54,7977,351,12,647.48
 2025-05-20,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,72.39,7471,299,8,314.57
 2025-05-20,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,93.07,9795,364,12,481.8
 2025-05-20,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,72.39,7635,285,16,994.43
+2025-05-20,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,72.39,7471,299,8,314.57
+2025-05-20,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,93.07,9795,364,12,481.8
+2025-05-20,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,72.39,7635,285,16,994.43
+2025-05-21,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,110.69,10126,360,16,735.65
+2025-05-21,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,142.32,13146,423,15,1165.82
+2025-05-21,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,110.69,10167,341,16,571.57
 2025-05-21,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,110.69,10126,360,16,735.65
 2025-05-21,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,142.32,13146,423,15,1165.82
 2025-05-21,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,110.69,10167,341,16,571.57
 2025-05-22,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,73.86,5635,303,3,90.9
 2025-05-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,94.96,6975,355,9,524.44
 2025-05-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,73.86,5550,295,11,273.21
+2025-05-22,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,73.86,5635,303,3,90.9
+2025-05-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,94.96,6975,355,9,524.44
+2025-05-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,73.86,5550,295,11,273.21
 2025-05-23,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,78.27,8018,277,13,649.18
 2025-05-23,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,100.63,10188,355,19,621.15
-2025-05-23,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,78.27,7989,289,8,474.54
+2025-05-23,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,78.27,7989,289,8,
+2025-05-23,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,78.27,8018,277,13,649.18
+2025-05-23,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,100.63,10188,355,19,621.15
+2025-05-23,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,78.27,7989,289,8,
 2025-05-24,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,93.59,9324,469,15,911.77
-2025-05-24,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,120.33,11965,569,31,
+2025-05-24,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,120.33,11965,569,31,1228.81
+2025-05-24,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,93.59,9476,495,27,1971.1
+2025-05-24,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,93.59,9324,469,15,911.77
+2025-05-24,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,120.33,11965,569,31,1228.81
 2025-05-24,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,93.59,9476,495,27,1971.1
 2025-05-25,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,91.76,6410,203,8,629.36
-2025-05-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,117.98,8479,298,11,272.79
+2025-05-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,117.98,8479,298,11,
 2025-05-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,91.76,6495,246,13,466.89
-2025-05-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,74.03,9016,263,1,
+2025-05-25,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,91.76,6410,203,8,629.36
+2025-05-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,117.98,8479,298,11,
+2025-05-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,91.76,6495,246,13,466.89
+2025-05-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,74.03,9016,263,1,55.12
 2025-05-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,95.19,11710,362,10,445.83
 2025-05-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,74.03,9331,276,5,304.42
+2025-05-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,74.03,9016,263,1,55.12
+2025-05-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,95.19,11710,362,10,445.83
+2025-05-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,74.03,9331,276,5,304.42
+2025-05-27,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,120.73,10265,604,20,721.69
+2025-05-27,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,155.23,13401,766,19,782.45
+2025-05-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,120.73,10323,628,23,966.55
 2025-05-27,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,120.73,10265,604,20,721.69
 2025-05-27,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,155.23,13401,766,19,782.45
 2025-05-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,120.73,10323,628,23,966.55
@@ -2646,20 +2676,20 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-06-16,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,138.4,18687,913,37,1692.1
 2025-06-16,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,177.95,24057,1171,53,1361.37
 2025-06-16,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,138.4,18535,881,28,1520.76
-2025-06-17,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,176.22,13286,476,16,703.27
+2025-06-17,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,176.22,13286,476,16,
 2025-06-17,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,226.56,17158,571,21,761.65
-2025-06-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,176.22,13363,489,21,
+2025-06-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,176.22,13363,489,21,853.17
 2025-06-18,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,152.3,11317,538,18,1201.13
 2025-06-18,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,195.82,14259,621,23,752.89
-2025-06-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,152.3,11367,508,23,738.45
-2025-06-19,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,147.18,17518,1014,17,
+2025-06-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,152.3,11367,508,23,
+2025-06-19,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,147.18,17518,1014,17,691.98
 2025-06-19,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,189.23,22378,1281,26,1131.99
-2025-06-19,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,147.18,17481,1017,31,1041.31
-2025-06-20,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,175.91,20343,867,35,
+2025-06-19,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,147.18,17481,1017,31,
+2025-06-20,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,175.91,20343,867,35,1146.81
 2025-06-20,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,226.17,26112,1080,40,1517.98
-2025-06-20,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,175.91,20401,830,36,1668.97
+2025-06-20,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,175.91,20401,830,36,
 2025-06-21,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,167.72,13743,783,20,857.04
-2025-06-21,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,215.64,17725,1054,37,
+2025-06-21,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,215.64,17725,1054,37,1760.01
 2025-06-21,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q2,167.72,13728,782,25,996.44
 2025-06-22,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q2,145.05,17666,908,31,1678.33
 2025-06-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q2,186.49,22330,1176,32,1582.97
@@ -2711,12 +2741,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-07-07,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,189.77,26828,1467,55,2450.16
 2025-07-08,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,143.5,12805,421,18,1101.17
 2025-07-08,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,184.49,16453,552,27,1385.44
-2025-07-08,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,143.5,12925,466,21,968.96
+2025-07-08,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,143.5,12925,466,21,
 2025-07-09,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,192.55,14725,490,19,1091.98
-2025-07-09,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,247.56,18613,644,23,
-2025-07-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,192.55,14622,482,20,1091.65
+2025-07-09,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,247.56,18613,644,23,1239.5
+2025-07-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,192.55,14622,482,20,
 2025-07-10,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,205.39,23731,962,35,2071.22
-2025-07-10,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,264.08,30955,1235,37,
+2025-07-10,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,264.08,30955,1235,37,2310.2
 2025-07-10,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,205.39,24139,922,34,1425.84
 2025-07-11,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,211.0,16329,602,28,1477.09
 2025-07-11,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,271.29,21432,802,34,1180.71
@@ -2735,10 +2765,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-07-15,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,205.46,21965,1059,27,1256.01
 2025-07-16,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,157.16,14124,739,19,1112.23
 2025-07-16,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,202.06,18443,932,20,651.78
-2025-07-16,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,157.16,14240,700,18,688.96
+2025-07-16,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,157.16,14240,700,18,
 2025-07-17,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,199.51,18203,886,18,883.61
 2025-07-17,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,256.51,23292,1152,35,1741.71
-2025-07-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,199.51,17985,867,25,
+2025-07-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,199.51,17985,867,25,854.4
 2025-07-18,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,160.43,18097,708,41,1574.86
 2025-07-18,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,206.27,23428,906,51,3216.44
 2025-07-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,160.43,17930,676,40,1777.43
@@ -2753,23 +2783,23 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-07-21,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,200.91,17142,790,37,1327.39
 2025-07-22,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,222.33,25200,1226,32,1273.06
 2025-07-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,285.85,32435,1548,42,1451.68
-2025-07-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,222.33,25552,1208,53,1937.23
+2025-07-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,222.33,25552,1208,53,
 2025-07-23,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,211.99,26880,983,26,974.34
 2025-07-23,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,272.56,34605,1224,29,1775.71
-2025-07-23,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,211.99,26664,947,23,
+2025-07-23,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,211.99,26664,947,23,1096.53
 2025-07-24,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,213.74,25351,1436,26,1080.4
 2025-07-24,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,274.81,32252,1863,47,1180.0
 2025-07-24,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,213.74,25141,1412,44,1411.49
 2025-07-25,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,195.06,14971,527,18,602.5
 2025-07-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,250.79,18781,733,12,584.25
-2025-07-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,195.06,14743,568,11,359.56
+2025-07-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,195.06,14743,568,11,
 2025-07-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,217.29,21498,748,40,1825.44
 2025-07-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,279.37,27865,935,42,1053.0
-2025-07-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,217.29,21406,716,27,
+2025-07-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,217.29,21406,716,27,1433.87
 2025-07-27,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,161.95,22743,693,28,2308.79
-2025-07-27,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,208.22,29350,997,31,1474.38
+2025-07-27,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,208.22,29350,997,31,
 2025-07-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,161.95,22438,765,25,1370.67
-2025-07-28,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,163.43,19323,633,20,
+2025-07-28,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,163.43,19323,633,20,1214.79
 2025-07-28,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,210.12,24815,879,26,948.9
 2025-07-28,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,163.43,19035,666,19,843.23
 2025-07-29,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,199.72,14728,644,25,1438.49
@@ -2824,9 +2854,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-08-14,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,179.44,20723,1128,59,2107.82
 2025-08-14,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,139.57,16261,866,41,1554.38
 2025-08-15,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,205.22,16698,664,22,1193.1
-2025-08-15,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,263.86,21375,862,36,1943.15
+2025-08-15,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,263.86,21375,862,36,
 2025-08-15,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,205.22,16800,689,26,773.49
-2025-08-16,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,173.11,12990,493,14,
+2025-08-16,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,173.11,12990,493,14,684.72
 2025-08-16,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,222.57,17131,558,7,447.05
 2025-08-16,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,173.11,13168,422,22,847.46
 2025-08-17,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,150.89,11971,425,15,672.97
@@ -2856,10 +2886,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-08-25,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,137.77,11932,587,15,687.0
 2025-08-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,177.13,15033,699,20,756.52
 2025-08-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,137.77,11891,577,18,789.54
-2025-08-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,123.0,12049,370,10,673.69
+2025-08-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,123.0,12049,370,10,
 2025-08-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,158.15,15249,476,13,424.46
 2025-08-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,123.0,11859,377,11,528.95
-2025-08-27,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,115.18,10914,638,18,
+2025-08-27,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,115.18,10914,638,18,971.04
 2025-08-27,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,148.09,14104,843,26,1301.63
 2025-08-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2025Q3,115.18,11081,632,24,1341.93
 2025-08-28,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,119.46,15750,491,11,456.77
@@ -2878,10 +2908,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-09-01,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,195.16,21521,1099,51,2049.46
 2025-09-02,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,156.75,13145,499,19,1154.25
 2025-09-02,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,201.54,16877,643,23,1023.88
-2025-09-03,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,181.27,19695,588,24,1018.46
+2025-09-03,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,181.27,19695,588,24,
 2025-09-03,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,233.07,25241,819,36,1839.55
 2025-09-04,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,136.67,11792,434,19,633.56
-2025-09-04,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,175.71,15265,559,28,
+2025-09-04,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,175.71,15265,559,28,957.32
 2025-09-05,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,140.51,11343,407,8,483.45
 2025-09-05,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,180.66,14618,477,8,351.96
 2025-09-06,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,163.57,14733,648,32,1266.67
@@ -2914,10 +2944,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-09-19,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,146.67,17478,598,29,1128.48
 2025-09-20,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,121.84,9182,408,14,630.34
 2025-09-20,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,156.66,11983,482,11,584.02
-2025-09-21,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,97.97,7998,459,11,308.65
+2025-09-21,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,97.97,7998,459,11,
 2025-09-21,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,125.96,10343,623,21,848.27
 2025-09-22,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,95.26,10978,388,3,132.98
-2025-09-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,122.47,13973,545,11,
+2025-09-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,122.47,13973,545,11,508.82
 2025-09-23,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,92.57,9446,278,17,658.44
 2025-09-23,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,119.01,12045,374,17,506.28
 2025-09-24,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q3,102.98,8405,322,7,259.02
@@ -2936,10 +2966,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-09-30,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q3,149.02,11728,578,28,1388.21
 2025-10-01,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,103.61,12259,370,18,848.99
 2025-10-01,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,133.21,15811,482,13,434.85
-2025-10-02,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,119.74,10150,331,8,354.86
+2025-10-02,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,119.74,10150,331,8,
 2025-10-02,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,153.95,13255,439,14,580.99
 2025-10-03,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,99.87,11471,463,21,1182.66
-2025-10-03,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,128.41,14872,606,26,
+2025-10-03,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,128.41,14872,606,26,1499.49
 2025-10-04,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,113.79,14702,752,21,883.87
 2025-10-04,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,146.31,19008,871,32,1547.24
 2025-10-05,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,102.99,11368,417,18,581.83
@@ -2953,11 +2983,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-09,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,89.04,6636,256,14,709.2
 2025-10-09,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,114.49,8554,379,16,898.68
 2025-10-10,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,77.91,8570,432,11,386.87
-2025-10-10,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,100.17,11061,587,24,1313.77
+2025-10-10,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,100.17,11061,587,24,
 2025-10-11,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,94.63,12648,494,18,825.16
 2025-10-11,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,121.66,16493,665,25,1244.05
 2025-10-12,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,89.39,7718,265,9,496.17
-2025-10-12,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,114.93,10077,348,16,
+2025-10-12,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,114.93,10077,348,16,691.7
 2025-10-13,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,71.82,7122,200,10,492.03
 2025-10-13,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,92.33,9404,304,11,511.68
 2025-10-14,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,93.32,11404,555,25,1346.41
@@ -2979,11 +3009,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-22,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,113.79,11599,607,30,2123.19
 2025-10-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,146.3,14831,789,37,1507.67
 2025-10-23,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,77.92,5866,273,10,501.16
-2025-10-23,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,100.18,7761,360,15,1283.43
+2025-10-23,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,100.18,7761,360,15,
 2025-10-24,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,67.95,9583,366,6,597.88
 2025-10-24,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,87.36,12269,446,11,499.02
 2025-10-25,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,104.41,9001,352,6,358.35
-2025-10-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,134.25,11644,431,16,
+2025-10-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,134.25,11644,431,16,494.72
 2025-10-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,75.97,8455,305,18,772.76
 2025-10-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,97.67,11159,396,12,874.29
 2025-10-27,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,80.37,10224,578,15,890.97
@@ -2994,10 +3024,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-10-29,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,115.4,10006,578,23,1255.03
 2025-10-30,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,79.21,7753,397,11,308.57
 2025-10-30,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,101.84,10116,479,15,511.51
-2025-10-31,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,86.84,8871,289,12,538.48
+2025-10-31,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,86.84,8871,289,12,
 2025-10-31,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,111.65,11523,355,11,570.77
 2025-11-01,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,83.6,6167,274,9,546.58
-2025-11-01,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,107.48,7965,340,5,
+2025-11-01,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,107.48,7965,340,5,193.3
 2025-11-02,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,65.57,5750,294,14,457.54
 2025-11-02,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,84.3,7099,355,20,888.6
 2025-11-03,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,83.13,6348,352,8,593.29
@@ -3007,19 +3037,19 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-11-05,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,87.77,6551,309,10,328.45
 2025-11-05,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,112.85,8486,450,7,359.53
 2025-11-06,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,75.42,6914,346,11,312.51
-2025-11-06,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,96.97,8945,455,12,666.74
+2025-11-06,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,96.97,8945,455,12,
 2025-11-07,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,73.18,9176,476,19,1039.23
 2025-11-07,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,94.09,12166,572,32,1415.96
-2025-11-08,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,111.25,9906,337,14,
+2025-11-08,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,111.25,9906,337,14,630.58
 2025-11-08,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,143.04,12529,368,7,458.14
 2025-11-09,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,80.97,7572,255,5,283.34
 2025-11-09,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,104.11,9593,337,7,471.51
 2025-11-10,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,86.06,7582,349,13,648.3
 2025-11-10,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,110.65,9653,479,27,951.13
-2025-11-11,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,97.32,10412,504,26,837.7
+2025-11-11,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,97.32,10412,504,26,
 2025-11-11,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,125.13,13304,635,43,2110.19
 2025-11-12,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,106.34,11085,507,13,997.15
-2025-11-12,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,136.72,14156,608,9,
+2025-11-12,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,136.72,14156,608,9,504.26
 2025-11-13,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,76.96,10408,490,21,1103.76
 2025-11-13,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,98.95,13421,596,23,908.66
 2025-11-14,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,73.15,10150,518,18,607.15
@@ -3055,11 +3085,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-11-29,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,78.95,6901,406,12,878.9
 2025-11-29,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,101.51,9097,561,30,1267.39
 2025-11-30,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,84.45,7210,234,15,703.37
-2025-11-30,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,108.57,9333,284,19,608.22
+2025-11-30,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,108.57,9333,284,19,
 2025-12-01,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,100.38,7821,427,11,466.76
 2025-12-01,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,129.07,9718,505,13,506.09
 2025-12-02,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,105.01,11243,638,19,801.45
-2025-12-02,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,135.01,14795,837,31,
+2025-12-02,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,135.01,14795,837,31,1102.26
 2025-12-03,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,105.87,12911,460,23,1122.18
 2025-12-03,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,136.12,16503,531,22,1125.16
 2025-12-04,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,113.49,12943,726,21,1525.03
@@ -3091,20 +3121,20 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2025-12-17,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,57.13,4760,177,5,194.14
 2025-12-17,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,73.46,6152,261,10,377.05
 2025-12-18,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,81.71,7518,396,10,458.82
-2025-12-18,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,105.06,9785,511,12,620.02
+2025-12-18,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,105.06,9785,511,12,
 2025-12-19,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,80.18,8909,384,6,331.38
 2025-12-19,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,103.09,11503,489,12,488.24
-2025-12-20,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,80.48,6176,281,11,
+2025-12-20,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,80.48,6176,281,11,445.84
 2025-12-20,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,103.48,7753,415,20,669.46
 2025-12-21,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,64.94,6855,306,14,431.01
 2025-12-21,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,83.49,8965,425,7,240.08
 2025-12-22,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,104.0,13164,497,24,961.29
 2025-12-22,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,133.71,17228,649,25,872.54
-2025-12-23,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,83.11,11417,477,23,807.76
+2025-12-23,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,83.11,11417,477,23,
 2025-12-23,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,106.86,15182,594,25,1643.44
 2025-12-24,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,98.36,13056,448,17,962.38
 2025-12-24,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,126.46,16993,615,19,1335.93
-2025-12-25,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,96.7,6975,274,16,
+2025-12-25,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,96.7,6975,274,16,821.0
 2025-12-25,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,124.32,8979,374,19,1017.5
 2025-12-26,Solmar Hotels,Google Ads,ES_Search_Brand_2025Q4,81.35,8865,357,12,673.52
 2025-12-26,Solmar Hotels,Google Ads,ES_Search_Generic_2025Q4,104.59,11263,424,10,700.19
@@ -3135,11 +3165,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-01-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,90.42,7344,371,16,796.42
 2026-01-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,116.25,9159,468,13,590.02
 2026-01-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,92.28,7551,371,10,303.18
-2026-01-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,118.64,9739,494,17,693.36
+2026-01-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,118.64,9739,494,17,
 2026-01-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,85.04,8035,327,13,591.15
 2026-01-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,109.34,10024,443,21,963.72
 2026-01-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,78.22,6582,295,10,262.75
-2026-01-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,100.57,8572,393,12,
+2026-01-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,100.57,8572,393,12,578.27
 2026-01-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,96.54,11479,680,23,1504.24
 2026-01-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,124.12,14921,872,30,1705.9
 2026-01-13,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,60.08,4587,164,8,417.15
@@ -3195,12 +3225,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-07,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,68.79,5004,260,10,261.44
 2026-02-07,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,88.45,6297,323,8,227.38
 2026-02-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,73.71,8011,448,11,603.26
-2026-02-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,94.77,10277,577,15,751.83
-2026-02-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,89.27,8715,339,13,649.99
+2026-02-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,94.77,10277,577,15,
+2026-02-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,89.27,8715,339,13,
 2026-02-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,114.78,11468,443,10,352.68
 2026-02-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,78.33,6697,283,8,385.69
-2026-02-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,100.71,8678,369,16,
-2026-02-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,104.58,9790,461,17,
+2026-02-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,100.71,8678,369,16,681.4
+2026-02-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,104.58,9790,461,17,650.02
 2026-02-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,134.46,12639,608,18,704.51
 2026-02-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,88.97,10095,354,9,535.42
 2026-02-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,114.39,13292,528,26,921.05
@@ -3222,11 +3252,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-20,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,93.31,9770,466,28,1162.75
 2026-02-21,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,105.97,8013,246,12,787.03
 2026-02-21,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,136.25,10227,345,18,697.42
-2026-02-22,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,90.52,12023,427,18,681.89
+2026-02-22,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,90.52,12023,427,18,
 2026-02-22,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,116.39,15489,549,18,875.58
 2026-02-23,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,79.68,8875,474,21,1346.84
 2026-02-23,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,102.44,11292,694,24,1468.54
-2026-02-24,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,76.66,9548,493,13,
+2026-02-24,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,76.66,9548,493,13,625.48
 2026-02-24,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,98.56,12296,617,21,869.16
 2026-02-25,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,78.82,6011,370,22,1419.89
 2026-02-25,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,101.35,7622,465,20,639.93
@@ -3234,11 +3264,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-02-26,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,121.6,11098,610,19,655.62
 2026-02-27,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,83.03,9899,387,21,1272.96
 2026-02-27,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,106.76,12789,482,21,947.63
-2026-02-28,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,58.12,5894,257,5,263.34
+2026-02-28,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,58.12,5894,257,5,
 2026-02-28,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,74.73,7390,370,10,469.83
 2026-03-01,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,83.31,6254,310,19,820.35
 2026-03-01,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,107.11,7942,409,19,853.5
-2026-03-02,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,92.51,9265,454,10,
+2026-03-02,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,92.51,9265,454,10,337.22
 2026-03-02,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,118.95,11966,582,19,776.16
 2026-03-03,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,76.02,7257,255,8,298.98
 2026-03-03,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,97.74,9730,304,11,574.45
@@ -3254,12 +3284,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-03-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,97.55,8825,394,13,1136.62
 2026-03-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,67.32,5235,287,14,593.93
 2026-03-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,86.55,6851,308,12,442.78
-2026-03-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,80.88,8466,343,12,719.73
+2026-03-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,80.88,8466,343,12,
 2026-03-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,103.98,10754,462,13,517.12
 2026-03-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,72.34,5741,211,15,710.32
 2026-03-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,93.01,7378,324,20,1356.79
 2026-03-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,77.47,7461,379,11,568.73
-2026-03-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,99.61,9332,500,18,
+2026-03-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,99.61,9332,500,18,638.16
 2026-03-13,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,100.75,13340,780,43,1369.71
 2026-03-13,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q1,129.54,17168,947,48,1601.82
 2026-03-14,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q1,80.78,7647,262,8,426.76
@@ -3313,27 +3343,27 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-04-05,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,69.38,6579,273,3,121.76
 2026-04-05,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,89.2,8475,338,6,272.38
 2026-04-05,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,69.38,6366,248,3,125.5
-2026-04-06,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,46.96,6510,180,4,109.56
-2026-04-06,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,60.38,8663,235,5,224.59
-2026-04-06,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,46.96,6651,216,5,214.31
-2026-04-07,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,63.72,5952,213,11,669.97
-2026-04-07,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,81.93,7588,306,12,478.51
-2026-04-07,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,63.72,6004,243,7,291.84
-2026-04-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,67.62,6092,198,11,442.37
-2026-04-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,86.95,7632,285,10,353.37
-2026-04-08,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,67.62,5974,191,3,86.02
-2026-04-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,59.08,4921,196,9,483.06
-2026-04-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,75.96,6306,255,9,390.93
-2026-04-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,59.08,4842,167,7,348.28
-2026-04-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,66.67,4949,303,12,522.36
-2026-04-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,85.72,6471,392,18,773.28
-2026-04-10,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,66.67,4868,261,13,496.99
-2026-04-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,61.04,7624,368,24,1223.59
-2026-04-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,78.48,9655,476,17,746.09
-2026-04-11,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,61.04,7817,378,15,
-2026-04-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,46.78,6239,289,10,439.5
-2026-04-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,60.15,8125,343,9,413.28
-2026-04-12,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,46.78,6313,309,7,370.34
+2026-04-06,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,65.74,6510,180,0,0.0
+2026-04-06,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,84.53,8663,235,0,0.0
+2026-04-06,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,65.74,6651,216,0,0.0
+2026-04-07,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,89.21,5952,213,0,0.0
+2026-04-07,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,114.7,7588,306,0,0.0
+2026-04-07,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,89.21,6004,243,0,0.0
+2026-04-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,94.67,6092,198,0,0.0
+2026-04-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,121.73,7632,285,0,0.0
+2026-04-08,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,94.67,5974,191,0,0.0
+2026-04-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,82.71,4921,196,0,0.0
+2026-04-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,106.34,6306,255,0,0.0
+2026-04-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,82.71,4842,167,0,0.0
+2026-04-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,93.34,4949,303,0,0.0
+2026-04-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,120.01,6471,392,0,0.0
+2026-04-10,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,93.34,4868,261,0,0.0
+2026-04-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,85.46,7624,368,0,0.0
+2026-04-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,109.87,9655,476,0,0.0
+2026-04-11,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,85.46,7817,378,0,0.0
+2026-04-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,65.49,6239,289,0,0.0
+2026-04-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,84.21,8125,343,0,0.0
+2026-04-12,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,65.49,6313,309,0,0.0
 2026-04-13,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,56.44,5106,263,5,162.15
 2026-04-13,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,72.56,6420,353,5,216.12
 2026-04-13,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,56.44,5106,266,5,159.02
@@ -3341,14 +3371,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-04-14,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,63.67,6041,282,8,311.0
 2026-04-14,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,49.52,4691,246,5,285.75
 2026-04-15,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,66.19,4815,178,1,43.38
-2026-04-15,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,85.1,6278,211,4,
+2026-04-15,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,85.1,6278,211,4,206.72
 2026-04-15,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,66.19,4786,163,3,79.09
 2026-04-16,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,73.79,6324,179,6,239.47
 2026-04-16,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,94.87,8213,274,14,637.22
 2026-04-16,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,73.79,6472,204,3,139.52
-2026-04-17,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,55.55,4911,230,7,236.2
+2026-04-17,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,55.55,4911,230,7,
 2026-04-17,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,71.42,6387,288,10,500.46
-2026-04-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,55.55,4961,259,13,
+2026-04-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,55.55,4961,259,13,855.41
 2026-04-18,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,69.99,9575,265,10,551.84
 2026-04-18,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,89.99,12645,421,19,800.52
 2026-04-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,69.99,9772,278,16,822.29
@@ -3356,7 +3386,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-04-19,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,101.01,9616,529,18,786.53
 2026-04-19,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,78.56,7331,401,15,608.68
 2026-04-20,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,48.34,5078,147,8,404.17
-2026-04-20,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,62.15,6369,200,6,341.74
+2026-04-20,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,62.15,6369,200,6,
 2026-04-20,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,48.34,4994,164,7,236.54
 2026-04-21,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,82.7,10478,569,14,486.57
 2026-04-21,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,106.33,13403,748,31,2067.19
@@ -3365,7 +3395,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-04-22,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,76.5,7348,388,20,943.68
 2026-04-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,59.5,5756,309,19,580.73
 2026-04-23,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,50.69,3913,203,7,367.18
-2026-04-23,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,65.18,5024,315,6,227.21
+2026-04-23,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,65.18,5024,315,6,
 2026-04-23,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,50.69,4026,214,7,409.99
 2026-04-24,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,48.26,5009,196,9,627.59
 2026-04-24,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,62.05,6363,221,10,571.24
@@ -3375,7 +3405,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-04-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,72.53,8875,466,8,404.0
 2026-04-26,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,64.28,6116,227,14,757.4
 2026-04-26,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,82.65,7904,283,10,298.51
-2026-04-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,64.28,6150,215,10,
+2026-04-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,64.28,6150,215,10,605.45
 2026-04-27,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,94.6,7531,239,15,977.78
 2026-04-27,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,121.63,9823,360,21,1047.49
 2026-04-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,94.6,7714,271,15,769.7
@@ -3407,7 +3437,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-05-06,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,99.36,7755,321,10,405.13
 2026-05-06,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,77.28,6029,271,11,495.8
 2026-05-07,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,77.58,6571,299,10,398.41
-2026-05-07,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,99.75,8483,442,8,312.55
+2026-05-07,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,99.75,8483,442,8,
 2026-05-07,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,77.58,6660,273,2,110.14
 2026-05-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,54.53,3912,213,19,842.5
 2026-05-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,70.11,5125,251,16,802.25
@@ -3415,72 +3445,42 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-05-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,76.09,9003,465,19,898.8
 2026-05-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,97.83,11601,607,20,1169.86
 2026-05-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,76.09,9099,474,24,1091.4
-2026-05-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,76.09,9003,465,19,898.8
-2026-05-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,97.83,11601,607,20,1169.86
-2026-05-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,76.09,9099,474,24,1091.4
-2026-05-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,69.83,6604,222,8,377.1
-2026-05-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,89.78,8644,296,13,514.42
-2026-05-10,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,69.83,6589,232,10,366.9
 2026-05-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,69.83,6604,222,8,377.1
 2026-05-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,89.78,8644,296,13,514.42
 2026-05-10,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,69.83,6589,232,10,366.9
 2026-05-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,73.84,9227,539,11,515.75
 2026-05-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,94.94,11824,722,11,495.88
 2026-05-11,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,73.84,9234,511,7,326.7
-2026-05-11,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,73.84,9227,539,11,515.75
-2026-05-11,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,94.94,11824,722,11,495.88
-2026-05-11,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,73.84,9234,511,7,326.7
-2026-05-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,62.71,5252,210,5,190.65
-2026-05-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,80.63,7015,282,15,929.32
-2026-05-12,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,62.71,5377,226,11,546.69
 2026-05-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,62.71,5252,210,5,190.65
 2026-05-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,80.63,7015,282,15,929.32
 2026-05-12,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,62.71,5377,226,11,546.69
 2026-05-13,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,67.04,5771,244,8,450.54
 2026-05-13,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,86.2,7570,315,11,458.29
 2026-05-13,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,67.04,6010,291,5,187.75
-2026-05-13,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,67.04,5771,244,8,450.54
-2026-05-13,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,86.2,7570,315,11,458.29
-2026-05-13,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,67.04,6010,291,5,187.75
-2026-05-14,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,75.12,6787,323,7,
-2026-05-14,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,96.59,8693,506,11,471.3
-2026-05-14,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,75.12,6808,342,6,255.11
-2026-05-14,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,75.12,6787,323,7,
+2026-05-14,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,75.12,6787,323,7,243.02
 2026-05-14,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,96.59,8693,506,11,471.3
 2026-05-14,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,75.12,6808,342,6,255.11
 2026-05-15,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,85.58,6561,289,12,486.87
 2026-05-15,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,110.04,8482,349,10,576.78
 2026-05-15,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,85.58,6625,307,12,748.66
-2026-05-15,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,85.58,6561,289,12,486.87
-2026-05-15,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,110.04,8482,349,10,576.78
-2026-05-15,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,85.58,6625,307,12,748.66
 2026-05-16,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,84.15,6573,267,14,874.01
-2026-05-16,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,108.2,8237,344,24,
-2026-05-16,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,84.15,6328,242,11,410.14
-2026-05-16,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,84.15,6573,267,14,874.01
-2026-05-16,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,108.2,8237,344,24,
+2026-05-16,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,108.2,8237,344,24,1194.86
 2026-05-16,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,84.15,6328,242,11,410.14
 2026-05-17,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,61.67,8318,386,7,599.49
 2026-05-17,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,79.3,10648,485,19,937.91
 2026-05-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,61.67,8440,373,10,295.29
-2026-05-17,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,61.67,8318,386,7,599.49
-2026-05-17,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,79.3,10648,485,19,937.91
-2026-05-17,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,61.67,8440,373,10,295.29
-2026-05-18,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,89.16,12631,657,35,1988.96
-2026-05-18,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,114.63,16506,829,44,2970.49
-2026-05-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,89.16,12676,674,42,1345.45
 2026-05-18,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,89.16,12631,657,35,1988.96
 2026-05-18,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,114.63,16506,829,44,2970.49
 2026-05-18,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,89.16,12676,674,42,1345.45
 2026-05-19,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,84.67,7547,307,7,567.17
-2026-05-19,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,108.86,9635,436,20,782.8
+2026-05-19,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,108.86,9635,436,20,
 2026-05-19,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,84.67,7396,305,13,679.52
 2026-05-20,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,98.81,12736,636,22,1020.97
 2026-05-20,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,127.04,16280,826,48,1595.81
 2026-05-20,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,98.81,12305,595,15,599.34
 2026-05-21,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,97.84,10013,297,13,401.59
 2026-05-21,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,125.8,12784,405,17,868.87
-2026-05-21,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,97.84,10252,323,11,484.86
+2026-05-21,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,97.84,10252,323,11,
 2026-05-22,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,109.72,8168,405,13,601.04
 2026-05-22,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,141.07,10635,500,13,690.59
 2026-05-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,109.72,8222,364,9,437.43
@@ -3519,7 +3519,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-02,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,104.79,9720,441,5,306.25
 2026-06-03,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,92.0,11526,515,17,1211.31
 2026-06-03,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,118.28,14799,669,32,1317.91
-2026-06-03,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,92.0,11569,557,35,
+2026-06-03,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,92.0,11569,557,35,1475.73
 2026-06-04,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,121.3,9104,315,13,420.12
 2026-06-04,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,155.96,11847,411,15,904.17
 2026-06-04,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,121.3,8936,292,9,202.5
@@ -3534,7 +3534,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-07,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,96.82,9836,378,6,307.18
 2026-06-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,129.46,14389,799,17,783.12
 2026-06-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,166.44,18511,937,27,807.84
-2026-06-08,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,129.46,14299,773,26,1115.46
+2026-06-08,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,129.46,14299,773,26,
 2026-06-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,105.59,13533,503,24,1227.65
 2026-06-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,135.76,17258,663,30,1603.79
 2026-06-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,105.59,13548,557,26,1210.53
@@ -3554,7 +3554,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-14,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,180.98,25236,877,27,1516.28
 2026-06-14,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,140.76,19699,698,25,1014.71
 2026-06-15,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,152.74,11345,709,24,940.32
-2026-06-15,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,196.38,14808,840,27,
+2026-06-15,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,196.38,14808,840,27,1172.7
 2026-06-15,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,152.74,11504,648,21,1020.01
 2026-06-16,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,135.49,11822,717,28,1268.5
 2026-06-16,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,174.21,15206,929,32,1174.71
@@ -3569,7 +3569,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-19,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,190.66,17958,1106,61,2135.2
 2026-06-19,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,148.29,14086,821,37,1526.15
 2026-06-20,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,177.94,13903,561,32,1648.32
-2026-06-20,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,228.78,17959,728,42,1851.41
+2026-06-20,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,228.78,17959,728,42,
 2026-06-20,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,177.94,13870,568,37,1591.45
 2026-06-21,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,143.97,19316,1073,34,1446.66
 2026-06-21,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,185.11,24980,1377,63,1765.49
@@ -3583,7 +3583,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-24,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,149.99,12190,697,26,989.28
 2026-06-24,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,192.84,15805,950,26,760.08
 2026-06-24,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,149.99,12198,689,20,1076.62
-2026-06-25,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,197.32,14975,872,36,
+2026-06-25,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,197.32,14975,872,36,1742.0
 2026-06-25,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,253.7,19298,1034,45,1803.71
 2026-06-25,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,197.32,15047,795,29,1177.62
 2026-06-26,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,185.0,19289,1113,57,2185.39
@@ -3598,36 +3598,36 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-06-29,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,127.75,10826,404,10,466.22
 2026-06-29,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,164.25,13655,538,19,879.51
 2026-06-29,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,127.75,10513,415,11,586.32
-2026-06-30,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,161.81,13313,677,29,1069.94
+2026-06-30,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q2,161.81,13313,677,29,
 2026-06-30,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q2,208.05,17357,937,51,2239.1
-2026-06-30,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,161.81,13467,733,32,
+2026-06-30,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q2,161.81,13467,733,32,1351.78
 2026-07-01,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,143.34,12991,546,8,311.36
 2026-07-01,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,184.3,17055,666,17,567.9
 2026-07-01,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,143.34,13387,500,14,632.6
 2026-07-02,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,168.36,18607,663,31,1193.05
 2026-07-02,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,216.46,23898,906,44,2437.16
-2026-07-02,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,168.36,18873,712,28,
+2026-07-02,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,168.36,18873,712,28,1125.44
 2026-07-03,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,250.79,26200,1053,23,1155.05
 2026-07-03,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,322.44,33776,1342,35,1376.26
 2026-07-03,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,250.79,26473,1009,35,2153.02
 2026-07-04,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,175.48,17404,681,22,767.57
 2026-07-04,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,225.62,22122,784,33,1913.51
-2026-07-04,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,175.48,17107,619,17,
+2026-07-04,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,175.48,17107,619,17,932.39
 2026-07-05,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,231.06,21454,982,25,665.75
 2026-07-05,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,297.08,27959,1354,36,1166.96
-2026-07-05,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,231.06,21490,1007,38,1221.85
+2026-07-05,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,231.06,21490,1007,38,
 2026-07-06,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,156.64,12536,631,17,1004.37
 2026-07-06,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,201.4,15944,812,27,871.39
 2026-07-06,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,156.64,12473,572,21,1122.47
 2026-07-07,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,247.61,25688,978,37,2149.87
 2026-07-07,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,318.36,33140,1257,46,1347.74
-2026-07-07,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,247.61,25554,945,54,1876.27
-2026-07-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,236.2,26820,1560,37,
+2026-07-07,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,247.61,25554,945,54,
+2026-07-08,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,236.2,26820,1560,37,1730.81
 2026-07-08,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,303.69,34498,1963,38,1360.54
 2026-07-08,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,236.2,27265,1550,33,1771.77
 2026-07-09,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,217.24,26045,1354,38,1506.06
 2026-07-09,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,279.31,33619,1787,53,1941.81
-2026-07-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,217.24,26082,1355,48,2802.36
+2026-07-09,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,217.24,26082,1355,48,
 2026-07-10,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,289.81,29843,1398,25,1184.22
 2026-07-10,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,372.61,38715,1837,57,1249.19
 2026-07-10,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,289.81,29732,1321,35,989.98
@@ -3637,7 +3637,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-07-12,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,198.42,24140,1302,45,1844.42
 2026-07-12,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,255.11,30342,1588,55,2650.96
 2026-07-12,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,198.42,24044,1212,29,1843.67
-2026-07-13,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,218.23,27974,1382,55,1522.1
+2026-07-13,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,218.23,27974,1382,55,
 2026-07-13,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,280.58,35618,1785,65,2880.4
 2026-07-13,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,218.23,28070,1403,60,2300.16
 2026-07-14,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,262.1,19957,872,28,1559.08
@@ -3666,7 +3666,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-07-21,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,209.54,26092,1282,41,2329.2
 2026-07-22,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,203.55,26130,798,34,2010.3
 2026-07-22,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,261.71,33581,1112,43,2265.16
-2026-07-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,203.55,25868,855,40,
+2026-07-22,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,203.55,25868,855,40,1680.81
 2026-07-23,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,204.1,17595,779,34,1370.31
 2026-07-23,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,262.41,22403,1054,54,1821.11
 2026-07-23,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,204.1,17354,828,38,1843.13
@@ -3680,8 +3680,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 2026-07-26,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,206.47,23691,1095,24,979.44
 2026-07-26,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,160.59,18301,862,24,1237.24
 2026-07-27,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,252.16,18528,981,37,1180.39
-2026-07-27,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,324.21,23725,1223,44,
-2026-07-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,252.16,18434,946,39,932.85
+2026-07-27,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,324.21,23725,1223,44,2509.28
+2026-07-27,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,252.16,18434,946,39,
 2026-07-28,Solmar Hotels,Google Ads,ES_Search_Brand_2026Q3,159.88,12754,441,12,496.29
 2026-07-28,Solmar Hotels,Google Ads,ES_Search_Generic_2026Q3,205.56,16444,598,9,505.92
 2026-07-28,Solmar Hotels,Google Ads,ES_Search_SummerEscape_2026Q3,159.88,12709,444,9,325.06

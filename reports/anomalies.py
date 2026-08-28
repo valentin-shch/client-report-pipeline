@@ -131,9 +131,10 @@ def _spend_without_conversions(current, prior) -> list[Alert]:
         return []
 
     confidence = "high" if spend_wow >= 0.6 or conv_wow < 0 else "medium"
+    fell = conv_wow < 0
     conv_clause = (
         f"conversions fell {_mag(conv_wow)} to {current['conversions']:,.0f}"
-        if conv_wow < 0 else
+        if fell else
         f"conversions barely moved ({current['conversions']:,.0f})"
     )
     detail = (
@@ -143,7 +144,7 @@ def _spend_without_conversions(current, prior) -> list[Alert]:
     )
     return [Alert(
         scope="Account",
-        headline="Spend up sharply, conversions flat",
+        headline="Spend up sharply, conversions fell" if fell else "Spend up sharply, conversions flat",
         detail=detail,
         magnitude=f"spend {_signed_pct(spend_wow)}, conversions {_signed_pct(conv_wow)}",
         confidence=confidence,
@@ -241,10 +242,10 @@ def _stopped_delivering(client_ads: pd.DataFrame, ref_start, ref_end) -> list[Al
         spend=("spend", "sum"), impressions=("impressions", "sum")
     )
 
-    # TODO: this can't tell a planned seasonal end (a Black Friday campaign
-    # finishing on schedule) from an unplanned stop — there's no campaign
-    # calendar to check against. For now it flags both and the sentence asks
-    # the reader to confirm it was intended.
+    # This can't tell a planned seasonal end (a Black Friday campaign finishing
+    # on schedule) from an unplanned stop — there's no campaign calendar to
+    # check against. Deliberately flags both; the sentence asks the reader to
+    # confirm it was intended. (See TODO.md.)
     prior_weeks = [ref_start - pd.Timedelta(weeks=k) for k in range(1, DELIVERY_LOOKBACK + 1)]
     last_week = prior_weeks[0]
     alerts = []

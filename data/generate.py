@@ -263,6 +263,29 @@ def inject_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     return pd.concat(dup_frames, ignore_index=True)
 
 
+def inject_tracking_break(df: pd.DataFrame) -> pd.DataFrame:
+    """A conversion-tracking outage: for one client, one ~8-day stretch, the
+    pixel stopped firing. Paid spend actually ran higher that week — a budget
+    test nobody connected to the silence. Impressions and clicks are untouched;
+    the ads kept serving, only the conversion signal broke. This is the case the
+    "spend up, no conversion lift" alert exists for.
+    """
+    df = df.copy()
+    client = "Solmar Hotels"
+    ref = END_DATE - pd.Timedelta(days=110)
+    monday = ref - pd.Timedelta(days=ref.weekday())  # snap to a whole Mon–Sun week
+    window = pd.date_range(monday, periods=7, freq="D")
+    hit = (
+        (df["client"] == client)
+        & df["date"].isin(window)
+        & (df["channel"] != "Organic Search")
+    )
+    df.loc[hit, "spend"] = (df.loc[hit, "spend"] * 1.4).round(2)
+    df.loc[hit, "conversions"] = 0
+    df.loc[hit, "conversion_value"] = 0.0
+    return df
+
+
 DATE_FORMATS = {
     "Google Ads": "%Y-%m-%d",
     "Meta Ads": "%d/%m/%Y",
@@ -360,9 +383,10 @@ def generate_crm_deals(ads_df: pd.DataFrame) -> pd.DataFrame:
             for _ in range(int(rng.poisson(lam))):
                 deal_id = f"DEAL-{deal_num:05d}"
                 deal_num += 1
-                # TODO: uniform within range per client; a real CRM's deal sizes
-                # are probably long-tailed rather than flat.
-                deal_value = round(float(rng.uniform(lo, hi)), 2)
+                # Long-tailed, not flat: most deals cluster low, a few run well
+                # past the nominal ceiling. lognormal(-0.9, 0.7) sits around
+                # 0.4x the band with a right tail past 1x.
+                deal_value = round(float(lo + (hi - lo) * rng.lognormal(-0.9, 0.7)), 2)
                 days_to_end = (END_DATE - date).days
                 if days_to_end < 14:
                     stage = rng.choice(["New", "Qualified"], p=[0.6, 0.4])
@@ -400,9 +424,18 @@ def print_sample(ads_df: pd.DataFrame, crm_df: pd.DataFrame) -> None:
     null = crm_df["source_campaign"].isna().mean() * 100
     malformed = 100 - matched - null
 
+    zero_conv_weeks = (
+        ads_df[(ads_df["channel"] != "Organic Search") & (ads_df["spend"] > 0)]
+        .assign(week=lambda d: d["date"].dt.to_period("W"))
+        .groupby(["client", "week"])
+        .agg(spend=("spend", "sum"), conversions=("conversions", "sum"))
+    )
+    dark = zero_conv_weeks[(zero_conv_weeks["conversions"] == 0) & (zero_conv_weeks["spend"] > 0)]
+
     print("\n--- messiness check ---")
     print(f"ads rows: {len(ads_df)}  |  duplicate rate: {dup_rate:.1f}%")
     print(f"conversion_value missing (of rows with conversions>0): {missing_rate:.1f}%")
+    print(f"client-weeks with paid spend but zero conversions (tracking break): {len(dark)}")
     print(f"CRM deals: {len(crm_df)}  |  source_campaign matched: {matched:.1f}%  "
           f"null: {null:.1f}%  malformed: {malformed:.1f}%")
 
@@ -417,6 +450,7 @@ def main() -> None:
         frames.append(generate_organic_rows(client, cfg, calendar))
     ads_df = pd.concat(frames, ignore_index=True)
 
+    ads_df = inject_tracking_break(ads_df)
     ads_df = inject_missing_conversion_value(ads_df)
     ads_df = inject_duplicates(ads_df)
 

@@ -13,6 +13,12 @@
   // Minimal Streamlit component: takes the report HTML as an arg, renders it in
   // a same-origin srcdoc iframe, and tells Streamlit the iframe's real content
   // height so there's no fixed guess and no leftover whitespace.
+  //
+  // This speaks the component postMessage protocol directly (componentReady /
+  // render / setFrameHeight) rather than bundling streamlit-component-lib, to
+  // keep the app build-step-free. That protocol has been stable for years; if a
+  // Streamlit upgrade ever changes it, the symptom is a wrong embed height —
+  // check here first.
   var frame = document.getElementById("report");
   var last = 0;
 

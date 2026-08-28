@@ -85,7 +85,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 14/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,16.31,1580,7,0,0.0
 15/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,26.3,3284,45,1,44.44
 15/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.78,1983,27,0,0.0
-16/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.77,4196,70,1,
+16/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.77,4196,70,1,41.17
 16/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.46,2489,39,0,0.0
 17/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.14,4662,49,1,32.28
 17/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.09,2827,30,0,0.0
@@ -94,7 +94,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 19/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,34.11,3327,45,0,0.0
 19/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,20.46,2085,29,1,46.16
 20/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,37.09,5548,86,2,101.3
-20/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,22.26,3242,56,1,44.75
+20/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,22.26,3242,56,1,
 21/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,33.02,3489,34,1,44.73
 21/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,19.81,2014,24,0,0.0
 22/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,23.28,2554,41,0,0.0
@@ -115,7 +115,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 29/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,13.68,1551,30,1,30.97
 30/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,22.8,3598,74,0,0.0
 30/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,13.68,2160,40,1,39.95
-31/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,21.64,2879,73,1,
+31/03/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,21.64,2879,73,1,44.11
 31/03/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,12.98,1709,33,0,0.0
 01/04/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,27.59,3192,63,1,38.68
 01/04/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,16.55,1925,42,0,0.0
@@ -125,7 +125,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 03/04/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.65,1761,10,1,37.73
 04/04/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,27.61,3293,27,2,121.54
 04/04/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,16.56,2032,19,0,0.0
-05/04/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.79,2362,44,2,87.47
+05/04/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.79,2362,44,2,
 05/04/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.07,1414,26,0,0.0
 06/04/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,29.36,3681,38,0,0.0
 06/04/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,17.61,2145,16,0,0.0
@@ -199,7 +199,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 10/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.43,2031,32,0,0.0
 11/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.64,2057,11,0,0.0
 11/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.39,1250,10,0,0.0
-12/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.48,2785,40,2,
+12/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.48,2785,40,2,101.99
 12/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.09,1724,19,0,0.0
 13/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,17.46,1915,20,0,0.0
 13/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,10.48,1126,10,0,0.0
@@ -218,22 +218,22 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 20/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,24.13,3124,30,0,0.0
 20/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.48,1808,13,1,32.51
 21/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.94,2423,28,0,0.0
-21/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.96,1566,26,3,162.37
+21/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.96,1566,26,3,
 22/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.34,2020,28,1,48.83
 22/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.6,1192,15,0,0.0
 23/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,29.43,4444,45,1,64.19
 23/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,17.66,2712,39,1,40.62
 24/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.32,3343,40,0,0.0
-24/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.99,1923,29,2,
+24/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.99,1923,29,2,82.72
 25/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,28.34,3513,54,2,105.39
 25/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,17.0,2072,32,1,35.63
-26/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,24.74,2735,53,3,
+26/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,24.74,2735,53,3,92.92
 26/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.85,1537,25,0,0.0
 27/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.11,3197,59,0,0.0
-27/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.87,1987,49,1,35.1
+27/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.87,1987,49,1,
 28/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.26,4087,69,2,96.13
 28/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.75,2533,47,0,0.0
-29/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,27.94,3566,42,2,65.37
+29/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,27.94,3566,42,2,
 29/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,16.77,2047,23,0,0.0
 30/05/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,37.23,7161,150,3,106.68
 30/05/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,22.34,4484,83,3,104.01
@@ -259,42 +259,22 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 09/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,17.44,1631,38,0,0.0
 10/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.01,1725,16,0,0.0
 10/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.0,1149,16,1,42.1
-10/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.01,1725,16,0,0.0
-10/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.0,1149,16,1,42.1
-11/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.57,2632,27,0,0.0
-11/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.74,1554,24,0,0.0
 11/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.57,2632,27,0,0.0
 11/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.74,1554,24,0,0.0
 12/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.21,2913,58,2,117.42
 12/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.53,1719,25,0,0.0
-12/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.21,2913,58,2,117.42
-12/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.53,1719,25,0,0.0
-13/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,24.42,3142,61,4,120.73
-13/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.65,1945,40,2,104.79
 13/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,24.42,3142,61,4,120.73
 13/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.65,1945,40,2,104.79
 14/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,26.2,2447,53,1,51.88
-14/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,15.72,1405,33,2,
-14/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,26.2,2447,53,1,51.88
-14/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,15.72,1405,33,2,
-15/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.62,2330,22,1,40.48
-15/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.17,1370,13,0,0.0
+14/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,15.72,1405,33,2,109.77
 15/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.62,2330,22,1,40.48
 15/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,14.17,1370,13,0,0.0
 16/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.2,3554,55,1,41.81
-16/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.12,2079,21,2,68.08
-16/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.2,3554,55,1,41.81
-16/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.12,2079,21,2,68.08
-17/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.17,3749,58,1,35.27
-17/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.3,2277,38,0,0.0
+16/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.12,2079,21,2,
 17/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.17,3749,58,1,35.27
 17/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.3,2277,38,0,0.0
 18/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,28.43,3160,47,1,62.53
 18/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,17.06,1982,26,1,21.2
-18/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,28.43,3160,47,1,62.53
-18/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,17.06,1982,26,1,21.2
-19/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,31.34,3412,52,1,35.56
-19/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,18.8,2119,39,2,114.14
 19/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,31.34,3412,52,1,35.56
 19/06/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,18.8,2119,39,2,114.14
 20/06/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.33,4041,55,0,0.0
@@ -327,11 +307,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 03/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,13.57,1232,23,0,0.0
 04/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,29.67,2969,44,0,0.0
 04/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,17.8,1711,25,0,0.0
-05/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,29.95,3636,75,1,
+05/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,29.95,3636,75,1,26.11
 05/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,17.97,2188,50,1,19.0
 06/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,27.7,3755,61,0,0.0
 06/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,16.62,2270,42,0,0.0
-07/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,26.24,4222,73,2,64.73
+07/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,26.24,4222,73,2,
 07/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,15.75,2614,32,0,0.0
 08/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,24.34,2487,35,1,46.82
 08/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,14.61,1543,32,0,0.0
@@ -348,13 +328,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 14/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,19.06,2772,25,2,98.36
 14/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,11.44,1740,13,0,0.0
 15/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,27.09,4472,93,3,156.99
-15/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,16.25,2642,49,1,
+15/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,16.25,2642,49,1,31.33
 16/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,19.74,4010,31,0,0.0
 16/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,11.84,2395,21,0,0.0
 17/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,27.82,5298,37,1,32.54
 17/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,16.69,3037,37,0,0.0
 18/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,20.84,2423,36,3,114.2
-18/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,12.51,1424,22,1,35.24
+18/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,12.51,1424,22,1,
 19/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,22.26,2486,40,0,0.0
 19/07/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,13.36,1507,19,0,0.0
 20/07/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,23.57,2351,43,0,0.0
@@ -397,12 +377,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 07/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,17.34,1728,36,1,53.98
 08/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,25.66,4719,72,4,155.88
 08/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,15.4,2902,38,0,0.0
-09/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,24.18,2963,30,1,
+09/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,24.18,2963,30,1,39.72
 09/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,14.51,1819,16,2,72.91
 10/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,21.8,2169,52,0,0.0
 10/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,13.08,1205,14,0,0.0
 11/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,28.64,5422,89,0,0.0
-11/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,17.18,3395,69,2,62.43
+11/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,17.18,3395,69,2,
 12/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,27.54,5331,77,1,35.08
 12/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,16.52,3164,46,1,50.55
 13/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,22.88,3520,58,1,39.97
@@ -413,9 +393,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 15/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,13.45,2044,21,0,0.0
 16/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,33.66,4463,55,1,53.05
 16/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,20.2,2528,37,0,0.0
-17/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,25.07,2937,43,1,
+17/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,25.07,2937,43,1,53.55
 17/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,15.04,1805,28,2,63.49
-18/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,27.32,5249,81,2,108.96
+18/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,27.32,5249,81,2,
 18/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,16.39,3214,70,2,107.55
 19/08/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,26.59,3632,82,2,63.55
 19/08/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,15.95,2085,39,2,99.74
@@ -453,7 +433,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 04/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,20.59,2665,33,1,50.38
 05/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,34.74,3639,39,2,93.24
 05/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,20.85,2196,29,1,35.55
-06/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,32.16,2958,58,2,
+06/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,32.16,2958,58,2,90.6
 06/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,19.3,1695,29,0,0.0
 07/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,34.17,5271,74,0,0.0
 07/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,20.5,3121,55,0,0.0
@@ -461,7 +441,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 08/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,20.78,2152,34,1,25.94
 09/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,33.73,4181,44,0,0.0
 09/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,20.24,2462,22,0,0.0
-10/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,37.47,4274,45,1,55.73
+10/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,37.47,4274,45,1,
 10/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,22.48,2643,24,0,0.0
 11/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,32.37,4822,38,1,49.06
 11/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,19.42,2795,24,1,84.71
@@ -491,15 +471,15 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 23/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,27.12,3319,57,2,42.18
 24/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,33.29,3883,31,1,32.63
 24/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,19.97,2282,27,0,0.0
-25/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,35.49,6033,82,2,
+25/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,35.49,6033,82,2,69.77
 25/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,21.29,3637,70,0,0.0
 26/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,34.72,3186,61,4,187.31
 26/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,20.83,1944,34,2,81.37
-27/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,45.5,8812,138,4,155.37
+27/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,45.5,8812,138,4,
 27/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,27.3,5383,97,1,40.43
 28/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,44.09,4162,42,0,0.0
 28/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,26.45,2546,13,0,0.0
-29/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,47.96,5238,58,2,
+29/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,47.96,5238,58,2,75.23
 29/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,28.77,3081,28,2,67.6
 30/09/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q3,40.8,4200,54,0,0.0
 30/09/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q3,24.48,2617,23,0,0.0
@@ -507,7 +487,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 01/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,11.34,1774,23,0,0.0
 02/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,22.91,3196,45,0,0.0
 02/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,13.75,1863,45,1,49.92
-03/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,27.08,3640,50,1,51.8
+03/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,27.08,3640,50,1,
 03/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,16.25,2209,27,1,29.61
 04/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,22.55,2153,29,0,0.0
 04/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,13.53,1384,18,0,0.0
@@ -531,7 +511,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 13/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,13.15,1502,18,1,57.62
 14/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,28.4,3418,84,0,0.0
 14/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,17.04,1985,40,0,0.0
-15/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,25.68,3276,47,1,
+15/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,25.68,3276,47,1,29.59
 15/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,15.41,1961,25,1,34.78
 16/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,19.54,1996,21,0,0.0
 16/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,11.72,1221,11,0,0.0
@@ -543,7 +523,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 19/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,12.23,2319,34,1,54.17
 20/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,26.57,3351,43,0,0.0
 20/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,15.94,2081,25,0,0.0
-21/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,22.04,3440,27,1,45.44
+21/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,22.04,3440,27,1,
 21/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,13.23,1987,20,0,0.0
 22/10/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,29.8,3169,55,1,40.38
 22/10/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,17.88,1861,34,0,0.0
@@ -649,7 +629,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 11/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,15.08,2172,36,0,0.0
 12/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,27.59,5555,89,1,21.52
 12/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,16.56,3306,41,0,0.0
-13/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,27.07,2675,26,1,
+13/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,27.07,2675,26,1,51.62
 13/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,16.24,1521,17,0,0.0
 14/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,24.1,4390,67,1,44.21
 14/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,14.46,2628,47,1,48.32
@@ -659,7 +639,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 16/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,15.24,2127,26,0,0.0
 17/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,28.9,2684,30,0,0.0
 17/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,17.34,1588,18,0,0.0
-18/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,20.96,4001,69,2,35.97
+18/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,20.96,4001,69,2,
 18/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,12.58,2445,39,2,54.35
 19/12/2025,Clinica Vantia,Meta Ads,Prospecting Social ES Q4,26.4,3129,32,0,0.0
 19/12/2025,Clinica Vantia,Meta Ads,Retargeting Social ES Q4,15.84,1824,14,0,0.0
@@ -697,13 +677,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 04/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,12.62,2434,19,0,0.0
 05/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,24.45,3571,59,0,0.0
 05/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,14.67,2175,36,0,0.0
-06/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,26.21,3051,45,1,
+06/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,26.21,3051,45,1,41.23
 06/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.72,1847,31,0,0.0
 07/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,26.28,2600,60,0,0.0
 07/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.77,1512,28,1,51.63
 08/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,21.81,2335,47,0,0.0
 08/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,13.08,1417,25,0,0.0
-09/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.83,2478,29,2,78.48
+09/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.83,2478,29,2,
 09/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.5,1418,16,1,31.27
 10/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,28.74,3003,28,1,35.04
 10/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,17.25,1822,24,1,24.99
@@ -713,10 +693,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 12/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,16.5,1811,18,0,0.0
 13/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,24.52,2829,52,1,28.01
 13/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,14.71,1669,32,0,0.0
-14/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,32.72,5883,82,2,
+14/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,32.72,5883,82,2,89.14
 14/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,19.63,3574,51,4,121.61
 15/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,29.37,3021,32,0,0.0
-15/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,17.62,1781,27,1,41.64
+15/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,17.62,1781,27,1,
 16/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,19.5,1871,39,2,61.44
 16/01/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,11.7,1066,23,1,33.79
 17/01/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,24.03,4444,71,0,0.0
@@ -780,10 +760,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 15/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,21.76,1939,23,1,35.66
 15/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,13.06,1192,18,0,0.0
 16/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,28.55,2716,30,0,0.0
-16/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,17.13,1630,19,1,
+16/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,17.13,1630,19,1,43.84
 17/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,22.23,2614,29,1,51.7
 17/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,13.34,1547,15,0,0.0
-18/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,31.56,3086,59,1,52.67
+18/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,31.56,3086,59,1,
 18/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,18.93,1805,43,0,0.0
 19/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,20.28,1899,36,2,109.73
 19/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,12.17,1161,23,0,0.0
@@ -804,12 +784,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 27/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.92,4717,92,3,105.78
 27/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.55,2807,65,1,38.04
 28/02/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,23.61,3846,77,1,50.79
-28/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,14.17,2298,41,4,
+28/02/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,14.17,2298,41,4,178.51
 01/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,27.46,3033,31,1,35.5
 01/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,16.48,1766,17,0,0.0
-02/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,20.98,3898,68,2,
-02/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,12.59,2348,39,1,46.44
-03/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.9,2925,31,3,123.18
+02/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,20.98,3898,68,2,91.35
+02/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,12.59,2348,39,1,
+03/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.9,2925,31,3,
 03/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.54,1756,11,0,0.0
 04/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,25.96,2426,40,0,0.0
 04/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,15.58,1503,35,1,33.78
@@ -847,11 +827,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 20/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,17.37,3528,65,1,26.86
 21/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,22.9,2089,30,0,0.0
 21/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,13.74,1276,26,1,47.43
-22/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,23.0,2599,32,1,
+22/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,23.0,2599,32,1,57.44
 22/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,13.8,1573,20,1,35.07
 23/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,28.07,2948,26,0,0.0
 23/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,16.84,1666,12,0,0.0
-24/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,33.77,4293,93,3,169.96
+24/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,33.77,4293,93,3,
 24/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,20.26,2493,51,0,0.0
 25/03/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q1,23.96,2943,47,1,46.92
 25/03/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q1,14.38,1735,25,0,0.0
@@ -945,22 +925,42 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 08/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,16.14,1773,23,0,0.0
 09/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.45,2219,36,0,0.0
 09/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.27,1302,11,0,0.0
+09/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,20.45,2219,36,0,0.0
+09/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.27,1302,11,0,0.0
+10/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,25.88,4146,94,2,75.8
+10/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,15.53,2452,45,1,26.66
 10/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,25.88,4146,94,2,75.8
 10/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,15.53,2452,45,1,26.66
 11/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.3,3275,46,0,0.0
 11/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.98,1960,28,0,0.0
+11/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.3,3275,46,0,0.0
+11/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.98,1960,28,0,0.0
+12/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.11,3385,42,0,0.0
+12/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.26,2000,20,0,0.0
 12/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.11,3385,42,0,0.0
 12/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.26,2000,20,0,0.0
 13/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,16.09,1975,9,0,0.0
 13/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,9.65,1093,10,0,0.0
+13/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,16.09,1975,9,0,0.0
+13/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,9.65,1093,10,0,0.0
+14/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,30.4,5125,51,3,108.71
+14/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,18.24,3164,34,1,38.43
 14/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,30.4,5125,51,3,108.71
 14/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,18.24,3164,34,1,38.43
 15/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.26,2112,21,1,45.95
 15/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.75,1244,10,2,73.9
+15/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.26,2112,21,1,45.95
+15/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.75,1244,10,2,73.9
+16/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.94,3818,58,3,112.93
+16/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.77,2306,33,4,156.28
 16/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.94,3818,58,3,112.93
 16/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.77,2306,33,4,156.28
 17/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,27.61,5661,110,4,109.71
 17/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,16.56,3330,74,4,123.21
+17/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,27.61,5661,110,4,109.71
+17/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,16.56,3330,74,4,123.21
+18/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.09,2193,19,0,0.0
+18/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.86,1380,21,0,0.0
 18/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,23.09,2193,19,0,0.0
 18/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.86,1380,21,0,0.0
 19/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.26,3110,29,2,51.56
@@ -969,12 +969,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 20/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,18.43,3021,20,2,69.49
 21/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.2,2879,36,0,0.0
 21/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.72,1703,31,1,38.41
-22/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.94,2106,36,1,
+22/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,22.94,2106,36,1,30.36
 22/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,13.76,1287,22,2,99.22
 23/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.32,4238,62,0,0.0
 23/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.79,2509,26,0,0.0
 24/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,19.5,2980,20,0,0.0
-24/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.7,1853,22,1,35.7
+24/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,11.7,1853,22,1,
 25/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,21.03,2494,34,1,44.18
 25/05/2026,Clinica Vantia,Meta Ads,Retargeting Social ES Q2,12.62,1537,21,0,0.0
 26/05/2026,Clinica Vantia,Meta Ads,Prospecting Social ES Q2,25.78,3801,60,0,0.0
@@ -1121,7 +1121,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 04/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,156.37,23906,383,8,166.26
 05/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,152.72,29638,362,4,134.58
 05/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,118.79,22918,300,5,130.84
-06/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,164.46,15321,329,12,564.58
+06/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,164.46,15321,329,12,
 06/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,127.91,11803,237,7,235.21
 07/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,193.16,28614,454,15,384.42
 07/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,150.23,22001,303,9,324.99
@@ -1145,9 +1145,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 16/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,117.97,16227,158,1,38.2
 17/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,152.77,23487,199,0,0.0
 17/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,118.82,18202,153,1,24.34
-18/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,144.36,15355,135,3,
+18/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,144.36,15355,135,3,84.93
 18/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,112.28,11820,104,2,50.92
-19/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,155.91,24947,220,4,
+19/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,155.91,24947,220,4,86.52
 19/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,121.26,19291,175,2,56.78
 20/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,202.37,34134,289,9,185.88
 20/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,157.4,26723,223,3,79.92
@@ -1156,15 +1156,15 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 22/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,183.65,19454,288,1,28.38
 22/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,142.84,14958,218,2,41.04
 23/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,176.4,17911,308,5,97.59
-23/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,137.2,13921,241,5,
+23/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,137.2,13921,241,5,188.92
 24/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,184.32,35377,589,9,372.81
 24/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,143.36,27369,425,12,277.67
 25/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,182.96,23367,298,4,107.34
 25/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,142.31,18482,259,10,372.59
-26/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,152.86,29896,431,9,201.98
+26/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,152.86,29896,431,9,
 26/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,118.89,23653,336,5,194.17
 27/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,161.97,14987,289,5,152.01
-27/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,125.98,11648,249,5,174.34
+27/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,125.98,11648,249,5,
 28/02/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,175.95,17878,209,8,163.4
 28/02/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,136.85,13924,205,2,44.57
 01/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,176.87,29964,448,0,0.0
@@ -1172,9 +1172,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 02/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,180.51,17987,287,10,227.68
 02/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,140.4,14082,197,5,139.31
 03/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,157.96,30510,398,5,244.17
-03/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,122.86,24095,300,3,
+03/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,122.86,24095,300,3,103.72
 04/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,163.07,24025,305,4,154.38
-04/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,126.83,18722,245,4,129.05
+04/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,126.83,18722,245,4,
 05/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,188.77,32013,672,14,352.72
 05/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,146.82,24822,517,12,414.02
 06/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,168.34,19384,250,5,134.92
@@ -1183,24 +1183,24 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 07/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,156.53,16385,189,1,40.37
 08/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,144.57,24710,489,20,699.33
 08/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,112.45,19173,365,9,260.84
-09/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,163.87,24615,251,2,
+09/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,163.87,24615,251,2,60.8
 09/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,127.46,19463,183,6,138.98
 10/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,189.25,33511,524,17,547.35
 10/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,147.2,25793,437,13,443.16
 11/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,196.57,30818,469,15,525.44
-11/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,152.89,23936,353,5,131.02
+11/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,152.89,23936,353,5,
 12/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,194.0,18798,243,5,142.23
 12/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,150.89,14527,196,4,95.08
 13/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,187.27,21761,439,11,327.21
-13/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,145.65,16897,332,2,
+13/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,145.65,16897,332,2,72.49
 14/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,149.69,22070,197,9,298.32
 14/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,116.42,16837,159,1,24.89
 15/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,153.51,27614,570,5,148.94
 15/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,119.4,21453,393,0,0.0
 16/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,188.47,26983,276,7,141.98
 16/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,146.59,20640,240,12,390.39
-17/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,133.42,15744,129,2,68.37
-17/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,103.77,12166,86,1,29.85
+17/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,133.42,15744,129,2,
+17/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,103.77,12166,86,1,
 18/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,131.54,26118,473,8,147.7
 18/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,102.31,20332,390,7,189.04
 19/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,139.85,22799,184,1,30.63
@@ -1209,7 +1209,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 20/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,93.89,8573,91,2,70.76
 21/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,179.63,26760,362,8,235.36
 21/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,139.71,20952,307,10,283.87
-22/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,125.38,17740,231,2,52.72
+22/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,125.38,17740,231,2,
 22/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,97.52,14028,167,1,40.44
 23/03/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,164.85,16610,285,7,244.05
 23/03/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,128.21,13070,218,3,47.89
@@ -1258,7 +1258,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 14/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,171.27,30595,411,8,280.59
 14/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,133.21,23886,311,4,152.43
 15/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,194.24,17923,206,3,55.58
-15/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,151.08,13845,144,3,
+15/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,151.08,13845,144,3,88.54
 16/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,167.9,21011,358,3,89.03
 16/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.59,16067,292,7,183.87
 17/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,136.1,12411,123,1,37.78
@@ -1274,13 +1274,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 22/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,153.68,20860,184,3,115.59
 22/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,119.53,15955,127,1,34.87
 23/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,153.62,29445,429,13,405.04
-23/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,119.48,22760,303,10,293.63
+23/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,119.48,22760,303,10,
 24/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,128.94,11697,116,2,67.36
 24/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,100.29,9148,127,7,228.67
 25/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,166.54,15903,249,4,110.59
 25/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,129.53,12184,183,4,191.79
 26/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,186.13,29615,409,17,301.5
-26/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,144.77,23319,342,11,
+26/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,144.77,23319,342,11,396.09
 27/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,180.18,24969,231,7,246.13
 27/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,140.14,19098,164,4,146.6
 28/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,162.43,28434,263,5,180.13
@@ -1290,13 +1290,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 30/04/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,163.3,15430,252,6,225.04
 30/04/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,127.01,12180,204,0,0.0
 01/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,192.88,17776,286,2,51.73
-01/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,150.02,13894,194,3,
+01/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,150.02,13894,194,3,90.43
 02/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,156.64,21767,411,7,180.0
 02/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,121.83,16933,317,5,103.99
 03/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,142.09,20776,264,7,170.59
 03/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,110.51,15979,195,5,157.03
 04/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,145.15,18767,167,3,72.54
-04/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,112.9,14602,119,6,254.91
+04/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,112.9,14602,119,6,
 05/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,177.65,16153,177,2,34.98
 05/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,138.17,12518,103,5,173.28
 06/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,174.11,23243,249,7,122.36
@@ -1305,12 +1305,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 07/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,154.73,27590,415,4,163.2
 08/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,156.5,23427,273,10,281.48
 08/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,121.72,18340,180,5,101.77
-09/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,174.7,19376,359,7,228.27
+09/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,174.7,19376,359,7,
 09/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,135.88,15092,250,5,240.31
 10/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,188.71,24803,488,8,284.37
 10/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,146.77,19522,374,6,149.72
 11/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,187.0,17120,248,4,155.97
-11/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,145.45,13176,175,3,
+11/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,145.45,13176,175,3,73.13
 12/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,158.69,22418,310,2,73.12
 12/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,123.42,17308,196,3,107.05
 13/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,168.67,23664,287,5,185.52
@@ -1318,14 +1318,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 14/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,158.16,15080,197,3,131.78
 14/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,123.01,11792,180,3,89.86
 15/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,213.31,23295,488,10,291.14
-15/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,165.91,18013,379,5,
+15/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,165.91,18013,379,5,118.4
 16/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,138.98,24619,278,6,194.24
 16/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,108.09,19164,237,9,292.9
 17/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,141.41,17470,232,5,174.36
 17/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,109.99,13970,196,4,59.48
 18/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,160.01,27349,560,3,81.22
 18/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,124.45,21440,449,4,121.93
-19/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,193.16,22253,397,18,439.91
+19/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,193.16,22253,397,18,
 19/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,150.23,17367,312,5,167.63
 20/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,230.3,22831,187,3,119.36
 20/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,179.12,17847,150,1,28.61
@@ -1333,7 +1333,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 21/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,124.22,13410,200,7,173.32
 22/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,145.92,24010,378,5,140.79
 22/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,113.49,18911,274,3,162.26
-23/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,131.25,17058,317,5,120.32
+23/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,131.25,17058,317,5,
 23/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,102.09,13274,269,5,196.19
 24/05/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,222.47,27780,274,7,205.7
 24/05/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,173.03,21633,183,8,236.94
@@ -1366,8 +1366,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 07/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,135.67,21357,294,7,224.98
 07/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,105.52,16825,217,5,170.46
 08/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,167.27,24468,357,2,62.9
-08/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.1,19208,308,6,
-09/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,163.68,21383,204,4,
+08/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.1,19208,308,6,201.47
+09/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,163.68,21383,204,4,88.56
 09/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,127.31,16649,146,2,58.98
 10/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,135.75,17632,315,9,296.2
 10/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,105.58,13527,250,8,218.59
@@ -1382,8 +1382,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 15/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,214.36,21348,387,2,56.22
 15/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,166.73,16990,284,0,0.0
 16/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,142.43,14074,221,9,247.72
-16/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,110.78,10691,184,2,41.13
-17/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,169.5,19999,309,5,205.58
+16/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,110.78,10691,184,2,
+17/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,169.5,19999,309,5,
 17/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,131.84,15286,213,2,55.98
 18/06/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,168.35,32855,481,16,723.96
 18/06/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.94,25341,368,15,617.43
@@ -1431,33 +1431,33 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 09/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,124.2,14982,241,5,175.97
 10/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,156.04,25570,471,18,609.56
 10/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,121.36,19821,374,13,294.51
-11/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,122.79,16048,257,3,
+11/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,122.79,16048,257,3,61.39
 11/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,95.5,12410,191,1,32.41
 12/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,161.03,16023,273,4,156.81
 12/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,125.25,12446,230,5,119.49
 13/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,162.2,17770,154,2,71.04
 13/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,126.16,13867,138,1,33.82
 14/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,231.04,32026,281,8,193.58
-14/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,179.7,25089,215,5,
+14/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,179.7,25089,215,5,107.27
 15/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,202.3,30840,310,4,105.05
 15/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,157.34,23934,263,5,230.13
 16/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,179.95,17761,285,6,260.8
 16/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,139.96,14115,231,4,166.22
-17/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,168.22,22587,207,4,
+17/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,168.22,22587,207,4,130.39
 17/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,130.84,17680,170,1,34.18
 18/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,182.23,28200,354,8,227.29
-18/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,141.74,22026,289,6,110.97
+18/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,141.74,22026,289,6,
 19/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,209.24,25994,227,6,183.02
 19/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,162.74,20005,176,4,129.11
 20/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,143.73,21304,426,6,147.37
 20/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,111.79,16464,329,8,196.31
 21/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,167.63,22202,314,8,259.37
 21/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,130.38,17584,274,10,261.68
-22/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,145.89,22525,369,12,290.53
+22/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,145.89,22525,369,12,
 22/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,113.47,17214,313,7,248.0
-23/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,171.63,25549,381,8,
+23/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,171.63,25549,381,8,263.42
 23/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,133.49,19417,282,7,198.95
-24/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,221.09,29220,452,6,171.39
+24/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,221.09,29220,452,6,
 24/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,171.96,22978,352,7,218.12
 25/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,148.53,18846,290,6,220.08
 25/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,115.52,14953,231,8,323.28
@@ -1470,14 +1470,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 29/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,160.31,22126,184,4,108.84
 29/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,124.68,17010,172,3,103.31
 30/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,187.5,27423,478,12,412.99
-30/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,145.83,21268,384,8,257.38
+30/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,145.83,21268,384,8,
 31/07/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,187.63,17070,328,12,456.42
 31/07/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,145.94,13042,230,7,173.49
 01/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,149.07,20258,367,4,113.43
 01/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,115.94,15991,282,8,320.48
 02/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,192.0,19746,328,8,151.61
 02/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,149.33,15482,277,8,212.32
-03/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,141.34,15066,148,2,
+03/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,141.34,15066,148,2,63.25
 03/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,109.93,11809,102,5,159.15
 04/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,197.34,29379,218,5,231.48
 04/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,153.49,23090,198,3,105.24
@@ -1491,11 +1491,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 08/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,114.99,21603,217,7,186.8
 09/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,185.31,16873,337,3,81.82
 09/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,144.13,13133,235,4,139.83
-10/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,179.12,27485,280,5,115.6
+10/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,179.12,27485,280,5,
 10/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,139.31,21460,226,4,134.61
 11/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,168.22,25523,235,3,56.49
 11/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,130.84,19877,160,3,108.08
-12/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,165.64,31143,416,6,
+12/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,165.64,31143,416,6,216.7
 12/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,128.83,23990,296,6,231.6
 13/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,180.28,21726,407,5,163.63
 13/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,140.22,17248,323,9,386.09
@@ -1510,7 +1510,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 18/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,173.07,23875,425,15,420.05
 18/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,134.61,18362,322,8,230.02
 19/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,177.65,17382,236,6,239.71
-19/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,138.17,13626,163,3,89.8
+19/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,138.17,13626,163,3,
 20/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,191.14,29354,493,6,239.13
 20/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,148.66,23004,389,7,142.21
 21/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,141.37,13068,153,1,36.74
@@ -1525,10 +1525,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 25/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,146.48,17233,253,11,331.4
 26/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,198.75,22213,456,7,121.19
 26/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,154.59,17275,337,6,307.38
-27/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,126.67,12578,190,2,
+27/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,126.67,12578,190,2,47.38
 27/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,98.52,9932,129,4,171.25
 28/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,176.3,17561,327,7,197.02
-28/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,137.12,13413,254,6,
+28/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,137.12,13413,254,6,301.66
 29/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,214.35,26192,281,6,199.4
 29/08/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,166.72,20348,217,3,125.34
 30/08/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,172.24,21602,214,3,80.29
@@ -1539,10 +1539,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 01/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,116.33,20395,354,9,245.24
 02/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,152.85,29473,368,8,272.09
 02/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,118.89,22909,285,3,53.82
-03/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,183.86,16976,204,3,
-03/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,143.0,13020,160,1,43.53
+03/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,183.86,16976,204,3,90.16
+03/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,143.0,13020,160,1,
 04/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,179.0,17138,352,9,201.52
-04/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,139.22,13299,260,8,263.02
+04/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,139.22,13299,260,8,
 05/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,150.95,17942,219,2,71.74
 05/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,117.4,14023,174,5,123.6
 06/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,166.07,17164,151,3,61.66
@@ -1554,7 +1554,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 09/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,270.07,28977,361,10,275.28
 09/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,210.05,22210,297,12,360.43
 10/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,155.35,19953,373,6,129.62
-10/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,120.83,15618,262,10,411.8
+10/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,120.83,15618,262,10,
 11/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,165.22,23964,245,6,164.49
 11/09/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,128.51,18595,184,9,201.02
 12/09/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,169.83,18461,316,2,53.5
@@ -1626,7 +1626,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 15/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,170.76,16958,213,1,29.44
 15/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,132.81,13185,144,1,26.53
 16/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,190.69,25742,372,14,472.3
-16/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,148.31,20271,288,5,
+16/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,148.31,20271,288,5,206.3
 17/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,179.6,17978,176,4,109.55
 17/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,139.69,13958,151,3,73.16
 18/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,147.02,18252,368,8,238.9
@@ -1640,11 +1640,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 22/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,168.83,28029,440,9,206.6
 22/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,131.31,21845,302,5,167.62
 23/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,140.74,22980,401,9,262.59
-23/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,109.47,17684,305,8,242.02
+23/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,109.47,17684,305,8,
 24/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,176.66,16487,227,2,36.81
 24/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,137.4,12761,166,0,0.0
 25/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,183.8,17164,348,6,271.09
-25/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,142.96,13213,250,2,
+25/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,142.96,13213,250,2,56.06
 26/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,214.73,23071,189,5,103.26
 26/10/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,167.01,17940,159,2,55.81
 27/10/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,170.36,23044,285,4,87.4
@@ -1673,7 +1673,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 07/11/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,117.07,15733,122,1,28.53
 08/11/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,137.31,14698,151,2,63.07
 08/11/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,106.8,11315,105,0,0.0
-09/11/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,152.91,15799,200,2,62.03
+09/11/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,152.91,15799,200,2,
 09/11/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,118.93,12341,181,2,52.24
 10/11/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,151.49,20299,258,5,162.51
 10/11/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,117.83,15681,210,3,90.87
@@ -1734,27 +1734,27 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 02/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,370.36,34424,306,6,164.8
 02/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,288.05,26861,204,2,96.28
 02/12/2025,Nordfit Equipment,Meta Ads,es-social-blackfriday-q4,576.11,53655,449,10,301.61
-03/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,253.52,27484,446,18,
+03/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,253.52,27484,446,18,377.26
 03/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,197.18,21430,382,11,214.16
 04/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,287.2,39430,580,12,583.19
 04/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,223.38,30658,408,8,272.82
 05/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,188.55,25954,422,5,102.67
 05/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,146.65,20111,330,9,204.94
-06/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,167.79,24020,417,6,
+06/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,167.79,24020,417,6,119.1
 06/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,130.5,18693,299,2,62.85
 07/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,199.86,26350,352,15,648.24
 07/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,155.45,20674,232,14,477.95
 08/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,254.33,28004,223,6,214.75
 08/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,197.81,21841,188,3,90.63
 09/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,200.97,25326,352,5,142.79
-09/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,156.31,19712,309,6,202.35
+09/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,156.31,19712,309,6,
 10/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,230.12,33593,355,10,235.98
 10/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,178.98,26484,258,3,83.87
 11/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,231.42,42762,796,18,346.77
 11/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,179.99,33197,666,18,412.0
 12/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,197.49,35652,671,20,1029.96
-12/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,153.61,27655,554,16,
-13/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,265.71,38400,398,10,347.55
+12/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,153.61,27655,554,16,346.37
+13/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,265.71,38400,398,10,
 13/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,206.66,29583,306,6,299.6
 14/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,189.82,18312,366,6,171.05
 14/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,147.64,14358,272,1,28.7
@@ -1762,16 +1762,16 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 15/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,141.88,21347,373,5,155.48
 16/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,198.37,24237,494,4,111.76
 16/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,154.29,18935,335,5,129.87
-17/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,176.03,17563,325,8,
+17/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,176.03,17563,325,8,201.4
 17/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,136.91,13566,265,4,115.72
 18/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,325.79,43734,550,11,237.96
-18/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,253.39,34210,431,10,497.89
+18/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,253.39,34210,431,10,
 19/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,273.27,40392,553,19,592.87
 19/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,212.54,31800,429,9,238.96
 20/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,200.56,31426,323,12,428.06
 20/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,155.99,24521,240,4,110.78
 21/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,199.52,37552,336,4,114.79
-21/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,155.18,29170,275,5,
+21/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,155.18,29170,275,5,155.45
 22/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,169.97,17848,218,3,106.44
 22/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,132.2,13770,171,2,74.06
 23/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,238.03,36058,688,18,469.95
@@ -1784,12 +1784,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 26/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,156.8,18038,233,3,81.23
 27/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,244.44,29711,465,17,834.39
 27/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,190.12,23394,351,9,344.51
-28/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,197.86,23015,323,8,199.09
+28/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,197.86,23015,323,8,
 28/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,153.89,17626,248,8,168.33
 29/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,240.55,23712,203,5,152.51
 29/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,187.09,18555,166,5,153.85
 30/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,237.52,22391,260,2,67.48
-30/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,184.74,17482,199,1,26.48
+30/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,184.74,17482,199,1,
 31/12/2025,Nordfit Equipment,Meta Ads,es-social-prospecting-q4,227.18,36111,372,8,176.43
 31/12/2025,Nordfit Equipment,Meta Ads,es-social-retargeting-q4,176.69,27895,290,7,179.74
 01/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,260.88,23940,301,4,145.1
@@ -1834,7 +1834,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 14/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,223.05,24320,342,8,253.83
 14/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,173.48,18875,270,8,233.05
 14/01/2026,Nordfit Equipment,Meta Ads,es-social-januarysale-q1,247.83,27124,412,6,155.47
-15/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,221.19,26628,347,6,
+15/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,221.19,26628,347,6,175.12
 15/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,172.04,20448,306,8,269.65
 15/01/2026,Nordfit Equipment,Meta Ads,es-social-januarysale-q1,245.77,29398,403,13,388.18
 16/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,124.84,20403,360,11,267.95
@@ -1846,7 +1846,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 19/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,140.33,14364,155,5,232.48
 19/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,109.15,11151,100,1,30.04
 20/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,128.65,17674,314,8,208.74
-20/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,100.06,13992,237,6,142.54
+20/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,100.06,13992,237,6,
 21/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,164.88,19185,163,7,196.08
 21/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,128.24,14996,118,3,74.66
 22/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,181.85,20866,293,2,55.22
@@ -1867,7 +1867,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 29/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,117.07,18890,236,6,193.41
 30/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,172.34,22140,446,10,352.3
 30/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,134.04,17219,319,10,620.45
-31/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,193.25,31721,303,12,
+31/01/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,193.25,31721,303,12,593.79
 31/01/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,150.3,24765,256,5,293.72
 01/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,136.57,16864,159,3,108.28
 01/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,106.22,13384,126,2,59.33
@@ -1879,7 +1879,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 04/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,108.29,10301,174,4,92.45
 05/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,156.99,19326,239,6,139.03
 05/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,122.1,15118,164,3,97.25
-06/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,169.28,23209,308,5,139.39
+06/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,169.28,23209,308,5,
 06/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,131.66,18037,259,4,136.46
 07/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,174.78,16370,282,7,233.25
 07/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,135.94,12774,222,7,300.05
@@ -1923,7 +1923,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 26/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,136.95,16892,305,15,467.85
 27/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,151.37,20740,358,7,302.62
 27/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,117.73,15862,303,6,194.09
-28/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,175.57,20524,302,5,
+28/02/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,175.57,20524,302,5,82.46
 28/02/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,136.55,16059,226,5,242.23
 01/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,191.89,19290,251,4,125.19
 01/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,149.25,14915,209,7,263.12
@@ -1935,7 +1935,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 04/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,118.31,12343,146,6,152.7
 05/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,214.24,31398,461,2,35.37
 05/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,166.63,24136,378,4,101.15
-06/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,139.29,16312,146,2,73.3
+06/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,139.29,16312,146,2,
 06/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,108.34,12622,122,7,287.65
 07/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,158.29,24005,465,0,0.0
 07/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,123.11,18617,341,1,22.43
@@ -1971,11 +1971,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 22/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,119.18,11176,122,4,109.51
 23/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,197.42,31234,612,13,437.56
 23/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,153.55,24390,489,13,248.67
-24/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,143.45,13950,174,4,
+24/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,143.45,13950,174,4,129.19
 24/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,111.57,10851,133,1,40.42
 25/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,172.8,18550,264,4,121.04
 25/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,134.4,14406,208,1,34.1
-26/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,187.08,26827,501,6,
+26/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,187.08,26827,501,6,152.27
 26/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,145.5,20771,397,7,170.6
 27/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,166.92,27973,432,16,430.19
 27/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,129.82,21714,328,11,420.52
@@ -1983,12 +1983,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 28/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,138.39,15164,206,9,317.84
 29/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,162.15,22487,359,4,86.04
 29/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,126.12,17487,298,10,211.04
-30/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,176.69,31990,496,13,568.92
+30/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,176.69,31990,496,13,
 30/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,137.42,25233,397,9,273.73
 31/03/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q1,163.35,15635,183,5,230.82
 31/03/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q1,127.05,12115,131,8,215.33
 01/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,167.23,22857,256,7,241.15
-01/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.07,17881,195,8,266.88
+01/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.07,17881,195,8,
 02/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,150.33,27575,386,7,221.14
 02/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,116.92,21223,287,5,170.88
 03/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,184.54,22429,188,9,224.19
@@ -2010,7 +2010,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 11/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,150.43,15631,144,1,24.06
 11/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,117.0,12250,137,2,64.2
 12/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,179.05,19510,218,7,242.31
-12/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,139.26,15255,165,1,
+12/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,139.26,15255,165,1,43.42
 13/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,123.0,13420,139,3,107.0
 13/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,95.66,10226,106,1,37.95
 14/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,109.02,17203,302,2,86.56
@@ -2022,7 +2022,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 17/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,185.69,20340,203,9,160.69
 17/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,144.43,15928,200,2,66.35
 18/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,177.12,23129,367,11,286.72
-18/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,137.76,18148,273,8,194.81
+18/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,137.76,18148,273,8,
 19/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,136.11,17620,326,3,79.55
 19/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,105.86,13693,268,4,80.14
 20/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,146.65,17138,269,9,207.0
@@ -2036,26 +2036,26 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 24/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,206.46,28496,354,2,48.39
 24/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,160.58,22295,295,5,156.87
 25/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,161.53,15847,198,4,92.71
-25/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,125.64,12437,140,1,
+25/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,125.64,12437,140,1,42.72
 26/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,151.93,18224,175,7,221.81
 26/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,118.17,14199,156,5,211.73
 27/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,148.79,26497,362,1,14.44
 27/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,115.73,20534,280,4,114.41
 28/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,188.59,31638,596,6,219.27
 28/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,146.68,24900,448,5,160.91
-29/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,166.01,21709,242,4,
+29/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,166.01,21709,242,4,125.89
 29/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,129.12,16810,187,3,91.51
 30/04/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,210.25,34112,573,20,921.5
 30/04/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,163.53,26735,432,10,350.31
 01/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,141.1,23447,319,6,119.34
-01/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,109.74,18280,238,4,97.94
+01/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,109.74,18280,238,4,
 02/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.93,26048,442,7,187.18
 02/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,139.17,20114,325,6,101.48
 03/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,218.56,21923,361,8,215.39
 03/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,169.99,16829,250,7,225.72
 04/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,220.51,28065,256,8,182.61
 04/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,171.51,21936,199,5,138.01
-05/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,149.7,22638,170,6,143.26
+05/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,149.7,22638,170,6,
 05/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,116.43,17362,138,0,0.0
 06/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,196.37,19697,390,15,411.32
 06/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,152.73,15739,322,8,208.41
@@ -2065,42 +2065,22 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 08/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,121.06,11237,88,3,70.73
 09/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,148.19,15362,159,1,21.28
 09/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,115.26,11956,121,4,108.32
-09/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,148.19,15362,159,1,21.28
-09/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,115.26,11956,121,4,108.32
-10/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,147.01,15906,319,8,219.34
-10/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,114.34,12383,223,4,81.89
 10/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,147.01,15906,319,8,219.34
 10/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,114.34,12383,223,4,81.89
 11/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,204.02,35626,665,13,434.86
 11/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,158.68,28069,592,9,267.58
-11/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,204.02,35626,665,13,434.86
-11/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,158.68,28069,592,9,267.58
-12/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,156.87,15314,230,5,147.12
-12/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,122.01,11940,186,1,38.79
 12/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,156.87,15314,230,5,147.12
 12/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,122.01,11940,186,1,38.79
 13/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,114.7,14700,171,1,31.34
 13/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,89.21,11289,123,1,25.72
-13/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,114.7,14700,171,1,31.34
-13/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,89.21,11289,123,1,25.72
-14/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,186.19,26424,302,8,340.19
-14/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,144.81,20540,232,1,23.34
 14/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,186.19,26424,302,8,340.19
 14/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,144.81,20540,232,1,23.34
 15/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,134.81,12267,194,6,182.31
 15/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,104.85,9443,142,4,67.71
-15/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,134.81,12267,194,6,182.31
-15/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,104.85,9443,142,4,67.71
-16/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.03,28500,495,11,
-16/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,138.47,22361,363,10,410.1
-16/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.03,28500,495,11,
+16/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.03,28500,495,11,358.67
 16/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,138.47,22361,363,10,410.1
 17/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,170.8,24343,427,3,64.3
 17/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,132.84,18780,344,7,272.69
-17/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,170.8,24343,427,3,64.3
-17/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,132.84,18780,344,7,272.69
-18/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,150.37,15994,271,7,118.35
-18/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,116.95,12382,225,5,250.91
 18/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,150.37,15994,271,7,118.35
 18/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,116.95,12382,225,5,250.91
 19/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,157.51,18774,290,5,132.96
@@ -2109,7 +2089,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 20/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,124.31,17309,229,6,189.34
 21/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,184.13,17408,205,7,156.79
 21/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,143.21,13574,147,2,58.87
-22/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,148.77,14018,173,7,170.13
+22/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,148.77,14018,173,7,
 22/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,115.71,11042,154,6,180.9
 23/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,174.23,16727,190,2,46.3
 23/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,135.52,13105,147,4,124.75
@@ -2121,22 +2101,42 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 26/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,127.87,18775,248,4,90.2
 27/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,152.48,22597,217,5,133.8
 27/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,118.6,17758,177,5,153.34
+27/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,152.48,22597,217,5,133.8
+27/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,118.6,17758,177,5,153.34
+28/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,157.7,31366,542,6,185.44
+28/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,122.66,24563,456,6,184.52
 28/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,157.7,31366,542,6,185.44
 28/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,122.66,24563,456,6,184.52
 29/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,169.86,20509,336,7,167.35
 29/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,132.11,16257,264,3,79.58
+29/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,169.86,20509,336,7,167.35
+29/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,132.11,16257,264,3,79.58
+30/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,163.39,15171,175,5,71.75
+30/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,127.08,11895,140,5,121.38
 30/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,163.39,15171,175,5,71.75
 30/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,127.08,11895,140,5,121.38
 31/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,144.53,25690,229,4,166.71
 31/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,112.41,20223,195,2,54.65
+31/05/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,144.53,25690,229,4,166.71
+31/05/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,112.41,20223,195,2,54.65
+01/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,164.24,15442,302,12,392.69
+01/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,127.74,11980,210,9,160.33
 01/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,164.24,15442,302,12,392.69
 01/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,127.74,11980,210,9,160.33
 02/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,174.35,16057,324,6,226.79
 02/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,135.61,12625,281,6,195.93
+02/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,174.35,16057,324,6,226.79
+02/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,135.61,12625,281,6,195.93
+03/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,175.67,24930,307,6,188.95
+03/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,136.63,19391,218,1,27.97
 03/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,175.67,24930,307,6,188.95
 03/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,136.63,19391,218,1,27.97
 04/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,153.89,18384,155,1,19.36
 04/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,119.69,14065,130,1,29.25
+04/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,153.89,18384,155,1,19.36
+04/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,119.69,14065,130,1,29.25
+05/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.16,26631,520,12,390.07
+05/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,138.57,20480,411,12,639.36
 05/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.16,26631,520,12,390.07
 05/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,138.57,20480,411,12,639.36
 06/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.09,23326,376,5,131.35
@@ -2178,7 +2178,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 24/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,178.35,21877,234,2,61.5
 24/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,138.72,17109,164,3,69.12
 25/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,180.99,22304,237,7,172.85
-25/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,140.77,17450,179,7,
+25/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,140.77,17450,179,7,293.31
 26/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,167.49,18480,304,13,398.19
 26/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.27,14459,264,9,220.56
 27/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,203.96,29450,398,5,100.3
@@ -2186,11 +2186,11 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 28/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,167.75,16367,169,5,121.83
 28/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,130.47,12767,135,2,58.26
 29/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,186.67,23359,349,5,150.55
-29/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,145.19,17996,283,10,
+29/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,145.19,17996,283,10,363.15
 30/06/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q2,165.77,18783,322,7,180.47
 30/06/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q2,128.93,14613,251,5,227.04
-01/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,160.66,30249,282,5,117.28
-01/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,124.96,23450,243,3,
+01/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,160.66,30249,282,5,
+01/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,124.96,23450,243,3,138.88
 02/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,134.14,16061,274,4,135.97
 02/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,104.33,12666,217,3,105.37
 03/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,141.37,17614,327,14,512.0
@@ -2198,10 +2198,10 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 04/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,169.67,17485,282,6,164.05
 04/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,131.97,13400,204,5,181.22
 05/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,165.13,17540,326,6,211.65
-05/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,128.44,13441,252,3,104.32
+05/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,128.44,13441,252,3,
 06/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,145.47,16198,255,8,213.04
 06/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,113.14,12404,218,6,216.3
-07/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,138.01,21637,383,5,185.43
+07/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,138.01,21637,383,5,
 07/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,107.34,16706,310,8,262.92
 08/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,110.73,11343,116,3,95.97
 08/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,86.12,8861,119,3,101.33
@@ -2220,8 +2220,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 15/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,162.08,22465,236,4,159.5
 15/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,126.06,17466,167,3,134.39
 16/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,141.59,13078,210,4,108.08
-16/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,110.13,10196,156,3,
-17/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,216.42,34562,388,12,
+16/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,110.13,10196,156,3,67.12
+17/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,216.42,34562,388,12,299.6
 17/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,168.32,26594,241,7,185.06
 18/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,165.99,19090,237,6,130.79
 18/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,129.1,14955,204,7,297.03
@@ -2231,9 +2231,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 20/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,156.97,17894,311,7,196.26
 21/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,147.2,19277,293,3,96.49
 21/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,114.49,15169,232,1,29.08
-22/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,211.15,30205,554,7,240.84
-22/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,164.23,23681,393,8,256.55
-23/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,151.56,18102,300,3,
+22/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,211.15,30205,554,7,
+22/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,164.23,23681,393,8,
+23/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,151.56,18102,300,3,89.01
 23/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,117.88,14084,235,5,152.59
 24/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,205.94,23869,398,13,296.65
 24/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,160.17,18374,309,12,292.92
@@ -2245,19 +2245,19 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 27/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,139.3,14852,156,5,165.69
 28/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,121.35,14592,191,1,30.82
 28/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,94.38,11459,136,0,0.0
-29/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,159.65,18087,241,4,178.1
+29/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,159.65,18087,241,4,
 29/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,124.18,14319,189,2,52.13
 30/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,151.0,15482,244,7,338.89
 30/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,117.44,11961,187,4,159.25
 31/07/2026,Nordfit Equipment,Meta Ads,es-social-prospecting-q3,170.28,16146,277,3,111.65
 31/07/2026,Nordfit Equipment,Meta Ads,es-social-retargeting-q3,132.44,12570,200,10,249.9
-01/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,58.94,9026,104,1,44.51
+01/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,58.94,9026,104,1,
 01/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,47.15,7051,67,2,101.27
 02/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,51.21,9727,86,2,151.31
 02/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,40.97,7554,63,0,0.0
 03/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,65.75,8420,130,1,34.04
 03/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,52.6,6893,108,2,86.31
-04/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,77.96,11662,106,2,
+04/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,77.96,11662,106,2,73.84
 04/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,62.36,9309,97,2,102.05
 05/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,82.09,14926,146,3,134.31
 05/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,65.68,12129,108,0,0.0
@@ -2276,7 +2276,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 12/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,62.34,6285,60,0,0.0
 12/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,49.87,5069,41,0,0.0
 13/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,84.75,11013,135,2,94.07
-13/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,67.8,8868,91,2,93.35
+13/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,67.8,8868,91,2,
 14/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,76.97,7111,98,2,82.36
 14/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,61.58,5706,68,2,94.66
 15/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,74.2,7209,155,1,40.52
@@ -2303,12 +2303,12 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 25/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,69.73,10276,88,2,109.82
 26/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,84.86,7766,137,3,107.78
 26/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,67.89,6183,114,2,58.94
-27/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,76.6,10538,75,3,
+27/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,76.6,10538,75,3,151.52
 27/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,61.28,8368,63,2,61.25
 28/02/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,58.36,11435,169,7,333.32
 28/02/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,46.69,9123,154,2,118.7
 01/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,64.6,8428,171,1,41.36
-01/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,51.68,6654,127,2,
+01/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,51.68,6654,127,2,53.68
 01/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,38.76,4990,92,2,73.98
 02/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,54.26,6218,122,1,41.97
 02/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,43.41,4800,105,0,0.0
@@ -2317,22 +2317,22 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 03/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,46.89,7246,53,2,80.17
 03/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,35.16,5486,53,0,0.0
 04/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,55.49,10841,90,2,57.58
-04/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,44.39,8612,77,2,
+04/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,44.39,8612,77,2,81.44
 04/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,33.29,6277,59,2,109.64
 05/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,50.89,5849,78,2,94.2
-05/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,40.71,4667,65,2,85.36
+05/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,40.71,4667,65,2,
 05/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,30.54,3343,47,2,67.98
 06/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,56.12,7771,89,3,169.12
 06/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,44.9,6276,75,2,85.53
 06/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,33.67,4538,61,2,97.42
 07/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,57.24,6888,72,0,0.0
 07/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,45.8,5477,48,1,40.11
-07/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,34.35,4031,42,1,35.62
+07/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,34.35,4031,42,1,
 08/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,64.14,10116,147,5,319.84
 08/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,51.32,8292,105,2,81.09
 08/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,38.49,6041,77,1,32.78
 09/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,42.61,4387,50,1,57.18
-09/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,34.08,3535,45,1,45.36
+09/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,34.08,3535,45,1,
 09/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,25.56,2530,26,0,0.0
 10/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,74.01,8695,154,5,248.85
 10/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,59.21,6968,92,3,208.74
@@ -2394,7 +2394,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 29/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,49.16,9285,127,1,40.46
 29/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,39.33,7504,132,1,31.38
 29/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,29.49,5719,86,1,47.98
-30/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,45.5,8814,144,2,
+30/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,45.5,8814,144,2,121.55
 30/03/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q1,36.4,7120,137,1,41.54
 30/03/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q1,27.3,5295,102,0,0.0
 31/03/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q1,53.09,6177,96,2,64.27
@@ -2411,7 +2411,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 03/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,45.86,8431,93,1,40.98
 04/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,58.24,6626,64,1,43.86
 04/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,46.59,5284,50,1,41.44
-04/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,34.94,3983,47,1,75.46
+04/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,34.94,3983,47,1,
 05/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,56.15,8771,80,2,71.89
 05/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,44.92,6909,66,1,69.2
 05/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,33.69,5239,61,0,0.0
@@ -2433,7 +2433,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 11/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,52.9,7005,127,0,0.0
 11/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,42.32,5490,92,0,0.0
 11/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,31.74,4226,80,1,72.22
-12/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,69.97,6417,78,1,
+12/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,69.97,6417,78,1,66.28
 12/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,55.98,5078,63,1,37.65
 12/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,41.98,3882,40,0,0.0
 13/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,53.33,5297,33,2,83.13
@@ -2452,9 +2452,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 17/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,38.17,3472,72,2,105.13
 17/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,28.62,2710,46,1,54.86
 18/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,57.39,5896,65,0,0.0
-18/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,45.91,4766,54,1,
+18/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,45.91,4766,54,1,45.76
 18/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,34.43,3553,38,0,0.0
-19/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,47.42,8846,75,2,96.39
+19/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,47.42,8846,75,2,
 19/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,37.93,7256,77,0,0.0
 19/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,28.45,5298,49,0,0.0
 20/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,63.74,5869,66,0,0.0
@@ -2476,7 +2476,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 25/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,52.48,6098,76,3,109.87
 25/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,39.36,4623,64,0,0.0
 26/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,50.32,4986,66,2,65.5
-26/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,40.26,4012,40,2,59.33
+26/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,40.26,4012,40,2,
 26/04/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,30.19,2945,23,0,0.0
 27/04/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,57.73,10330,176,1,47.39
 27/04/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,46.18,8258,129,0,0.0
@@ -2544,36 +2544,66 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 18/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,60.78,7103,115,5,290.04
 18/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,48.62,5816,86,5,198.88
 18/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,36.47,4137,78,0,0.0
+18/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,60.78,7103,115,5,290.04
+18/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,48.62,5816,86,5,198.88
+18/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,36.47,4137,78,0,0.0
+19/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,73.9,10064,99,1,26.28
+19/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,59.12,8183,83,1,47.19
+19/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,44.34,6055,61,1,35.75
 19/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,73.9,10064,99,1,26.28
 19/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,59.12,8183,83,1,47.19
 19/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,44.34,6055,61,1,35.75
 20/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,82.56,11375,193,6,301.41
 20/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,66.05,9189,125,0,0.0
 20/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,49.54,6761,107,1,47.0
+20/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,82.56,11375,193,6,301.41
+20/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,66.05,9189,125,0,0.0
+20/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,49.54,6761,107,1,47.0
+21/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,105.86,9704,113,0,0.0
+21/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,84.69,7880,114,2,74.59
+21/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,63.52,5905,79,3,154.2
 21/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,105.86,9704,113,0,0.0
 21/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,84.69,7880,114,2,74.59
 21/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,63.52,5905,79,3,154.2
 22/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,90.28,8462,153,2,102.09
 22/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,72.22,6723,125,2,79.69
 22/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,54.17,5071,93,4,135.49
+22/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,90.28,8462,153,2,102.09
+22/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,72.22,6723,125,2,79.69
+22/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,54.17,5071,93,4,135.49
+23/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,86.33,8916,146,4,176.94
+23/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,69.06,7144,132,4,163.45
+23/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,51.8,5288,102,3,97.29
 23/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,86.33,8916,146,4,176.94
 23/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,69.06,7144,132,4,163.45
 23/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,51.8,5288,102,3,97.29
 24/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,72.25,10399,179,3,126.04
 24/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,57.8,8499,161,4,232.67
 24/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,43.35,6279,137,3,101.32
+24/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,72.25,10399,179,3,126.04
+24/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,57.8,8499,161,4,232.67
+24/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,43.35,6279,137,3,101.32
+25/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,97.02,15103,269,8,308.52
+25/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,77.61,12323,226,7,364.13
+25/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,58.21,9163,153,4,76.08
 25/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,97.02,15103,269,8,308.52
 25/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,77.61,12323,226,7,364.13
 25/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,58.21,9163,153,4,76.08
 26/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,99.74,15683,239,4,173.07
 26/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,79.79,12407,225,2,58.9
 26/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,59.84,9506,156,3,194.35
+26/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,99.74,15683,239,4,173.07
+26/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,79.79,12407,225,2,58.9
+26/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,59.84,9506,156,3,194.35
+27/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,118.9,23318,447,10,392.76
+27/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,95.12,18762,368,15,577.49
+27/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,71.34,13981,241,8,530.65
 27/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,118.9,23318,447,10,392.76
 27/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,95.12,18762,368,15,577.49
 27/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,71.34,13981,241,8,530.65
 28/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,104.28,17161,314,6,195.12
 28/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,83.42,13881,237,5,233.56
-28/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,62.57,10162,162,7,
+28/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,62.57,10162,162,7,370.28
 29/05/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,93.28,13961,263,7,243.04
 29/05/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,74.62,11445,226,5,246.72
 29/05/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,55.97,8413,177,3,130.97
@@ -2589,7 +2619,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 02/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,107.23,18328,163,3,136.65
 02/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,85.78,14764,165,2,97.23
 02/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,64.34,10928,122,6,213.05
-03/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,98.67,9124,97,1,51.44
+03/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,98.67,9124,97,1,
 03/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,78.94,7494,69,0,0.0
 03/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,59.2,5601,62,1,45.05
 04/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,113.6,13139,119,3,87.29
@@ -2624,7 +2654,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 13/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,87.81,10439,184,2,108.17
 14/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,125.06,14604,114,2,118.93
 14/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,100.05,11617,88,2,83.79
-14/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,75.03,8750,67,1,
+14/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,75.03,8750,67,1,48.81
 15/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,118.19,14424,139,5,187.0
 15/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,94.55,11469,117,5,158.94
 15/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,70.91,8658,90,2,71.38
@@ -2638,7 +2668,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 18/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,133.62,17598,264,1,38.29
 18/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,100.22,13305,208,4,185.81
 19/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,128.88,15889,219,3,219.56
-19/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,103.11,12515,173,2,112.85
+19/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,103.11,12515,173,2,
 19/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,77.33,9435,117,1,38.8
 20/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,131.6,24461,318,5,340.69
 20/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,105.28,19353,241,3,106.07
@@ -2672,7 +2702,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 29/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,105.71,12326,236,2,82.96
 30/06/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q2,176.04,29190,442,10,517.38
 30/06/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q2,140.83,23424,370,10,405.44
-30/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,105.62,17487,295,8,
+30/06/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q2,105.62,17487,295,8,395.95
 01/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,249.84,26807,402,5,171.62
 01/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,199.88,21625,326,12,418.14
 01/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,149.91,16379,272,11,361.27
@@ -2685,14 +2715,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 04/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,203.35,27656,471,4,153.29
 04/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,162.68,21845,347,6,234.46
 04/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,122.01,16611,272,4,155.07
-05/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,165.92,19167,353,9,573.48
+05/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,165.92,19167,353,9,
 05/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,132.74,15569,280,10,452.33
 05/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,99.55,11545,179,5,210.47
 06/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,174.12,34874,496,5,289.13
 06/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,139.3,27960,380,8,362.75
 06/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,104.47,20880,299,3,83.76
 07/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,209.87,37753,704,15,828.56
-07/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,167.9,29976,587,13,
+07/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,167.9,29976,587,13,462.61
 07/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,125.92,23033,458,6,187.01
 08/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,232.19,45141,431,10,356.63
 08/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,185.75,36159,371,3,142.51
@@ -2705,7 +2735,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 10/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,89.37,11847,158,4,132.48
 11/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,188.7,21680,260,5,212.64
 11/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,150.96,17659,190,4,193.67
-11/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,113.22,13015,135,3,136.89
+11/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,113.22,13015,135,3,
 12/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,226.85,25150,306,7,314.51
 12/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,181.48,20057,217,2,99.78
 12/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,136.11,15014,183,5,173.97
@@ -2739,7 +2769,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 22/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,179.21,25149,447,11,528.19
 22/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,143.37,20090,318,5,206.03
 22/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,107.52,15156,252,10,600.46
-23/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,234.34,34206,614,11,
+23/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,234.34,34206,614,11,412.35
 23/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,187.47,27517,483,11,521.91
 23/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,140.6,20683,395,3,117.2
 24/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,151.67,30192,580,8,351.95
@@ -2752,13 +2782,13 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 26/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,132.72,20003,245,11,569.46
 26/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,99.54,14544,140,4,234.11
 27/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,159.13,31748,653,8,329.75
-27/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,127.31,25419,516,13,588.71
+27/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,127.31,25419,516,13,
 27/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,95.48,19372,375,11,947.96
 28/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,204.35,24989,238,3,100.86
 28/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,163.48,19872,197,5,259.84
 28/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,122.61,14893,133,3,140.2
 29/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,210.56,32052,341,3,129.59
-29/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,168.45,25501,261,3,
+29/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,168.45,25501,261,3,154.2
 29/07/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,126.34,19518,200,2,113.16
 30/07/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,205.38,18776,304,14,822.65
 30/07/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,164.31,15015,222,1,35.12
@@ -2771,7 +2801,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 01/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,87.63,15704,285,11,365.95
 02/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,164.37,25182,430,7,247.46
 02/08/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,131.5,20108,379,6,324.72
-02/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,98.62,14848,296,8,272.68
+02/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,98.62,14848,296,8,
 03/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,172.65,17727,187,3,132.04
 03/08/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,138.12,14194,122,0,0.0
 03/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,103.59,10684,85,4,148.8
@@ -2793,7 +2823,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 09/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,190.91,28987,490,7,395.51
 09/08/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,152.73,23163,441,5,242.62
 09/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,114.55,17562,309,6,289.04
-10/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,185.69,17870,291,6,
+10/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,185.69,17870,291,6,209.84
 10/08/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,148.56,14585,256,2,98.93
 10/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,111.42,10719,176,4,169.43
 11/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,196.24,35081,323,0,0.0
@@ -2820,7 +2850,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 18/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,120.2,23639,257,2,66.89
 18/08/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,96.16,18884,215,4,119.66
 18/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,72.12,14299,141,5,198.73
-19/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,165.27,24914,437,3,156.07
+19/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,165.27,24914,437,3,
 19/08/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,132.22,19707,289,5,302.55
 19/08/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,99.16,14783,225,3,128.83
 20/08/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,123.96,15401,193,1,39.76
@@ -2862,7 +2892,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 01/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,119.72,15614,118,10,380.9
 01/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,95.77,12367,102,2,78.11
 01/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,71.83,9173,82,0,0.0
-02/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,106.03,18704,347,4,
+02/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,106.03,18704,347,4,250.34
 02/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,84.82,15051,298,6,195.12
 02/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,63.62,11313,201,2,75.73
 03/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,156.56,30500,280,2,98.88
@@ -2874,7 +2904,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 05/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,97.3,13337,147,7,333.9
 05/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,77.84,10711,110,3,119.82
 05/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,58.38,8146,93,3,165.57
-06/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,96.65,17611,164,4,231.98
+06/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,96.65,17611,164,4,
 06/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,77.32,13997,133,1,49.89
 06/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,57.99,10605,88,1,48.02
 07/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,96.72,16480,279,6,600.93
@@ -2899,7 +2929,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 13/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,60.11,6735,137,4,184.39
 13/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,45.08,5093,87,1,57.06
 14/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,97.43,15861,146,4,125.48
-14/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,77.95,12417,108,2,
+14/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,77.95,12417,108,2,65.7
 14/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,58.46,9361,84,3,110.35
 15/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,84.34,14322,124,2,146.27
 15/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,67.47,11856,97,3,187.72
@@ -2910,7 +2940,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 17/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,120.16,12948,147,5,190.35
 17/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,96.13,10334,134,3,205.78
 17/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,72.09,7544,102,2,78.36
-18/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,81.38,15779,331,6,418.41
+18/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,81.38,15779,331,6,
 18/09/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q3,65.11,12721,266,3,126.82
 18/09/2025,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2025Q3,48.83,9645,168,5,216.09
 19/09/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q3,78.31,8143,82,1,39.22
@@ -2952,7 +2982,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 01/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,81.31,9001,93,2,106.75
 01/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,65.05,6978,71,1,64.22
 02/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,66.68,12961,222,5,368.16
-02/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,53.34,10359,180,5,
+02/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,53.34,10359,180,5,233.35
 03/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,83.16,12413,187,6,343.14
 03/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,66.53,9789,130,0,0.0
 04/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,88.04,17174,252,3,162.57
@@ -2967,7 +2997,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 08/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,77.08,13070,214,0,0.0
 09/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,77.09,7362,132,6,213.84
 09/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,61.68,5885,97,3,154.24
-10/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,73.2,10798,174,3,203.47
+10/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,73.2,10798,174,3,
 10/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,58.56,8540,146,3,170.75
 11/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,72.33,13507,188,3,110.9
 11/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,57.87,10497,146,3,93.62
@@ -2987,7 +3017,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 18/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,57.49,7082,94,2,84.51
 19/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,65.04,6586,100,6,294.44
 19/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,52.03,5337,80,2,75.02
-20/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,66.61,6670,53,1,
+20/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,66.61,6670,53,1,42.71
 20/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,53.29,5392,53,0,0.0
 21/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,60.7,9663,111,1,87.45
 21/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,48.56,7692,83,1,41.06
@@ -3002,7 +3032,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 26/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,66.06,6767,77,4,202.66
 26/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,52.85,5372,69,1,53.49
 27/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,78.17,10461,180,0,0.0
-27/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,62.53,8243,149,5,137.98
+27/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,62.53,8243,149,5,
 28/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,90.94,12225,120,1,38.63
 28/10/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,72.75,9904,112,4,210.03
 29/10/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,76.55,10239,190,2,56.66
@@ -3017,8 +3047,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 02/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,55.81,7928,130,1,39.69
 03/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,63.49,10375,205,6,299.16
 03/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,50.79,8304,145,5,228.24
-04/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,82.01,8590,146,1,
-04/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,65.61,7041,116,1,
+04/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,82.01,8590,146,1,67.93
+04/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,65.61,7041,116,1,43.86
 05/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,78.86,8939,186,3,102.44
 05/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,63.09,7207,127,1,39.46
 06/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,92.97,13280,184,1,40.9
@@ -3029,8 +3059,8 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 08/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,47.69,5789,113,3,198.97
 09/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,58.01,8537,83,3,238.54
 09/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,46.41,6727,58,3,121.86
-10/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,69.97,8391,174,5,259.48
-10/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,55.97,6714,139,4,181.91
+10/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,69.97,8391,174,5,
+10/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,55.97,6714,139,4,
 11/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,52.45,6377,54,2,83.07
 11/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,41.96,5222,48,0,0.0
 12/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,83.46,8162,142,3,105.31
@@ -3059,7 +3089,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 23/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,52.2,4943,55,1,46.51
 24/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,89.83,11536,145,1,36.25
 24/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,71.86,9142,124,2,128.99
-25/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,83.79,12960,124,2,
+25/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,83.79,12960,124,2,67.32
 25/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,67.03,10178,71,4,162.28
 26/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,70.44,10070,174,3,122.14
 26/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,56.35,8028,152,1,51.07
@@ -3071,14 +3101,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 29/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,61.66,6487,57,1,54.04
 30/11/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,65.62,11175,137,3,169.12
 30/11/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,52.49,8915,116,3,107.34
-01/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,76.33,13120,108,1,68.76
+01/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,76.33,13120,108,1,
 01/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,61.07,10579,98,3,167.73
 02/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,79.25,10055,148,1,73.89
 02/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,63.4,8117,122,4,195.24
 03/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,74.76,14742,186,0,0.0
 03/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,59.81,11800,151,5,300.73
 04/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,74.5,9258,159,2,78.7
-04/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,59.6,7321,107,4,
+04/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,59.6,7321,107,4,231.85
 05/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,61.71,11271,150,2,67.93
 05/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,49.37,9207,128,4,167.85
 06/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,59.66,6256,112,3,103.11
@@ -3090,7 +3120,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 09/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,79.93,10828,122,0,0.0
 09/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,63.94,8750,81,2,104.92
 10/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,90.39,9714,142,5,263.61
-10/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,72.31,7816,137,4,221.63
+10/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,72.31,7816,137,4,
 11/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,95.45,10978,105,2,89.26
 11/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,76.36,8653,94,2,79.42
 12/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,82.1,9553,141,4,138.55
@@ -3104,9 +3134,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 16/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,62.75,7229,142,1,29.09
 16/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,50.2,6021,112,2,74.18
 17/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,63.96,6066,99,1,39.34
-17/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,51.17,5006,86,4,
+17/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,51.17,5006,86,4,230.47
 18/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,75.22,7087,102,0,0.0
-18/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,60.18,5718,83,3,
+18/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,60.18,5718,83,3,88.09
 19/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,62.87,6692,95,0,0.0
 19/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,50.3,5434,80,1,52.54
 20/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,75.83,13389,193,4,250.78
@@ -3120,9 +3150,9 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 24/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,66.72,10778,212,5,194.87
 24/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,53.37,8494,168,3,84.04
 25/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,62.41,10169,73,2,138.46
-25/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,49.93,8386,69,1,60.6
+25/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,49.93,8386,69,1,
 26/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,63.72,10824,115,2,87.67
-26/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,50.98,8723,99,4,104.34
+26/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,50.98,8723,99,4,
 27/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,64.35,7444,145,2,118.07
 27/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,51.48,5907,101,2,70.07
 28/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,76.88,12450,211,2,76.29
@@ -3133,7 +3163,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 30/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,57.56,9871,150,2,114.39
 31/12/2025,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2025Q4,99.28,13630,194,5,183.63
 31/12/2025,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2025Q4,79.43,10877,146,2,128.25
-01/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,76.63,6943,118,4,
+01/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,76.63,6943,118,4,146.36
 01/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,61.31,5539,68,1,25.74
 02/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,63.55,6688,64,0,0.0
 02/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,50.84,5431,55,3,87.44
@@ -3144,7 +3174,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 05/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,71.68,8639,124,2,68.85
 05/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,57.34,6824,89,1,32.47
 06/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,66.12,13013,250,5,253.07
-06/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,52.9,10610,182,3,98.48
+06/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,52.9,10610,182,3,
 07/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,75.24,8837,88,0,0.0
 07/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,60.19,6958,62,1,63.16
 08/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,58.97,6579,99,4,198.94
@@ -3194,25 +3224,25 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 30/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,76.83,9189,162,4,182.75
 30/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,61.46,7477,140,6,182.68
 31/01/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,81.78,7664,178,6,332.57
-31/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,65.42,6304,108,1,
+31/01/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,65.42,6304,108,1,42.36
 01/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,69.87,9971,133,5,183.97
 01/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,55.9,7772,107,3,131.76
 02/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,69.98,7654,89,3,165.53
 02/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,55.99,6006,77,0,0.0
 03/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,81.85,7985,136,8,250.85
-03/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,65.48,6401,93,2,
+03/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,65.48,6401,93,2,72.25
 04/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,76.11,10900,199,7,234.25
 04/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,60.89,8914,145,4,352.61
 05/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,86.98,9731,119,0,0.0
 05/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,69.59,7786,95,2,76.29
 06/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,56.06,6499,112,2,82.7
-06/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,44.85,5181,71,2,69.95
+06/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,44.85,5181,71,2,
 07/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,69.07,8035,74,1,43.36
 07/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,55.26,6692,60,2,87.75
 08/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,57.77,10318,158,2,106.9
 08/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,46.21,8222,130,3,161.09
 09/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,68.48,10027,168,8,333.44
-09/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,54.79,8028,136,1,51.3
+09/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,54.79,8028,136,1,
 10/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,43.52,5786,117,5,319.85
 10/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,34.82,4586,84,2,129.08
 11/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,84.12,9398,141,7,539.77
@@ -3240,7 +3270,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 22/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,84.14,9138,76,1,92.66
 22/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,67.31,7432,67,1,45.43
 23/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,75.88,6945,130,5,279.87
-23/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,60.71,5665,97,2,
+23/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,60.71,5665,97,2,87.61
 24/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,81.09,10567,144,1,62.37
 24/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,64.87,8316,90,0,0.0
 25/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,71.52,6974,126,4,175.14
@@ -3251,7 +3281,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 27/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,50.77,5411,88,1,41.21
 28/02/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,63.4,9941,200,3,95.97
 28/02/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,50.72,7885,162,2,108.2
-01/03/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,53.66,5640,105,3,164.35
+01/03/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,53.66,5640,105,3,
 01/03/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q1,42.93,4573,86,3,93.85
 01/03/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q1,32.2,3466,73,3,110.89
 02/03/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q1,62.13,5761,99,0,0.0
@@ -3359,27 +3389,27 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 05/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,47.43,7896,147,6,238.24
 05/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,37.95,6072,98,4,185.73
 05/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,28.46,4495,79,1,39.1
-06/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,42.64,5822,126,3,115.32
-06/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,34.11,4757,112,0,0.0
-06/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,25.58,3511,69,2,
-07/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,59.37,8891,105,0,0.0
-07/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.5,6993,84,3,202.88
-07/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.62,5201,70,0,0.0
-08/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,51.97,4733,51,2,98.41
-08/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,41.58,3826,38,1,46.0
-08/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,31.18,2866,30,0,0.0
-09/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,59.99,7099,72,1,44.91
-09/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.99,5598,67,0,0.0
-09/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.99,4261,45,0,0.0
-10/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,48.75,6224,106,1,33.43
-10/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,39.0,4982,67,1,29.7
-10/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,29.25,3671,51,3,112.35
-11/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,52.65,8693,171,5,
-11/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,42.12,7019,139,1,31.37
-11/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,31.59,5378,103,4,166.44
-12/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,65.57,9243,158,4,133.38
-12/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,52.45,7427,119,2,131.76
-12/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,39.34,5555,111,3,177.67
+06/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,59.7,5822,126,0,0.0
+06/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.75,4757,112,0,0.0
+06/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.81,3511,69,0,0.0
+07/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,83.12,8891,105,0,0.0
+07/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,66.5,6993,84,0,0.0
+07/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,49.87,5201,70,0,0.0
+08/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,72.76,4733,51,0,0.0
+08/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,58.21,3826,38,0,0.0
+08/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,43.65,2866,30,0,0.0
+09/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,83.99,7099,72,0,0.0
+09/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,67.19,5598,67,0,0.0
+09/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,50.39,4261,45,0,0.0
+10/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,68.25,6224,106,0,0.0
+10/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,54.6,4982,67,0,0.0
+10/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,40.95,3671,51,0,0.0
+11/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,73.71,8693,171,0,0.0
+11/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,58.97,7019,139,0,0.0
+11/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,44.23,5378,103,0,0.0
+12/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,91.8,9243,158,0,0.0
+12/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,73.43,7427,119,0,0.0
+12/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,55.08,5555,111,0,0.0
 13/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,58.78,5352,89,1,65.85
 13/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.02,4371,84,3,161.64
 13/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.27,3260,57,2,82.09
@@ -3392,7 +3422,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 16/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,52.8,6827,92,1,46.56
 16/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,42.24,5595,77,1,40.24
 16/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,31.68,4167,59,1,61.42
-17/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,53.5,7687,115,2,117.18
+17/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,53.5,7687,115,2,
 17/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,42.8,6228,71,0,0.0
 17/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,32.1,4519,60,0,0.0
 18/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,52.1,6630,92,1,56.0
@@ -3406,7 +3436,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 20/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,38.22,3562,57,2,84.2
 21/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,64.45,7447,60,3,176.51
 21/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,51.56,6124,53,1,28.48
-21/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,38.67,4539,27,1,39.56
+21/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,38.67,4539,27,1,
 22/04/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,56.97,5860,76,1,44.34
 22/04/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,45.58,4730,78,1,41.47
 22/04/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,34.18,3408,55,1,44.68
@@ -3443,7 +3473,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 03/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,70.48,9589,140,2,104.08
 03/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,56.39,7809,120,4,216.32
 03/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,42.29,5818,88,2,120.4
-04/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,64.18,9817,122,3,
+04/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,64.18,9817,122,3,142.05
 04/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,51.35,7791,99,2,94.34
 04/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,38.51,5902,61,4,142.16
 05/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,47.51,4973,76,1,48.15
@@ -3460,62 +3490,32 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 08/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,42.17,5656,93,0,0.0
 09/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,74.21,8250,105,4,187.87
 09/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,59.37,6575,71,2,69.09
-09/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,44.53,4936,59,1,
-09/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,74.21,8250,105,4,187.87
-09/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,59.37,6575,71,2,69.09
-09/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,44.53,4936,59,1,
-10/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,83.58,8411,84,3,148.39
-10/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,66.86,6578,45,2,45.81
-10/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,50.15,4996,42,1,35.76
+09/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,44.53,4936,59,1,64.41
 10/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,83.58,8411,84,3,148.39
 10/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,66.86,6578,45,2,45.81
 10/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,50.15,4996,42,1,35.76
 11/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,59.27,8192,110,1,48.87
 11/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.42,6729,102,4,166.54
 11/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.56,4977,79,2,48.33
-11/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,59.27,8192,110,1,48.87
-11/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.42,6729,102,4,166.54
-11/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.56,4977,79,2,48.33
-12/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,80.02,9473,137,1,32.18
-12/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,64.02,7619,97,1,48.7
-12/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,48.01,5616,81,3,87.99
 12/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,80.02,9473,137,1,32.18
 12/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,64.02,7619,97,1,48.7
 12/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,48.01,5616,81,3,87.99
 13/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,67.62,6675,115,3,143.09
 13/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,54.1,5251,125,4,179.71
-13/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,40.57,4076,87,2,66.03
-13/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,67.62,6675,115,3,143.09
-13/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,54.1,5251,125,4,179.71
-13/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,40.57,4076,87,2,66.03
-14/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,61.53,6068,42,2,69.64
-14/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,49.23,4891,35,0,0.0
-14/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,36.92,3541,42,1,32.58
+13/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,40.57,4076,87,2,
 14/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,61.53,6068,42,2,69.64
 14/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,49.23,4891,35,0,0.0
 14/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,36.92,3541,42,1,32.58
 15/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,56.03,7315,79,1,46.04
 15/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,44.83,5978,75,1,40.01
 15/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,33.62,4631,43,1,49.16
-15/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,56.03,7315,79,1,46.04
-15/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,44.83,5978,75,1,40.01
-15/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,33.62,4631,43,1,49.16
-16/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,58.93,6987,118,3,128.58
-16/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.14,5632,83,3,138.18
-16/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.36,4336,81,6,247.62
 16/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,58.93,6987,118,3,128.58
 16/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,47.14,5632,83,3,138.18
 16/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,35.36,4336,81,6,247.62
 17/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,62.81,10355,119,1,40.56
 17/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,50.25,8547,111,1,61.62
 17/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,37.69,6369,99,4,222.61
-17/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,62.81,10355,119,1,40.56
-17/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,50.25,8547,111,1,61.62
-17/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,37.69,6369,99,4,222.61
-18/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,72.95,7623,121,2,93.81
-18/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,58.36,6174,103,3,154.41
-18/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,43.77,4730,76,0,0.0
-18/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,72.95,7623,121,2,93.81
+18/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,72.95,7623,121,2,
 18/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,58.36,6174,103,3,154.41
 18/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,43.77,4730,76,0,0.0
 19/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,54.54,5691,59,2,82.5
@@ -3537,7 +3537,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 24/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,83.07,14488,228,2,69.3
 24/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,62.3,10953,171,0,0.0
 25/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,105.76,10731,139,1,47.17
-25/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,84.61,8631,124,1,
+25/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,84.61,8631,124,1,65.85
 25/05/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,63.46,6620,94,0,0.0
 26/05/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,68.24,12545,159,2,48.97
 26/05/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,54.59,10147,142,3,148.39
@@ -3563,7 +3563,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 02/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,99.85,17159,280,8,313.77
 02/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,79.88,13463,221,7,291.3
 02/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,59.91,10502,162,5,178.92
-03/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,98.86,10865,94,1,37.91
+03/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,98.86,10865,94,1,
 03/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,79.09,8739,79,2,124.0
 03/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,59.32,6698,77,1,51.49
 04/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,142.16,17719,344,8,423.69
@@ -3575,23 +3575,23 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 06/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,102.45,18974,409,14,989.32
 06/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,81.96,15028,267,8,264.76
 06/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,61.47,11275,207,15,361.7
-07/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,112.88,12370,175,4,
+07/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,112.88,12370,175,4,259.76
 07/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,90.3,9894,146,6,211.45
 07/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,67.73,7554,84,3,144.65
 08/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,124.51,17616,322,10,459.06
-08/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,99.61,14312,266,4,
+08/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,99.61,14312,266,4,241.92
 08/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,74.71,10759,193,4,164.55
 09/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,116.34,15633,280,6,184.15
 09/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,93.07,12192,246,7,339.47
 09/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,69.81,9484,160,1,35.11
 10/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,109.27,12936,129,3,141.12
-10/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,87.42,10400,125,4,
+10/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,87.42,10400,125,4,241.62
 10/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,65.56,7868,92,0,0.0
 11/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,140.84,18826,197,3,182.39
 11/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,112.67,15145,166,2,92.08
 11/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,84.51,10974,98,2,73.29
 12/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,116.53,18186,208,0,0.0
-12/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,93.22,14688,184,3,
+12/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,93.22,14688,184,3,130.66
 12/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,69.92,11065,143,5,301.07
 13/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,139.27,23928,331,4,186.73
 13/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,111.42,19213,274,3,138.99
@@ -3601,21 +3601,21 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 14/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,76.52,8423,73,4,164.57
 15/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,150.25,18916,216,10,416.23
 15/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,120.2,15012,168,4,245.0
-15/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,90.15,11257,106,2,82.35
+15/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,90.15,11257,106,2,
 16/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,129.96,13616,273,5,196.62
 16/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,103.97,10837,226,5,203.22
 16/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,77.98,8058,184,3,152.14
-17/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,140.04,16063,149,2,94.98
+17/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,140.04,16063,149,2,
 17/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,112.03,12930,122,4,151.74
 17/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,84.02,9795,95,2,73.88
 18/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,149.55,20887,304,2,93.8
 18/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,119.64,16937,247,3,133.78
 18/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,89.73,12552,143,1,42.64
-19/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,122.5,16186,319,9,500.48
+19/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,122.5,16186,319,9,
 19/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,98.0,12880,230,8,331.21
 19/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,73.5,9612,177,4,183.81
 20/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,125.65,12725,168,1,50.59
-20/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,100.52,9902,129,3,165.92
+20/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,100.52,9902,129,3,
 20/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,75.39,7428,107,4,157.49
 21/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,159.75,21690,311,4,235.36
 21/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,127.8,17357,266,2,95.59
@@ -3632,7 +3632,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 25/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,167.92,17024,332,2,87.65
 25/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,134.34,13525,291,6,233.35
 25/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,100.75,10216,198,4,192.2
-26/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,164.91,29314,413,7,
+26/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,164.91,29314,413,7,446.73
 26/06/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q2,131.93,23618,308,7,287.11
 26/06/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q2,98.94,17510,256,3,163.4
 27/06/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q2,213.25,31479,487,4,197.79
@@ -3657,7 +3657,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 03/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,169.36,20259,313,8,537.26
 03/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,127.02,15555,215,4,122.93
 04/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,174.99,26666,432,4,299.29
-04/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,139.99,21410,386,2,78.94
+04/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,139.99,21410,386,2,
 04/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,105.0,16033,291,5,150.9
 05/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,197.34,24927,259,4,149.35
 05/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,157.87,19946,225,3,147.63
@@ -3685,7 +3685,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 12/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,130.1,18511,334,9,391.73
 13/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,178.17,17808,280,4,216.63
 13/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,142.53,14264,224,8,320.96
-13/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,106.9,10688,163,2,
+13/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,106.9,10688,163,2,98.58
 14/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,176.67,29186,442,15,687.89
 14/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,141.33,23453,376,13,602.77
 14/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,106.0,17773,306,12,614.55
@@ -3702,14 +3702,14 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 18/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,122.45,16541,202,3,131.3
 18/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,91.84,12518,143,5,232.29
 19/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,188.03,32313,631,2,126.46
-19/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,150.43,26004,518,10,
+19/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,150.43,26004,518,10,379.46
 19/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,112.82,19720,376,1,65.28
 20/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,234.69,30404,410,10,412.94
 20/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,187.75,24477,292,2,102.19
 20/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,140.82,18161,251,3,133.33
 21/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,191.01,28789,425,11,532.18
 21/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,152.81,23291,329,5,420.5
-21/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,114.61,17441,254,4,177.34
+21/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,114.61,17441,254,4,
 22/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,216.51,41193,564,8,263.13
 22/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,173.21,32704,456,3,148.71
 22/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,129.91,24345,356,3,101.56
@@ -3722,7 +3722,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 25/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,145.51,17083,156,3,148.92
 25/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,116.41,13791,148,3,180.45
 25/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,87.31,10382,98,4,177.36
-26/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,169.11,21892,211,3,
+26/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,169.11,21892,211,3,161.8
 26/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,135.29,17460,155,2,96.95
 26/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,101.47,13281,124,0,0.0
 27/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,188.67,20251,409,4,210.23
@@ -3734,7 +3734,7 @@ date,client,channel,campaign_name,spend,impressions,clicks,conversions,conversio
 29/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,187.4,22210,239,1,40.56
 29/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,149.92,17999,196,6,340.31
 29/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,112.44,13642,155,4,176.76
-30/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,217.04,32692,540,11,
+30/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,217.04,32692,540,11,489.6
 30/07/2026,Solmar Hotels,Meta Ads,ES_Social_Retargeting_2026Q3,173.63,25935,422,9,376.36
 30/07/2026,Solmar Hotels,Meta Ads,PT_Social_Prospecting_2026Q3,130.22,19384,308,6,290.21
 31/07/2026,Solmar Hotels,Meta Ads,ES_Social_Prospecting_2026Q3,188.64,20171,389,6,403.88

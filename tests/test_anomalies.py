@@ -56,6 +56,19 @@ def test_spend_up_without_conversion_lift():
     assert "+60%" in alert.magnitude
 
 
+def test_tracking_break_shape_spend_up_conversions_gone():
+    # the scenario inject_tracking_break() builds: spend runs higher, the pixel
+    # stopped firing so conversions are zero
+    normal = [{"spend": 1000, "clicks": 500, "conversions": 45}] * 6
+    broken = [{"spend": 1400, "clicks": 520, "conversions": 0}]
+    ads = _weeks(normal + broken)
+    alerts = anomalies.detect_alerts(ads, "X", _anchor(ads))
+    alert = next(a for a in alerts if a.headline.startswith("Spend up"))
+    assert alert.headline == "Spend up sharply, conversions fell"
+    assert alert.confidence == "high"
+    assert "tracking has broken" in alert.detail
+
+
 def test_conversions_drop_while_spend_holds():
     flat = [{"spend": 1000, "clicks": 500, "conversions": 50}] * 6
     slump = [{"spend": 1010, "clicks": 480, "conversions": 30}]

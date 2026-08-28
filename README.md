@@ -26,38 +26,36 @@ images, nothing loaded from outside, so it survives an email client on a phone.
 - **Metrics** — `pipeline/metrics.py`, pure functions for the KPIs, period
   comparisons, time series and anomaly maths, covered by `tests/`.
 - **Preview app** — a small Streamlit viewer (`app/`): a report page (pick a
-  client and week, switch agency theme, download the HTML) and an alert list
-  across all clients for any week. A way to see the output without opening an
-  inbox, not the product.
+  client and week, switch theme, download the HTML) and a cross-client alert
+  list for any week. See the output without an inbox; not the product.
 
 ## Time saved
 
-Assembling one client report by hand — pulling four exports, updating a template,
-rebuilding charts, writing the commentary, checking for anything odd — runs about
-60–90 minutes. Call it 75.
+Assembling one client report by hand — four exports, a template, charts,
+commentary, an anomaly check — runs 60–90 minutes. Call it 75.
 
     manual, weekly:   4 reports x 75 min       = 5.0 hrs / client / month
     generated:        4 reports x 5 min review = 0.3 hrs / client / month
                                                  ~4.7 hrs saved / client
 
-The 5 minutes is a person reading the report and its alerts before it goes out,
-not building anything. Across a dozen clients that's roughly 55 hours a month.
+The 5 minutes is a person reading the report before it goes out, not building
+anything. Across a dozen clients that's ~55 hours a month.
 
 ## The data
 
-Nothing here is real. `data/generate.py` builds ~18 months of synthetic ad
-exports (Google, Meta, LinkedIn, Organic) and CRM deals for three fictional
-clients — a hotel group, a fitness brand, a clinic. Same generator as the
-marketing-dashboard project, copied unchanged, and deliberately messy: duplicate
-rows, three date formats, LinkedIn in the wrong currency, a timezone slip,
-inconsistent campaign names, unmatched CRM deals. `pipeline/clean.py` sorts it
-out and logs what it did to `data/clean/data_quality_summary.json`.
+Nothing here is real. `data/generate.py` (started from the marketing-dashboard
+project's generator) builds ~18 months of synthetic ad exports and CRM deals for
+three fictional clients — a hotel group, a fitness brand, a clinic. Deliberately
+messy: duplicate rows, three date formats, LinkedIn in the wrong currency, a
+timezone slip, inconsistent campaign names, unmatched CRM deals, and one week
+where a client's conversion pixel broke while spend carried on. `pipeline/clean.py`
+fixes the export quirks; the pixel outage is a real event, so it survives and
+the alert layer catches it.
 
 ## Stack
 
-Python, pandas, matplotlib for the report charts, Jinja for the HTML, Streamlit
-for the preview app. No database — data is generated to CSV, cleaned to parquet,
-read from disk. No external services, no API keys.
+Python, pandas, matplotlib (charts), Jinja (HTML), Streamlit (preview app). No
+database — CSV to parquet to disk. No external services, no API keys.
 
 ## Structure
 
@@ -81,7 +79,9 @@ read from disk. No external services, no API keys.
     streamlit run app/Report_Preview.py
 
 `generate.py` uses an 18-month window ending last month so the data stays
-current; the seed fixes the shape, only the dates move.
+current; the seed fixes the shape, only the dates move. The committed `data/`
+and `samples/` were built with `CRP_DATA_END=2026-07-31` (see `.env.example`) —
+set the same value to regenerate them exactly.
 
 `reports.run` defaults to the most recent full week and writes into `samples/`;
 `--anchor` pins a week, `--theme` switches agency, `--min-confidence` filters
@@ -90,15 +90,12 @@ The committed samples cover both themes and weeks chosen to show each alert type
 
 ## Scheduling
 
-The CLI is a single unattended command. `.github/workflows/reports.yml` runs the
-whole pipeline every Monday — regenerate, clean, test, build every client's
-report — and uploads the HTML as a build artifact. The same thing in cron:
+The CLI is one unattended command. `.github/workflows/reports.yml` runs the whole
+pipeline every Monday and uploads the reports as an artifact. In cron:
 
     0 6 * * 1  cd /path/to/repo && python -m reports.run --client all --period last-week --out /var/reports
 
 ## Deploying
 
-Streamlit Community Cloud runs the repo as committed — `data/raw/` and
-`data/clean/` are in the repo and there's no build step. Point it at
-`app/Report_Preview.py`. Nothing calls an external service, so there's nothing
-to configure.
+Streamlit Community Cloud runs the repo as committed (no build step; `data/` is
+in the repo). Point it at `app/Report_Preview.py` — nothing to configure.
