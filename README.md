@@ -1,5 +1,7 @@
 # Client Report Pipeline
 
+**[Live demo →](https://client-report-pipeline-valentin.streamlit.app/)**
+
 Most agencies rebuild the same client report every week by hand — pull the
 numbers, drop them into a branded template, write the commentary, send it. This
 does that in one command: a self-contained HTML report per client, styled for
