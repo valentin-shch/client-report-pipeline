@@ -16,6 +16,7 @@ from lib import (
     available_weeks,
     build_preview,
     clients,
+    default_selection,
     load_ads,
     report_frame,
     theme_names,
@@ -35,17 +36,22 @@ st.info(
 )
 
 ads = load_ads()
+default_client, default_monday = default_selection()
 
 # Controls on the page, not the sidebar: the sidebar auto-collapses on a phone
-# and the page is meaningless without these.
+# and the page is meaningless without these. First load opens on the week the
+# pipeline flags something interesting, so the page isn't blank of alerts.
 left, right = st.columns(2)
-client = left.selectbox("Client", clients(ads))
+client = left.selectbox(
+    "Client", clients(ads), index=clients(ads).index(default_client)
+)
 weeks = available_weeks(ads, client)
+week_index = next(
+    (i for i, w in enumerate(weeks) if w[0].strftime("%Y-%m-%d") == default_monday),
+    len(weeks) - 1,
+)
 week = right.selectbox(
-    "Week",
-    weeks,
-    index=len(weeks) - 1,
-    format_func=lambda w: week_label(*w),
+    "Week", weeks, index=week_index, format_func=lambda w: week_label(*w)
 )
 
 names = theme_names()

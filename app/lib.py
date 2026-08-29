@@ -100,3 +100,21 @@ def build_preview(client: str, week_end: str, theme_stem: str):
 def client_alerts(client: str, week_end: str):
     """All alerts for `client` for the week ending `week_end` (ISO date)."""
     return anomalies.detect_alerts(load_ads(), client, pd.Timestamp(week_end))
+
+
+@st.cache_data(show_spinner=False)
+def default_selection() -> tuple[str, str]:
+    """(client, week-start ISO) the page should open on: the conversion-tracking
+    outage the generator injects (Solmar Hotels, 110 days before the data ends;
+    see data/generate.py inject_tracking_break). A cold visitor lands on the
+    week the pipeline has the most to say about, not a quiet one. Falls back to
+    the newest week if the data has been regenerated to a different window."""
+    ads = load_ads()
+    client = "Solmar Hotels"
+    if client in clients(ads):
+        ref = ads["date"].max() - pd.Timedelta(days=110)
+        monday = ref - pd.Timedelta(days=ref.weekday())
+        if any(w[0] == monday for w in available_weeks(ads, client)):
+            return client, monday.strftime("%Y-%m-%d")
+    fallback = clients(ads)[0]
+    return fallback, available_weeks(ads, fallback)[-1][0].strftime("%Y-%m-%d")
