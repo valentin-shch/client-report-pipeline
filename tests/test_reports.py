@@ -56,7 +56,7 @@ def test_period_label_month():
 # --- delta display -----------------------------------------------------------
 
 def test_delta_display_directions():
-    # roas up is good; roas down is bad — bold and coloured either way
+    # roas up is good; roas down is bad; bold and coloured either way
     good = report._delta_display({"change_pct": 0.2, "direction": "higher_better"})
     bad = report._delta_display({"change_pct": -0.2, "direction": "higher_better"})
     assert good["delta_color"] == report._GOOD

@@ -1,8 +1,8 @@
 """Report charts, rendered to base64 PNG data URIs.
 
 PNG rather than SVG because Gmail and Outlook strip inline SVG. Sizes and fonts
-are tuned for a chart shown a few hundred pixels wide on a phone — the report
-is opened from a cold email more often on a phone than a laptop — not for
+are tuned for a chart shown a few hundred pixels wide on a phone (the report is
+opened from a cold email more often on a phone than a laptop), not for
 matplotlib's screen defaults.
 """
 
@@ -68,8 +68,8 @@ def spend_revenue_by_day(daily: pd.DataFrame, accent: str) -> dict:
 
     ax.set_title("Spend and revenue by day", loc="left")
     lines = ax.get_legend_handles_labels()[0] + ax2.get_legend_handles_labels()[0]
-    # Below the axes, not over the bars — on a heavy week an in-plot legend
-    # sat on top of the data.
+    # Below the axes, not over the bars; on a heavy week an in-plot legend sat
+    # on top of the data.
     ax.legend(lines, ["Spend", "Revenue"], loc="upper center", bbox_to_anchor=(0.5, -0.22),
               ncol=2, frameon=False, fontsize=11)
     return _finish(fig, "Bar chart of daily spend with a line for daily revenue over the period.")
@@ -89,7 +89,7 @@ def spend_by_channel(channel_df: pd.DataFrame, accent: str) -> dict:
 
 
 def roas_by_channel(current_cb: pd.DataFrame, prior_cb: pd.DataFrame, accent: str) -> dict:
-    # Organic has no spend, so ROAS is undefined for it — paid channels only.
+    # Organic has no spend, so ROAS is undefined for it; paid channels only.
     cur = current_cb[current_cb["spend"] > 0][["channel", "roas"]]
     merged = cur.merge(
         prior_cb[["channel", "roas"]], on="channel", how="left", suffixes=("_cur", "_prior")

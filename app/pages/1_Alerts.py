@@ -23,8 +23,8 @@ st.set_page_config(page_title="Client Report Pipeline", layout="wide")
 st.markdown(MOBILE_CSS, unsafe_allow_html=True)
 
 st.title("Alerts")
-st.caption("What the pipeline flagged for the selected week, across every client — "
-           "the same checks that go into each report's “worth a look” section.")
+st.caption("What the pipeline flagged for the selected week, across every client. "
+           "The same checks that go into each report's “worth a look” section.")
 
 ads = load_ads()
 weeks = available_weeks(ads, clients(ads)[0])
@@ -41,7 +41,7 @@ results = {c: filter_confidence(client_alerts(c, week_end), min_conf) for c in c
 flagged = sum(1 for v in results.values() if v)
 total = sum(len(v) for v in results.values())
 st.markdown(
-    f"**{flagged} of {len(results)} clients flagged — {total} alert"
+    f"**{flagged} of {len(results)} clients flagged, {total} alert"
     f"{'' if total == 1 else 's'}** for the week of {week_label(*week)}."
 )
 

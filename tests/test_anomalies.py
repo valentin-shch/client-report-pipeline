@@ -81,7 +81,7 @@ def test_milder_dip_is_low_confidence_when_outside_the_accounts_band():
 
 
 def test_milder_dip_stays_silent_on_a_volatile_account():
-    # same -18% move, but this account swings ±20% every week — not unusual for it
+    # same -18% move, but this account swings ±20% every week, not unusual for it
     noisy = [{"spend": 1000, "clicks": 500, "conversions": c}
              for c in (60, 40, 58, 42, 61, 39, 55, 50)]
     dip = [{"spend": 1000, "clicks": 500, "conversions": 41}]
@@ -109,7 +109,7 @@ def test_cpc_out_of_band_flags_a_real_jump():
 
 
 def test_cpc_check_skips_low_volume_channels():
-    # same shape, but ~20 clicks a week — no stable band, so no alert
+    # same shape, but ~20 clicks a week, no stable band, so no alert
     baseline = [{"spend": 20, "clicks": 18 + (i % 2) * 4, "conversions": 1} for i in range(8)]
     spike = [{"spend": 90, "clicks": 20, "conversions": 1}]
     ads = _weeks(baseline + spike, channel="LinkedIn Ads")

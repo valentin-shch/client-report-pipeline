@@ -17,8 +17,8 @@ import numpy as np
 import pandas as pd
 
 # Whether a delta on this metric has an unambiguous good/bad direction. Spend
-# and raw volume move because a client changed budget or the season turned —
-# "spend up 40%" is not good or bad on its own, so it stays neutral and gets no
+# and raw volume move because a client changed budget or the season turned, so
+# "spend up 40%" is not good or bad on its own; it stays neutral and gets no
 # red/green arrow. Only ratios and outcomes carry a direction.
 METRIC_DIRECTION = {
     "spend": "neutral",
@@ -68,7 +68,7 @@ def summarize(df: pd.DataFrame) -> dict:
     clicks = df["clicks"].sum()
     conversions = df["conversions"].sum()
     conversion_value = df["conversion_value"].sum()
-    # Ratios come off the period totals, never an average of per-row ratios —
+    # Ratios come off the period totals, never an average of per-row ratios:
     # one low-spend day with a freak ROAS shouldn't weigh the same as the day
     # that actually spent the budget.
     return {
@@ -119,8 +119,8 @@ def period_windows(anchor, period: str):
 
     "last-week" is the most recent complete Mon–Sun week before the week holding
     `anchor`; "last-month" is the previous calendar month. The prior window is
-    the equivalent span immediately before the current one — a week before a
-    week, a calendar month before a month — so the comparison lines up on the
+    the equivalent span immediately before the current one (a week before a
+    week, a calendar month before a month), so the comparison lines up on the
     same weekday / day-of-month structure rather than a rolling 7 or 30 days.
     """
     anchor = pd.Timestamp(anchor).normalize()
@@ -179,7 +179,7 @@ def weekly_totals(df: pd.DataFrame, metric="spend", date_col="date") -> pd.Serie
 def movers(current_df: pd.DataFrame, prior_df: pd.DataFrame, dimension="channel",
            metric="conversion_value", n=3) -> pd.DataFrame:
     """Largest absolute changes in `metric` between the two periods, grouped by
-    `dimension` — the raw material for the report's "what changed" lines.
+    `dimension`: the raw material for the report's "what changed" lines.
     Sorted by absolute change, biggest mover first."""
     cur = current_df.groupby(dimension)[metric].sum()
     pri = prior_df.groupby(dimension)[metric].sum()
@@ -193,10 +193,10 @@ def movers(current_df: pd.DataFrame, prior_df: pd.DataFrame, dimension="channel"
 
 
 # --- anomaly primitives ------------------------------------------------------
-# Robust z-score against a rolling baseline. Deliberately not a model — a
-# client can be told "this week's spend was 4 times its normal week-to-week
-# swing above the recent median" and follow it. The alert layer in reports/
-# turns these scores into the plain sentences and the business rules.
+# Robust z-score against a rolling baseline. Deliberately not a model: a client
+# can be told "this week's spend was 4 times its normal week-to-week swing above
+# the recent median" and follow it. The alert layer in reports/ turns these
+# scores into the plain sentences and the business rules.
 
 def mad(series) -> float:
     """Median absolute deviation."""
@@ -210,7 +210,7 @@ def robust_z(series) -> pd.Series:
     """Per-point robust z-score: (x - median) / (1.4826 * MAD) over the whole
     series. The 1.4826 rescales MAD to estimate the standard deviation for
     roughly-normal data, so a cutoff near 3.5 keeps its usual "well outside
-    normal" reading. All-NaN when MAD is 0 — a flat series gives no scale to
+    normal" reading. All-NaN when MAD is 0; a flat series gives no scale to
     judge an outlier against.
     """
     s = pd.Series(series, dtype="float64").reset_index(drop=True)
@@ -226,7 +226,7 @@ def _mad_np(window: np.ndarray) -> float:
 
 def rolling_anomaly_score(series, window=8) -> pd.Series:
     """Robust z-score of each point against the `window` points before it,
-    itself excluded. NaN for the leading points without a full baseline —
+    itself excluded. NaN for the leading points without a full baseline;
     "not enough history" is more honest than flagging against a two-point
     median.
     """

@@ -5,7 +5,7 @@
 Writes one self-contained HTML report per client to the output directory. Meant
 to run unattended from cron or a scheduled GitHub Action: it takes no input
 beyond flags, defaults the reporting date to the freshest data available, and
-builds the whole batch before writing anything — so a bug can't leave half the
+builds the whole batch before writing anything, so a bug can't leave half the
 clients with a stale report and half with none.
 """
 
@@ -50,7 +50,7 @@ def main(argv=None) -> int:
     args = parse_args(argv)
 
     if not ADS_PARQUET.exists():
-        sys.exit(f"{ADS_PARQUET} not found — run pipeline/clean.py first.")
+        sys.exit(f"{ADS_PARQUET} not found. Run pipeline/clean.py first.")
     ads = pd.read_parquet(ADS_PARQUET)
     known = sorted(ads["client"].unique())
 

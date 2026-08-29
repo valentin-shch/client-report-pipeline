@@ -7,7 +7,7 @@ data/clean/ads.parquet and data/clean/crm_deals.parquet plus a data-quality
 summary describing exactly what was done.
 
 The report generator and the Streamlit app both read the parquet, never the
-raw CSVs. Run this after data/generate.py and commit the output — Streamlit
+raw CSVs. Run this after data/generate.py and commit the output; Streamlit
 Community Cloud runs the repo as-is with no build step.
 """
 
@@ -73,7 +73,7 @@ def apply_fx(df: pd.DataFrame, fx_by_date: pd.Series) -> tuple[pd.DataFrame, int
     # This account's LinkedIn Ads is billed in USD; Google, Meta and organic
     # are already EUR. Convert LinkedIn spend at the day's rate so the client
     # roll-up is single-currency. This is a stated fact about the account, not
-    # something inferred from the numbers — the raw file carries no currency
+    # something inferred from the numbers; the raw file carries no currency
     # column, so the summary records exactly how many rows were touched.
     df = df.copy()
     mask = df["channel"] == "LinkedIn Ads"
@@ -89,7 +89,7 @@ def impute_missing_conversion_value(df: pd.DataFrame) -> tuple[pd.DataFrame, dic
     # Fill from the average revenue-per-conversion on rows that do have a value.
     # Prefer the same client+channel in the same month, so a seasonal swing in
     # order value is respected; fall back to the client+channel average when a
-    # month has nothing observed. Still coarse — no per-campaign model — but it
+    # month has nothing observed. Still coarse (no per-campaign model), but it
     # keeps period totals honest, and imputed rows are flagged so a metric can
     # drop them if it needs to.
     observed = df.loc[~missing & (df["conversions"] > 0)].assign(
@@ -117,7 +117,7 @@ def impute_missing_conversion_value(df: pd.DataFrame) -> tuple[pd.DataFrame, dic
 
 # --- campaign name parsing ---------------------------------------------------
 # Three clients, three naming conventions (see data/generate.py). Matched in
-# order; anything fitting none of them — a legacy name, a typo — goes to an
+# order; anything fitting none of them (a legacy name, a typo) goes to an
 # explicit "unknown" bucket rather than being forced into a guess.
 CAMPAIGN_PATTERNS = [
     ("A", re.compile(r"^(?P<country>[A-Z]{2})_(?P<type>[A-Za-z]+)_(?P<theme>[A-Za-z]+)_(?P<period>\d{4}Q[1-4])$")),
@@ -126,7 +126,7 @@ CAMPAIGN_PATTERNS = [
 ]
 
 # Compound theme names come through as one token ("BlackFriday", and lower-cased
-# to "blackfriday" under convention B). .title() would give "Blackfriday" — this
+# to "blackfriday" under convention B). .title() would give "Blackfriday"; this
 # restores the two-word display form. Keyed on the lower-cased token so it works
 # for all three conventions.
 THEME_LABELS = {
@@ -174,7 +174,7 @@ def load_crm_deals() -> tuple[pd.DataFrame, int]:
 def attribute_deals(crm: pd.DataFrame, ads: pd.DataFrame) -> pd.DataFrame:
     # Exact match only, scoped to the same client. Fuzzy-matching the malformed
     # source_campaign values would recover a few deals but hide how much of the
-    # CRM export is genuinely unusable — better to report that plainly.
+    # CRM export is genuinely unusable; better to report that plainly.
     known_by_client = ads.groupby("client")["campaign_name"].apply(set).to_dict()
     channel_by_name = (
         ads.drop_duplicates(["client", "campaign_name"])

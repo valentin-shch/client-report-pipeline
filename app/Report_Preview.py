@@ -29,7 +29,7 @@ st.title("Client Report Pipeline")
 st.caption("Pick a client and a week to see the report the pipeline generates for them.")
 
 st.info(
-    "This page is just a viewer. The product is the pipeline — `python -m reports.run` — "
+    "This page is just a viewer. The product is the pipeline (`python -m reports.run`), "
     "which builds these reports on a schedule and sends them by email. "
     + SYNTHETIC_NOTE
 )
@@ -59,7 +59,7 @@ html, alerts, period_label = build_preview(
 )
 
 status = f"⚠️ {len(alerts)} alert(s) flagged" if alerts else "✓ nothing flagged"
-st.markdown(f"**{client} — week of {week_label(*week)}**  ·  {status}")
+st.markdown(f"**{client}, week of {week_label(*week)}**  ·  {status}")
 st.page_link("pages/1_Alerts.py", label="See every client's alerts for a week", icon="⚠️")
 
 st.download_button(

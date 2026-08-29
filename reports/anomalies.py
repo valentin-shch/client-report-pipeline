@@ -1,19 +1,19 @@
-"""Anomaly alerts — the "spot it before the client does" layer.
+"""Anomaly alerts: the "spot it before the client does" layer.
 
 Deliberately simple and inspectable: week-over-week percentage moves, plus a
 robust z-score (median and MAD) against the recent weekly history. No trained
 model, nothing that can't be explained in the sentence attached to each alert.
 
-Alerts are always evaluated week-over-week, even for a monthly report — a month
+Alerts are always evaluated week-over-week, even for a monthly report; a month
 is too coarse to notice a campaign that stopped delivering on the 3rd.
 
 The bias is on purpose: this over-flags. A false positive costs someone two
 minutes checking a chart; a missed drop costs a client. Every alert carries a
 magnitude and a confidence so the reader can triage:
 
-    high    — a large move, or well clear of the normal range
-    medium  — past the threshold
-    low     — a milder move that's still unusual for this particular account
+    high    a large move, or well clear of the normal range
+    medium  past the threshold
+    low     a milder move that's still unusual for this particular account
 
 "Unusual for this account" is a robust z-score against the account's own recent
 weeks, so the same 18% dip flags on a steady account and stays quiet on a
@@ -35,7 +35,7 @@ SPEND_SURGE = 0.30
 CONVERSION_FLAT = 0.05
 # A quarter of the conversions gone in a week is worth a call.
 CONVERSION_SLUMP = -0.25
-# ...as long as spend didn't also move — under 15% either way is "held steady".
+# ...as long as spend didn't also move; under 15% either way is "held steady".
 SPEND_STEADY = 0.15
 # A milder drop (15–25%) still gets a low-confidence flag if spend was genuinely
 # flat AND the drop is well outside this account's own weekly swing. Small,
@@ -48,7 +48,7 @@ DIP_Z = -3.0
 CPC_Z = 3.5
 CPC_MIN_HISTORY = 5      # weeks of CPC before its "normal band" means anything
 # Below ~100 clicks a week, weekly CPC swings on a handful of clicks and there's
-# no stable band to compare against — skip the check rather than cry wolf. In
+# no stable band to compare against, so skip the check rather than cry wolf. In
 # this data that excludes LinkedIn, which runs 15–30 clicks a week.
 CPC_MIN_CLICKS = 100
 # Google CPC is stable enough that a 3-cent move can score a huge z. Also
@@ -120,7 +120,7 @@ def _pct(old, new) -> float:
 
 
 def _weekly_z(series: pd.Series) -> float:
-    """Robust z of the latest week against the prior 8 — how far this week sits
+    """Robust z of the latest week against the prior 8: how far this week sits
     outside the account's own recent range. NaN if there isn't the history."""
     return metrics.rolling_anomaly_score(series.to_numpy(), window=8).iloc[-1]
 
@@ -153,8 +153,8 @@ def _spend_without_conversions(current, prior) -> list[Alert]:
     )
     detail = (
         f"Spend rose {_mag(spend_wow)} week-over-week to €{current['spend']:,.0f}, but "
-        f"{conv_clause}. More spend usually brings more conversions — worth checking "
-        f"targeting, landing pages, or whether conversion tracking has broken."
+        f"{conv_clause}. More spend usually brings more conversions, so check the "
+        f"targeting, the landing pages, or whether conversion tracking has broken."
     )
     return [Alert(
         scope="Account",
@@ -184,12 +184,12 @@ def _conversions_without_spend_change(current, prior, weekly: pd.DataFrame) -> l
 
     if clear:
         confidence = "high" if conv_wow <= -0.4 else "medium"
-        tail = ("The budget went out but brought back less — check for a tracking gap, "
+        tail = ("The budget went out but brought back less. Check for a tracking gap, "
                 "a landing-page problem, or a drop in lead quality.")
     else:
         confidence = "low"
         tail = ("That's a bigger drop than this account's normal week-to-week swing, "
-                "with spend flat — worth a look before it settles into a trend.")
+                "with spend flat. Worth a look before it settles into a trend.")
 
     spend_note = "" if round(spend_wow * 100) == 0 else f" ({_signed_pct(spend_wow)})"
     detail = (
@@ -236,12 +236,12 @@ def _cpc_out_of_band(client_ads: pd.DataFrame, ref_end: pd.Timestamp) -> list[Al
             continue
 
         moved = "jumped" if z > 0 else "dropped"
-        direction = ("Auction pressure or a bid change" if z > 0
-                     else "A bid cut, or a shift toward cheaper placements")
+        direction = ("auction pressure or a bid change" if z > 0
+                     else "a bid cut, or a shift toward cheaper placements")
         confidence = "high" if abs(z) >= 5 else "medium"
         detail = (
             f"{channel} CPC {moved} to €{current_cpc:.2f} this week, well {'above' if z > 0 else 'below'} "
-            f"its recent norm of about €{typical:.2f} (robust z {z:+.1f}). {direction} — "
+            f"its recent norm of about €{typical:.2f} (robust z {z:+.1f}). Likely {direction}; "
             f"confirm it's intended."
         )
         alerts.append(Alert(
@@ -272,9 +272,9 @@ def _stopped_delivering(client_ads: pd.DataFrame, ref_start, ref_end) -> list[Al
     )
 
     # This can't tell a planned seasonal end (a Black Friday campaign finishing
-    # on schedule) from an unplanned stop — there's no campaign calendar to
-    # check against. Deliberately flags both; the sentence asks the reader to
-    # confirm it was intended. (See TODO.md.)
+    # on schedule) from an unplanned stop; there's no campaign calendar to check
+    # against. Deliberately flags both; the sentence asks the reader to confirm
+    # it was intended. (See TODO.md.)
     prior_weeks = [ref_start - pd.Timedelta(weeks=k) for k in range(1, DELIVERY_LOOKBACK + 1)]
     last_week = prior_weeks[0]
     alerts = []
@@ -294,7 +294,7 @@ def _stopped_delivering(client_ads: pd.DataFrame, ref_start, ref_end) -> list[Al
         detail = (
             f"The {ckey} campaign spent nothing this week after averaging €{avg:,.0f}/week "
             f"over the previous month. It may have been paused, hit a budget cap, or had its "
-            f"ads rejected — worth confirming it was meant to stop."
+            f"ads rejected. Worth confirming it was meant to stop."
         )
         alerts.append(Alert(
             scope=ckey,

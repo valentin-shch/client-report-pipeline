@@ -2,7 +2,7 @@
 
 The app is a thin viewer. Everything here either loads the committed parquet or
 calls into reports/ to build a report exactly the way `python -m reports.run`
-does — the page never computes anything the pipeline doesn't.
+does; the page never computes anything the pipeline doesn't.
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ def report_frame(html: str) -> None:
     _report_frame(html=html)
 
 SYNTHETIC_NOTE = (
-    "Everything here is synthetic — three fictional clients, generated data, no real "
+    "Everything here is synthetic: three fictional clients, generated data, no real "
     "accounts."
 )
 

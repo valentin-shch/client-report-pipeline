@@ -1,9 +1,9 @@
 """Synthetic ad-platform and CRM data for three fictional agency clients.
 
-Writes messy, per-platform raw exports to data/raw/ — the same shape and
-quirks a real Google Ads / Meta / LinkedIn / CRM export would have. The
-cleaning pipeline (pipeline/clean.py) is what turns this into something
-analysis-ready; nothing here is pre-cleaned.
+Writes messy, per-platform raw exports to data/raw/, the same shape and quirks
+a real Google Ads / Meta / LinkedIn / CRM export would have. The cleaning
+pipeline (pipeline/clean.py) is what turns this into something analysis-ready;
+nothing here is pre-cleaned.
 """
 
 from __future__ import annotations
@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 RAW_DIR = BASE_DIR / "data" / "raw"
 
 # 18-month window ending last month, so the demo doesn't visibly go stale. Set
-# CRP_DATA_END=YYYY-MM-DD to pin that end date instead — the run is then fully
+# CRP_DATA_END=YYYY-MM-DD to pin that end date instead; the run is then fully
 # reproducible, which is what tests and CI want.
 _pinned = os.environ.get("CRP_DATA_END")
 _window_end = (
@@ -113,7 +113,7 @@ CLIENTS = {
         name_fn=name_solmar,
         year_in_name=True,
         base_spend={"Google Ads": 380, "Meta Ads": 260, "LinkedIn Ads": 45},
-        # value of one ad-platform conversion (an inquiry, not a booking —
+        # value of one ad-platform conversion (an inquiry, not a booking;
         # CRM deal_value below is the real, sales-assisted number)
         avg_value=45,
         organic_baseline=900,
@@ -140,7 +140,7 @@ CLIENTS = {
             slot("Google Ads", "Shopping", "BlackFriday", "ES", weight=0.6, window=(11, 20, 12, 2)),
             slot("Google Ads", "Shopping", "JanuarySale", "ES", weight=0.5, window=(1, 1, 1, 15)),
             # leftover from the client's previous agency, phased out ~6 weeks
-            # into the data window once we took over — a one-time span, not
+            # into the data window once we took over: a one-time span, not
             # a recurring seasonal one, hence the explicit Timestamp window
             slot("Google Ads", "Search", "Legacy", "ES", weight=0.15,
                  window=(START_DATE, START_DATE + pd.Timedelta(days=45)), fixed_name="GYM_PROMO_OLD"),
@@ -264,10 +264,10 @@ def inject_duplicates(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def inject_tracking_break(df: pd.DataFrame) -> pd.DataFrame:
-    """A conversion-tracking outage: for one client, one ~8-day stretch, the
-    pixel stopped firing. Paid spend actually ran higher that week — a budget
-    test nobody connected to the silence. Impressions and clicks are untouched;
-    the ads kept serving, only the conversion signal broke. This is the case the
+    """A conversion-tracking outage: for one client, one whole week, the pixel
+    stopped firing. Paid spend actually ran higher that week (a budget test
+    nobody connected to the silence). Impressions and clicks are untouched; the
+    ads kept serving, only the conversion signal broke. This is the case the
     "spend up, no conversion lift" alert exists for.
     """
     df = df.copy()
@@ -307,7 +307,7 @@ def write_channel_files(ads_df: pd.DataFrame) -> None:
         if channel == "LinkedIn Ads":
             # LinkedIn's export timestamps in UTC; the rest run on Europe/Madrid
             # business days. Modelled here as a flat one-day offset rather than
-            # an hour-level shift — close enough to produce the same visible
+            # an hour-level shift, close enough to produce the same visible
             # artefact the cleaning step has to correct for.
             sub["date"] = sub["date"] - pd.Timedelta(days=1)
         sub["date"] = sub["date"].dt.strftime(DATE_FORMATS[channel])

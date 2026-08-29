@@ -32,7 +32,7 @@ _KPI_SPEC = [
 ]
 
 # Green/red only for metrics with an unambiguous good direction. Spend and raw
-# volume get the same quiet grey as the supporting text and no bold — a change
+# volume get the same quiet grey as the supporting text and no bold; a change
 # there is information, not a verdict (less spend isn't automatically bad any
 # more than more spend was automatically good).
 _GOOD, _BAD, _NEUTRAL = "#1a7f4b", "#c0392b", "#8a929c"
@@ -55,7 +55,7 @@ class Report:
 
 
 class NoDataForPeriod(Exception):
-    """The client has no rows in the reporting window — data, not a bug."""
+    """The client has no rows in the reporting window (data, not a bug)."""
 
 
 def slug(client: str) -> str:
