@@ -14,8 +14,11 @@ from lib import (
     available_weeks,
     client_alerts,
     clients,
+    default_week_start,
     filter_confidence,
     load_ads,
+    remember_week_start,
+    remembered_week_start,
     week_label,
 )
 
@@ -28,9 +31,15 @@ st.caption("What the pipeline flagged for the selected week, across every client
 
 ads = load_ads()
 weeks = available_weeks(ads, clients(ads)[0])
+want_start = remembered_week_start(weeks, default_week_start())
+week_index = next(
+    (i for i, w in enumerate(weeks) if w[0].strftime("%Y-%m-%d") == want_start),
+    len(weeks) - 1,
+)
 
 left, right = st.columns(2)
-week = left.selectbox("Week", weeks, index=len(weeks) - 1, format_func=lambda w: week_label(*w))
+week = left.selectbox("Week", weeks, index=week_index, format_func=lambda w: week_label(*w))
+remember_week_start(week[0].strftime("%Y-%m-%d"))
 min_conf = right.segmented_control(
     "Minimum confidence", CONFIDENCE_LEVELS, default=CONFIDENCE_LEVELS[0], selection_mode="single"
 ) or CONFIDENCE_LEVELS[0]

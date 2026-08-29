@@ -102,6 +102,33 @@ def client_alerts(client: str, week_end: str):
     return anomalies.detect_alerts(load_ads(), client, pd.Timestamp(week_end))
 
 
+# The Week choice is the one control shared between the Report and Alerts pages.
+# It lives under our own session-state key, never bound to a widget, so switching
+# client or theme on one page can't perturb the other. session_state is per
+# Streamlit session (one browser connection), so nothing leaks between visitors
+# or between two open tabs either.
+_WEEK_KEY = "shared_week_start"
+
+
+def remembered_week_start(
+    weeks: list[tuple[pd.Timestamp, pd.Timestamp]], fallback: str
+) -> str:
+    """Week-start ISO to preselect: whatever the other page last looked at, if
+    that week exists in `weeks`; otherwise `fallback`."""
+    want = st.session_state.get(_WEEK_KEY, fallback)
+    starts = {w[0].strftime("%Y-%m-%d") for w in weeks}
+    return want if want in starts else fallback
+
+
+def remember_week_start(week_start: str) -> None:
+    st.session_state[_WEEK_KEY] = week_start
+
+
+def default_week_start() -> str:
+    """The week the pages open on before the visitor has picked anything."""
+    return default_selection()[1]
+
+
 @st.cache_data(show_spinner=False)
 def default_selection() -> tuple[str, str]:
     """(client, week-start ISO) the page should open on: the conversion-tracking

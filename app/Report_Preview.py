@@ -18,6 +18,8 @@ from lib import (
     clients,
     default_selection,
     load_ads,
+    remember_week_start,
+    remembered_week_start,
     report_frame,
     theme_names,
     week_label,
@@ -46,13 +48,15 @@ client = left.selectbox(
     "Client", clients(ads), index=clients(ads).index(default_client)
 )
 weeks = available_weeks(ads, client)
+want_start = remembered_week_start(weeks, default_monday)
 week_index = next(
-    (i for i, w in enumerate(weeks) if w[0].strftime("%Y-%m-%d") == default_monday),
+    (i for i, w in enumerate(weeks) if w[0].strftime("%Y-%m-%d") == want_start),
     len(weeks) - 1,
 )
 week = right.selectbox(
     "Week", weeks, index=week_index, format_func=lambda w: week_label(*w)
 )
+remember_week_start(week[0].strftime("%Y-%m-%d"))
 
 names = theme_names()
 default_theme = next((n for n, stem in names.items() if stem == "northlight"), list(names)[0])
