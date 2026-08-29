@@ -22,10 +22,10 @@ from lib import (
     week_label,
 )
 
-st.set_page_config(page_title="Client report preview", layout="wide")
+st.set_page_config(page_title="Client Report Pipeline", layout="wide")
 st.markdown(MOBILE_CSS, unsafe_allow_html=True)
 
-st.title("Client report preview")
+st.title("Client Report Pipeline")
 st.caption("Pick a client and a week to see the report the pipeline generates for them.")
 
 st.info(

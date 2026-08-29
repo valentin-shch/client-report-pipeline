@@ -19,7 +19,7 @@ from lib import (
     week_label,
 )
 
-st.set_page_config(page_title="Alerts", layout="wide")
+st.set_page_config(page_title="Client Report Pipeline", layout="wide")
 st.markdown(MOBILE_CSS, unsafe_allow_html=True)
 
 st.title("Alerts")
