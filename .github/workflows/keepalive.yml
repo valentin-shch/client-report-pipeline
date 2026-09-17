@@ -9,4 +9,30 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -sS -o /dev/null -w "%{http_code}\n" --retry 3 --max-time 30 "${{ vars.APP_URL }}"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install playwright && playwright install --with-deps chromium
+      - run: |
+          python - <<'EOF'
+          from playwright.sync_api import sync_playwright
+          import os
+
+          with sync_playwright() as p:
+              b = p.chromium.launch()
+              page = b.new_page()
+              page.goto(os.environ["APP_URL"], wait_until="networkidle", timeout=60000)
+
+              try:
+                  wake_button = page.get_by_text("get this app back up", exact=False)
+                  if wake_button.is_visible(timeout=3000):
+                      wake_button.click()
+                      page.wait_for_timeout(15000)
+              except Exception:
+                  pass
+
+              page.wait_for_timeout(5000)
+              b.close()
+          EOF
+        env:
+          APP_URL: ${{ vars.APP_URL }}
