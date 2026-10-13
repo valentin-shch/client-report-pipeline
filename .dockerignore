@@ -1,0 +1,10 @@
+.git
+.venv
+venv
+.env
+.env.*
+**/__pycache__
+data/raw
+data/clean
+samples
+build

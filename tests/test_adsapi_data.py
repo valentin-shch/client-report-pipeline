@@ -3,7 +3,7 @@ from datetime import date
 import pandas as pd
 import pytest
 
-from adsapi.data import ads_rows, deals_as_of, load_dataset
+from adsapi.data import ads_rows, deals_as_of, load_dataset, load_saved_dataset, save_dataset
 
 
 @pytest.fixture(scope="module")
@@ -47,3 +47,13 @@ def test_updated_since_returns_only_recent_changes(ds):
     out = deals_as_of(ds, "Solmar Hotels", date(2025, 4, 30), updated_since=date(2025, 4, 20))
     assert len(out)
     assert (pd.to_datetime(out["updated_at"]) >= "2025-04-20").all()
+
+
+def test_dataset_round_trips_through_a_file(ds, tmp_path):
+    path = tmp_path / "dataset.pkl"
+    save_dataset(ds, path)
+    loaded = load_saved_dataset(path)
+    for source in ds.ads:
+        pd.testing.assert_frame_equal(loaded.ads[source], ds.ads[source])
+    pd.testing.assert_frame_equal(loaded.deals, ds.deals)
+    pd.testing.assert_frame_equal(loaded.fx, ds.fx)

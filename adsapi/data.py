@@ -7,8 +7,11 @@ span is generated once and requests only ever see the part that has happened.
 
 from __future__ import annotations
 
+import pickle
+import sys
 from dataclasses import dataclass
 from datetime import date
+from pathlib import Path
 
 import pandas as pd
 
@@ -57,6 +60,18 @@ def load_dataset(start=DATA_START, end=DATA_END, break_ref=BREAK_REF) -> Dataset
     return Dataset(ads=ads, deals=deals, fx=fx)
 
 
+def save_dataset(ds: Dataset, path: Path) -> None:
+    # Plain frames, not the Dataset itself: run as a script this module is
+    # __main__, and a pickled __main__.Dataset wouldn't load in the app.
+    Path(path).write_bytes(pickle.dumps({"ads": ds.ads, "deals": ds.deals, "fx": ds.fx}))
+
+
+def load_saved_dataset(path: Path) -> Dataset:
+    # Only ever a file this project's own image build wrote (see the
+    # Dockerfile), never anything uploaded, so unpickling it is safe.
+    return Dataset(**pickle.loads(Path(path).read_bytes()))
+
+
 def _hidden(frame: pd.DataFrame) -> list[str]:
     return [c for c in frame.columns if c.startswith("_")]
 
@@ -88,3 +103,9 @@ def fx_rows(ds: Dataset, since: date, until: date) -> pd.DataFrame:
     frame = ds.fx
     out = frame[frame["_date"].between(pd.Timestamp(since), pd.Timestamp(until))]
     return out.drop(columns=_hidden(out)).reset_index(drop=True)
+
+
+if __name__ == "__main__":
+    # Run at image build: generating takes seconds locally but much longer on
+    # a small cloud CPU, and it would otherwise happen on every cold start.
+    save_dataset(load_dataset(), Path(sys.argv[1]))

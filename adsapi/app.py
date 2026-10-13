@@ -9,13 +9,15 @@ import hmac
 import math
 import os
 import random
+import re
 from datetime import date, datetime, timedelta, timezone
 from typing import Callable
 
 import pandas as pd
 from fastapi import APIRouter, Depends, FastAPI, Header, HTTPException, Query, Request
 
-from adsapi.data import ADS_SOURCES, CLIENTS, DATA_START, Dataset, ads_rows, deals_as_of, fx_rows, load_dataset
+from adsapi.data import (ADS_SOURCES, CLIENTS, DATA_START, Dataset, ads_rows, deals_as_of, fx_rows,
+                         load_dataset, load_saved_dataset)
 from adsapi.ratelimit import RateLimiter
 
 MAX_PAGE = 1000
@@ -31,7 +33,9 @@ def _page(frame: pd.DataFrame, page_size: int, page_token: str | None) -> dict:
     # adds rows at the end.
     offset = 0
     if page_token is not None:
-        if not page_token.isdigit():
+        # ASCII only and bounded: str.isdigit() also accepts "²" and "١", and
+        # int() refuses strings past 4300 digits.
+        if not re.fullmatch(r"[0-9]{1,12}", page_token):
             raise HTTPException(400, "invalid page_token")
         offset = int(page_token)
     chunk = frame.iloc[offset:offset + page_size]
@@ -116,8 +120,9 @@ def create_app_from_env() -> FastAPI:
     key = os.environ.get("ADSAPI_KEY", "").strip()
     if not key:
         raise RuntimeError("ADSAPI_KEY is not set; refusing to start an open API")
+    saved = os.environ.get("ADSAPI_DATASET")
     return create_app(
-        load_dataset(),
+        load_saved_dataset(saved) if saved else load_dataset(),
         key,
         fault_rate=float(os.environ.get("FAULT_RATE", "0")),
         rate_limit_per_min=int(os.environ.get("RATE_LIMIT_PER_MIN", "60")),

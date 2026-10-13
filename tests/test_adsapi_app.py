@@ -5,8 +5,9 @@ import pandas as pd
 import pytest
 from fastapi.testclient import TestClient
 
+import adsapi.app as app_module
 from adsapi.app import create_app, create_app_from_env
-from adsapi.data import ads_rows, load_dataset
+from adsapi.data import ads_rows, load_dataset, save_dataset
 
 H = {"X-API-Key": "test-key"}
 TODAY = date(2025, 3, 16)
@@ -59,7 +60,8 @@ def test_since_after_until_is_400(client):
     assert client.get("/v1/ads/google_ads", params=params, headers=H).status_code == 400
 
 
-@pytest.mark.parametrize("token", ["abc", "-5"])
+@pytest.mark.parametrize("token", ["abc", "-5", "²", "١", "9" * 5000],
+                         ids=["letters", "negative", "superscript", "arabic-digit", "huge"])
 def test_bad_page_token_is_400(client, token):
     params = {"client": "solmar-hotels", "page_token": token}
     assert client.get("/v1/ads/google_ads", params=params, headers=H).status_code == 400
@@ -149,3 +151,18 @@ def test_partial_fault_rate_mixes_success_and_failure(ds):
     c = faulty(ds, rate=0.3)
     codes = [c.get("/v1/fx/usd-eur", headers={"X-API-Key": "k"}).status_code for _ in range(60)]
     assert 200 in codes and any(code != 200 for code in codes)
+
+
+def test_app_from_env_starts_from_the_saved_dataset(ds, tmp_path, monkeypatch):
+    path = tmp_path / "dataset.pkl"
+    save_dataset(ds, path)
+    monkeypatch.setenv("ADSAPI_KEY", "k")
+    monkeypatch.setenv("ADSAPI_DATASET", str(path))
+
+    def no_rebuild(*args, **kwargs):
+        raise AssertionError("rebuilt the dataset instead of loading the saved one")
+    monkeypatch.setattr(app_module, "load_dataset", no_rebuild)
+
+    c = TestClient(app_module.create_app_from_env())
+    body = c.get("/v1/fx/usd-eur", headers={"X-API-Key": "k"}).json()
+    assert body["data"]
