@@ -1,3 +1,4 @@
+import random
 from datetime import date
 
 import pandas as pd
@@ -111,3 +112,40 @@ def test_app_refuses_to_start_without_a_key(monkeypatch):
     monkeypatch.delenv("ADSAPI_KEY", raising=False)
     with pytest.raises(RuntimeError):
         create_app_from_env()
+
+
+def faulty(ds, rate=1.0, seed=1):
+    app = create_app(ds, "k", fault_rate=rate, rng=random.Random(seed), today=lambda: TODAY,
+                     rate_limit_per_min=1000)
+    return TestClient(app)
+
+
+def test_fault_rate_one_always_fails_with_known_codes(ds):
+    c = faulty(ds)
+    codes = {c.get("/v1/fx/usd-eur", headers={"X-API-Key": "k"}).status_code for _ in range(30)}
+    assert codes <= {429, 500, 503}
+    assert len(codes) > 1
+
+
+def test_faults_never_hit_health_or_bad_keys(ds):
+    c = faulty(ds)
+    assert c.get("/health").status_code == 200
+    assert all(c.get("/v1/fx/usd-eur", headers={"X-API-Key": "bad"}).status_code == 401 for _ in range(10))
+
+
+def test_fault_rate_zero_never_fails(ds):
+    c = faulty(ds, rate=0.0)
+    assert all(c.get("/v1/fx/usd-eur", headers={"X-API-Key": "k"}).status_code == 200 for _ in range(30))
+
+
+def test_injected_faults_say_so_and_429_carries_retry_after(ds):
+    c = faulty(ds)
+    rs = [c.get("/v1/fx/usd-eur", headers={"X-API-Key": "k"}) for _ in range(30)]
+    assert all(r.json() == {"detail": "injected fault"} for r in rs)
+    assert any(r.status_code == 429 and r.headers["Retry-After"] == "2" for r in rs)
+
+
+def test_partial_fault_rate_mixes_success_and_failure(ds):
+    c = faulty(ds, rate=0.3)
+    codes = [c.get("/v1/fx/usd-eur", headers={"X-API-Key": "k"}).status_code for _ in range(60)]
+    assert 200 in codes and any(code != 200 for code in codes)

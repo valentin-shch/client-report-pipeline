@@ -65,6 +65,12 @@ def create_app(
         if wait is not None:
             raise HTTPException(429, "rate limit exceeded",
                                 headers={"Retry-After": str(max(1, math.ceil(wait)))})
+        # Deliberate flakiness so the pipeline's retries do real work. After
+        # auth on purpose: a bad key always gets a clean 401, never a fake 5xx.
+        if rng.random() < fault_rate:
+            status = rng.choice((429, 500, 503))
+            headers = {"Retry-After": "2"} if status == 429 else None
+            raise HTTPException(status, "injected fault", headers=headers)
 
     def window(since: date | None, until: date | None) -> tuple[date, date]:
         if since and until and since > until:
