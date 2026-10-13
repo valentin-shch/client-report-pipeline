@@ -84,16 +84,15 @@ def quarter_label(date: pd.Timestamp, with_year: bool) -> str:
     return f"{date.year}Q{q}" if with_year else f"Q{q}"
 
 
-def in_window(date: pd.Timestamp, window: tuple | None) -> bool:
+def in_window(date: pd.Timestamp, window, data_start: pd.Timestamp) -> bool:
     """Window is either a (month, day, month, day) pair that recurs every
-    year (seasonal promos), or a pair of actual Timestamps for a one-time
-    span (e.g. a campaign retired early in the data window, never repeating).
+    year (seasonal promos), or a Timedelta meaning "the first N days of the
+    data window" (a campaign retired early on, never repeating).
     """
     if window is None:
         return True
-    if isinstance(window[0], pd.Timestamp):
-        start, end = window
-        return start <= date <= end
+    if isinstance(window, pd.Timedelta):
+        return date <= data_start + window
     sm, sd, em, ed = window
     start = pd.Timestamp(year=date.year, month=sm, day=sd)
     end = pd.Timestamp(year=date.year, month=em, day=ed)
@@ -141,9 +140,9 @@ CLIENTS = {
             slot("Google Ads", "Shopping", "JanuarySale", "ES", weight=0.5, window=(1, 1, 1, 15)),
             # leftover from the client's previous agency, phased out ~6 weeks
             # into the data window once we took over: a one-time span, not
-            # a recurring seasonal one, hence the explicit Timestamp window
+            # a recurring seasonal one, hence the Timedelta window
             slot("Google Ads", "Search", "Legacy", "ES", weight=0.15,
-                 window=(START_DATE, START_DATE + pd.Timedelta(days=45)), fixed_name="GYM_PROMO_OLD"),
+                 window=pd.Timedelta(days=45), fixed_name="GYM_PROMO_OLD"),
             slot("Meta Ads", "Social", "Prospecting", "ES", weight=0.45),
             slot("Meta Ads", "Social", "Retargeting", "ES", weight=0.35),
             slot("Meta Ads", "Social", "BlackFriday", "ES", weight=0.7, window=(11, 20, 12, 2)),
@@ -179,7 +178,7 @@ def generate_paid_rows(client: str, cfg: dict, calendar: pd.DatetimeIndex) -> pd
             continue
         params = CHANNEL_PARAMS[channel]
         for date in calendar:
-            active = [s for s in channel_slots if in_window(date, s["window"])]
+            active = [s for s in channel_slots if in_window(date, s["window"], calendar[0])]
             if not active:
                 continue
             period = quarter_label(date, cfg["year_in_name"])
@@ -263,7 +262,7 @@ def inject_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     return pd.concat(dup_frames, ignore_index=True)
 
 
-def inject_tracking_break(df: pd.DataFrame) -> pd.DataFrame:
+def inject_tracking_break(df: pd.DataFrame, ref: pd.Timestamp) -> pd.DataFrame:
     """A conversion-tracking outage: for one client, one whole week, the pixel
     stopped firing. Paid spend actually ran higher that week (a budget test
     nobody connected to the silence). Impressions and clicks are untouched; the
@@ -272,7 +271,6 @@ def inject_tracking_break(df: pd.DataFrame) -> pd.DataFrame:
     """
     df = df.copy()
     client = "Solmar Hotels"
-    ref = END_DATE - pd.Timedelta(days=110)
     monday = ref - pd.Timedelta(days=ref.weekday())  # snap to a whole Mon–Sun week
     window = pd.date_range(monday, periods=7, freq="D")
     hit = (
@@ -300,7 +298,8 @@ FILE_NAMES = {
 }
 
 
-def write_channel_files(ads_df: pd.DataFrame) -> None:
+def channel_exports(ads_df: pd.DataFrame) -> dict[str, pd.DataFrame]:
+    out = {}
     for channel, fname in FILE_NAMES.items():
         sub = ads_df[ads_df["channel"] == channel].copy()
         sub = sub.sort_values(["client", "date"]).reset_index(drop=True)
@@ -311,11 +310,12 @@ def write_channel_files(ads_df: pd.DataFrame) -> None:
             # artefact the cleaning step has to correct for.
             sub["date"] = sub["date"] - pd.Timedelta(days=1)
         sub["date"] = sub["date"].dt.strftime(DATE_FORMATS[channel])
-        sub.to_csv(RAW_DIR / fname, index=False)
+        out[Path(fname).stem] = sub
+    return out
 
 
-def generate_fx_rates() -> pd.DataFrame:
-    calendar = pd.date_range(START_DATE, END_DATE, freq="D")
+def generate_fx_rates(start: pd.Timestamp, end: pd.Timestamp) -> pd.DataFrame:
+    calendar = pd.date_range(start, end, freq="D")
     weekdays = calendar[calendar.dayofweek < 5]
     rate = 0.92
     rates = []
@@ -359,7 +359,7 @@ DEAL_VALUE_RANGE = {
 }
 
 
-def generate_crm_deals(ads_df: pd.DataFrame) -> pd.DataFrame:
+def generate_crm_deals(ads_df: pd.DataFrame, start: pd.Timestamp, end: pd.Timestamp) -> pd.DataFrame:
     # (first-seen date, name) per client, so a deal can only cite a campaign
     # that had actually launched by the time the deal was created.
     first_seen = (
@@ -371,7 +371,7 @@ def generate_crm_deals(ads_df: pd.DataFrame) -> pd.DataFrame:
         for client, sub in first_seen.groupby("client")
     }
 
-    calendar = pd.date_range(START_DATE, END_DATE, freq="D")
+    calendar = pd.date_range(start, end, freq="D")
     rows = []
     deal_num = 1
     for client, cfg in CLIENTS.items():
@@ -387,7 +387,7 @@ def generate_crm_deals(ads_df: pd.DataFrame) -> pd.DataFrame:
                 # past the nominal ceiling. lognormal(-0.9, 0.7) sits around
                 # 0.4x the band with a right tail past 1x.
                 deal_value = round(float(lo + (hi - lo) * rng.lognormal(-0.9, 0.7)), 2)
-                days_to_end = (END_DATE - date).days
+                days_to_end = (end - date).days
                 if days_to_end < 14:
                     stage = rng.choice(["New", "Qualified"], p=[0.6, 0.4])
                     closed_date = pd.NaT
@@ -440,9 +440,14 @@ def print_sample(ads_df: pd.DataFrame, crm_df: pd.DataFrame) -> None:
           f"null: {null:.1f}%  malformed: {malformed:.1f}%")
 
 
-def main() -> None:
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    calendar = pd.date_range(START_DATE, END_DATE, freq="D")
+def simulate(start: pd.Timestamp, end: pd.Timestamp, break_ref: pd.Timestamp | None = None):
+    """Clean frames (real dates) for ads, CRM and FX. The tracking break lands
+    in the week of `break_ref`, by default 110 days before the end."""
+    # Reseeded on every call so the same window always gives the same data.
+    # The draw order below is what fixes the committed data/raw; don't reorder.
+    global rng
+    rng = np.random.default_rng(SEED)
+    calendar = pd.date_range(start, end, freq="D")
 
     frames = []
     for client, cfg in CLIENTS.items():
@@ -450,19 +455,34 @@ def main() -> None:
         frames.append(generate_organic_rows(client, cfg, calendar))
     ads_df = pd.concat(frames, ignore_index=True)
 
-    ads_df = inject_tracking_break(ads_df)
+    if break_ref is None:
+        break_ref = end - pd.Timedelta(days=110)
+    ads_df = inject_tracking_break(ads_df, break_ref)
     ads_df = inject_missing_conversion_value(ads_df)
     ads_df = inject_duplicates(ads_df)
 
-    write_channel_files(ads_df)
-    generate_fx_rates().to_csv(RAW_DIR / "fx_rates.csv", index=False)
+    fx_df = generate_fx_rates(start, end)
+    crm_df = generate_crm_deals(ads_df, start, end)
+    return ads_df, crm_df, fx_df
 
-    crm_df = generate_crm_deals(ads_df)
+
+def to_exports(ads_df: pd.DataFrame, crm_df: pd.DataFrame, fx_df: pd.DataFrame) -> dict[str, pd.DataFrame]:
     crm_out = crm_df.copy()
     crm_out["created_date"] = crm_out["created_date"].dt.strftime("%Y-%m-%d")
     crm_out["closed_date"] = crm_out["closed_date"].dt.strftime("%Y-%m-%d")
-    crm_out.to_csv(RAW_DIR / "crm_deals.csv", index=False)
+    return {**channel_exports(ads_df), "fx_rates": fx_df, "crm_deals": crm_out}
 
+
+def generate(start: pd.Timestamp, end: pd.Timestamp, break_ref: pd.Timestamp | None = None) -> dict[str, pd.DataFrame]:
+    """The raw exports, as they'd come off each platform, keyed by file stem."""
+    return to_exports(*simulate(start, end, break_ref))
+
+
+def main() -> None:
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    ads_df, crm_df, fx_df = simulate(START_DATE, END_DATE)
+    for name, frame in to_exports(ads_df, crm_df, fx_df).items():
+        frame.to_csv(RAW_DIR / f"{name}.csv", index=False)
     print_sample(ads_df, crm_df)
 
 
