@@ -11,7 +11,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from pipeline.metrics import trend_label
+from pipeline.metrics import PCT_DISPLAY_CAP, trend_label
 
 FLAT_BAND = 0.02
 THRESHOLD_NOTE = (
@@ -20,12 +20,20 @@ THRESHOLD_NOTE = (
 )
 
 
-def _move_phrase(change_pct: float, up: str = "rose", down: str = "fell",
+def _move_phrase(change_pct: float, current: float = None, prior: float = None,
+                 unit_fmt=None, up: str = "rose", down: str = "fell",
                  flat: str = "held roughly steady") -> str:
+    """`unit_fmt` is only needed for ratio metrics (ROAS, cost/conversion): past
+    PCT_DISPLAY_CAP their percentage move is almost always a collapsed
+    denominator rather than real news, so the sentence states the absolute move
+    instead of a four-digit percentage."""
     label = trend_label(change_pct, FLAT_BAND)
     if label == "flat":
         return flat
-    return f"{up if label == 'up' else down} {abs(round(change_pct * 100))}%"
+    word = up if label == "up" else down
+    if unit_fmt is not None and abs(change_pct) >= PCT_DISPLAY_CAP:
+        return f"{word} by {unit_fmt(abs(current - prior))}"
+    return f"{word} {abs(round(change_pct * 100))}%"
 
 
 def headline_read(deltas: dict, period_word: str, comparable: bool) -> str:
@@ -43,18 +51,20 @@ def headline_read(deltas: dict, period_word: str, comparable: bool) -> str:
     s1 = (f"Revenue {_move_phrase(rev['change_pct'])} against the previous {period_word}, "
           f"to €{rev['current']:,.0f}.")
 
+    roas_move = _move_phrase(roas["change_pct"], roas["current"], roas["prior"],
+                             lambda v: f"{v:.2f}x")
     eff = trend_label(roas["change_pct"], FLAT_BAND)
     if eff == "up":
-        s2 = (f"Spend worked harder for it: ROAS {_move_phrase(roas['change_pct'])} "
-              f"to {roas['current']:.2f}x.")
+        s2 = f"Spend worked harder for it: ROAS {roas_move} to {roas['current']:.2f}x."
     elif eff == "down":
-        s2 = (f"Spend worked less hard, though. ROAS {_move_phrase(roas['change_pct'])} "
-              f"to {roas['current']:.2f}x.")
+        s2 = f"Spend worked less hard, though. ROAS {roas_move} to {roas['current']:.2f}x."
     else:
         s2 = f"Efficiency was stable, with ROAS around {roas['current']:.2f}x."
 
+    cpa_move = _move_phrase(cpa["change_pct"], cpa["current"], cpa["prior"],
+                            lambda v: f"€{v:,.2f}")
     s3 = (f"Conversions {_move_phrase(conv['change_pct'])} to {conv['current']:,.0f}, and "
-          f"cost per conversion {_move_phrase(cpa['change_pct'])} to €{cpa['current']:,.2f}.")
+          f"cost per conversion {cpa_move} to €{cpa['current']:,.2f}.")
     return " ".join([s1, s2, s3])
 
 

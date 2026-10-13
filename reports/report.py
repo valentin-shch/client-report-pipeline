@@ -87,17 +87,21 @@ def _kpi_rows(deltas: dict) -> list[dict]:
         rows.append({
             "label": label,
             "value": fmt(d["current"]),
-            **_delta_display(d),
+            **_delta_display(d, fmt),
         })
     return rows
 
 
-def _delta_display(d: dict) -> dict:
+def _delta_display(d: dict, fmt=None) -> dict:
     cp = d["change_pct"]
     if pd.isna(cp):
         return {"delta": "", "delta_color": "", "delta_weight": "400"}
     pct = cp * 100
-    text = "0% vs prev" if round(pct) == 0 else f"{pct:+.0f}% vs prev"
+    if fmt is not None and abs(cp) >= metrics.PCT_DISPLAY_CAP:
+        diff = d["current"] - d["prior"]
+        text = f"{'+' if diff >= 0 else '-'}{fmt(abs(diff))} vs prev"
+    else:
+        text = "0% vs prev" if round(pct) == 0 else f"{pct:+.0f}% vs prev"
     if d["direction"] == "neutral" or round(pct) == 0:
         return {"delta": text, "delta_color": _NEUTRAL, "delta_weight": "400"}
     improved = (cp > 0) == (d["direction"] == "higher_better")

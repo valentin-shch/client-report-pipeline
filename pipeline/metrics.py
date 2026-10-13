@@ -35,6 +35,15 @@ METRIC_DIRECTION = {
 
 KPI_KEYS = ("spend", "conversions", "conversion_value", "roas", "cpa", "cpc", "ctr", "cvr")
 
+# A ratio metric (cpa, roas, cpc...) whose period-over-period move exceeds this
+# almost always means its denominator collapsed (near-zero conversions makes
+# cost/conversion balloon, near-zero spend makes ROAS spike), not a real 300%+
+# swing. Straight sums like spend or conversions can't blow up this way, they
+# bottom out at -100%, so this only ever bites the ratios. Shared by the report
+# KPI cards and the plain-language commentary so both drop the raw percentage
+# the same way past this point.
+PCT_DISPLAY_CAP = 3.0
+
 
 def safe_divide(numerator, denominator):
     if not denominator or pd.isna(denominator):

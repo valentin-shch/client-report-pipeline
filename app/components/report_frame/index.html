@@ -21,11 +21,27 @@
   // check here first.
   var frame = document.getElementById("report");
   var last = 0;
+  var STORAGE_KEY = "crp_report_frame_height";
+
+  // Streamlit remounts this whole iframe (a fresh componentReady) on every rerun,
+  // e.g. switching client/week/theme, not just on first load. Without this, each
+  // switch would collapse the report to the placeholder height below and snap
+  // back once the new one measures, which reads as the report flickering out and
+  // back in. Remembering the last real height and starting there instead means
+  // the box barely moves; only the true first load in a tab uses the guess.
+  function rememberedHeight() {
+    try {
+      return parseInt(sessionStorage.getItem(STORAGE_KEY), 10) || 400;
+    } catch (e) {
+      return 400;
+    }
+  }
 
   function setHeight(h) {
     window.parent.postMessage(
       { isStreamlitMessage: true, type: "streamlit:setFrameHeight", height: h }, "*"
     );
+    try { sessionStorage.setItem(STORAGE_KEY, String(h)); } catch (e) { /* private mode */ }
   }
 
   function measure() {
@@ -63,7 +79,7 @@
   window.parent.postMessage(
     { isStreamlitMessage: true, type: "streamlit:componentReady", apiVersion: 1 }, "*"
   );
-  setHeight(400);
+  setHeight(rememberedHeight());
 </script>
 </body>
 </html>

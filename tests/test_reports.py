@@ -83,6 +83,33 @@ def test_delta_display_nan_is_blank():
     assert out["delta"] == "" and out["delta_color"] == ""
 
 
+def test_cpa_blowup_from_collapsed_conversions_shows_euros_not_percent():
+    # conversions crater from 23 to 1 (already its own high-confidence alert);
+    # cost/conversion "explodes" mathematically even though nothing new happened.
+    # A four-digit percentage reads as a data error, so show the euro move instead.
+    d = {"current": 484.0, "prior": 10.0, "change_pct": 47.4, "direction": "lower_better"}
+    fmt = lambda v: "n/a" if pd.isna(v) else f"€{v:,.2f}"
+    out = report._delta_display(d, fmt)
+    assert "%" not in out["delta"]
+    assert out["delta"] == "+€474.00 vs prev"
+    assert out["delta_color"] == report._BAD  # cpa up is bad (lower is better)
+
+
+def test_roas_spike_from_near_zero_prior_shows_multiple_not_percent():
+    d = {"current": 4.0, "prior": 0.05, "change_pct": 79.0, "direction": "higher_better"}
+    fmt = lambda v: f"{v:.2f}x"
+    out = report._delta_display(d, fmt)
+    assert "%" not in out["delta"]
+    assert out["delta"] == "+3.95x vs prev"
+    assert out["delta_color"] == report._GOOD
+
+
+def test_ordinary_moves_stay_percentages_even_with_fmt_supplied():
+    d = {"current": 12.0, "prior": 10.0, "change_pct": 0.2, "direction": "lower_better"}
+    out = report._delta_display(d, fmt=lambda v: f"€{v:,.2f}")
+    assert out["delta"] == "+20% vs prev"
+
+
 def test_slug():
     assert report.slug("Clínica Vantia!") == "cl-nica-vantia"
     assert report.slug("Solmar Hotels") == "solmar-hotels"
@@ -94,6 +121,27 @@ def test_move_phrase_respects_flat_band():
     assert commentary._move_phrase(0.33) == "rose 33%"
     assert commentary._move_phrase(-0.24) == "fell 24%"
     assert commentary._move_phrase(0.01) == "held roughly steady"  # inside 2% band
+
+
+def test_move_phrase_caps_a_collapsed_denominator_at_the_absolute_move():
+    # cost per conversion "rising 4752%" when conversions cratered to near zero
+    # reads as a data error; state the euro move instead past the cap.
+    phrase = commentary._move_phrase(47.4, current=484.0, prior=10.0, unit_fmt=lambda v: f"€{v:,.2f}")
+    assert phrase == "rose by €474.00"
+    assert "%" not in phrase
+
+
+def test_headline_read_states_absolute_cpa_move_when_conversions_collapse():
+    deltas = {
+        "conversion_value": {"current": 343.0, "prior": 12000.0, "change_pct": -0.97},
+        "spend": {"current": 3400.0, "prior": 2400.0, "change_pct": 0.42},
+        "roas": {"current": 0.10, "prior": 5.0, "change_pct": -0.98},
+        "conversions": {"current": 7.0, "prior": 230.0, "change_pct": -0.97},
+        "cpa": {"current": 473.96, "prior": 9.79, "change_pct": 47.4},
+    }
+    text = commentary.headline_read(deltas, "week", comparable=True)
+    assert "%" not in text.split("cost per conversion")[1]
+    assert "rose by €464.17" in text
 
 
 def test_what_changed_drops_movers_below_one_percent():
