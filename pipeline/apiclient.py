@@ -4,12 +4,14 @@ from __future__ import annotations
 
 import os
 import random
+import re
 import time
 
 import httpx
 
 TRANSIENT_STATUS = {429, 500, 502, 503, 504}
 PAGE_SIZE = 1000
+MAX_RETRY_AFTER = 120
 
 
 class PermanentError(Exception):
@@ -22,7 +24,9 @@ class RetriesExhausted(Exception):
 
 class AdsApi:
     def __init__(self, http: httpx.Client, api_key: str, *, max_attempts: int = 5,
-                 base_delay: float = 2.0, sleep=time.sleep, rand=random.random):
+                 base_delay: float = 8.0, sleep=time.sleep, rand=random.random):
+        # 8 s doubling over 5 attempts waits 1 to 3 minutes in all, enough to
+        # sit out a Render instance answering 503 while it wakes.
         self.http = http
         self.api_key = api_key
         self.max_attempts = max_attempts
@@ -60,19 +64,32 @@ class AdsApi:
                 problem = type(e).__name__
             else:
                 if response.status_code == 200:
-                    return response.json()
-                problem = f"HTTP {response.status_code}"
-                if response.status_code not in TRANSIENT_STATUS:
-                    raise PermanentError(f"{path}: {problem}")
-                wait = response.headers.get("Retry-After")
+                    body = self._usable(response)
+                    if body is not None:
+                        return body
+                    problem = "unusable body"
+                else:
+                    problem = f"HTTP {response.status_code}"
+                    if response.status_code not in TRANSIENT_STATUS:
+                        raise PermanentError(f"{path}: {problem}")
+                    wait = response.headers.get("Retry-After")
 
             if attempt < self.max_attempts:
                 self.retries += 1
                 self.sleep(self._delay(attempt, wait))
         raise RetriesExhausted(f"{path}: {problem} after {self.max_attempts} attempts")
 
+    @staticmethod
+    def _usable(response: httpx.Response) -> dict | None:
+        # A proxy error page can come back as a 200, so check before trusting it.
+        try:
+            body = response.json()
+        except ValueError:
+            return None
+        return body if isinstance(body, dict) and {"data", "next_page_token"} <= body.keys() else None
+
     def _delay(self, attempt: int, retry_after: str | None) -> float:
-        if retry_after is not None and retry_after.isdigit():
-            return int(retry_after)
+        if retry_after is not None and re.fullmatch(r"[0-9]+", retry_after):
+            return min(int(retry_after), MAX_RETRY_AFTER)
         # The jitter stops clients that failed together retrying together.
         return self.base_delay * 2 ** (attempt - 1) * (0.5 + self.rand())

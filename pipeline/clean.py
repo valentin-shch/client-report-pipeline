@@ -58,9 +58,8 @@ def fix_linkedin_dates(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def load_fx_rates(date_range: pd.DatetimeIndex) -> tuple[pd.Series, int]:
-    fx = pd.read_csv(RAW_DIR / "fx_rates.csv", parse_dates=["date"])
-    # fx_rates.csv only has weekday rows (markets closed at weekends). Reindex
+def fx_by_day(fx: pd.DataFrame, date_range: pd.DatetimeIndex) -> tuple[pd.Series, int]:
+    # The rates only have weekday rows (markets closed at weekends). Reindex
     # against the ads data's own date range and carry the last trading rate
     # forward; back-fill covers a window that opens on a weekend, before the
     # first quoted rate.
@@ -85,6 +84,9 @@ def apply_fx(df: pd.DataFrame, fx_by_date: pd.Series) -> tuple[pd.DataFrame, int
 def impute_missing_conversion_value(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     df = df.copy()
     missing = df["conversion_value"].isna()
+    if not missing.any():
+        df["conversion_value_imputed"] = False
+        return df, {"rows_imputed": 0, "value_imputed_eur": 0.0}
 
     # Fill from the average revenue-per-conversion on rows that do have a value.
     # Prefer the same client+channel in the same month, so a seasonal swing in
@@ -198,16 +200,28 @@ def attribute_deals(crm: pd.DataFrame, ads: pd.DataFrame) -> pd.DataFrame:
     return crm
 
 
-def build_summary(rows_in_ads, rows_in_crm, dup_removed, linkedin_converted,
-                  fx_gap_days, missing_stats, ads, crm) -> dict:
-    return {
-        "rows_in": {**rows_in_ads, "crm_deals.csv": rows_in_crm},
+def clean_ads(ads: pd.DataFrame, fx: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
+    """Raw ad rows (with parsed dates) and raw FX rates -> clean rows, plus
+    counts of what was fixed. Shared by file mode and pipeline/clean_db.py."""
+    ads, dup_removed = dedupe(ads)
+    ads = fix_linkedin_dates(ads)
+    rates, fx_gap_days = fx_by_day(fx, pd.date_range(ads["date"].min(), ads["date"].max(), freq="D"))
+    ads, linkedin_converted = apply_fx(ads, rates)
+    ads, missing_stats = impute_missing_conversion_value(ads)
+    return parse_campaign_names(ads), {
         "duplicates_removed": dup_removed,
         "fx_conversion": {
             "linkedin_rows_converted": linkedin_converted,
             "gap_days_filled": fx_gap_days,
         },
         "conversion_value_imputed": missing_stats,
+    }
+
+
+def build_summary(rows_in: dict, stats: dict, ads: pd.DataFrame, crm: pd.DataFrame) -> dict:
+    return {
+        "rows_in": rows_in,
+        **stats,
         "campaign_parsing": ads["campaign_convention"].value_counts().to_dict(),
         "crm_attribution": crm["attribution_status"].value_counts().to_dict(),
         "rows_out": {"ads_clean": len(ads), "crm_deals_clean": len(crm)},
@@ -247,26 +261,15 @@ def main() -> None:
     CLEAN_DIR.mkdir(parents=True, exist_ok=True)
 
     ads, rows_in_ads = load_raw_ads()
-    ads, dup_removed = dedupe(ads)
-    ads = fix_linkedin_dates(ads)
-
-    fx_by_date, fx_gap_days = load_fx_rates(
-        pd.date_range(ads["date"].min(), ads["date"].max(), freq="D")
-    )
-    ads, linkedin_converted = apply_fx(ads, fx_by_date)
-
-    ads, missing_stats = impute_missing_conversion_value(ads)
-    ads = parse_campaign_names(ads)
+    fx = pd.read_csv(RAW_DIR / "fx_rates.csv", parse_dates=["date"])
+    ads, stats = clean_ads(ads, fx)
     ads.to_parquet(CLEAN_DIR / "ads.parquet", index=False)
 
     crm, rows_in_crm = load_crm_deals()
     crm = attribute_deals(crm, ads)
     crm.to_parquet(CLEAN_DIR / "crm_deals.parquet", index=False)
 
-    summary = build_summary(
-        rows_in_ads, rows_in_crm, dup_removed, linkedin_converted,
-        fx_gap_days, missing_stats, ads, crm,
-    )
+    summary = build_summary({**rows_in_ads, "crm_deals.csv": rows_in_crm}, stats, ads, crm)
     with open(CLEAN_DIR / "data_quality_summary.json", "w") as f:
         json.dump(summary, f, indent=2)
 

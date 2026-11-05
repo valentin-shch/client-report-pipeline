@@ -42,13 +42,13 @@ def test_retries_a_429_then_succeeds_honouring_retry_after():
 def test_backoff_doubles_with_jitter():
     api, _, waits = scripted(httpx.Response(500), httpx.Response(500), page([]))
     api.get_all("/x", {})
-    assert waits == [2.0, 4.0]
+    assert waits == [8.0, 16.0]
 
 
 def test_jitter_spreads_the_wait():
     api, _, waits = scripted(httpx.Response(503), page([]), rand=lambda: 0.0)
     api.get_all("/x", {})
-    assert waits == [1.0]
+    assert waits == [4.0]
 
 
 def test_gives_up_after_five_attempts():
@@ -125,3 +125,40 @@ def test_survives_the_fake_apis_injected_faults():
     rows = api.get_all("/v1/ads/google_ads", {"client": "solmar-hotels", "page_size": 20})
     assert len(rows) == len(ads_rows(ds, "google_ads", "Solmar Hotels", date(2025, 2, 1), date(2025, 3, 15)))
     assert api.retries > 0
+
+
+def test_the_retry_budget_outlasts_a_render_cold_start():
+    # 503s for about a minute while the instance wakes, then fine
+    api, _, waits = scripted(*[httpx.Response(503) for _ in range(4)], page([]))
+    api.get_all("/x", {})
+    assert sum(waits) >= 90
+
+
+@pytest.mark.parametrize("bad", [
+    httpx.Response(200, text="<html>gateway</html>"),
+    httpx.Response(200, json={"error": "nope"}),
+    httpx.Response(200, json=["not", "a", "page"]),
+], ids=["html", "wrong-keys", "wrong-shape"])
+def test_an_unusable_200_is_retried(bad):
+    api, _, _ = scripted(bad, page([{"a": 1}]))
+    assert api.get_all("/x", {}) == [{"a": 1}]
+    assert api.retries == 1
+
+
+def test_an_unusable_200_exhausts_like_any_other_failure():
+    api, _, _ = scripted(*[httpx.Response(200, text="oops") for _ in range(5)])
+    with pytest.raises(RetriesExhausted, match="unusable body"):
+        api.get_all("/x", {})
+
+
+def test_retry_after_is_capped():
+    api, _, waits = scripted(httpx.Response(429, headers={"Retry-After": "86400"}), page([]))
+    api.get_all("/x", {})
+    assert waits == [120]
+
+
+@pytest.mark.parametrize("value", ["²", "soon", "-5"])
+def test_a_strange_retry_after_falls_back_to_backoff(value):
+    api, _, waits = scripted(httpx.Response(429, headers={"Retry-After": value.encode("utf-8")}), page([]))
+    api.get_all("/x", {})
+    assert waits == [8.0]

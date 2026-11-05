@@ -2,6 +2,9 @@
 enough that re-running CREATE TABLE IF NOT EXISTS is all the migration it needs.
 
     python -m pipeline.db init
+
+Run init with the owner's URL. The pipeline and app roles can't change the
+schema on purpose, so init is a setup step, never part of a run.
 """
 
 from __future__ import annotations
@@ -14,7 +17,7 @@ import pandas as pd
 import psycopg
 
 SQL_DIR = Path(__file__).resolve().parent.parent / "db"
-TABLES = ("raw_ads", "raw_deals", "raw_fx", "clean_ads", "clean_deals")
+TABLES = ("raw_ads", "raw_deals", "raw_fx", "clean_ads", "clean_deals", "runs")
 
 
 def connect(url: str | None = None) -> psycopg.Connection:

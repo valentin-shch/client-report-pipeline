@@ -15,6 +15,14 @@ Stuff I know about. Not blocking.
 - The API's rate limit keys on the caller's IP as forwarded by the proxy,
   which a caller could spoof. Fine for synthetic data behind a key.
 
+- LinkedIn's labels run a day behind, so after the cleaning fix its newest row
+  is dated today, a day that isn't over. Reports only cover finished weeks, so
+  it never reaches one, but a daily view would need to drop it.
+
+- A job killed mid-batch leaves no row for the clients it hadn't reached, so
+  `--retry-failed` can't see them. A plain re-run covers them. Queued rows
+  written up front would fix it properly.
+
 ## Won't fix
 
 - `clean.py` converts LinkedIn spend USD -> EUR. The raw file doesn't say it's

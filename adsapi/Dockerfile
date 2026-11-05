@@ -17,7 +17,8 @@ USER api
 
 ENV PORT=8000
 EXPOSE 8000
-# Shell form so Render's $PORT expands. Proxy headers so the rate limit sees
-# the caller's IP rather than the load balancer's.
-CMD uvicorn adsapi.app:create_app_from_env --factory --host 0.0.0.0 --port $PORT \
+# Shell form so Render's $PORT expands; exec so uvicorn gets the stop signal
+# rather than the shell. Proxy headers so the rate limit sees the caller's IP
+# rather than the load balancer's.
+CMD exec uvicorn adsapi.app:create_app_from_env --factory --host 0.0.0.0 --port $PORT \
     --proxy-headers --forwarded-allow-ips="*"

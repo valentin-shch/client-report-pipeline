@@ -80,6 +80,22 @@ database: CSV to parquet to disk. No external services, no API keys.
     python -m reports.run --client all --period last-week
     streamlit run app/Report_Preview.py
 
+With Docker running, this is the live route: a fake ad platform API and Postgres,
+pulled incrementally and cleaned per client. Copy `.env.example` to `.env` first.
+
+    docker compose up -d --build
+    set -a; . ./.env; set +a
+    python -m pipeline.db init
+    python -m runner
+
+`runner` pulls and cleans every client and records each step in the `runs` table.
+One client failing doesn't stop the others, and `python -m runner --retry-failed`
+re-runs whatever failed in the last week. `--client` and `--anchor` target one
+client or week.
+
+`pytest` runs the database tests too when `TEST_DATABASE_URL` is set, and skips
+them when it isn't.
+
 `generate.py` uses an 18-month window ending last month so the data stays
 current; the seed fixes the shape, only the dates move. The committed `data/`
 and `samples/` were built with `CRP_DATA_END=2026-07-31` (see `.env.example`).

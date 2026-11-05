@@ -75,9 +75,13 @@ def load_clients() -> dict[str, str]:
         return {slug: cfg["name"] for slug, cfg in tomllib.load(f).items()}
 
 
-def _watermark(conn: psycopg.Connection, sql: str, params: tuple = ()) -> date | None:
+def _last_seen(conn: psycopg.Connection, sql: str, params: tuple = ()) -> date | None:
     last = conn.execute(sql, params).fetchone()[0]
     conn.commit()  # don't hold a transaction open across the HTTP calls
+    return last
+
+
+def _since(last: date | None) -> date | None:
     return last - timedelta(days=OVERLAP_DAYS) if last else None
 
 
@@ -88,23 +92,28 @@ def _write(conn: psycopg.Connection, sql: str, rows: list[tuple]) -> None:
 
 
 def _ingest_ads(conn: psycopg.Connection, api: AdsApi, source: str, slug: str, name: str) -> IngestStats:
-    since = _watermark(conn, "SELECT max(date) FROM raw_ads WHERE source = %s AND client = %s",
-                       (source, name)) or BACKFILL_FROM
+    last = _last_seen(conn, "SELECT max(date) FROM raw_ads WHERE source = %s AND client = %s",
+                      (source, name))
+    since = _since(last) or BACKFILL_FROM
     received = api.get_all(f"/v1/ads/{source}", {"client": slug, "since": since.isoformat()})
 
-    rows = {}
+    rows, duplicates = {}, 0
     for r in received:
         day = datetime.strptime(r["date"], DATE_FORMATS[source]).date()
-        rows[(day, r["campaign_name"])] = (
+        key = (day, r["campaign_name"])
+        # The overlap re-reads old days; a duplicate there was counted already.
+        if key in rows and (last is None or day > last):
+            duplicates += 1
+        rows[key] = (
             source, name, day, r["date"], r["channel"], r["campaign_name"], r["spend"],
             r["impressions"], r["clicks"], r["conversions"], r["conversion_value"],
         )
     _write(conn, UPSERT_AD, list(rows.values()))
-    return IngestStats(source, len(received), len(rows), len(received) - len(rows), since)
+    return IngestStats(source, len(received), len(rows), duplicates, since)
 
 
 def _ingest_deals(conn: psycopg.Connection, api: AdsApi, slug: str, name: str) -> IngestStats:
-    since = _watermark(conn, "SELECT max(updated_at) FROM raw_deals WHERE client = %s", (name,))
+    since = _since(_last_seen(conn, "SELECT max(updated_at) FROM raw_deals WHERE client = %s", (name,)))
     params = {"client": slug, **({"updated_since": since.isoformat()} if since else {})}
     received = api.get_all("/v1/crm/deals", params)
     rows = [
@@ -124,7 +133,7 @@ def ingest_client(conn: psycopg.Connection, api: AdsApi, slug: str) -> list[Inge
 
 
 def ingest_fx(conn: psycopg.Connection, api: AdsApi) -> IngestStats:
-    since = _watermark(conn, "SELECT max(date) FROM raw_fx") or BACKFILL_FROM
+    since = _since(_last_seen(conn, "SELECT max(date) FROM raw_fx")) or BACKFILL_FROM
     received = api.get_all("/v1/fx/usd-eur", {"since": since.isoformat()})
     _write(conn, UPSERT_FX, [(r["date"], r["usd_eur"]) for r in received])
     return IngestStats("fx_rates", len(received), len(received), 0, since)
@@ -136,11 +145,11 @@ def _show(label: str, s: IngestStats) -> None:
 
 
 def main(argv=None) -> None:
+    clients = load_clients()
     parser = argparse.ArgumentParser()
-    parser.add_argument("--client", default="all", help="client slug, or all")
+    parser.add_argument("--client", default="all", choices=["all", *clients])
     args = parser.parse_args(argv)
 
-    clients = load_clients()
     slugs = list(clients) if args.client == "all" else [args.client]
     api = AdsApi.from_env()
     with connect() as conn:

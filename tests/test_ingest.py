@@ -10,6 +10,7 @@ from adsapi.app import create_app
 from adsapi.data import ads_rows, load_dataset
 from pipeline.apiclient import AdsApi, RetriesExhausted
 from pipeline.db import read_frame
+from pipeline.ingest import main as ingest_main
 from pipeline.ingest import (ADS_SOURCES, BACKFILL_FROM, OVERLAP_DAYS, ingest_client, ingest_fx,
                              load_clients)
 
@@ -192,3 +193,20 @@ def test_ingest_fx_is_incremental(db, api, clock):
     second = ingest_fx(db, api)
     assert second.since > BACKFILL_FROM
     assert second.rows_written < first.rows_written
+
+
+def test_a_duplicate_in_the_overlap_is_only_counted_the_first_time(db):
+    def handler(request):
+        rows = [ad_row("2025-03-01"), ad_row("2025-03-01")] if request.url.path.endswith("google_ads") else []
+        return httpx.Response(200, json={"data": rows, "next_page_token": None})
+
+    api = scripted_api(handler)
+    first = by_source(ingest_client(db, api, SLUG))["google_ads"]
+    second = by_source(ingest_client(db, api, SLUG))["google_ads"]
+    assert first.duplicates_collapsed == 1
+    assert second.duplicates_collapsed == 0
+
+
+def test_ingest_cli_rejects_an_unknown_client():
+    with pytest.raises(SystemExit):
+        ingest_main(["--client", "nope"])

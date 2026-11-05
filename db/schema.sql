@@ -64,3 +64,24 @@ CREATE TABLE IF NOT EXISTS clean_deals (
     attribution_status text NOT NULL,
     attributed_channel text
 );
+
+-- One row per client per run. A failed row with its error is the dead letter:
+-- `python -m runner --retry-failed` picks those up.
+CREATE TABLE IF NOT EXISTS runs (
+    id            bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    client        text NOT NULL,
+    period        text NOT NULL,
+    anchor        date NOT NULL,
+    period_start  date NOT NULL,
+    period_end    date NOT NULL,
+    trigger       text NOT NULL CHECK (trigger IN ('schedule', 'manual')),
+    status        text NOT NULL CHECK (status IN ('running', 'succeeded', 'failed')),
+    step          text,
+    retries       integer NOT NULL DEFAULT 0,
+    error         text,
+    rows_ingested integer,
+    steps         jsonb NOT NULL DEFAULT '[]',
+    dq_summary    jsonb,
+    started_at    timestamptz NOT NULL DEFAULT now(),
+    finished_at   timestamptz
+);

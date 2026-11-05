@@ -45,3 +45,22 @@ def test_connect_without_url_says_so(monkeypatch):
     monkeypatch.delenv("DATABASE_URL", raising=False)
     with pytest.raises(RuntimeError, match="DATABASE_URL is not set"):
         connect()
+
+
+def add_run(db):
+    db.execute("""insert into runs (client, period, anchor, period_start, period_end, trigger, status)
+                  values ('A', 'last-week', '2025-03-10', '2025-03-03', '2025-03-09', 'manual', 'running')""")
+
+
+def test_pipeline_role_can_record_runs(db):
+    db.execute("set role pipeline")
+    add_run(db)
+    db.execute("update runs set status = 'succeeded'")
+
+
+def test_app_role_can_read_runs_but_not_change_them(db):
+    add_run(db)
+    db.execute("set role app")
+    db.execute("select * from runs")
+    with pytest.raises(psycopg.errors.InsufficientPrivilege):
+        db.execute("update runs set status = 'failed'")
