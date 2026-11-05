@@ -158,6 +158,7 @@ def test_app_from_env_starts_from_the_saved_dataset(ds, tmp_path, monkeypatch):
     save_dataset(ds, path)
     monkeypatch.setenv("ADSAPI_KEY", "k")
     monkeypatch.setenv("ADSAPI_DATASET", str(path))
+    monkeypatch.setenv("FAULT_RATE", "0")  # .env may set one; this test is about startup
 
     def no_rebuild(*args, **kwargs):
         raise AssertionError("rebuilt the dataset instead of loading the saved one")
