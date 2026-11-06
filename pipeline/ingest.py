@@ -70,9 +70,13 @@ class IngestStats:
     since: date | None
 
 
-def load_clients() -> dict[str, str]:
+def load_client_config() -> dict[str, dict]:
     with open(CLIENTS_FILE, "rb") as f:
-        return {slug: cfg["name"] for slug, cfg in tomllib.load(f).items()}
+        return tomllib.load(f)
+
+
+def load_clients() -> dict[str, str]:
+    return {slug: cfg["name"] for slug, cfg in load_client_config().items()}
 
 
 def _last_seen(conn: psycopg.Connection, sql: str, params: tuple = ()) -> date | None:

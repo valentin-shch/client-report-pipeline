@@ -85,3 +85,26 @@ CREATE TABLE IF NOT EXISTS runs (
     started_at    timestamptz NOT NULL DEFAULT now(),
     finished_at   timestamptz
 );
+
+-- status: pending -> approved -> sending -> sent, or send_failed. Sending is
+-- claimed with a single UPDATE so two clicks can never send two emails.
+CREATE TABLE IF NOT EXISTS reports (
+    id           bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    run_id       bigint REFERENCES runs (id),
+    client       text NOT NULL,
+    period       text NOT NULL,
+    period_start date NOT NULL,
+    period_end   date NOT NULL,
+    theme        text NOT NULL,
+    subject      text NOT NULL,
+    html         text NOT NULL,
+    alerts       jsonb NOT NULL DEFAULT '[]',
+    status       text NOT NULL DEFAULT 'pending'
+                 CHECK (status IN ('pending', 'approved', 'sending', 'sent', 'send_failed')),
+    error        text,
+    created_at   timestamptz NOT NULL DEFAULT now(),
+    approved_at  timestamptz,
+    claimed_at   timestamptz,
+    sent_at      timestamptz,
+    UNIQUE (client, period, period_start, theme)
+);

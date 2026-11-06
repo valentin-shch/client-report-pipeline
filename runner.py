@@ -1,4 +1,5 @@
-"""The unattended run: for each client, ingest then clean, every step recorded.
+"""The unattended run: for each client, ingest, clean and build a report, every
+step recorded. Reports wait for approval; nothing is emailed from here.
 
     python -m runner --trigger schedule
     python -m runner --client nordfit-equipment --anchor 2026-10-05
@@ -20,11 +21,15 @@ from datetime import date, datetime, timezone
 import psycopg
 from psycopg.types.json import Jsonb
 
+from delivery.slack import post_summary
 from pipeline.apiclient import AdsApi
 from pipeline.clean_db import clean_client_db
 from pipeline.db import connect
-from pipeline.ingest import ingest_client, ingest_fx, load_clients
+from pipeline.ingest import ingest_client, ingest_fx, load_client_config, load_clients
 from pipeline.metrics import period_windows
+from reports.report import build_report, render_html
+from reports.store import load_clean_ads, save_report
+from reports.theme import load_theme
 
 PERIODS = ("last-week", "last-month")
 RETRY_WINDOW_DAYS = 7
@@ -46,6 +51,8 @@ class RunResult:
     slug: str
     status: str
     error: str | None = None
+    report: str | None = None
+    alerts: int = 0
 
 
 def target_for(slug: str, period: str, anchor: date) -> RunTarget:
@@ -96,7 +103,8 @@ def _end_step(conn: psycopg.Connection, run_id: int, step: str, began: float, ro
     conn.commit()
 
 
-def _work(conn: psycopg.Connection, run_id: int, api: AdsApi, t: RunTarget) -> tuple[int, dict]:
+def _work(conn: psycopg.Connection, run_id: int, api: AdsApi, t: RunTarget,
+          force: bool) -> tuple[dict, str, int]:
     began = _begin_step(conn, run_id, "ingest")
     # FX here rather than once per batch: if it fails, this run shows it and
     # --retry-failed covers it, with no batch-level state to manage.
@@ -109,27 +117,36 @@ def _work(conn: psycopg.Connection, run_id: int, api: AdsApi, t: RunTarget) -> t
     began = _begin_step(conn, run_id, "clean")
     summary = clean_client_db(conn, t.name)
     _end_step(conn, run_id, "clean", began, summary["rows_out"]["ads_clean"])
+
+    began = _begin_step(conn, run_id, "build")
+    theme_name = load_client_config()[t.slug]["theme"]
+    theme = load_theme(theme_name)
+    report = build_report(load_clean_ads(conn, t.name), t.name, t.anchor, t.period, theme.accent)
+    outcome = save_report(conn, run_id, t, report, render_html(report, theme), theme_name, force)
+    _end_step(conn, run_id, "build", began, 1)
+
     duplicates = sum(s.duplicates_collapsed for s in stats)
-    return ingested, {**summary, "duplicates_collapsed_at_ingest": duplicates}
+    return {**summary, "duplicates_collapsed_at_ingest": duplicates}, outcome, len(report.alerts)
 
 
-def run_client(url: str | None, api: AdsApi, t: RunTarget, trigger: str) -> RunResult:
+def run_client(url: str | None, api: AdsApi, t: RunTarget, trigger: str,
+               force: bool = False) -> RunResult:
     # A connection per phase: if the database drops mid-work (Neon suspends),
     # recording the failure still gets a working one.
     with connect(url) as conn:
         run_id = _start(conn, t, trigger)
 
     retries_before = api.retries
-    status, error, dq = "succeeded", None, None
+    status, error, dq, report, alerts = "succeeded", None, None, None, 0
     try:
         with connect(url) as conn:
-            _, dq = _work(conn, run_id, api, t)
+            dq, report, alerts = _work(conn, run_id, api, t, force)
     except Exception as e:  # the isolation boundary: whatever broke, record it and move on
         status, error = "failed", f"{type(e).__name__}: {e}"[:500]
 
     outcome = (status, error, api.retries - retries_before, Jsonb(dq) if dq else None, run_id)
     _record(url, outcome)
-    return RunResult(t.slug, status, error)
+    return RunResult(t.slug, status, error, report, alerts)
 
 
 def _record(url: str | None, outcome: tuple) -> None:
@@ -148,11 +165,12 @@ def _record(url: str | None, outcome: tuple) -> None:
             time.sleep(wait)
 
 
-def run_all(url: str | None, api: AdsApi, targets: list[RunTarget], trigger: str) -> list[RunResult]:
+def run_all(url: str | None, api: AdsApi, targets: list[RunTarget], trigger: str,
+            force: bool = False) -> list[RunResult]:
     results = []
     for t in targets:
         try:
-            results.append(run_client(url, api, t, trigger))
+            results.append(run_client(url, api, t, trigger, force))
         except psycopg.Error as e:
             # run_client records its own failures. This one is the database
             # refusing even that, and it still mustn't stop the next client.
@@ -170,9 +188,14 @@ def main(argv=None) -> int:
     parser.add_argument("--trigger", choices=("schedule", "manual"), help="default: manual")
     parser.add_argument("--retry-failed", action="store_true",
                         help=f"re-run failed runs from the last {RETRY_WINDOW_DAYS} days")
+    parser.add_argument("--force", action="store_true",
+                        help="rebuild reports even if already approved or sent")
     args = parser.parse_args(argv)
-    if args.retry_failed and (args.client or args.period or args.anchor or args.trigger):
+    if args.retry_failed and (args.client or args.period or args.anchor or args.trigger or args.force):
         parser.error("--retry-failed re-runs what failed, as it was; it takes no other options")
+    today = datetime.now(timezone.utc).date()
+    if args.anchor and args.anchor > today:
+        parser.error("--anchor can't be in the future: that week has no data yet")
 
     with connect() as conn:
         abandoned = mark_abandoned(conn)
@@ -184,17 +207,18 @@ def main(argv=None) -> int:
         print("nothing to retry")
         return 0
     if retrying is None:
-        anchor = args.anchor or datetime.now(timezone.utc).date()
+        anchor = args.anchor or today
         slugs = list(clients) if args.client in (None, "all") else [args.client]
         targets = [target_for(slug, args.period or "last-week", anchor) for slug in slugs]
     else:
         targets = retrying
 
     api = AdsApi.from_env()
-    results = run_all(None, api, targets, args.trigger or "manual")
+    results = run_all(None, api, targets, args.trigger or "manual", args.force)
     for r in results:
-        print(f"{r.slug:<20}{r.status}" + (f"  {r.error}" if r.error else ""))
+        print(f"{r.slug:<20}{r.status}" + (f"  {r.error}" if r.error else f"  report {r.report}, {r.alerts} alert(s)"))
     print(f"retries: {api.retries}")
+    post_summary(results)
     return 1 if any(r.status == "failed" for r in results) else 0
 
 

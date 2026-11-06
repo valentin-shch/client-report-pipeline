@@ -1,8 +1,16 @@
+# Addresses stay on example.com: this repo is public. DEMO_RECIPIENT in the
+# environment sends everything to one real inbox instead.
 ["solmar-hotels"]
 name = "Solmar Hotels"
+theme = "northlight"
+recipients = ["marketing@solmar.example.com"]
 
 ["nordfit-equipment"]
 name = "Nordfit Equipment"
+theme = "northlight"
+recipients = ["growth@nordfit.example.com"]
 
 ["clinica-vantia"]
 name = "Clinica Vantia"
+theme = "harbourpoint"
+recipients = ["direccion@vantia.example.com"]

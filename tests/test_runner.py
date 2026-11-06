@@ -52,7 +52,7 @@ def test_a_good_run_records_every_step(db, pg_url, api):
     assert (run["client"], run["period"], run["trigger"]) == ("Solmar Hotels", "last-week", "manual")
     assert run["status"] == "succeeded" and run["error"] is None
     assert run["period_start"] == date(2025, 3, 10) and run["anchor"] == TODAY
-    assert [s["step"] for s in run["steps"]] == ["ingest", "clean"]
+    assert [s["step"] for s in run["steps"]] == ["ingest", "clean", "build"]
     assert run["rows_ingested"] > 0
     assert run["dq_summary"]["rows_out"]["ads_clean"] > 0
     assert run["dq_summary"]["fx_stale_days"] <= 4
@@ -296,4 +296,56 @@ def test_a_real_connection_failure_stores_no_password(db, pg_url, api, monkeypat
 def test_retry_failed_refuses_other_options(extra):
     with pytest.raises(SystemExit) as e:
         runner.main(["--retry-failed", *extra])
+    assert e.value.code == 2
+
+
+def reports(db):
+    db.commit()
+    return read_frame(db, "select * from reports order by id")
+
+
+def test_a_run_leaves_a_pending_report(db, pg_url, api):
+    result = runner.run_client(pg_url, api, target(), "schedule")
+    assert result.report == "created"
+    report = reports(db).iloc[0]
+    assert report["status"] == "pending"
+    assert report["run_id"] == runs(db).iloc[0]["id"]
+    assert (report["client"], report["theme"]) == ("Solmar Hotels", "northlight")
+    assert "<html" in report["html"].lower()
+
+
+def test_each_client_uses_its_own_theme(db, pg_url, api):
+    runner.run_client(pg_url, api, target("clinica-vantia"), "schedule")
+    assert reports(db).iloc[0]["theme"] == "harbourpoint"
+
+
+def test_a_week_with_no_data_fails_the_run_clearly(db, pg_url, api):
+    early = runner.target_for(SOLMAR, "last-week", date(2025, 1, 8))
+    result = runner.run_client(pg_url, api, early, "schedule")
+    assert result.status == "failed"
+    run = runs(db).iloc[0]
+    assert run["step"] == "build"
+    assert "NoDataForPeriod" in run["error"]
+    assert reports(db).empty
+
+
+def test_a_rerun_leaves_a_sent_report_alone_unless_forced(db, pg_url, api):
+    runner.run_client(pg_url, api, target(), "schedule")
+    db.execute("update reports set status = 'sent'")
+    db.commit()
+    assert runner.run_client(pg_url, api, target(), "manual").report == "kept"
+    assert reports(db).iloc[0]["status"] == "sent"
+    assert runner.run_client(pg_url, api, target(), "manual", force=True).report == "replaced"
+    assert reports(db).iloc[0]["status"] == "pending"
+
+
+def test_main_rejects_a_future_anchor():
+    with pytest.raises(SystemExit) as e:
+        runner.main(["--anchor", "2999-01-01"])
+    assert e.value.code == 2
+
+
+def test_retry_failed_refuses_force():
+    with pytest.raises(SystemExit) as e:
+        runner.main(["--retry-failed", "--force"])
     assert e.value.code == 2

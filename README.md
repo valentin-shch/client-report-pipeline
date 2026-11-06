@@ -88,10 +88,21 @@ pulled incrementally and cleaned per client. Copy `.env.example` to `.env` first
     python -m pipeline.db init
     python -m runner
 
-`runner` pulls and cleans every client and records each step in the `runs` table.
-One client failing doesn't stop the others, and `python -m runner --retry-failed`
-re-runs whatever failed in the last week. `--client` and `--anchor` target one
-client or week.
+`runner` pulls and cleans every client, builds its report and records each step
+in the `runs` table. One client failing doesn't stop the others, and
+`python -m runner --retry-failed` re-runs whatever failed in the last week.
+`--client` and `--anchor` target one client or week.
+
+Reports wait for a person. Nothing is emailed until one is approved, and locally
+the email lands in Mailpit at http://127.0.0.1:8025.
+
+    python -m delivery list
+    python -m delivery approve 12
+    python -m delivery send 12
+    python -m delivery retry 12
+
+`retry` is for a send that failed. A report stuck on `sending` is left for a
+person to check, because a late email beats a duplicate one.
 
 `pytest` runs the database tests too when `TEST_DATABASE_URL` is set, and skips
 them when it isn't.

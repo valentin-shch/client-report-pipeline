@@ -23,6 +23,16 @@ Stuff I know about. Not blocking.
   `--retry-failed` can't see them. A plain re-run covers them. Queued rows
   written up front would fix it properly.
 
+- A report stuck on `sending` means a process died mid-send and nobody knows if
+  the email went. On purpose it's never re-sent by itself; check the inbox, then
+  set the status by hand. A late email beats a duplicate one.
+
+- `--force` wipes a report's send history, so a forced resend doesn't count
+  towards that day's cap. A separate send log would fix both.
+
+- `DEMO_RECIPIENT` can appear in `reports.error` if the mail server refuses it,
+  and the app role can read that. Don't show raw errors on a public page.
+
 ## Won't fix
 
 - `clean.py` converts LinkedIn spend USD -> EUR. The raw file doesn't say it's

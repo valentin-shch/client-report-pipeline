@@ -64,3 +64,28 @@ def test_app_role_can_read_runs_but_not_change_them(db):
     db.execute("select * from runs")
     with pytest.raises(psycopg.errors.InsufficientPrivilege):
         db.execute("update runs set status = 'failed'")
+
+
+def add_report(db):
+    db.execute("""insert into reports (client, period, period_start, period_end, theme, subject, html)
+                  values ('A', 'last-week', '2025-03-03', '2025-03-09', 'northlight', 's', 'h')""")
+
+
+def test_app_role_can_move_a_report_on_but_not_change_what_it_says(db):
+    add_report(db)
+    db.execute("set role app")
+    db.execute("update reports set status = 'approved', approved_at = now()")
+    with pytest.raises(psycopg.errors.InsufficientPrivilege):
+        db.execute("update reports set html = 'hacked'")
+
+
+def test_app_role_cannot_add_reports(db):
+    db.execute("set role app")
+    with pytest.raises(psycopg.errors.InsufficientPrivilege):
+        add_report(db)
+
+
+def test_pipeline_role_can_save_reports(db):
+    db.execute("set role pipeline")
+    add_report(db)
+    db.execute("update reports set html = 'rebuilt'")
