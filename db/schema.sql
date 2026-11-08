@@ -83,8 +83,12 @@ CREATE TABLE IF NOT EXISTS runs (
     steps         jsonb NOT NULL DEFAULT '[]',
     dq_summary    jsonb,
     started_at    timestamptz NOT NULL DEFAULT now(),
-    finished_at   timestamptz
+    finished_at   timestamptz,
+    batch         text
 );
+
+-- For databases made before batches existed.
+ALTER TABLE runs ADD COLUMN IF NOT EXISTS batch text;
 
 -- status: pending -> approved -> sending -> sent, or send_failed. Sending is
 -- claimed with a single UPDATE so two clicks can never send two emails.

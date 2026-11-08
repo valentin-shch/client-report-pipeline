@@ -349,3 +349,12 @@ def test_retry_failed_refuses_force():
     with pytest.raises(SystemExit) as e:
         runner.main(["--retry-failed", "--force"])
     assert e.value.code == 2
+
+
+def test_one_batch_shares_one_batch_id_and_the_next_gets_its_own(db, pg_url, api, monkeypatch):
+    monkeypatch.setattr(runner, "ingest_client", lambda conn, api_, slug: (_ for _ in ()).throw(RuntimeError("skip")))
+    runner.run_all(pg_url, api, [target(SOLMAR), target(NORDFIT)], "schedule")
+    runner.run_all(pg_url, api, [target(SOLMAR)], "schedule")
+    batches = runs(db)["batch"].tolist()
+    assert batches[0] == batches[1] and batches[0]
+    assert batches[2] != batches[0]

@@ -1,16 +1,7 @@
-import sys
-from pathlib import Path
-
-_repo_root = Path(__file__).resolve().parent
-while not (_repo_root / "pipeline").is_dir():
-    _repo_root = _repo_root.parent
-sys.path[:0] = [str(_repo_root), str(_repo_root / "app")]
-
 import streamlit as st
 
 from lib import (
     CONFIDENCE_LEVELS,
-    MOBILE_CSS,
     available_weeks,
     client_alerts,
     clients,
@@ -21,9 +12,6 @@ from lib import (
     remembered_week_start,
     week_label,
 )
-
-st.set_page_config(page_title="Client Report Pipeline", layout="wide")
-st.markdown(MOBILE_CSS, unsafe_allow_html=True)
 
 st.title("Alerts")
 st.caption("What the pipeline flagged for the selected week, across every client. "
@@ -67,4 +55,4 @@ for client, alerts in results.items():
             st.caption(a.magnitude)
 
 st.divider()
-st.page_link("Report_Preview.py", label="Open a client's full report", icon="📄")
+st.page_link("app_pages/report_preview.py", label="Open a client's full report", icon="📄")

@@ -1,17 +1,6 @@
-import sys
-from pathlib import Path
-
-# Make both `lib` (this folder) and `reports`/`pipeline` (repo root) importable
-# whether Streamlit runs this from app/ or app/pages/.
-_repo_root = Path(__file__).resolve().parent
-while not (_repo_root / "pipeline").is_dir():
-    _repo_root = _repo_root.parent
-sys.path[:0] = [str(_repo_root), str(_repo_root / "app")]
-
 import streamlit as st
 
 from lib import (
-    MOBILE_CSS,
     SYNTHETIC_NOTE,
     available_weeks,
     build_preview,
@@ -24,9 +13,6 @@ from lib import (
     theme_names,
     week_label,
 )
-
-st.set_page_config(page_title="Client Report Pipeline", layout="wide")
-st.markdown(MOBILE_CSS, unsafe_allow_html=True)
 
 st.title("Client Report Pipeline")
 st.caption("Pick a client and a week to see the report the pipeline generates for them.")
@@ -70,7 +56,7 @@ html, alerts, period_label = build_preview(
 
 status = f"⚠️ {len(alerts)} alert(s) flagged" if alerts else "✓ nothing flagged"
 st.markdown(f"**{client}, week of {week_label(*week)}**  ·  {status}")
-st.page_link("pages/1_Alerts.py", label="See every client's alerts for a week", icon="⚠️")
+st.page_link("app_pages/alerts.py", label="See every client's alerts for a week", icon="⚠️")
 
 st.download_button(
     "Download this report (HTML)",

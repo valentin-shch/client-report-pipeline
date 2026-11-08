@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import sys
 import time
+import uuid
 from dataclasses import dataclass
 from datetime import date, datetime, timezone
 
@@ -84,11 +85,11 @@ def failed_targets(conn: psycopg.Connection) -> list[RunTarget]:
             if status == "failed" and client in slugs]
 
 
-def _start(conn: psycopg.Connection, t: RunTarget, trigger: str) -> int:
+def _start(conn: psycopg.Connection, t: RunTarget, trigger: str, batch: str | None) -> int:
     return conn.execute("""
-        INSERT INTO runs (client, period, anchor, period_start, period_end, trigger, status)
-        VALUES (%s, %s, %s, %s, %s, %s, 'running') RETURNING id""",
-                        (t.name, t.period, t.anchor, t.start, t.end, trigger)).fetchone()[0]
+        INSERT INTO runs (client, period, anchor, period_start, period_end, trigger, status, batch)
+        VALUES (%s, %s, %s, %s, %s, %s, 'running', %s) RETURNING id""",
+                        (t.name, t.period, t.anchor, t.start, t.end, trigger, batch)).fetchone()[0]
 
 
 def _begin_step(conn: psycopg.Connection, run_id: int, step: str) -> float:
@@ -130,11 +131,11 @@ def _work(conn: psycopg.Connection, run_id: int, api: AdsApi, t: RunTarget,
 
 
 def run_client(url: str | None, api: AdsApi, t: RunTarget, trigger: str,
-               force: bool = False) -> RunResult:
+               force: bool = False, batch: str | None = None) -> RunResult:
     # A connection per phase: if the database drops mid-work (Neon suspends),
     # recording the failure still gets a working one.
     with connect(url) as conn:
-        run_id = _start(conn, t, trigger)
+        run_id = _start(conn, t, trigger, batch)
 
     retries_before = api.retries
     status, error, dq, report, alerts = "succeeded", None, None, None, 0
@@ -167,10 +168,11 @@ def _record(url: str | None, outcome: tuple) -> None:
 
 def run_all(url: str | None, api: AdsApi, targets: list[RunTarget], trigger: str,
             force: bool = False) -> list[RunResult]:
-    results = []
+    # One id for the whole batch, so "the last run" means the clients run together.
+    results, batch = [], uuid.uuid4().hex
     for t in targets:
         try:
-            results.append(run_client(url, api, t, trigger, force))
+            results.append(run_client(url, api, t, trigger, force, batch))
         except psycopg.Error as e:
             # run_client records its own failures. This one is the database
             # refusing even that, and it still mustn't stop the next client.

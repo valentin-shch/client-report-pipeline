@@ -4,3 +4,5 @@ gatherUsageStats = false
 [client]
 # This is opened from a cold email, so keep the Streamlit chrome out of the way.
 toolbarMode = "minimal"
+# A public page: an unexpected error shows its type, never a traceback with file paths.
+showErrorDetails = "type"
