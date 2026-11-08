@@ -3,23 +3,36 @@ which can read everything and change nothing but a report's status."""
 
 from __future__ import annotations
 
+import hmac
 import os
 
 import pandas as pd
 import psycopg
 import streamlit as st
 
+from delivery.mailer import SmtpMailer
+from delivery.send import approve, retry_send, send_report
 from pipeline.db import read_frame
+
+MAX_WRONG_PASSCODES = 5
+
+
+def _setting(name: str) -> str | None:
+    value = os.environ.get(name)
+    if value:
+        return value
+    try:
+        return st.secrets.get(name)
+    except FileNotFoundError:  # no secrets.toml at all, the usual case locally
+        return None
 
 
 def database_url() -> str | None:
-    url = os.environ.get("APP_DATABASE_URL")
-    if url:
-        return url
-    try:
-        return st.secrets.get("APP_DATABASE_URL")
-    except FileNotFoundError:  # no secrets.toml at all, the usual case locally
-        return None
+    return _setting("APP_DATABASE_URL")
+
+
+def approval_passcode() -> str | None:
+    return _setting("APPROVAL_PASSCODE")
 
 
 def stop_if_unavailable(load, *args):
@@ -62,3 +75,56 @@ def error_type(error: str | None) -> str:
     # Only the exception's name goes on a public page: the message can carry
     # host names, or the demo inbox's address.
     return (error or "").split(":", 1)[0]
+
+
+@st.cache_data(ttl=60, show_spinner=False)
+def load_reports(url: str, limit: int = 30) -> pd.DataFrame:
+    with psycopg.connect(url, connect_timeout=10) as conn:
+        return read_frame(conn, """
+            SELECT id, run_id, client, period_start, period_end, subject, status, error,
+                   jsonb_array_length(alerts) AS alerts, approved_at, sent_at, created_at
+            FROM reports ORDER BY coalesce(sent_at, approved_at, created_at) DESC LIMIT %s""", (limit,))
+
+
+@st.cache_data(ttl=60, show_spinner=False, max_entries=20)
+def report_html(url: str, report_id: int) -> str:
+    with psycopg.connect(url, connect_timeout=10) as conn:
+        return conn.execute("SELECT html FROM reports WHERE id = %s", (report_id,)).fetchone()[0]
+
+
+def try_passcode(url: str, entered: str, passcode: str) -> str:
+    """"ok", "wrong" or "locked". The count is in the database, so a fresh
+    session or a second tab doesn't reset it."""
+    with psycopg.connect(url, connect_timeout=10) as conn:
+        wrong = conn.execute("""SELECT count(*) FROM approval_attempts
+                                WHERE NOT ok AND at > now() - interval '1 hour'""").fetchone()[0]
+        if wrong >= MAX_WRONG_PASSCODES:
+            return "locked"  # not recorded, so waiting it out really ends it
+        ok = hmac.compare_digest(entered.encode(), passcode.encode())
+        conn.execute("INSERT INTO approval_attempts (ok) VALUES (%s)", (ok,))
+    return "ok" if ok else "wrong"
+
+
+def approve_and_send(url: str, report_id: int, run_id: int) -> str:
+    try:
+        mailer = SmtpMailer.from_env()
+    except RuntimeError:
+        return "no_mailer"  # checked before approving, so nothing is left half done
+    with psycopg.connect(url, connect_timeout=10) as conn:
+        if not approve(conn, report_id, run_id):
+            outcome = "changed"
+        else:
+            outcome = send_report(conn, report_id, mailer)
+    st.cache_data.clear()
+    return outcome
+
+
+def retry(url: str, report_id: int) -> str:
+    try:
+        mailer = SmtpMailer.from_env()
+    except RuntimeError:
+        return "no_mailer"
+    with psycopg.connect(url, connect_timeout=10) as conn:
+        outcome = retry_send(conn, report_id, mailer)
+    st.cache_data.clear()
+    return outcome

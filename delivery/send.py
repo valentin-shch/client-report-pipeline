@@ -26,10 +26,13 @@ def recipients_for(client: str) -> list[str]:
     return [demo] if demo else config["recipients"]
 
 
-def approve(conn: psycopg.Connection, report_id: int) -> bool:
+def approve(conn: psycopg.Connection, report_id: int, run_id: int | None = None) -> bool:
+    """With a run_id, only approves the report as that run built it: a re-run
+    may have replaced the HTML since the person looked."""
     row = conn.execute("""
         UPDATE reports SET status = 'approved', approved_at = now()
-        WHERE id = %s AND status = 'pending' RETURNING id""", (report_id,)).fetchone()
+        WHERE id = %s AND status = 'pending' AND (%s::bigint IS NULL OR run_id = %s)
+        RETURNING id""", (report_id, run_id, run_id)).fetchone()
     conn.commit()
     return row is not None
 
@@ -41,7 +44,7 @@ def _sends_today(conn: psycopg.Connection) -> int:
 
 
 def send_report(conn: psycopg.Connection, report_id: int, mailer, cap: int | None = None) -> str:
-    """"sent", "failed", "not_approved", "not_found" or "cap_reached"."""
+    """"sent", "failed", "not_approved", "not_found", "no_recipients" or "cap_reached"."""
     row = conn.execute("SELECT client, status FROM reports WHERE id = %s", (report_id,)).fetchone()
     conn.commit()
     if row is None:
@@ -50,7 +53,10 @@ def send_report(conn: psycopg.Connection, report_id: int, mailer, cap: int | Non
     if status != "approved":
         return "not_approved"
 
-    to = recipients_for(client)
+    try:
+        to = recipients_for(client)
+    except ValueError:  # misconfigured, not a failed send: nothing is claimed
+        return "no_recipients"
     cap = cap if cap is not None else int(os.environ.get("DAILY_SEND_CAP", DAILY_SEND_CAP))
     # Counting and claiming under one lock, or concurrent sends of different
     # reports all see room under the cap. Released by the commit.

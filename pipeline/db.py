@@ -17,7 +17,7 @@ import pandas as pd
 import psycopg
 
 SQL_DIR = Path(__file__).resolve().parent.parent / "db"
-TABLES = ("raw_ads", "raw_deals", "raw_fx", "clean_ads", "clean_deals", "runs", "reports")
+TABLES = ("raw_ads", "raw_deals", "raw_fx", "clean_ads", "clean_deals", "runs", "reports", "approval_attempts")
 
 
 def connect(url: str | None = None) -> psycopg.Connection:

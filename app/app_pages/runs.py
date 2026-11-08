@@ -52,6 +52,7 @@ with st.container(border=True):
         st.markdown(outcome(run))
 
 # The top menu folds behind a button on a phone, so the other pages are linked here too.
+st.page_link("app_pages/approvals.py", label="Approvals", icon=":material/send:")
 st.page_link("app_pages/report_preview.py", label="Report preview", icon=":material/description:")
 st.page_link("app_pages/alerts.py", label="Alerts", icon=":material/warning:")
 

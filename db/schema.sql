@@ -112,3 +112,10 @@ CREATE TABLE IF NOT EXISTS reports (
     sent_at      timestamptz,
     UNIQUE (client, period, period_start, theme)
 );
+
+-- Passcode tries on the Approvals page. Five wrong ones in an hour lock
+-- approvals for everyone, so guessing is slow even across sessions.
+CREATE TABLE IF NOT EXISTS approval_attempts (
+    at timestamptz NOT NULL DEFAULT now(),
+    ok boolean NOT NULL
+);

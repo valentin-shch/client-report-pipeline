@@ -224,12 +224,34 @@ def test_demo_recipient_replaces_every_address(monkeypatch):
     assert recipients_for(SOLMAR) == ["me@example.org"]
 
 
-def test_an_unknown_client_fails_without_claiming_the_report(db, monkeypatch):
-    monkeypatch.delenv("DEMO_RECIPIENT", raising=False)
+def test_an_unknown_client_is_refused_without_claiming_the_report(db):
     report = add_report(db, client="Nobody Ltd")
-    with pytest.raises(ValueError, match="Nobody Ltd"):
-        send_report(db, report, FakeMailer())
+    assert send_report(db, report, FakeMailer()) == "no_recipients"
     assert row(db, report)["status"] == "approved"
+
+
+def test_approving_what_was_previewed(db):
+    report = add_report(db, "pending")
+    run_id = add_run_for(db, report)
+    assert approve(db, report, run_id) is True
+
+
+def test_a_report_rebuilt_since_the_preview_is_not_approved(db):
+    report = add_report(db, "pending")
+    seen = add_run_for(db, report)
+    add_run_for(db, report)  # a re-run rebuilt it after the visitor looked
+    assert approve(db, report, seen) is False
+    assert row(db, report)["status"] == "pending"
+
+
+def add_run_for(db, report_id):
+    run_id = db.execute("""
+        insert into runs (client, period, anchor, period_start, period_end, trigger, status)
+        values ('Solmar Hotels', 'last-week', '2025-03-19', '2025-03-10', '2025-03-16', 'manual', 'succeeded')
+        returning id""").fetchone()[0]
+    db.execute("update reports set run_id = %s where id = %s", (run_id, report_id))
+    db.commit()
+    return run_id
 
 
 def test_the_app_role_can_approve_and_send(db):

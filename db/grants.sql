@@ -12,3 +12,4 @@ GRANT USAGE ON SEQUENCE reports_id_seq TO pipeline;
 -- change what a report says.
 GRANT SELECT ON reports TO app;
 GRANT UPDATE (status, error, approved_at, claimed_at, sent_at) ON reports TO app;
+GRANT SELECT, INSERT ON approval_attempts TO app;
