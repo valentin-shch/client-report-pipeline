@@ -41,6 +41,12 @@ class SmtpMailer:
                    os.environ.get("SMTP_TLS", "on") != "off", smtp)
 
     def send(self, to: list[str], subject: str, html: str) -> None:
+        # clients.toml holds example.com addresses because the repo is public.
+        # Through a real server they'd only bounce, so a deployment that forgot
+        # DEMO_RECIPIENT fails here, visibly, instead.
+        placeholders = [a for a in to if a.lower().endswith("example.com")]
+        if placeholders and self.host not in ("127.0.0.1", "localhost"):
+            raise ValueError("placeholder recipient on a real mail server; set DEMO_RECIPIENT")
         message = EmailMessage()
         message["From"], message["To"], message["Subject"] = self.sender, ", ".join(to), subject
         message["Date"] = formatdate()

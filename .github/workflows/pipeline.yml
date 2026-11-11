@@ -1,0 +1,70 @@
+name: Weekly pipeline
+
+# Every Monday: pull each client's data from the ad API, clean it, build the
+# report and leave it waiting for approval. Also runnable by hand from the
+# Actions tab, including "re-run only what failed".
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      retry_failed:
+        description: Re-run only what failed in the last week (ignores the options below)
+        type: boolean
+        default: false
+      client:
+        description: Client
+        type: choice
+        default: all
+        options: [all, solmar-hotels, nordfit-equipment, clinica-vantia]
+      anchor:
+        description: Measure the week back from this date, YYYY-MM-DD (empty means today)
+        required: false
+        default: ""
+      force:
+        description: Rebuild reports even if already approved or sent
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+# Two runs at once would race on the same rows; queue them instead.
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run the pipeline
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          ADSAPI_URL: ${{ secrets.ADSAPI_URL }}
+          ADSAPI_KEY: ${{ secrets.ADSAPI_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          # inputs go through env, never straight into the script text
+          EVENT: ${{ github.event_name }}
+          RETRY: ${{ inputs.retry_failed }}
+          CLIENT: ${{ inputs.client }}
+          ANCHOR: ${{ inputs.anchor }}
+          FORCE: ${{ inputs.force }}
+        run: |
+          if [ "$RETRY" = "true" ]; then
+            python -m runner --retry-failed
+            exit
+          fi
+          args=(--client "${CLIENT:-all}")
+          if [ "$EVENT" = "schedule" ]; then args+=(--trigger schedule); else args+=(--trigger manual); fi
+          if [ -n "$ANCHOR" ]; then args+=(--anchor "$ANCHOR"); fi
+          if [ "$FORCE" = "true" ]; then args+=(--force); fi
+          python -m runner "${args[@]}"

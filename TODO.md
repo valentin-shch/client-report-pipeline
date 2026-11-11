@@ -30,8 +30,18 @@ Stuff I know about. Not blocking.
 - `--force` wipes a report's send history, so a forced resend doesn't count
   towards that day's cap. A separate send log would fix both.
 
+- Five wrong passcodes lock approvals for everyone for an hour, the owner
+  included, so a stranger could keep them locked. Fine for a demo; a real
+  deployment would sign the owner in instead.
+
 - `DEMO_RECIPIENT` can appear in `reports.error` if the mail server refuses it,
   and the app role can read that. Don't show raw errors on a public page.
+
+- GitHub turns off scheduled workflows in a repo with no activity for 60 days.
+  A push now and then keeps the Monday run alive; it's worth a calendar note.
+
+- The committed `data/` and the file-mode `reports.run` still exist alongside
+  the live pipeline. Tests and `samples/` use them; nothing live does.
 
 ## Won't fix
 

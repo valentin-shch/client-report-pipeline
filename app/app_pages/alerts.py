@@ -1,13 +1,13 @@
 import streamlit as st
 
+from control import load_clean_ads, stop_if_unavailable
 from lib import (
     CONFIDENCE_LEVELS,
-    available_weeks,
+    shared_weeks,
     client_alerts,
     clients,
-    default_week_start,
+    default_selection,
     filter_confidence,
-    load_ads,
     remember_week_start,
     remembered_week_start,
     week_label,
@@ -17,9 +17,12 @@ st.title("Alerts")
 st.caption("What the pipeline flagged for the selected week, across every client. "
            "The same checks that go into each report's “worth a look” section.")
 
-ads = load_ads()
-weeks = available_weeks(ads, clients(ads)[0])
-want_start = remembered_week_start(weeks, default_week_start())
+ads = stop_if_unavailable(load_clean_ads)
+weeks = shared_weeks(ads)
+if not weeks:
+    st.markdown("No data yet. Alerts appear here once every client has a full week.")
+    st.stop()
+want_start = remembered_week_start(weeks, default_selection(ads)[1])
 week_index = next(
     (i for i, w in enumerate(weeks) if w[0].strftime("%Y-%m-%d") == want_start),
     len(weeks) - 1,
@@ -33,7 +36,8 @@ min_conf = right.segmented_control(
 ) or CONFIDENCE_LEVELS[0]
 
 week_end = week[1].strftime("%Y-%m-%d")
-results = {c: filter_confidence(client_alerts(c, week_end), min_conf) for c in clients(ads)}
+results = {c: filter_confidence(stop_if_unavailable(client_alerts, c, week_end), min_conf)
+           for c in clients(ads)}
 
 flagged = sum(1 for v in results.values() if v)
 total = sum(len(v) for v in results.values())
@@ -42,7 +46,8 @@ st.markdown(
     f"{'' if total == 1 else 's'}** for the week of {week_label(*week)}."
 )
 
-for client, alerts in results.items():
+# Flagged clients first, so on a phone the ones with something to say are on top.
+for client, alerts in sorted(results.items(), key=lambda item: not item[1]):
     st.subheader(client)
     if not alerts:
         st.caption("✓ Nothing flagged")

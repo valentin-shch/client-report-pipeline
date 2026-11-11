@@ -189,3 +189,49 @@ def test_recent_shows_the_latest_send_first(db, app_env):
     db.commit()
     subjects = [m.value for m in open_page().markdown if m.value.startswith("**") and "Week of" in m.value]
     assert subjects[0].startswith("**Clinica Vantia")
+
+
+def rebuild(db, report):
+    newer = db.execute("""insert into runs (client, period, anchor, period_start, period_end, trigger, status)
+                          values ('Solmar Hotels', 'last-week', '2025-03-19', '2025-03-10', '2025-03-16',
+                                  'manual', 'succeeded') returning id""").fetchone()[0]
+    db.execute("update reports set run_id = %s, html = '<p>rebuilt</p>' where id = %s", (newer, report))
+    db.commit()
+
+
+def test_a_rebuild_is_refused_even_after_the_cache_expires(db, app_env):
+    # the binding has to come from what was on screen, not from a fresh read
+    report = add_report(db)
+    at = unlock(open_page())
+    rebuild(db, report)
+    st.cache_data.clear()
+    at = at.button(key=f"send-{report}").click().run()
+    assert status(db, report) == "pending"
+    assert FakeMailer.sent == []
+
+
+def test_a_click_without_unlocking_sends_nothing(db, app_env):
+    # disabled is only the button's look; the action checks for itself
+    report = add_report(db)
+    at = open_page()
+    at.button(key=f"send-{report}").set_value(True).run()
+    assert status(db, report) == "pending"
+    assert FakeMailer.sent == []
+
+
+def test_the_lock_lasts_an_hour_from_the_fifth_wrong_try(db, app_env):
+    report = add_report(db)
+    record_failures(db, 4, hours_ago=65 / 60)
+    record_failures(db, 1, hours_ago=15 / 60)  # the fifth inside an hour of the first four
+    at = unlock(open_page())
+    assert "locked" in shown(at).lower()
+    assert at.button(key=f"send-{report}").disabled
+
+
+def test_a_report_without_a_run_has_no_send_button(db, app_env):
+    report = add_report(db)
+    db.execute("update reports set run_id = null where id = %s", (report,))
+    db.commit()
+    at = unlock(open_page())
+    assert not at.exception
+    assert f"send-{report}" not in [b.key for b in at.button]

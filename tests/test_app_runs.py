@@ -176,3 +176,16 @@ def test_an_abandoned_run_says_so_instead_of_a_misleading_duration(db, app_url):
     label = cards(run_page(app_url))[0].label
     assert "abandoned" in label
     assert "3720 s" not in label
+
+
+@pytest.mark.parametrize("page", ["app_pages/report_preview.py", "app_pages/alerts.py"])
+def test_no_clean_data_yet_is_said_plainly(app_url, page):
+    os.environ["APP_DATABASE_URL"] = app_url
+    try:
+        at = AppTest.from_file(ENTRY, default_timeout=60)
+        at.switch_page(page)
+        at.run()
+    finally:
+        del os.environ["APP_DATABASE_URL"]
+    assert not at.exception
+    assert "No data yet" in text(at)

@@ -78,7 +78,7 @@ database: CSV to parquet to disk. No external services, no API keys.
     python pipeline/clean.py
     pytest
     python -m reports.run --client all --period last-week
-    streamlit run app/Report_Preview.py
+    streamlit run app/streamlit_app.py
 
 With Docker running, this is the live route: a fake ad platform API and Postgres,
 pulled incrementally and cleaned per client. Copy `.env.example` to `.env` first.
@@ -119,12 +119,23 @@ The committed samples cover both themes and weeks chosen to show each alert type
 
 ## Scheduling
 
-The CLI is one unattended command. `.github/workflows/reports.yml` runs the whole
-pipeline every Monday and uploads the reports as an artifact. In cron:
-
-    0 6 * * 1  cd /path/to/repo && python -m reports.run --client all --period last-week --out /var/reports
+`.github/workflows/pipeline.yml` runs `python -m runner --trigger schedule` every
+Monday at 06:00 UTC. The Actions tab has a manual button too: one client, a
+chosen week, or only what failed last time. `tests.yml` runs the tests on every
+push against a real Postgres, and scans for committed secrets.
 
 ## Deploying
 
-Streamlit Community Cloud runs the repo as committed (no build step; `data/` is
-in the repo). Point it at `app/Report_Preview.py`; nothing to configure.
+Four free services, each holding only the settings it needs:
+
+- **Neon** (Postgres). Create the `pipeline` and `app` roles with `CREATE ROLE` in
+  the SQL Editor, not from the dashboard: roles made there can write every table.
+  Then run `python -m pipeline.db init` once with the owner's connection string.
+- **Render** (the fake ad API). A Docker web service from `adsapi/Dockerfile`,
+  built from the repo root, with `ADSAPI_KEY`, `FAULT_RATE` and
+  `RATE_LIMIT_PER_MIN`. The free tier sleeps; the first Monday request wakes it.
+- **GitHub Actions secrets**: `DATABASE_URL` (the pipeline role), `ADSAPI_URL`,
+  `ADSAPI_KEY` and, optionally, `SLACK_WEBHOOK_URL`.
+- **Streamlit Community Cloud**: main file `app/streamlit_app.py`, with secrets
+  `APP_DATABASE_URL` (the app role), `APPROVAL_PASSCODE`, the `SMTP_` settings and
+  `DEMO_RECIPIENT`, the one inbox every approved report goes to.

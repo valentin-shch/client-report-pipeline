@@ -15,6 +15,7 @@ from delivery.send import approve, retry_send, send_report
 from pipeline.db import read_frame
 
 MAX_WRONG_PASSCODES = 5
+PASSCODE_LOCK = 7402  # any fixed number, distinct from the send lock
 
 
 def _setting(name: str) -> str | None:
@@ -87,18 +88,30 @@ def load_reports(url: str, limit: int = 30) -> pd.DataFrame:
 
 
 @st.cache_data(ttl=60, show_spinner=False, max_entries=20)
-def report_html(url: str, report_id: int) -> str:
+def report_html(url: str, report_id: int, run_id: int) -> str | None:
+    """The report as that run built it, or None if a later run has replaced it."""
     with psycopg.connect(url, connect_timeout=10) as conn:
-        return conn.execute("SELECT html FROM reports WHERE id = %s", (report_id,)).fetchone()[0]
+        row = conn.execute("SELECT html FROM reports WHERE id = %s AND run_id = %s",
+                           (report_id, run_id)).fetchone()
+    return row[0] if row else None
 
 
 def try_passcode(url: str, entered: str, passcode: str) -> str:
     """"ok", "wrong" or "locked". The count is in the database, so a fresh
     session or a second tab doesn't reset it."""
     with psycopg.connect(url, connect_timeout=10) as conn:
-        wrong = conn.execute("""SELECT count(*) FROM approval_attempts
-                                WHERE NOT ok AND at > now() - interval '1 hour'""").fetchone()[0]
-        if wrong >= MAX_WRONG_PASSCODES:
+        # One check at a time across every session, or parallel guesses would
+        # all see room under the limit.
+        conn.execute("SELECT pg_advisory_xact_lock(%s)", (PASSCODE_LOCK,))
+        # Locked for an hour from the fifth wrong try in any hour, not merely
+        # while five sit in the last hour, which lets a guesser pace themselves.
+        locked = conn.execute("""
+            SELECT coalesce(max(at) + interval '1 hour' > now(), false) FROM (
+                SELECT at, count(*) OVER (ORDER BY at RANGE BETWEEN interval '1 hour' PRECEDING
+                                          AND CURRENT ROW) AS n
+                FROM approval_attempts WHERE NOT ok AND at > now() - interval '2 hours') tries
+            WHERE n >= %s""", (MAX_WRONG_PASSCODES,)).fetchone()[0]
+        if locked:
             return "locked"  # not recorded, so waiting it out really ends it
         ok = hmac.compare_digest(entered.encode(), passcode.encode())
         conn.execute("INSERT INTO approval_attempts (ok) VALUES (%s)", (ok,))
@@ -115,8 +128,14 @@ def approve_and_send(url: str, report_id: int, run_id: int) -> str:
             outcome = "changed"
         else:
             outcome = send_report(conn, report_id, mailer)
-    st.cache_data.clear()
+    _forget_reports()
     return outcome
+
+
+def _forget_reports() -> None:
+    # Only the report lists: the shared clean-data and preview caches stay warm.
+    load_reports.clear()
+    report_html.clear()
 
 
 def retry(url: str, report_id: int) -> str:
@@ -126,5 +145,13 @@ def retry(url: str, report_id: int) -> str:
         return "no_mailer"
     with psycopg.connect(url, connect_timeout=10) as conn:
         outcome = retry_send(conn, report_id, mailer)
-    st.cache_data.clear()
+    _forget_reports()
     return outcome
+
+
+@st.cache_data(ttl=600, show_spinner="Loading the data…")
+def load_clean_ads(url: str) -> pd.DataFrame:
+    with psycopg.connect(url, connect_timeout=10) as conn:
+        ads = read_frame(conn, "SELECT * FROM clean_ads ORDER BY client, date, channel, campaign_name")
+    ads["date"] = pd.to_datetime(ads["date"])
+    return ads

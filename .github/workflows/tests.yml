@@ -1,0 +1,45 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_PASSWORD: postgres-ci-only
+        ports:
+          - "5432:5432"
+        options: >-
+          --health-cmd "pg_isready -U postgres"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    env:
+      TEST_DATABASE_URL: postgresql://postgres:postgres-ci-only@127.0.0.1:5432/crp_test
+      TEST_APP_DATABASE_URL: postgresql://app:app-local-only@127.0.0.1:5432/crp_test
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # the secret scan reads the whole history
+      - name: Scan for committed secrets
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # The same database and roles docker compose creates locally.
+      - name: Create the test database and roles
+        run: psql "postgresql://postgres:postgres-ci-only@127.0.0.1:5432/postgres" -f db/local-init.sql
+      - run: pytest -q

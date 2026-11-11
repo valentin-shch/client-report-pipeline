@@ -296,6 +296,7 @@ def smtp_env(monkeypatch, **overrides):
     for key, value in env.items():
         monkeypatch.setenv(key, value)
     StubSmtp.error = StubSmtp.quit_error = None
+    StubSmtp.calls = []
 
 
 def sent_message():
@@ -305,7 +306,7 @@ def sent_message():
 def test_mailer_verifies_the_servers_certificate(monkeypatch):
     # plain starttls() accepts any certificate, and the password goes next
     smtp_env(monkeypatch)
-    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.com"], "S", "<p>h</p>")
+    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.org"], "S", "<p>h</p>")
     context = next(c[1] for c in StubSmtp.calls if c[0] == "starttls")
     assert context.verify_mode == ssl.CERT_REQUIRED
     assert context.check_hostname is True
@@ -313,7 +314,7 @@ def test_mailer_verifies_the_servers_certificate(monkeypatch):
 
 def test_mailer_sets_the_headers_mail_providers_expect(monkeypatch):
     smtp_env(monkeypatch)
-    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.com"], "S", "<p>h</p>")
+    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.org"], "S", "<p>h</p>")
     message = sent_message()
     assert parsedate_to_datetime(message["Date"]) is not None
     assert message["Message-ID"].endswith("@example.com>")
@@ -325,7 +326,7 @@ def test_a_failure_after_the_server_took_the_message_is_not_a_failure(monkeypatc
     # reporting this as failed would make a retry send the email twice
     smtp_env(monkeypatch)
     StubSmtp.quit_error = error
-    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.com"], "S", "<p>h</p>")
+    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.org"], "S", "<p>h</p>")
     assert sent_message() is not None
 
 
@@ -333,16 +334,16 @@ def test_a_failure_before_sending_closes_the_connection_and_raises(monkeypatch):
     smtp_env(monkeypatch)
     StubSmtp.error = smtplib.SMTPAuthenticationError(535, b"no")
     with pytest.raises(smtplib.SMTPAuthenticationError):
-        SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.com"], "S", "<p>h</p>")
+        SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.org"], "S", "<p>h</p>")
     assert StubSmtp.calls[-1] == ("close",)
 
 
 def test_mailer_uses_tls_and_logs_in(monkeypatch):
     smtp_env(monkeypatch)
-    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.com"], "Subject", "<p>hi</p>")
+    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.org"], "Subject", "<p>hi</p>")
     assert [c[0] for c in StubSmtp.calls] == ["connect", "starttls", "login", "send", "quit"]
     message = sent_message()
-    assert message["To"] == "a@example.com"
+    assert message["To"] == "a@example.org"
     assert message["From"] == "reports@example.com"
     assert message["Subject"] == "Subject"
     assert message.get_body(("html",)).get_content().strip() == "<p>hi</p>"
@@ -351,7 +352,7 @@ def test_mailer_uses_tls_and_logs_in(monkeypatch):
 
 def test_mailer_without_tls_or_login_for_a_local_inbox(monkeypatch):
     smtp_env(monkeypatch, SMTP_TLS="off", SMTP_USER="", SMTP_PASSWORD="")
-    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.com"], "S", "<p>h</p>")
+    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.org"], "S", "<p>h</p>")
     assert [c[0] for c in StubSmtp.calls] == ["connect", "send", "quit"]
 
 
@@ -362,7 +363,7 @@ def test_mailer_sends_images_as_inline_attachments(monkeypatch):
     other = base64.b64encode(b"png-two").decode()
     html = f'<img src="data:image/png;base64,{png}" alt="a"><img alt="b" src="data:image/png;base64,{other}">'
     smtp_env(monkeypatch)
-    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.com"], "S", html)
+    SmtpMailer.from_env(smtp=StubSmtp).send(["a@example.org"], "S", html)
 
     message = sent_message()
     body = message.get_body(("html",)).get_content()
@@ -470,3 +471,25 @@ def test_cli_lists_approves_and_sends(db, pg_url, monkeypatch, capsys):
     assert cli.main(["send", str(report)]) == 1
     assert "not_approved" in capsys.readouterr().out
     assert len(mailer.sent) == 1
+
+
+def test_a_real_mail_server_refuses_placeholder_addresses(monkeypatch):
+    # clients.toml uses example.com because the repo is public; on a real server a
+    # missing DEMO_RECIPIENT should fail loudly, not bounce
+    smtp_env(monkeypatch, SMTP_HOST="smtp.resend.com")
+    with pytest.raises(ValueError, match="DEMO_RECIPIENT"):
+        SmtpMailer.from_env(smtp=StubSmtp).send(["marketing@solmar.example.com"], "S", "<p>h</p>")
+    assert not any(c[0] == "send" for c in StubSmtp.calls)
+
+
+def test_a_local_inbox_accepts_placeholder_addresses(monkeypatch):
+    smtp_env(monkeypatch, SMTP_HOST="127.0.0.1", SMTP_TLS="off", SMTP_USER="", SMTP_PASSWORD="")
+    SmtpMailer.from_env(smtp=StubSmtp).send(["marketing@solmar.example.com"], "S", "<p>h</p>")
+    assert sent_message()["To"] == "marketing@solmar.example.com"
+
+
+def test_a_refused_placeholder_send_is_recorded_as_failed(db, monkeypatch):
+    smtp_env(monkeypatch, SMTP_HOST="smtp.resend.com")
+    report = add_report(db)
+    assert send_report(db, report, SmtpMailer.from_env(smtp=StubSmtp)) == "failed"
+    assert "DEMO_RECIPIENT" in row(db, report)["error"]

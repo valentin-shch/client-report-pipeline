@@ -1,7 +1,10 @@
+import pandas as pd
 import streamlit as st
 
-from control import (approval_passcode, approve_and_send, error_type, load_reports, report_html,
-                     retry, stop_if_unavailable, try_passcode)
+import psycopg
+
+from control import (approval_passcode, approve_and_send, database_url, error_type, load_reports,
+                     report_html, retry, stop_if_unavailable, try_passcode)
 from lib import report_frame
 
 st.title("Approvals")
@@ -24,7 +27,8 @@ elif not st.session_state.unlocked:
                 st.session_state.unlocked = True
                 st.rerun()
             elif outcome == "locked":
-                st.error("Too many wrong tries. Approvals are locked for an hour.", icon=":material/lock:")
+                st.error("Too many wrong tries. Approvals are locked for up to an hour.",
+                         icon=":material/lock:")
             else:
                 st.error("Wrong passcode.")
 
@@ -45,13 +49,20 @@ MESSAGES = {
     "not_found": ("warning", "This report no longer exists."),
     "failed": ("error", "The email couldn't be sent. It's listed below with a Retry button."),
     "no_mailer": ("error", "Email isn't set up here, so nothing was approved."),
+    "unavailable": ("warning", "The database didn't answer. Nothing was sent; try again shortly."),
 }
 
 
 def act(action, *args) -> None:
-    outcome = stop_if_unavailable(action, *args)
+    """A button callback. Its arguments were fixed when the button was drawn, so
+    the run_id is the one the visitor was looking at, however long ago."""
+    if not (approval_passcode() is not None and st.session_state.get("unlocked")):
+        return  # a disabled button can't be pressed, but don't rely on that alone
+    try:
+        outcome = action(database_url(), *args)
+    except psycopg.Error:
+        outcome = "unavailable"
     st.session_state.outcome_note = MESSAGES.get(outcome, ("info", outcome))
-    st.rerun()
 
 
 def heading(report) -> None:
@@ -67,12 +78,19 @@ if pending.empty:
 for _, report in pending.iterrows():
     with st.container(border=True):
         heading(report)
+        if pd.isna(report["run_id"]):
+            st.caption("Not built by a run, so it can't be approved here.")
+            continue
+        report_id, run_id = int(report["id"]), int(report["run_id"])
         # Previews are loaded only when asked for: each is a whole HTML email.
-        if st.toggle("Preview", key=f"preview-{report['id']}"):
-            report_frame(stop_if_unavailable(report_html, int(report["id"])))
-        if st.button("Approve and send", key=f"send-{report['id']}", type="primary",
-                     icon=":material/send:", disabled=not can_send):
-            act(approve_and_send, int(report["id"]), int(report["run_id"]))
+        if st.toggle("Preview", key=f"preview-{report_id}"):
+            html = stop_if_unavailable(report_html, report_id, run_id)
+            if html is None:
+                st.warning("This report has been rebuilt since the page loaded. Refresh to see it.")
+            else:
+                report_frame(html)
+        st.button("Approve and send", key=f"send-{report_id}", type="primary", icon=":material/send:",
+                  disabled=not can_send, on_click=act, args=(approve_and_send, report_id, run_id))
 
 st.subheader("Recent")
 done = reports[reports["status"] != "pending"]
@@ -85,8 +103,8 @@ for _, report in done.iterrows():
             st.markdown(f":green[:material/check_circle:] Sent {report['sent_at']:%d %b %Y, %H:%M} UTC")
         elif report["status"] == "send_failed":
             st.markdown(f":red[:material/error:] Failed to send ({error_type(report['error'])})")
-            if st.button("Retry", key=f"retry-{report['id']}", icon=":material/refresh:", disabled=not can_send):
-                act(retry, int(report["id"]))
+            st.button("Retry", key=f"retry-{report['id']}", icon=":material/refresh:", disabled=not can_send,
+                      on_click=act, args=(retry, int(report["id"])))
         elif report["status"] == "sending":
             st.markdown(":orange[:material/hourglass_top:] Stuck mid-send. Nobody knows whether the "
                         "email went: check the inbox before doing anything.")
