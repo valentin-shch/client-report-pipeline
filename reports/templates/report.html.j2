@@ -6,12 +6,14 @@
 <meta name="color-scheme" content="light only">
 <title>{{ client }}: {{ period_label }}</title>
 <style>
-  /* Layout is single-column already; this only tightens padding and type on
-     small screens. Clients that ignore it still get a usable report. */
+  /* Wide on a desktop: the numbers sit in one row and the channel charts side
+     by side. On a phone the numbers go two to a row and the charts stack.
+     Clients that ignore this still get a usable, if narrower, report. */
   @media (max-width: 600px) {
-    .container { width: 100% !important; border-radius: 0 !important; }
+    .container { border-radius: 0 !important; }
     .pad { padding-left: 18px !important; padding-right: 18px !important; }
-    .kpi-value { font-size: 24px !important; }
+    .kpi { width: 50% !important; }
+    .half { width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
   }
 </style>
 </head>
@@ -19,7 +21,7 @@
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f2f3f5;">
   <tr>
     <td align="center" style="padding:24px 12px;">
-      <table role="presentation" class="container" width="600" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px; background:#ffffff; border-radius:10px; overflow:hidden;">
+      <table role="presentation" class="container" width="760" cellpadding="0" cellspacing="0" style="width:100%; max-width:760px; background:#ffffff; border-radius:10px; overflow:hidden;">
 
         <tr>
           <td style="background:{{ accent }}; padding:22px 28px;">
@@ -40,20 +42,14 @@
         </tr>
 
         <tr>
-          <td class="pad" style="padding:12px 28px 4px;">
-            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-              {% for k in kpis %}
-              <tr>
-                <td style="padding:11px 0; border-bottom:1px solid #eceef1;">
-                  <div style="font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:#8a929c;">{{ k.label }}</div>
-                  <span class="kpi-value" style="font-size:22px; font-weight:700; vertical-align:middle;">{{ k.value }}</span>
-                  {% if k.delta %}
-                  <span style="font-size:14px; font-weight:{{ k.delta_weight }}; color:{{ k.delta_color }}; margin-left:6px; vertical-align:middle;">{{ k.delta }}</span>
-                  {% endif %}
-                </td>
-              </tr>
-              {% endfor %}
-            </table>
+          <td class="pad" style="padding:12px 28px 4px; font-size:0;">
+            {% for k in kpis %}<div class="kpi" style="display:inline-block; width:20%; vertical-align:top; font-size:14px;">
+              <div style="padding:11px 10px 11px 0; border-bottom:1px solid #eceef1;">
+                <div style="font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:#8a929c; white-space:nowrap;">{{ k.label }}</div>
+                <div style="font-size:22px; font-weight:700; margin-top:2px;">{{ k.value }}</div>
+                <div style="font-size:13px; font-weight:{{ k.delta_weight }}; color:{{ k.delta_color }}; margin-top:1px;">{% if k.delta %}{{ k.delta }}{% else %}&nbsp;{% endif %}</div>
+              </div>
+            </div>{% endfor %}
           </td>
         </tr>
 
@@ -96,13 +92,23 @@
           </td>
         </tr>
 
-        {% for c in charts %}
+        {% for c in charts[:1] %}
         <tr>
           <td class="pad" style="padding:18px 28px 0;">
-            <img src="{{ c.uri }}" alt="{{ c.alt }}" width="544" style="display:block; width:100%; max-width:544px; height:auto; border:0;">
+            <img src="{{ c.uri }}" alt="{{ c.alt }}" width="704" style="display:block; width:100%; max-width:704px; height:auto; border:0;">
           </td>
         </tr>
         {% endfor %}
+        {% if charts[1:] %}
+        <tr>
+          <td class="pad" style="padding:6px 28px 0; font-size:0;">
+            {% set pair = charts[1:] | length == 2 %}
+            {% for c in charts[1:] %}<div class="{{ 'half' if pair }}" style="display:inline-block; width:{{ '50%' if pair else '100%' }}; vertical-align:top; padding-top:12px; box-sizing:border-box; {{ ('padding-right:8px;' if loop.first else 'padding-left:8px;') if pair }}">
+              <img src="{{ c.uri }}" alt="{{ c.alt }}" style="display:block; width:100%; height:auto; border:0;">
+            </div>{% endfor %}
+          </td>
+        </tr>
+        {% endif %}
 
         <tr>
           <td class="pad" style="padding:26px 28px 30px;">

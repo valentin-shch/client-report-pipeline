@@ -47,7 +47,7 @@ def _finish(fig, alt: str) -> dict:
 
 
 def spend_revenue_by_day(daily: pd.DataFrame, accent: str) -> dict:
-    fig, ax = plt.subplots(figsize=(6.4, 3.4))
+    fig, ax = plt.subplots(figsize=(7.2, 3.2))
     ax.bar(daily["date"], daily["spend"], width=0.8, color=accent, label="Spend")
     ax.set_ylabel("Spend")
     ax.yaxis.set_major_formatter(_EUR)
@@ -77,7 +77,7 @@ def spend_revenue_by_day(daily: pd.DataFrame, accent: str) -> dict:
 
 def spend_by_channel(channel_df: pd.DataFrame, accent: str) -> dict:
     cb = channel_df.sort_values("spend")
-    fig, ax = plt.subplots(figsize=(6.4, 2.9))
+    fig, ax = plt.subplots(figsize=(4.4, 3.2))
     ax.barh(cb["channel"], cb["spend"], color=accent)
     ax.xaxis.set_major_formatter(_EUR)
     ax.grid(axis="y")
@@ -97,7 +97,7 @@ def roas_by_channel(current_cb: pd.DataFrame, prior_cb: pd.DataFrame, accent: st
 
     y = range(len(merged))
     bar_h = 0.38
-    fig, ax = plt.subplots(figsize=(6.4, 2.9))
+    fig, ax = plt.subplots(figsize=(4.4, 3.2))
     ax.barh([i + bar_h / 2 for i in y], merged["roas_cur"], height=bar_h,
             color=accent, label="This period")
     ax.barh([i - bar_h / 2 for i in y], merged["roas_prior"].fillna(0.0), height=bar_h,
@@ -107,6 +107,6 @@ def roas_by_channel(current_cb: pd.DataFrame, prior_cb: pd.DataFrame, accent: st
     ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f"{x:.1f}x"))
     ax.grid(axis="y")
     ax.margins(x=0.12)
-    ax.set_title("ROAS by channel vs previous period", loc="left")
+    ax.set_title("ROAS vs previous period", loc="left")
     ax.legend(loc="lower right", frameon=False, fontsize=12)
     return _finish(fig, "Horizontal bar chart comparing ROAS per channel this period against the previous one.")
