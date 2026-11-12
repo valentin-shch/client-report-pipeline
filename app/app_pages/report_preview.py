@@ -56,6 +56,19 @@ theme_display = st.segmented_control(
     "Agency theme", list(names), default=default_theme, selection_mode="single"
 ) or default_theme
 
+# Starts unset, so the report fills the space and its layout follows the screen.
+# Python can't see the screen width, so until someone chooses, CSS paints the
+# button that matches what the browser is showing (Streamlit's own selected look).
+layout = st.segmented_control("Layout", ["Desktop", "Phone"], default=None,
+                              selection_mode="single", key="layout")
+if layout is None:
+    selected = ("color: rgb(255, 75, 75) !important; border-color: rgb(255, 75, 75) !important; "
+                "background-color: rgba(255, 75, 75, 0.1) !important; z-index: 1;")
+    st.markdown(f"""<style>
+  @media (min-width: 700px) {{ .st-key-layout button:nth-of-type(1) {{ {selected} }} }}
+  @media (max-width: 699px) {{ .st-key-layout button:nth-of-type(2) {{ {selected} }} }}
+</style>""", unsafe_allow_html=True)
+
 html, alerts, period_label = stop_if_unavailable(
     build_preview, client, week[1].strftime("%Y-%m-%d"), names[theme_display]
 )
@@ -74,4 +87,4 @@ st.download_button(
 # Rendered in an iframe so it looks exactly as it will in an inbox, base64
 # charts and all; the report_frame component measures its own height so there's
 # no fixed guess and no leftover whitespace.
-report_frame(html)
+report_frame(html, mode={"Desktop": "desktop", "Phone": "phone"}.get(layout, "auto"))

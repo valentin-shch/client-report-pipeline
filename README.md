@@ -3,33 +3,41 @@
 **[Live demo →](https://client-report-pipeline-valentin.streamlit.app/)**
 
 Most agencies rebuild the same client report every week by hand: pull the
-numbers, drop them into a branded template, write the commentary, send it. This
-does that in one command, producing a self-contained HTML report per client,
-styled for the agency, ready to drop into an email.
+numbers from each ad platform, drop them into a branded template, write the
+commentary, check nothing looks off, send it. This does all of that on its own
+every Monday, then waits for a person to approve each report before it's emailed.
 
-The focus is the recurring pipeline, not a dashboard. Each report has the
-headline KPIs against the previous period, a "what changed" summary, a short
-plain-language read, and three charts. Inline styles, single column, base64
-images, nothing loaded from outside, so it survives an email client on a phone.
+The app is a control room over the pipeline: what the last run did, the reports
+waiting for approval, any client's report for any week, and the alerts across
+clients. A "How it works" page walks through the whole thing.
+
+```mermaid
+graph LR
+    gha["GitHub Actions, Mondays 06:00"] -- pulls --> api["Ad platform API (Render)"]
+    api -- cleaned and stored --> db[("Postgres (Neon)")]
+    db --> app["Control room (Streamlit)"]
+    person(["A person"]) -- approves --> app
+    app -- emails --> inbox(["Client inbox"])
+    gha -. summary .-> slack["Slack"]
+```
 
 ## What's in it
 
-- **Report generator.** `python -m reports.run --client all --period last-week`
-  writes one HTML file per client. Schedulable from cron or a GitHub Action.
-- **Alerts.** Each report gets a "worth a look" section: spend up with no
-  conversion lift, conversions down while spend held, CPC out of range, a
-  campaign that stopped. Week-over-week percentages and a median/MAD z-score.
-  Explainable, over-flags on purpose, magnitude and confidence on every flag.
-- **Theming.** Agency name, accent colour and logo live in a TOML file under
-  `reports/themes/`, so the same pipeline serves several agencies. Two examples
-  ship: Northlight Media and Harbour Point Digital.
-- **Cleaning pipeline.** `pipeline/clean.py` turns the messy raw exports into
-  analysis-ready parquet and writes a summary of what it had to fix.
-- **Metrics.** `pipeline/metrics.py`, pure functions for the KPIs, period
-  comparisons, time series and anomaly maths, covered by `tests/`.
-- **Preview app.** A small Streamlit viewer (`app/`): a report page (pick a
-  client and week, switch theme, download the HTML) and a cross-client alert
-  list for any week. See the output without an inbox; not the product.
+- **The runner.** `python -m runner` pulls each client's new data, cleans it, builds
+  the report and records every step in a `runs` table. Failed requests are
+  retried; one client failing never stops the others; `--retry-failed` re-runs
+  only what failed.
+- **A stand-in ad API.** `adsapi/` plays Google Ads, Meta, LinkedIn and a CRM:
+  paginated, behind a key, and failing on purpose now and then.
+- **Cleaning.** Duplicates, three date formats, dollars, a timezone slip, missing
+  values. Every fix is counted and kept with the run.
+- **Reports and alerts.** Headline numbers against the previous period, three
+  charts, a plain-language read, and a "worth a look" section: spend up with no
+  conversion lift, conversions down while spend held, CPC out of range, a campaign
+  that stopped. Simple, explainable checks with a confidence on every flag.
+- **Approval and email.** Nothing goes out until someone approves it, behind a
+  passcode, and each report is sent once. Slack gets a summary of every run.
+- **Theming.** Agency name, colour and logo live in `reports/themes/`; two ship.
 
 ## Time saved
 
@@ -40,102 +48,59 @@ commentary, an anomaly check) runs 60 to 90 minutes. Call it 75.
     generated:        4 reports x 5 min review = 0.3 hrs / client / month
                                                  ~4.7 hrs saved / client
 
-The 5 minutes is a person reading the report before it goes out, not building
-anything. Across a dozen clients that's about 55 hours a month.
+The 5 minutes is a person reading the report and approving it. Across a dozen
+clients that's about 55 hours a month.
 
 ## The data
 
-Nothing here is real. `data/generate.py` (started from the marketing-dashboard
-project's generator) builds ~18 months of synthetic ad exports and CRM deals for
-three fictional clients: a hotel group, a fitness brand, a clinic. It's
-deliberately messy: duplicate rows, three date formats, LinkedIn in the wrong
-currency, a timezone slip, inconsistent campaign names, unmatched CRM deals, and
-one week where a client's conversion pixel broke while spend carried on.
-`pipeline/clean.py` fixes the export quirks; the pixel outage is a real event,
-so it survives cleaning and the alert layer catches it.
+Nothing here is real. `data/generate.py` builds synthetic ad and CRM data for
+three fictional clients: a hotel group, a fitness brand, a clinic. It's messy on
+purpose, and one week a client's conversion pixel breaks while spend carries on.
+Cleaning fixes the export quirks; the outage is a real event, so it survives and
+the alerts catch it.
 
 ## Stack
 
-Python, pandas, matplotlib (charts), Jinja (HTML), Streamlit (preview app). No
-database: CSV to parquet to disk. No external services, no API keys.
+Python, pandas, FastAPI, Postgres, matplotlib and Jinja, Streamlit, GitHub Actions.
 
 ## Structure
 
+    adsapi/              the stand-in ad platform API (FastAPI, Docker)
     data/generate.py     synthetic data generator, seeded
-    data/raw/            generator output, messy on purpose, committed
-    data/clean/          cleaned parquet + data-quality summary, committed
-    pipeline/clean.py    raw exports -> clean, joined parquet
-    pipeline/metrics.py  KPIs, period comparisons, anomaly maths (pure functions)
-    reports/             report generator, alerts, theming, CLI
-    reports/themes/      one TOML per agency
-    app/                 Streamlit preview app
-    samples/             example reports, committed so you can read one without running anything
-    tests/               pytest for the metrics and the alert logic
+    db/                  schema and grants, plain SQL
+    pipeline/            API client, ingest, cleaning, metrics
+    reports/             report building, alerts, themes, storage
+    delivery/            approval, email, Slack
+    runner.py            the scheduled run
+    app/                 the Streamlit control room
+    samples/             example reports, readable without running anything
+    tests/               pytest, including against a real Postgres
 
 ## Running it locally
 
-    python data/generate.py
-    python pipeline/clean.py
-    pytest
-    python -m reports.run --client all --period last-week
-    streamlit run app/streamlit_app.py
-
-With Docker running, this is the live route: a fake ad platform API and Postgres,
-pulled incrementally and cleaned per client. Copy `.env.example` to `.env` first.
+With Docker running, copy `.env.example` to `.env`, then:
 
     docker compose up -d --build
     set -a; . ./.env; set +a
     python -m pipeline.db init
     python -m runner
+    streamlit run app/streamlit_app.py
 
-`runner` pulls and cleans every client, builds its report and records each step
-in the `runs` table. One client failing doesn't stop the others, and
-`python -m runner --retry-failed` re-runs whatever failed in the last week.
-`--client` and `--anchor` target one client or week.
-
-Reports wait for a person. Nothing is emailed until one is approved, and locally
-the email lands in Mailpit at http://127.0.0.1:8025.
-
-    python -m delivery list
-    python -m delivery approve 12
-    python -m delivery send 12
-    python -m delivery retry 12
-
-`retry` is for a send that failed. A report stuck on `sending` is left for a
-person to check, because a late email beats a duplicate one.
-
-`pytest` runs the database tests too when `TEST_DATABASE_URL` is set, and skips
-them when it isn't.
-
-`generate.py` uses an 18-month window ending last month so the data stays
-current; the seed fixes the shape, only the dates move. The committed `data/`
-and `samples/` were built with `CRP_DATA_END=2026-07-31` (see `.env.example`).
-Set the same value to regenerate them exactly.
-
-`reports.run` defaults to the most recent full week and writes into `samples/`.
-`--anchor` pins a week, `--theme` switches agency, `--min-confidence` filters
-alerts, `--list` shows the options. It builds the whole batch before writing.
-The committed samples cover both themes and weeks chosen to show each alert type.
-
-## Scheduling
-
-`.github/workflows/pipeline.yml` runs `python -m runner --trigger schedule` every
-Monday at 06:00 UTC. The Actions tab has a manual button too: one client, a
-chosen week, or only what failed last time. `tests.yml` runs the tests on every
-push against a real Postgres, and scans for committed secrets.
+Compose starts Postgres, the ad API and Mailpit, which catches email at
+http://127.0.0.1:8025. `pytest` runs the database tests when `TEST_DATABASE_URL`
+is set. Without Docker, `python -m reports.run` still writes reports from files.
 
 ## Deploying
 
-Four free services, each holding only the settings it needs:
+The pipeline runs on GitHub Actions every Monday at 06:00 UTC (`pipeline.yml`),
+with a manual button for one client, a chosen week, or only what failed.
+`tests.yml` runs the tests on every push and scans for committed secrets.
 
-- **Neon** (Postgres). Create the `pipeline` and `app` roles with `CREATE ROLE` in
-  the SQL Editor, not from the dashboard: roles made there can write every table.
-  Then run `python -m pipeline.db init` once with the owner's connection string.
-- **Render** (the fake ad API). A Docker web service from `adsapi/Dockerfile`,
-  built from the repo root, with `ADSAPI_KEY`, `FAULT_RATE` and
-  `RATE_LIMIT_PER_MIN`. The free tier sleeps; the first Monday request wakes it.
-- **GitHub Actions secrets**: `DATABASE_URL` (the pipeline role), `ADSAPI_URL`,
-  `ADSAPI_KEY` and, optionally, `SLACK_WEBHOOK_URL`.
-- **Streamlit Community Cloud**: main file `app/streamlit_app.py`, with secrets
-  `APP_DATABASE_URL` (the app role), `APPROVAL_PASSCODE`, the `SMTP_` settings and
-  `DEMO_RECIPIENT`, the one inbox every approved report goes to.
+- **Neon** holds Postgres. Create the `pipeline` and `app` roles with `CREATE ROLE`
+  in the SQL Editor, not from the dashboard, which gives roles access to every
+  table. Then run `python -m pipeline.db init` once as the owner.
+- **Render** runs the ad API from `adsapi/Dockerfile`, built from the repo root.
+- **GitHub secrets**: `DATABASE_URL`, `ADSAPI_URL`, `ADSAPI_KEY`, `SLACK_WEBHOOK_URL`.
+- **Streamlit Cloud** runs `app/streamlit_app.py`, with `APP_DATABASE_URL`,
+  `APPROVAL_PASSCODE`, the `SMTP_` settings and `DEMO_RECIPIENT`, the one inbox
+  every approved report goes to.

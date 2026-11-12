@@ -103,3 +103,28 @@ def test_flagged_clients_come_first(app_url):
     # on a phone the clients with something to say should land above the fold
     at = open_page("app_pages/alerts.py")
     assert [s.value for s in at.subheader][0] == "Solmar Hotels"
+
+
+def layout_css(at):
+    return "\n".join(m.value for m in at.markdown if "st-key-layout" in m.value)
+
+
+def test_the_layout_switch_starts_unset_so_the_screen_decides(app_url):
+    at = open_page("app_pages/report_preview.py")
+    switch = at.segmented_control(key="layout")
+    assert switch.options == ["Desktop", "Phone"]
+    assert switch.value is None
+
+
+def test_until_someone_chooses_the_button_matching_the_screen_looks_selected(app_url):
+    css = layout_css(open_page("app_pages/report_preview.py"))
+    # narrow screens light up Phone (second), wide ones Desktop (first)
+    assert "max-width: 699px" in css and "nth-of-type(2)" in css
+    assert "min-width: 700px" in css and "nth-of-type(1)" in css
+
+
+def test_a_real_choice_drops_the_painted_highlight(app_url):
+    at = open_page("app_pages/report_preview.py")
+    at.segmented_control(key="layout").set_value("Phone").run()
+    assert not at.exception
+    assert layout_css(at) == ""

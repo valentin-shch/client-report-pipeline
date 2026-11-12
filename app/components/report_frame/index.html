@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <style>
   html, body { margin: 0; padding: 0; }
-  #report { display: block; border: 0; width: 100%; }
+  #report { display: block; border: 0; width: 100%; margin: 0 auto; transform-origin: top left; }
 </style>
 </head>
 <body>
@@ -17,10 +17,27 @@
   // This speaks the component postMessage protocol directly (componentReady /
   // render / setFrameHeight) rather than bundling streamlit-component-lib, to
   // keep the app build-step-free. That protocol has been stable for years; if a
-  // Streamlit upgrade ever changes it, the symptom is a wrong embed height —
+  // Streamlit upgrade ever changes it, the symptom is a wrong embed height:
   // check here first.
   var frame = document.getElementById("report");
   var last = 0;
+  var mode = "auto";
+  var scale = 1;
+
+  // "auto" fills the space, so the report's own layout follows the screen.
+  // "phone" and "desktop" pin it to those widths; desktop is scaled down to fit
+  // a narrow screen, the way a wide email looks zoomed out on a phone.
+  var WIDTHS = { phone: 375, desktop: 680 };
+  function layout() {
+    var fixed = WIDTHS[mode];
+    var room = document.body.clientWidth;
+    scale = fixed && fixed > room ? room / fixed : 1;
+    frame.style.width = fixed ? fixed + "px" : "100%";
+    frame.style.transform = scale < 1 ? "scale(" + scale + ")" : "none";
+    frame.style.marginLeft = scale < 1 ? "0" : "";
+    last = 0;
+    measure();
+  }
   var STORAGE_KEY = "crp_report_frame_height";
 
   // Streamlit remounts this whole iframe (a fresh componentReady) on every rerun,
@@ -52,20 +69,23 @@
       if (h !== last) {
         last = h;
         frame.style.height = h + "px";
-        setHeight(h);
+        setHeight(Math.ceil(h * scale));  // a scaled-down report takes less room
       }
     } catch (e) { /* not ready */ }
   }
 
   window.addEventListener("message", function (ev) {
     if (!ev.data || ev.data.type !== "streamlit:render") return;
-    var html = (ev.data.args && ev.data.args.html) || "";
-    frame.srcdoc = html;
+    var args = ev.data.args || {};
+    mode = args.mode || "auto";
+    if (frame.srcdoc !== (args.html || "")) frame.srcdoc = args.html || "";
+    layout();
   });
+  window.addEventListener("resize", layout);
 
   frame.addEventListener("load", function () {
     measure();
-    // base64 images can still be decoding — re-measure briefly, then watch.
+    // base64 images can still be decoding: re-measure briefly, then watch.
     var n = 0;
     var poll = setInterval(function () {
       measure();

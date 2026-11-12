@@ -30,8 +30,9 @@ _report_frame = components.declare_component(
 )
 
 
-def report_frame(html: str) -> None:
-    _report_frame(html=html)
+def report_frame(html: str, mode: str = "auto") -> None:
+    """mode: "auto" follows the screen; "phone" or "desktop" pins that width."""
+    _report_frame(html=html, mode=mode)
 
 SYNTHETIC_NOTE = (
     "Everything here is synthetic: three fictional clients, generated data, no real "
