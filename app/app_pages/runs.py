@@ -12,6 +12,9 @@ st.info(
     "approve it before it's emailed. " + SYNTHETIC_NOTE
 )
 
+# Above the database call, so it's there even while the database is asleep.
+st.page_link("app_pages/how_it_works.py", label="How it works", icon=":material/schema:")
+
 runs = stop_if_unavailable(load_runs)
 if runs.empty:
     st.markdown("No runs yet. The first one appears here once `python -m runner` has run.")

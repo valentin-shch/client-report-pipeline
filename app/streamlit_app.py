@@ -19,6 +19,7 @@ page = st.navigation(
         st.Page("app_pages/approvals.py", title="Approvals", icon=":material/send:"),
         st.Page("app_pages/report_preview.py", title="Report preview", icon=":material/description:"),
         st.Page("app_pages/alerts.py", title="Alerts", icon=":material/warning:"),
+        st.Page("app_pages/how_it_works.py", title="How it works", icon=":material/schema:"),
     ],
     position="top",
 )
